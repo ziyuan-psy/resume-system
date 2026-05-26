@@ -39,13 +39,14 @@ CANONICAL_EXPERIENCES = OrderedDict(
             "ut_career_ai_systems",
             {
                 "canonical": {
-                    "title_en": "Graduate Assistant",
-                    "organization_en": "AI-Powered Career Systems, UT Career Success",
+                    "title_en": "Graduate Assistant in AI-Powered Career Systems",
+                    "organization_en": "UT Austin",
                     "location": "Austin, TX",
-                    "date": "Sep. 2025 - Present",
+                    "date": "Sep. 2025 - May. 2026",
                     "experience_type": "work",
                 },
                 "default_section": "professional_experience",
+                "title_variants": ["Graduate Assistant"],
                 "match": lambda row: "graduate assistant" in row["experience_title"].lower()
                 and "ai-powered career systems" in (
                     row["experience_title"] + " " + row["organization"]
@@ -237,6 +238,16 @@ COURSEWORK_GROUPS = OrderedDict(
         ("psychometrics", {"title": "Psychometrics", "tools": []}),
         ("bayesian_statistics_python", {"title": "Bayesian Statistics with Python", "tools": ["Python"]}),
         ("anatomy_and_physiology", {"title": "Anatomy and Physiology", "tools": []}),
+    ]
+)
+
+
+EDUCATION_HEADING_TO_ID = OrderedDict(
+    [
+        ("The University of Texas at Austin", "ut_austin_msis"),
+        ("Nanjing Normal University", "nanjing_normal_applied_psychology"),
+        ("Lingnan University, Hong Kong", "lingnan_exchange"),
+        ("Lingnan University", "lingnan_exchange"),
     ]
 )
 
@@ -434,7 +445,14 @@ def build_canonical_experiences(raw_bullets: list[dict[str, str]]) -> tuple[dict
             }
         )
         title_variants = sorted({title_variant(row) for row in rows if row["experience_title"]})
-        if config["canonical"]["title_en"] not in title_variants:
+        if config.get("title_variants"):
+            preferred_title_variants = [config["canonical"]["title_en"]]
+            preferred_title_variants.extend(config["title_variants"])
+            for variant in reversed(list(dict.fromkeys(preferred_title_variants))):
+                if variant in title_variants:
+                    title_variants.remove(variant)
+                title_variants.insert(0, variant)
+        elif config["canonical"]["title_en"] not in title_variants:
             title_variants.insert(0, config["canonical"]["title_en"])
         allowed_sections = sorted(
             {
@@ -550,16 +568,36 @@ def normalize_course_item(value: str) -> tuple[str | None, str]:
     return None, variant
 
 
-def clean_coursework_line(line: str) -> str:
+def clean_latex_text(line: str) -> str:
     active = line.split("%", 1)[0]
     active = re.sub(r"\\hspace\{[^{}]*\}", " ", active)
     active = re.sub(r"\\textbf\{([^{}]*)\}", r"\1", active)
     active = re.sub(r"\\[A-Za-z]+\{([^{}]*)\}", r"\1", active)
     active = active.replace(r"\&", "&").replace("{", " ").replace("}", " ")
     active = re.sub(r"\\[A-Za-z]+", " ", active)
-    active = re.sub(r"\s+", " ", active).strip()
+    return re.sub(r"\s+", " ", active).strip()
+
+
+def clean_coursework_line(line: str) -> str:
+    active = clean_latex_text(line)
     active = re.sub(r"^(Relevant coursework|Coursework):\s*", "", active, flags=re.I)
     return active
+
+
+def section_name_from_line(line: str) -> str | None:
+    active = line.split("%", 1)[0]
+    match = re.search(r"\\section\{([^{}]+)\}", active)
+    if not match:
+        return None
+    return normalize_space(match.group(1)).upper()
+
+
+def education_id_from_heading_line(line: str) -> str | None:
+    cleaned = clean_latex_text(line).lower()
+    for heading, education_id in EDUCATION_HEADING_TO_ID.items():
+        if heading.lower() in cleaned:
+            return education_id
+    return None
 
 
 def build_coursework() -> list[dict[str, object]]:
@@ -568,8 +606,9 @@ def build_coursework() -> list[dict[str, object]]:
         course_id: {
             "coursework_id": course_id,
             "title_en": config["title"],
+            "education_ids": set(),
             "variants": set(),
-            "tags": {"role": [], "tools": config["tools"]},
+            "tags": {"tools": config["tools"]},
             "status": "needs_review",
             "source_references": [],
         }
@@ -579,7 +618,17 @@ def build_coursework() -> list[dict[str, object]]:
         source_project_id = tex_path.parent.name
         manifest_row = manifest.get(source_project_id, {})
         lines = tex_path.read_text(encoding="utf-8-sig").splitlines()
+        current_section = ""
+        current_education_id = None
         for line_number, line in enumerate(lines, start=1):
+            section_name = section_name_from_line(line)
+            if section_name:
+                current_section = section_name
+                current_education_id = None
+            if current_section == "EDUCATION":
+                heading_education_id = education_id_from_heading_line(line)
+                if heading_education_id:
+                    current_education_id = heading_education_id
             if not re.search(r"coursework", line, flags=re.I):
                 continue
             cleaned = clean_coursework_line(line)
@@ -587,6 +636,8 @@ def build_coursework() -> list[dict[str, object]]:
                 course_id, variant = normalize_course_item(item)
                 if not course_id:
                     continue
+                if current_section == "EDUCATION" and current_education_id:
+                    grouped[course_id]["education_ids"].add(current_education_id)
                 grouped[course_id]["variants"].add(variant)
                 grouped[course_id]["source_references"].append(
                     {
@@ -600,9 +651,17 @@ def build_coursework() -> list[dict[str, object]]:
                 )
     output = []
     for course_id, entry in grouped.items():
-        entry["variants"] = sorted(entry["variants"])
-        entry["source_references"] = unique_dicts(entry["source_references"])
-        output.append(entry)
+        output.append(
+            {
+                "coursework_id": entry["coursework_id"],
+                "title_en": entry["title_en"],
+                "education_ids": sorted(entry["education_ids"]),
+                "variants": sorted(entry["variants"]),
+                "tags": entry["tags"],
+                "status": entry["status"],
+                "source_references": unique_dicts(entry["source_references"]),
+            }
+        )
     return output
 
 
@@ -640,18 +699,58 @@ def write_decisions() -> None:
 - Canonical experiences preserve historical title variants in `title_variants`.
 - Archive content must be excluded from default resume generation.
 - Canonical bullets must come from extracted content or user-approved content only.
+
+## When to update this file
+
+`DECISIONS.md` is not a changelog. It should only be updated when a change affects long-term architecture, data model, workflow rules, or generation rules.
+
+Changes that should update `DECISIONS.md`:
+
+- Changing the canonical experience schema.
+- Changing active generation source folders.
+- Changing education, coursework, archive, or generated resume management rules.
+- Changing Codex rewrite/generation permissions.
+- Changing status workflow such as `needs_review` / `approved` / `excluded`.
+- Changing Chinese resume localization strategy.
+
+Changes that do not need to update `DECISIONS.md`:
+
+- Fixing typos.
+- Updating one title, date, or organization.
+- Regenerating `library_index.md`.
+- Routine content cleanup.
+- Reviewing or approving individual bullets.
+- Updating source references.
 """,
         encoding="utf-8",
     )
 
 
-def write_readme_phase_section() -> None:
+def write_readme_decisions_note() -> None:
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
-    marker = "## Phase 1.5 Content Curation\n"
-    section = """\n---\n\n## Phase 1.5 Content Curation\n\nThe MVP extraction phase is complete. The repository now separates resume data into layers:\n\n- `extracted/` is the immutable traceability layer generated from historical Overleaf exports.\n- `content/experiences/canonical/` is the active curated experience library for future resume generation.\n- `content/profile/education.yaml` stores fixed school, degree, date, and location information only.\n- `content/profile/coursework.yaml` stores selectable coursework metadata for future job-specific resumes.\n- `content/archive/` preserves excluded or superseded content and must not be used by default generation.\n\nPhase 1.5 focuses on canonical grouping, candidate bullet pools, title variants, archive decisions, and profile separation. It does not rewrite bullets or generate tailored resumes.\n"""
-    if marker not in text:
-        readme.write_text(text.rstrip() + section + "\n", encoding="utf-8")
+    text = re.sub(
+        r"\n---\n\n## Phase 1\.5 Content Curation\n\n.*\Z",
+        "",
+        text,
+        flags=re.S,
+    ).rstrip()
+    note = (
+        "\n\n---\n\n## Project Decisions\n\n"
+        "For long-term architecture and workflow decisions, see `DECISIONS.md`. "
+        "`DECISIONS.md` is not a changelog and should only be updated when project-level rules change.\n"
+    )
+    marker = "## Project Decisions\n"
+    if marker in text:
+        text = re.sub(
+            r"\n---\n\n## Project Decisions\n\n.*\Z",
+            note.rstrip(),
+            text,
+            flags=re.S,
+        )
+        readme.write_text(text.rstrip() + "\n", encoding="utf-8")
+    else:
+        readme.write_text(text + note, encoding="utf-8")
 
 
 def write_taxonomy_files() -> None:
@@ -738,7 +837,7 @@ def generate() -> None:
 
     write_taxonomy_files()
     write_decisions()
-    write_readme_phase_section()
+    write_readme_decisions_note()
     write_curation_report(canonical_data, education_entries, coursework_entries, unresolved, initial_files)
 
     print(f"Canonical experience files generated: {len(canonical_data)}")

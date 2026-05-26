@@ -137,6 +137,7 @@ def parse_coursework() -> list[dict[str, object]]:
             {
                 "coursework_id": find_value(segment, "coursework_id"),
                 "title_en": find_value(segment, "title_en"),
+                "education_ids": parse_nested_list(segment, "education_ids"),
                 "variants": parse_nested_list(segment, "variants"),
                 "tools": parse_nested_list(segment, "tools"),
                 "status": find_value(segment, "status"),
@@ -248,6 +249,7 @@ def main() -> int:
             handle.write(f"### {item['title_en']}\n\n")
             handle.write(f"- Coursework ID: `{item['coursework_id']}`\n")
             handle.write(f"- Status: {item['status']}\n")
+            handle.write(f"- Education IDs: {', '.join(item['education_ids']) if item['education_ids'] else 'None'}\n")
             handle.write(f"- Tools: {', '.join(item['tools']) if item['tools'] else 'None'}\n")
             handle.write(f"- Source references: {item['source_reference_count']}\n")
             handle.write("- Variants:\n")

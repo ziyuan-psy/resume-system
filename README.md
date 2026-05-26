@@ -633,17 +633,11 @@ resume-system/raw\_overleaf\_exports/
 ```
 
 After that, open the `resume-system` folder in Codex/VS Code and run the first Codex task prompt above.
+
+
+
 ---
 
-## Phase 1.5 Content Curation
+## Project Decisions
 
-The MVP extraction phase is complete. The repository now separates resume data into layers:
-
-- `extracted/` is the immutable traceability layer generated from historical Overleaf exports.
-- `content/experiences/canonical/` is the active curated experience library for future resume generation.
-- `content/profile/education.yaml` stores fixed school, degree, date, and location information only.
-- `content/profile/coursework.yaml` stores selectable coursework metadata for future job-specific resumes.
-- `content/archive/` preserves excluded or superseded content and must not be used by default generation.
-
-Phase 1.5 focuses on canonical grouping, candidate bullet pools, title variants, archive decisions, and profile separation. It does not rewrite bullets or generate tailored resumes.
-
+For long-term architecture and workflow decisions, see `DECISIONS.md`. `DECISIONS.md` is not a changelog and should only be updated when project-level rules change.

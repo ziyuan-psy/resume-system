@@ -2,14 +2,14 @@ coursework:
   - coursework_id: "database_management"
     title_en:
       "Database Management"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "Database Management"
       - "Database Management (SQL)"
       - "Database Management (SQL+API)"
       - "Database Management (SQL+RAG)"
     tags:
-      role:
-        []
       tools:
         - "SQL"
         - "RAG"
@@ -547,12 +547,12 @@ coursework:
   - coursework_id: "data_storytelling"
     title_en:
       "Data Storytelling"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "Data Storytelling"
       - "Data Storytelling (Tableau)"
     tags:
-      role:
-        []
       tools:
         - "Tableau"
     status:
@@ -1221,11 +1221,11 @@ coursework:
   - coursework_id: "product_management"
     title_en:
       "Product Management"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "Product Management"
     tags:
-      role:
-        []
       tools:
         []
     status:
@@ -1498,11 +1498,11 @@ coursework:
   - coursework_id: "machine_learning_python"
     title_en:
       "Machine Learning with Python"
+    education_ids:
+      - "nanjing_normal_applied_psychology"
     variants:
       - "Machine Learning with Python"
     tags:
-      role:
-        []
       tools:
         - "Python"
     status:
@@ -1654,13 +1654,13 @@ coursework:
   - coursework_id: "quantifying_ux"
     title_en:
       "Quantifying UX"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "Quantifying UX"
       - "Quantifying UX (A/B Test)"
       - "Quantifying UX (A/B Testing)"
     tags:
-      role:
-        []
       tools:
         []
     status:
@@ -1812,12 +1812,12 @@ coursework:
   - coursework_id: "ux_prototyping"
     title_en:
       "UX Prototyping"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "UX Prototyping"
       - "UX Prototyping (Figma)"
     tags:
-      role:
-        []
       tools:
         - "Figma"
     status:
@@ -1947,11 +1947,11 @@ coursework:
   - coursework_id: "time_series_forecasting"
     title_en:
       "Time Series Forecasting"
+    education_ids:
+      - "ut_austin_msis"
     variants:
       - "Time Series Forecasting"
     tags:
-      role:
-        []
       tools:
         []
     status:
@@ -2059,12 +2059,12 @@ coursework:
   - coursework_id: "human_factors_engineering"
     title_en:
       "Human Factors Engineering"
+    education_ids:
+      - "nanjing_normal_applied_psychology"
     variants:
       - "Human Factor Engineering"
       - "Human Factors Engineering"
     tags:
-      role:
-        []
       tools:
         []
     status:
@@ -2183,11 +2183,11 @@ coursework:
   - coursework_id: "psychometrics"
     title_en:
       "Psychometrics"
+    education_ids:
+      - "nanjing_normal_applied_psychology"
     variants:
       - "Psychometrics"
     tags:
-      role:
-        []
       tools:
         []
     status:
@@ -2273,11 +2273,11 @@ coursework:
   - coursework_id: "bayesian_statistics_python"
     title_en:
       "Bayesian Statistics with Python"
+    education_ids:
+      - "nanjing_normal_applied_psychology"
     variants:
       - "Bayesian Statistics with Python"
     tags:
-      role:
-        []
       tools:
         - "Python"
     status:
@@ -2341,11 +2341,11 @@ coursework:
   - coursework_id: "anatomy_and_physiology"
     title_en:
       "Anatomy and Physiology"
+    education_ids:
+      - "nanjing_normal_applied_psychology"
     variants:
       - "Anatomy and Physiology"
     tags:
-      role:
-        []
       tools:
         []
     status:

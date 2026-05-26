@@ -1,6 +1,6 @@
 # Resume Library Index
 
-Generated: 2026-05-26T18:34:45
+Generated: 2026-05-26T22:17:04
 
 This index summarizes the Phase 1.5 active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, and `content/experiences/canonical/en/*.yaml`.
 
@@ -47,6 +47,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `database_management`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: SQL, RAG
 - Source references: 48
 - Variants:
@@ -59,6 +60,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `data_storytelling`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: Tableau
 - Source references: 60
 - Variants:
@@ -69,6 +71,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `product_management`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: None
 - Source references: 24
 - Variants:
@@ -78,6 +81,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `machine_learning_python`
 - Status: needs_review
+- Education IDs: nanjing_normal_applied_psychology
 - Tools: Python
 - Source references: 13
 - Variants:
@@ -87,6 +91,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `quantifying_ux`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: None
 - Source references: 13
 - Variants:
@@ -98,6 +103,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `ux_prototyping`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: Figma
 - Source references: 11
 - Variants:
@@ -108,6 +114,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `time_series_forecasting`
 - Status: needs_review
+- Education IDs: ut_austin_msis
 - Tools: None
 - Source references: 9
 - Variants:
@@ -117,6 +124,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `human_factors_engineering`
 - Status: needs_review
+- Education IDs: nanjing_normal_applied_psychology
 - Tools: None
 - Source references: 10
 - Variants:
@@ -127,6 +135,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `psychometrics`
 - Status: needs_review
+- Education IDs: nanjing_normal_applied_psychology
 - Tools: None
 - Source references: 7
 - Variants:
@@ -136,6 +145,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `bayesian_statistics_python`
 - Status: needs_review
+- Education IDs: nanjing_normal_applied_psychology
 - Tools: Python
 - Source references: 5
 - Variants:
@@ -145,6 +155,7 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 
 - Coursework ID: `anatomy_and_physiology`
 - Status: needs_review
+- Education IDs: nanjing_normal_applied_psychology
 - Tools: None
 - Source references: 2
 - Variants:
@@ -1071,13 +1082,13 @@ Candidate bullet pools:
   - Quality flags: appears_in_multiple_historical_sections
   - Source references: 4
 
-### 11. Graduate Assistant
+### 11. Graduate Assistant in AI-Powered Career Systems
 
 - Experience ID: `ut_career_ai_systems`
 - Status: needs_review
-- Organization: AI-Powered Career Systems, UT Career Success
+- Organization: UT Austin
 - Location: Austin, TX
-- Date: Sep. 2025 - Present
+- Date: Sep. 2025 - May. 2026
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience
@@ -1085,6 +1096,7 @@ Candidate bullet pools:
 - Candidate bullet pools: 52
 - Source references: 378
 - Title variants:
+  - Graduate Assistant in AI-Powered Career Systems
   - Graduate Assistant
   - Graduate Assistant, AI-Powered Career Systems, UT Austin, TX
   - Graduate Assistant, AI-Powered Career Systems, UT Career Success
