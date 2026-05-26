@@ -1,0 +1,69 @@
+experience_id: "project_experience_us_open_tennis_performance_dashboard_tableau_course_project_a"
+status: needs_review
+section_type: "PROJECT EXPERIENCE"
+title_en: "US Open Tennis Performance Dashboard (Tableau)"
+organization_en: "Course Project"
+location: ""
+date: "Aug. 2025 - Nov. 2025"
+role_fit: []
+tools: ["Tableau"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "297"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "299"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip: "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "320"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip: "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "322"
+bullets:
+  - bullet_id: "project_experience_us_open_tennis_performance_dashboard_tableau_course_project_a_b001"
+    status: needs_review
+    text_en: "Analyzed rally-level US Open match data (10k+ shots) and built multi-view Tableau dashboards highlighting serve-return patterns, key-point pressure, and mid-rally performance drop-offs."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "297"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip: "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "320"
+  - bullet_id: "project_experience_us_open_tennis_performance_dashboard_tableau_course_project_a_b002"
+    status: needs_review
+    text_en: "Defined and validated 6+ performance metrics and framed insights into actionable narratives, supporting performance review and strategy analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "299"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip: "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "322"

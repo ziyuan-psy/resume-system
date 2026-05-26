@@ -1,0 +1,41 @@
+# Raw source exports and copied archive payloads
+raw_overleaf_exports/
+extracted/project_zips/
+extracted/tex_files/
+
+# Generated resume outputs
+generated/
+
+# Binary export artifacts
+*.zip
+*.pdf
+
+# Python cache and local virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Test/build/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

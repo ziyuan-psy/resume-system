@@ -1,0 +1,87 @@
+experience_id: "research_experience_thrive_health_software_product_management_prototyping_course"
+status: needs_review
+section_type: "RESEARCH EXPERIENCE"
+title_en: "THRIVE | Health Software Product Management & Prototyping"
+organization_en: "Course Project"
+location: ""
+date: "Jan. 2026 - Apr. 2026"
+role_fit: []
+tools: ["Figma"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "273"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "274"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "275"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "276"
+bullets:
+  - bullet_id: "research_experience_thrive_health_software_product_management_prototyping_course_b001"
+    status: needs_review
+    text_en: "Led product definition for THRIVE, a digital chronic-care platform, by defining the problem space, target users, MVP scope, and core feature roadmap across exercise guidance, symptom check-ins, and progress tracking."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "273"
+  - bullet_id: "research_experience_thrive_health_software_product_management_prototyping_course_b002"
+    status: needs_review
+    text_en: "Translated clinical guidelines into structured product requirements and Figma wireframes/prototypes for core flows such as onboarding, dashboard, check-in, exercise, nutrition, and profile."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "274"
+  - bullet_id: "research_experience_thrive_health_software_product_management_prototyping_course_b003"
+    status: needs_review
+    text_en: "Authored a design document covering typography, color palette, iconography, and navigation standards to support consistent product communication and usability discussions throughout the design process."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "275"
+  - bullet_id: "research_experience_thrive_health_software_product_management_prototyping_course_b004"
+    status: needs_review
+    text_en: "Iterated from low-fidelity prototype to beta by synthesizing usability feedback and refining key flows, including symptom input, global navigation, and the unified My Progress experience."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip: "Ziyuan_Guo_UXR_Equinix.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "276"

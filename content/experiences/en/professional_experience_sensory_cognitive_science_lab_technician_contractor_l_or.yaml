@@ -1,0 +1,87 @@
+experience_id: "professional_experience_sensory_cognitive_science_lab_technician_contractor_l_or"
+status: needs_review
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Sensory & Cognitive Science Lab Technician (Contractor)"
+organization_en: "L'Oreal R&I, Shanghai"
+location: ""
+date: "Jul. 2024 – Jul. 2025"
+role_fit: []
+tools: ["Python", "R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_product_Razer"
+    source_project_zip: "ziyuan_guo_product_Razer.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "234"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_product_Razer"
+    source_project_zip: "ziyuan_guo_product_Razer.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "235"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_product_Razer"
+    source_project_zip: "ziyuan_guo_product_Razer.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "238"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_product_Razer"
+    source_project_zip: "ziyuan_guo_product_Razer.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "240"
+bullets:
+  - bullet_id: "professional_experience_sensory_cognitive_science_lab_technician_contractor_l_or_b001"
+    status: needs_review
+    text_en: "Designed a texture benchmarking evaluation (N=42) with a stress-simulation protocol to isolate texture-driven relaxation effects, quantifying comfort and cognitive load across internal and competitor products using ECG and Temporal Emotion Mapping to inform product positioning."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_product_Razer"
+        source_project_zip: "ziyuan_guo_product_Razer.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "234"
+  - bullet_id: "professional_experience_sensory_cognitive_science_lab_technician_contractor_l_or_b002"
+    status: needs_review
+    text_en: "Conducted comparative product analyses across 30+ fragrance products, benchmarking emotional response and sensory performance using multimodal data (EEG, GSR, ECG) to surface competitive strengths and weaknesses."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_product_Razer"
+        source_project_zip: "ziyuan_guo_product_Razer.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "235"
+  - bullet_id: "professional_experience_sensory_cognitive_science_lab_technician_contractor_l_or_b003"
+    status: needs_review
+    text_en: "Led a Voice Analysis study on a hair dye product (baseline vs in-use; on-site & home-use, N=25), analyzing consumer speech data in R to identify stage-specific emotional drop-offs relative to competitor experiences and recommend testing guideline updates."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_product_Razer"
+        source_project_zip: "ziyuan_guo_product_Razer.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "238"
+  - bullet_id: "professional_experience_sensory_cognitive_science_lab_technician_contractor_l_or_b004"
+    status: needs_review
+    text_en: "Built a Python-based analysis pipeline to synthesize qualitative feedback and physiological data in a luxury packaging study (N=32), enabling side-by-side comparison of design cues across competitor and internal products."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_product_Razer"
+        source_project_zip: "ziyuan_guo_product_Razer.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "240"

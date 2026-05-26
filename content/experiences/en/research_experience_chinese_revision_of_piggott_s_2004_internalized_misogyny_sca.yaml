@@ -1,0 +1,89 @@
+experience_id: "research_experience_chinese_revision_of_piggott_s_2004_internalized_misogyny_sca"
+status: needs_review
+section_type: "RESEARCH EXPERIENCE"
+title_en: "Chinese Revision of Piggott's (2004) Internalized Misogyny Scale"
+organization_en: "Director"
+location: ""
+date: "Mar. 2022 - Jun. 2022"
+role_fit: []
+tools: ["R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "NEU IS_V2"
+    source_project_zip: "NEU IS_V2.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "256"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "NEU IS_V2"
+    source_project_zip: "NEU IS_V2.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "257"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UCSD CSS"
+    source_project_zip: "UCSD CSS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "256"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UCSD CSS"
+    source_project_zip: "UCSD CSS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "257"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UR DS"
+    source_project_zip: "UR DS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "256"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UR DS"
+    source_project_zip: "UR DS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "257"
+bullets:
+  - bullet_id: "research_experience_chinese_revision_of_piggott_s_2004_internalized_misogyny_sca_b001"
+    status: needs_review
+    text_en: "Analyzed 500+ responses, using SPSS and AMOS for item-total correlations and factor analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "NEU IS_V2"
+        source_project_zip: "NEU IS_V2.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "256"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UCSD CSS"
+        source_project_zip: "UCSD CSS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "256"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UR DS"
+        source_project_zip: "UR DS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "256"
+  - bullet_id: "research_experience_chinese_revision_of_piggott_s_2004_internalized_misogyny_sca_b002"
+    status: needs_review
+    text_en: "Visualized distribution and factor scores for 444 participants using histograms and violin plots with R."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "NEU IS_V2"
+        source_project_zip: "NEU IS_V2.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "257"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UCSD CSS"
+        source_project_zip: "UCSD CSS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "257"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UR DS"
+        source_project_zip: "UR DS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "257"

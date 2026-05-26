@@ -1,0 +1,127 @@
+experience_id: "project_experience_product_performance_time_series_forecasting_gopro_course_proj"
+status: needs_review
+section_type: "PROJECT EXPERIENCE"
+title_en: "Product Performance & Time Series Forecasting - GoPro"
+organization_en: "Course Project"
+location: ""
+date: "Feb. 2026 - Apr. 2026"
+role_fit: []
+tools: ["R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "327"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "328"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "329"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "330"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_market research_Signet"
+    source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "301"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_market research_Signet"
+    source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "302"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_market research_Signet"
+    source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "303"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_market research_Signet"
+    source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "304"
+bullets:
+  - bullet_id: "project_experience_product_performance_time_series_forecasting_gopro_course_proj_b001"
+    status: needs_review
+    text_en: "Analyzed 2013–2025 quarterly revenue data to evaluate GoPro’s product performance trends, including Q4 seasonality, COVID-era disruption, and post-pandemic revenue decline."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "327"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_market research_Signet"
+        source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "301"
+  - bullet_id: "project_experience_product_performance_time_series_forecasting_gopro_course_proj_b002"
+    status: needs_review
+    text_en: "Built and compared 2 time series forecasting models using a 2024–2025 validation set, selecting the stronger STL-based ARIMA model based on lower error metrics (RMSE = 109.88; MAE = 97.82)."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "328"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_market research_Signet"
+        source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "302"
+  - bullet_id: "project_experience_product_performance_time_series_forecasting_gopro_course_proj_b003"
+    status: needs_review
+    text_en: "Produced 4-quarter revenue forecasts for 2026 with 80% prediction intervals, projecting revenue from $131.5M in Q1 to $320.1M in Q4."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "329"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_market research_Signet"
+        source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "303"
+  - bullet_id: "project_experience_product_performance_time_series_forecasting_gopro_course_proj_b004"
+    status: needs_review
+    text_en: "Created a reproducible R script, visualizations, and final report summarizing actionable planning implications around seasonal demand, forecast uncertainty, and the potential value of adding product launch timing."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "330"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_market research_Signet"
+        source_project_zip: "Ziyuan_Guo_market research_Signet.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "304"

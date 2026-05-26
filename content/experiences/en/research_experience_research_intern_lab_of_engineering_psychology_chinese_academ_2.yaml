@@ -1,0 +1,146 @@
+experience_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2"
+status: needs_review
+section_type: "RESEARCH EXPERIENCE"
+title_en: "Research intern"
+organization_en: "Lab of Engineering Psychology, Chinese Academy of Sciences"
+location: ""
+date: "Nov 2023 - Jun 2024"
+role_fit: []
+tools: ["Blender", "Python"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Garmin"
+    source_project_zip: "26 summer_HF_Garmin.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "225"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Garmin"
+    source_project_zip: "26 summer_HF_Garmin.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "227"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Garmin"
+    source_project_zip: "26 summer_HF_Garmin.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "235"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Gulfstream"
+    source_project_zip: "26 summer_HF_Gulfstream.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "251"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Gulfstream"
+    source_project_zip: "26 summer_HF_Gulfstream.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "253"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Gulfstream"
+    source_project_zip: "26 summer_HF_Gulfstream.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "258"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Masimo"
+    source_project_zip: "26 summer_HF_Masimo.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "225"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Masimo"
+    source_project_zip: "26 summer_HF_Masimo.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "227"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Masimo"
+    source_project_zip: "26 summer_HF_Masimo.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "235"
+bullets:
+  - bullet_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2_b001"
+    status: needs_review
+    text_en: "Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Garmin"
+        source_project_zip: "26 summer_HF_Garmin.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "225"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Gulfstream"
+        source_project_zip: "26 summer_HF_Gulfstream.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "251"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Masimo"
+        source_project_zip: "26 summer_HF_Masimo.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "225"
+  - bullet_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2_b002"
+    status: needs_review
+    text_en: "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Garmin"
+        source_project_zip: "26 summer_HF_Garmin.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "227"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Masimo"
+        source_project_zip: "26 summer_HF_Masimo.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "227"
+  - bullet_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2_b003"
+    status: needs_review
+    text_en: "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling and system-level validation."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Garmin"
+        source_project_zip: "26 summer_HF_Garmin.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "235"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Masimo"
+        source_project_zip: "26 summer_HF_Masimo.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "235"
+  - bullet_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2_b004"
+    status: needs_review
+    text_en: "Developed 3 immersive autonomous driving simulations in Vizard and modeled 10 VR risk scenarios in Blender to examine user trust and risk perception, enhancing ecological validity and experimental control."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Gulfstream"
+        source_project_zip: "26 summer_HF_Gulfstream.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "253"
+  - bullet_id: "research_experience_research_intern_lab_of_engineering_psychology_chinese_academ_2_b005"
+    status: needs_review
+    text_en: "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling of trust factors in autonomous systems."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Gulfstream"
+        source_project_zip: "26 summer_HF_Gulfstream.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "258"

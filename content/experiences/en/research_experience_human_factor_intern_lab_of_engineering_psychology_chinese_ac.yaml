@@ -1,0 +1,68 @@
+experience_id: "research_experience_human_factor_intern_lab_of_engineering_psychology_chinese_ac"
+status: needs_review
+section_type: "RESEARCH EXPERIENCE"
+title_en: "Human Factor intern"
+organization_en: "Lab of Engineering Psychology, Chinese Academy of Sciences"
+location: ""
+date: "Nov 2023 - Jun 2024"
+role_fit: []
+tools: ["Blender", "Python"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Nemera"
+    source_project_zip: "26 summer_HF_Nemera.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "240"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Nemera"
+    source_project_zip: "26 summer_HF_Nemera.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "242"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Nemera"
+    source_project_zip: "26 summer_HF_Nemera.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "250"
+bullets:
+  - bullet_id: "research_experience_human_factor_intern_lab_of_engineering_psychology_chinese_ac_b001"
+    status: needs_review
+    text_en: "Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Nemera"
+        source_project_zip: "26 summer_HF_Nemera.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "240"
+  - bullet_id: "research_experience_human_factor_intern_lab_of_engineering_psychology_chinese_ac_b002"
+    status: needs_review
+    text_en: "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Nemera"
+        source_project_zip: "26 summer_HF_Nemera.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "242"
+  - bullet_id: "research_experience_human_factor_intern_lab_of_engineering_psychology_chinese_ac_b003"
+    status: needs_review
+    text_en: "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling and system-level validation."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Nemera"
+        source_project_zip: "26 summer_HF_Nemera.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "250"

@@ -1,0 +1,49 @@
+experience_id: "project_experience_the_impact_of_continuous_or_categorical_thinking_on_emotion_p"
+status: needs_review
+section_type: "PROJECT EXPERIENCE"
+title_en: "The Impact of Continuous or Categorical Thinking on Emotion Perception"
+organization_en: "Undergraduate Thesis"
+location: ""
+date: "Dec. 2023 – May. 2024"
+role_fit: []
+tools: ["R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "296"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "297"
+bullets:
+  - bullet_id: "project_experience_the_impact_of_continuous_or_categorical_thinking_on_emotion_p_b001"
+    status: needs_review
+    text_en: "Managed a research project involving 3 studies, Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "296"
+  - bullet_id: "project_experience_the_impact_of_continuous_or_categorical_thinking_on_emotion_p_b002"
+    status: needs_review
+    text_en: "Employed psychophysics methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "297"

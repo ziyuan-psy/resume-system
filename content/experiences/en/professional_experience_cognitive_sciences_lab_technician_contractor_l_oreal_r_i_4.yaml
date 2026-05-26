@@ -1,0 +1,87 @@
+experience_id: "professional_experience_cognitive_sciences_lab_technician_contractor_l_oreal_r_i_4"
+status: needs_review
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Cognitive Sciences Lab Technician(Contractor)"
+organization_en: "L'Oreal R&I, Shanghai"
+location: ""
+date: "Jul. 2024 – Jul. 2025"
+role_fit: []
+tools: ["R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "231"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "232"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "233"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_Consumer_iff"
+    source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "235"
+bullets:
+  - bullet_id: "professional_experience_cognitive_sciences_lab_technician_contractor_l_oreal_r_i_4_b001"
+    status: needs_review
+    text_en: "Conducted mixed-methods consumer research (U&A, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across French and China markets, translating findings into actionable insights for product positioning."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "231"
+  - bullet_id: "professional_experience_cognitive_sciences_lab_technician_contractor_l_oreal_r_i_4_b002"
+    status: needs_review
+    text_en: "Designed and localized multi-phase IAT and CATA surveys integrating reaction-time, rating, semantic free-listing, and projection techniques; refined question framing to ensure cultural validity and comparability across markets."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "232"
+  - bullet_id: "professional_experience_cognitive_sciences_lab_technician_contractor_l_oreal_r_i_4_b003"
+    status: needs_review
+    text_en: "Coordinated participant recruitment and fieldwork (6 studies, 300+ consumers) in partnership with external agencies, ensuring privacy compliance, participant well-being, and consistent data quality across all sessions."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "233"
+  - bullet_id: "professional_experience_cognitive_sciences_lab_technician_contractor_l_oreal_r_i_4_b004"
+    status: needs_review
+    text_en: "Led a Voice Analysis project on a hair product, designing baseline vs. product-phase protocols and analyzing consumer speech data (CLT & HUT, N=25) with R; visualized emotional trajectories across the user journey to uncover evolving needs and inform improved product communication guidelines."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_Consumer_iff"
+        source_project_zip: "Ziyuan_Guo_Consumer_iff.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "235"
