@@ -1,0 +1,129 @@
+experience_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_career_s_2"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Graduate Assistant"
+organization_en: "AI-Powered Career Systems, UT Career Success"
+location: ""
+date: "Sep 2025 – Present"
+role_fit: []
+tools: ["SharePoint"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Garmin"
+    source_project_zip: "26 summer_HF_Garmin.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "301"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Garmin"
+    source_project_zip: "26 summer_HF_Garmin.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "304"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Gulfstream"
+    source_project_zip: "26 summer_HF_Gulfstream.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "325"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Gulfstream"
+    source_project_zip: "26 summer_HF_Gulfstream.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "326"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Masimo"
+    source_project_zip: "26 summer_HF_Masimo.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "301"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Masimo"
+    source_project_zip: "26 summer_HF_Masimo.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "304"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Nemera"
+    source_project_zip: "26 summer_HF_Nemera.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "319"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_HF_Nemera"
+    source_project_zip: "26 summer_HF_Nemera.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "322"
+bullets:
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_career_s_2_b001"
+    status: needs_review
+    text_en: "Led user interface and usability evaluation of the SharePoint + Copilot knowledge base, conducting task-based tests with staff and analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Garmin"
+        source_project_zip: "26 summer_HF_Garmin.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "301"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Masimo"
+        source_project_zip: "26 summer_HF_Masimo.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "301"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Nemera"
+        source_project_zip: "26 summer_HF_Nemera.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "319"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_career_s_2_b002"
+    status: needs_review
+    text_en: "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Garmin"
+        source_project_zip: "26 summer_HF_Garmin.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "304"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Masimo"
+        source_project_zip: "26 summer_HF_Masimo.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "304"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Nemera"
+        source_project_zip: "26 summer_HF_Nemera.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "322"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_career_s_2_b003"
+    status: needs_review
+    text_en: "Conducted human-system performance evaluations of SharePoint + Copilot knowledge system through task-based testing and navigation data analysis to identify workflow inefficiencies."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Gulfstream"
+        source_project_zip: "26 summer_HF_Gulfstream.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "325"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_career_s_2_b004"
+    status: needs_review
+    text_en: "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved information accessibility and system integration."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_HF_Gulfstream"
+        source_project_zip: "26 summer_HF_Gulfstream.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "326"

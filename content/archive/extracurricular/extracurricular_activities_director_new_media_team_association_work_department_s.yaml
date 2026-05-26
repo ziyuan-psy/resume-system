@@ -1,0 +1,70 @@
+experience_id: "extracurricular_activities_director_new_media_team_association_work_department_s"
+status: archived
+exclude_from_generation: true
+archive_reason: "Extracurricular content is archived by default."
+section_type: "EXTRACURRICULAR ACTIVITIES"
+title_en: "Director, New Media Team, Association Work Department"
+organization_en: ""
+location: ""
+date: "Sep. 2021 – Jun. 2022"
+role_fit: []
+tools: []
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "317"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "318"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "319"
+bullets:
+  - bullet_id: "extracurricular_activities_director_new_media_team_association_work_department_s_b001"
+    status: needs_review
+    text_en: "Spearheaded the media campaigns for club recruitment and special events, creating publicity posters for 2 campuses."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "317"
+  - bullet_id: "extracurricular_activities_director_new_media_team_association_work_department_s_b002"
+    status: needs_review
+    text_en: "Managed the \"FM NNU Association\" public account, growing its followership to 5k+."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "318"
+  - bullet_id: "extracurricular_activities_director_new_media_team_association_work_department_s_b003"
+    status: needs_review
+    text_en: "Produced 2 promotion videos for the university's 120th anniversary, incorporating methods such as aerial photography and visual effects production,achieving over 10k views."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "319"

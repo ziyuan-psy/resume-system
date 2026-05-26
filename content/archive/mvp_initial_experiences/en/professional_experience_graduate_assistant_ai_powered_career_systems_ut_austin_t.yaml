@@ -1,0 +1,171 @@
+experience_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Graduate Assistant, AI-Powered Career Systems"
+organization_en: "UT Austin, TX"
+location: ""
+date: "Sep. 2025 – Present"
+role_fit: []
+tools: ["Copilot Studio", "Power Automate", "SharePoint", "UT Spark"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_ergo_antora"
+    source_project_zip: "26 summer_ergo_antora.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "264"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_ergo_antora"
+    source_project_zip: "26 summer_ergo_antora.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "265"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_ergo_antora"
+    source_project_zip: "26 summer_ergo_antora.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "268"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_robot_amazon"
+    source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "253"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_robot_amazon"
+    source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "254"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_robot_amazon"
+    source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "255"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_test_Bertec"
+    source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "247"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_test_Bertec"
+    source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "248"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "Ziyuan_Guo_test_Bertec"
+    source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "249"
+bullets:
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b001"
+    status: needs_review
+    text_en: "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "264"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b002"
+    status: needs_review
+    text_en: "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms,"
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "265"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b003"
+    status: needs_review
+    text_en: "Designed PowerAutomate workflows to orchestrate multi-step content updates, metadata propagation, and cross-platform handoffs across SharePoint portals."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "265"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b004"
+    status: needs_review
+    text_en: "Defined requirements and testing protocols for generative-AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into into feature specs and training materials."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "268"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b005"
+    status: needs_review
+    text_en: "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_robot_amazon"
+        source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "253"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_test_Bertec"
+        source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "247"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b006"
+    status: needs_review
+    text_en: "Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_robot_amazon"
+        source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "254"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_test_Bertec"
+        source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "248"
+  - bullet_id: "professional_experience_graduate_assistant_ai_powered_career_systems_ut_austin_t_b007"
+    status: needs_review
+    text_en: "Developed visual interface and content architecture for 3 SharePoint knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_robot_amazon"
+        source_project_zip: "Ziyuan_Guo_robot_amazon.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "255"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "Ziyuan_Guo_test_Bertec"
+        source_project_zip: "Ziyuan_Guo_test_Bertec.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "249"

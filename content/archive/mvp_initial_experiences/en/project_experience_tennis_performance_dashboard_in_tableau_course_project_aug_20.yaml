@@ -1,0 +1,51 @@
+experience_id: "project_experience_tennis_performance_dashboard_in_tableau_course_project_aug_20"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROJECT EXPERIENCE"
+title_en: "Tennis Performance Dashboard in Tableau"
+organization_en: "Course Project"
+location: ""
+date: "Aug. 2025 - Oct. 2025"
+role_fit: []
+tools: ["Tableau"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "311"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_Analytics_Tesla"
+    source_project_zip: "26 summer_Analytics_Tesla.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "312"
+bullets:
+  - bullet_id: "project_experience_tennis_performance_dashboard_in_tableau_course_project_aug_20_b001"
+    status: needs_review
+    text_en: "Mapped the end-to-end “player performance journey” using rally-level tennis data (100k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "311"
+  - bullet_id: "project_experience_tennis_performance_dashboard_in_tableau_course_project_aug_20_b002"
+    status: needs_review
+    text_en: "Built multi-view Tableau dashboards (serve-return segmentation, key-point comparison), iterated layout and visual hierarchy to improve interpretability and highlight performance contrasts."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_Analytics_Tesla"
+        source_project_zip: "26 summer_Analytics_Tesla.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "312"

@@ -1,0 +1,537 @@
+experience_id: "ai_gpu_portfolio_strategy"
+status: "needs_review"
+canonical:
+  title_en: "AI GPU Portfolio Strategy & Scenario Analysis"
+  organization_en: "Course Project"
+  location: ""
+  date: "Oct. 2025 - Dec. 2025"
+  experience_type: "project"
+title_variants:
+  - "AI GPU Portfolio Strategy & Scenario Analysis"
+display_section_rules:
+  default_section: "project_experience"
+  allowed_sections:
+    - "project_experience"
+role_fit:
+  []
+tools:
+  - "R"
+skills:
+  []
+keywords:
+  []
+candidate_bullet_pools:
+  - pool_id: "ai_gpu_portfolio_strategy_p001"
+    canonical_candidate_text_en:
+      "Built and revised a multi-scenario business case for a Gen8 AI GPU portfolio, evaluating 4 launch and supply-chain scenarios under fixed TAM, R&D, SG&A, and discount-rate assumptions."
+    duplicate_count:
+      6
+    raw_bullet_ids:
+      - "raw_b000602"
+      - "raw_b000613"
+      - "raw_b000624"
+      - "raw_b000704"
+      - "raw_b000722"
+      - "raw_b000782"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000602"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000613"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000624"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000704"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+      - raw_bullet_id: "raw_b000722"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000782"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+  - pool_id: "ai_gpu_portfolio_strategy_p002"
+    canonical_candidate_text_en:
+      "Modeled the impact of supplier cost increases, production caps, and launch delays on budget, revenue share, unit share, gross margin, operating income, NPV, and IRR."
+    duplicate_count:
+      6
+    raw_bullet_ids:
+      - "raw_b000603"
+      - "raw_b000614"
+      - "raw_b000625"
+      - "raw_b000705"
+      - "raw_b000723"
+      - "raw_b000783"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000603"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000614"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000625"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000705"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          284
+      - raw_bullet_id: "raw_b000723"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          300
+      - raw_bullet_id: "raw_b000783"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          284
+  - pool_id: "ai_gpu_portfolio_strategy_p003"
+    canonical_candidate_text_en:
+      "Compared financial and strategic trade-offs across scenarios and recommended the strongest path based on market-share targets, profitability, and competitive timing risk."
+    duplicate_count:
+      6
+    raw_bullet_ids:
+      - "raw_b000604"
+      - "raw_b000615"
+      - "raw_b000626"
+      - "raw_b000706"
+      - "raw_b000724"
+      - "raw_b000784"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000604"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000615"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000626"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000706"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          286
+      - raw_bullet_id: "raw_b000724"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          302
+      - raw_bullet_id: "raw_b000784"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          286
+source_references:
+  - raw_bullet_id: "raw_b000602"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_iff.zip"
+    source_project_id:
+      "project_047_ziyuan_guo_consumer_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      275
+  - raw_bullet_id: "raw_b000603"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_iff.zip"
+    source_project_id:
+      "project_047_ziyuan_guo_consumer_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000604"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_iff.zip"
+    source_project_id:
+      "project_047_ziyuan_guo_consumer_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      281
+  - raw_bullet_id: "raw_b000613"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_project_id:
+      "project_048_ziyuan_guo_consumer_market_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      275
+  - raw_bullet_id: "raw_b000614"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_project_id:
+      "project_048_ziyuan_guo_consumer_market_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000615"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_project_id:
+      "project_048_ziyuan_guo_consumer_market_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      281
+  - raw_bullet_id: "raw_b000624"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      275
+  - raw_bullet_id: "raw_b000625"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000626"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      281
+  - raw_bullet_id: "raw_b000704"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280
+  - raw_bullet_id: "raw_b000705"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      284
+  - raw_bullet_id: "raw_b000706"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      286
+  - raw_bullet_id: "raw_b000722"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000723"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      300
+  - raw_bullet_id: "raw_b000724"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      302
+  - raw_bullet_id: "raw_b000782"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_market research_Signet"
+    source_project_zip:
+      "Ziyuan_Guo_market research_Signet.zip"
+    source_project_id:
+      "project_061_ziyuan_guo_market_research_signet"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280
+  - raw_bullet_id: "raw_b000783"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_market research_Signet"
+    source_project_zip:
+      "Ziyuan_Guo_market research_Signet.zip"
+    source_project_id:
+      "project_061_ziyuan_guo_market_research_signet"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      284
+  - raw_bullet_id: "raw_b000784"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_market research_Signet"
+    source_project_zip:
+      "Ziyuan_Guo_market research_Signet.zip"
+    source_project_id:
+      "project_061_ziyuan_guo_market_research_signet"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      286

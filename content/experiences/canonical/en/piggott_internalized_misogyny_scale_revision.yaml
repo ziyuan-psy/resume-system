@@ -1,0 +1,349 @@
+experience_id: "piggott_internalized_misogyny_scale_revision"
+status: "needs_review"
+canonical:
+  title_en: "Chinese Revision of Piggott's (2004) Internalized Misogyny Scale"
+  organization_en: "Director"
+  location: ""
+  date: "Mar. 2022 - Jun. 2022"
+  experience_type: "research"
+title_variants:
+  - "Chinese Revision of Piggott's (2004) Internalized Misogyny Scale"
+  - "Chinese Version Revision of Piggott's (2004) Internalized Misogyny Scale"
+display_section_rules:
+  default_section: "research_experience"
+  allowed_sections:
+    - "research_experience"
+role_fit:
+  []
+tools:
+  - "R"
+skills:
+  []
+keywords:
+  []
+candidate_bullet_pools:
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p001"
+    canonical_candidate_text_en:
+      "Analyzed 500+ responses, using SPSS and AMOS for item-total correlations and factor analysis."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000467"
+      - "raw_b000479"
+      - "raw_b000544"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000467"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+      - raw_bullet_id: "raw_b000479"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+      - raw_bullet_id: "raw_b000544"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p002"
+    canonical_candidate_text_en:
+      "Visualized distribution and factor scores for 444 participants using histograms and violin plots with R."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000468"
+      - "raw_b000480"
+      - "raw_b000545"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000468"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000480"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000545"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p003"
+    canonical_candidate_text_en:
+      "Administered and analyzed 500+ responses from female college students, using SPSS and AMOS for item-total correlations and factor analysis, achieving 0.890 reliability (Cronbach's $ $) and strong structural validity."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000494"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000494"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          258
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p004"
+    canonical_candidate_text_en:
+      "Visualized distribution and factor scores for 444 participants using histograms and violin plots with R, revealing key patterns across 3 factors and confirming overall positive attitudes toward women."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000495"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000495"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p005"
+    canonical_candidate_text_en:
+      "Optimized the scale structure by 11.8% through data-driven analysis, improving measurement accuracy of internalized misogyny's 3 dimensions."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000496"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000496"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+  - pool_id: "piggott_internalized_misogyny_scale_revision_p006"
+    canonical_candidate_text_en:
+      "Coordinated a 4-stage translation process, including inviting 2 professionals for back-translation and 5 psychology professors for expert evaluation, ensuring cultural relevance and content validity for Chinese contexts."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000497"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000497"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          261
+source_references:
+  - raw_bullet_id: "raw_b000467"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "NEU IS_V2"
+    source_project_zip:
+      "NEU IS_V2.zip"
+    source_project_id:
+      "project_039_neu_is_v2"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000468"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "NEU IS_V2"
+    source_project_zip:
+      "NEU IS_V2.zip"
+    source_project_id:
+      "project_039_neu_is_v2"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000479"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UCSD CSS"
+    source_project_zip:
+      "UCSD CSS.zip"
+    source_project_id:
+      "project_040_ucsd_css"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000480"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UCSD CSS"
+    source_project_zip:
+      "UCSD CSS.zip"
+    source_project_id:
+      "project_040_ucsd_css"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000494"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UIUC MSIM"
+    source_project_zip:
+      "UIUC MSIM.zip"
+    source_project_id:
+      "project_041_uiuc_msim"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      258
+  - raw_bullet_id: "raw_b000495"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UIUC MSIM"
+    source_project_zip:
+      "UIUC MSIM.zip"
+    source_project_id:
+      "project_041_uiuc_msim"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      259
+  - raw_bullet_id: "raw_b000496"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UIUC MSIM"
+    source_project_zip:
+      "UIUC MSIM.zip"
+    source_project_id:
+      "project_041_uiuc_msim"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      260
+  - raw_bullet_id: "raw_b000497"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UIUC MSIM"
+    source_project_zip:
+      "UIUC MSIM.zip"
+    source_project_id:
+      "project_041_uiuc_msim"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      261
+  - raw_bullet_id: "raw_b000544"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UR DS"
+    source_project_zip:
+      "UR DS.zip"
+    source_project_id:
+      "project_043_ur_ds"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000545"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "UR DS"
+    source_project_zip:
+      "UR DS.zip"
+    source_project_id:
+      "project_043_ur_ds"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257

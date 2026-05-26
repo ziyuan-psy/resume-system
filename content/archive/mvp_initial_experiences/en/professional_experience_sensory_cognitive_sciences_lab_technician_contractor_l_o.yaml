@@ -1,0 +1,89 @@
+experience_id: "professional_experience_sensory_cognitive_sciences_lab_technician_contractor_l_o"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Sensory & Cognitive Sciences Lab Technician(Contractor)"
+organization_en: "L'Oreal R&I, Shanghai"
+location: ""
+date: "Jul. 2024 – Jul. 2025"
+role_fit: []
+tools: ["Python", "R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_Data_cocacola"
+    source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "236"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_Data_cocacola"
+    source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "238"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_Data_cocacola"
+    source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "240"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_Data_cocacola"
+    source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "241"
+bullets:
+  - bullet_id: "professional_experience_sensory_cognitive_sciences_lab_technician_contractor_l_o_b001"
+    status: needs_review
+    text_en: "Oversaw fieldwork for a 6-month study and captured multimodal sensor data (EEG, GSR, ECG) from 180+ participants; performed data cleaning, calibration checks, and quality validation to ensure reliable performance metrics across 30 products."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_Data_cocacola"
+        source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "236"
+  - bullet_id: "professional_experience_sensory_cognitive_sciences_lab_technician_contractor_l_o_b002"
+    status: needs_review
+    text_en: "Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed next-step product positioning."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_Data_cocacola"
+        source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "238"
+  - bullet_id: "professional_experience_sensory_cognitive_sciences_lab_technician_contractor_l_o_b003"
+    status: needs_review
+    text_en: "Led a Voice Analysis project on a hair dye product, designing baseline vs product-phase protocols and analyzing consumer speech data (on-site & home-use, N=25) with R; identified stage-specific emotional response patterns and recommended improvements to future testing guidelines."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_Data_cocacola"
+        source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "240"
+  - bullet_id: "professional_experience_sensory_cognitive_sciences_lab_technician_contractor_l_o_b004"
+    status: needs_review
+    text_en: "Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional metrics measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_Data_cocacola"
+        source_project_zip: "ziyuan_guo_Data_cocacola.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "241"

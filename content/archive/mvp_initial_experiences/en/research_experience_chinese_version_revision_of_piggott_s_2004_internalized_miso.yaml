@@ -1,0 +1,89 @@
+experience_id: "research_experience_chinese_version_revision_of_piggott_s_2004_internalized_miso"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "RESEARCH EXPERIENCE"
+title_en: "Chinese Version Revision of Piggott's (2004) Internalized Misogyny Scale"
+organization_en: "Director"
+location: ""
+date: "Mar. 2022 - Jun. 2022"
+role_fit: []
+tools: ["R"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "258"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "259"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "260"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UIUC MSIM"
+    source_project_zip: "UIUC MSIM.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "261"
+bullets:
+  - bullet_id: "research_experience_chinese_version_revision_of_piggott_s_2004_internalized_miso_b001"
+    status: needs_review
+    text_en: "Administered and analyzed 500+ responses from female college students, using SPSS and AMOS for item-total correlations and factor analysis, achieving 0.890 reliability (Cronbach's $ $) and strong structural validity."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "258"
+  - bullet_id: "research_experience_chinese_version_revision_of_piggott_s_2004_internalized_miso_b002"
+    status: needs_review
+    text_en: "Visualized distribution and factor scores for 444 participants using histograms and violin plots with R, revealing key patterns across 3 factors and confirming overall positive attitudes toward women."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "259"
+  - bullet_id: "research_experience_chinese_version_revision_of_piggott_s_2004_internalized_miso_b003"
+    status: needs_review
+    text_en: "Optimized the scale structure by 11.8% through data-driven analysis, improving measurement accuracy of internalized misogyny's 3 dimensions."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "260"
+  - bullet_id: "research_experience_chinese_version_revision_of_piggott_s_2004_internalized_miso_b004"
+    status: needs_review
+    text_en: "Coordinated a 4-stage translation process, including inviting 2 professionals for back-translation and 5 psychology professors for expert evaluation, ensuring cultural relevance and content validity for Chinese contexts."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UIUC MSIM"
+        source_project_zip: "UIUC MSIM.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "261"

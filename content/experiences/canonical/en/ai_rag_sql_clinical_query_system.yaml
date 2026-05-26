@@ -1,0 +1,2126 @@
+experience_id: "ai_rag_sql_clinical_query_system"
+status: "needs_review"
+canonical:
+  title_en: "AI-Powered Data Query System (RAG + SQL) for clinical dataset"
+  organization_en: "Project Lead"
+  location: ""
+  date: "Aug. 2025 - Oct. 2025"
+  experience_type: "project"
+title_variants:
+  - "AI-Powered Data Query System (RAG + SQL)"
+  - "AI-Powered Data Query System (RAG + SQL) for clinical dataset"
+display_section_rules:
+  default_section: "project_experience"
+  allowed_sections:
+    - "project_experience"
+    - "research_experience"
+role_fit:
+  []
+tools:
+  - "LLM"
+  - "LangChain"
+  - "RAG"
+  - "SQL"
+skills:
+  []
+keywords:
+  []
+candidate_bullet_pools:
+  - pool_id: "ai_rag_sql_clinical_query_system_p001"
+    canonical_candidate_text_en:
+      "Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs using LangChain to enable natural language interaction with MIMIC healthcare datasets."
+    duplicate_count:
+      23
+    raw_bullet_ids:
+      - "raw_b000017"
+      - "raw_b000033"
+      - "raw_b000047"
+      - "raw_b000061"
+      - "raw_b000075"
+      - "raw_b000089"
+      - "raw_b000148"
+      - "raw_b000161"
+      - "raw_b000222"
+      - "raw_b000436"
+      - "raw_b000677"
+      - "raw_b000693"
+      - "raw_b000707"
+      - "raw_b000811"
+      - "raw_b000835"
+      - "raw_b000848"
+      - "raw_b000861"
+      - "raw_b000880"
+      - "raw_b000926"
+      - "raw_b000939"
+      - "raw_b000951"
+      - "raw_b000966"
+      - "raw_b000978"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000017"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000033"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          290
+      - raw_bullet_id: "raw_b000047"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          294
+      - raw_bullet_id: "raw_b000061"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          294
+      - raw_bullet_id: "raw_b000075"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          290
+      - raw_bullet_id: "raw_b000089"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          294
+      - raw_bullet_id: "raw_b000148"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000161"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000222"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          295
+      - raw_bullet_id: "raw_b000436"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000677"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          274
+      - raw_bullet_id: "raw_b000693"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000707"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          301
+      - raw_bullet_id: "raw_b000811"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          302
+      - raw_bullet_id: "raw_b000835"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000848"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000861"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000880"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000926"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          288
+      - raw_bullet_id: "raw_b000939"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000951"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          288
+      - raw_bullet_id: "raw_b000966"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000978"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+  - pool_id: "ai_rag_sql_clinical_query_system_p002"
+    canonical_candidate_text_en:
+      "Implemented a schema- and domain-aware RAG pipeline to enable accurate LLM-generated SQL queries, reducing manual query time by 80% and improving data accessibility."
+    duplicate_count:
+      23
+    raw_bullet_ids:
+      - "raw_b000018"
+      - "raw_b000034"
+      - "raw_b000048"
+      - "raw_b000062"
+      - "raw_b000076"
+      - "raw_b000090"
+      - "raw_b000149"
+      - "raw_b000162"
+      - "raw_b000223"
+      - "raw_b000437"
+      - "raw_b000678"
+      - "raw_b000694"
+      - "raw_b000708"
+      - "raw_b000812"
+      - "raw_b000836"
+      - "raw_b000849"
+      - "raw_b000862"
+      - "raw_b000881"
+      - "raw_b000927"
+      - "raw_b000940"
+      - "raw_b000952"
+      - "raw_b000967"
+      - "raw_b000979"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000018"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000034"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          291
+      - raw_bullet_id: "raw_b000048"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          295
+      - raw_bullet_id: "raw_b000062"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          295
+      - raw_bullet_id: "raw_b000076"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          291
+      - raw_bullet_id: "raw_b000090"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          295
+      - raw_bullet_id: "raw_b000149"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000162"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000223"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000437"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          323
+      - raw_bullet_id: "raw_b000678"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000694"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000708"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          302
+      - raw_bullet_id: "raw_b000812"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          303
+      - raw_bullet_id: "raw_b000836"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000849"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000862"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000881"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          323
+      - raw_bullet_id: "raw_b000927"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          289
+      - raw_bullet_id: "raw_b000940"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+      - raw_bullet_id: "raw_b000952"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          289
+      - raw_bullet_id: "raw_b000967"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          288
+      - raw_bullet_id: "raw_b000979"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+  - pool_id: "ai_rag_sql_clinical_query_system_p003"
+    canonical_candidate_text_en:
+      "Defined data schemas, documented the workflow and prompt logic for reproducibility and team handoff."
+    duplicate_count:
+      24
+    raw_bullet_ids:
+      - "raw_b000019"
+      - "raw_b000035"
+      - "raw_b000049"
+      - "raw_b000063"
+      - "raw_b000077"
+      - "raw_b000091"
+      - "raw_b000150"
+      - "raw_b000163"
+      - "raw_b000224"
+      - "raw_b000281"
+      - "raw_b000438"
+      - "raw_b000679"
+      - "raw_b000695"
+      - "raw_b000709"
+      - "raw_b000813"
+      - "raw_b000837"
+      - "raw_b000850"
+      - "raw_b000863"
+      - "raw_b000882"
+      - "raw_b000928"
+      - "raw_b000941"
+      - "raw_b000953"
+      - "raw_b000968"
+      - "raw_b000980"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000019"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+      - raw_bullet_id: "raw_b000035"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000049"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000063"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000077"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000091"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000150"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000163"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000224"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000281"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000438"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          324
+      - raw_bullet_id: "raw_b000679"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000695"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000709"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          303
+      - raw_bullet_id: "raw_b000813"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          304
+      - raw_bullet_id: "raw_b000837"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000850"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000863"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000882"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          324
+      - raw_bullet_id: "raw_b000928"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          290
+      - raw_bullet_id: "raw_b000941"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000953"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          290
+      - raw_bullet_id: "raw_b000968"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          289
+      - raw_bullet_id: "raw_b000980"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+  - pool_id: "ai_rag_sql_clinical_query_system_p004"
+    canonical_candidate_text_en:
+      "Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs to enable natural language interaction with MIMIC healthcare datasets."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000114"
+      - "raw_b000279"
+      - "raw_b000421"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000114"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA_Holland America Line"
+        source_project_zip:
+          "26 summer_BA_Holland America Line.zip"
+        source_project_id:
+          "project_009_26_summer_ba_holland_america_line"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000279"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          295
+      - raw_bullet_id: "raw_b000421"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+  - pool_id: "ai_rag_sql_clinical_query_system_p005"
+    canonical_candidate_text_en:
+      "Automated retrieval and response workflows through a RAG pipeline, reducing manual query time by 80% and improving data accessibility."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000115"
+      - "raw_b000280"
+      - "raw_b000422"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000115"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA_Holland America Line"
+        source_project_zip:
+          "26 summer_BA_Holland America Line.zip"
+        source_project_id:
+          "project_009_26_summer_ba_holland_america_line"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          311
+      - raw_bullet_id: "raw_b000280"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000422"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+source_references:
+  - raw_bullet_id: "raw_b000017"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000018"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000019"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280
+  - raw_bullet_id: "raw_b000033"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      290
+  - raw_bullet_id: "raw_b000034"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      291
+  - raw_bullet_id: "raw_b000035"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      292
+  - raw_bullet_id: "raw_b000047"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      294
+  - raw_bullet_id: "raw_b000048"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      295
+  - raw_bullet_id: "raw_b000049"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000061"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      294
+  - raw_bullet_id: "raw_b000062"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      295
+  - raw_bullet_id: "raw_b000063"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000075"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      290
+  - raw_bullet_id: "raw_b000076"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      291
+  - raw_bullet_id: "raw_b000077"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      292
+  - raw_bullet_id: "raw_b000089"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      294
+  - raw_bullet_id: "raw_b000090"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      295
+  - raw_bullet_id: "raw_b000091"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000114"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_BA_Holland America Line"
+    source_project_zip:
+      "26 summer_BA_Holland America Line.zip"
+    source_project_id:
+      "project_009_26_summer_ba_holland_america_line"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      310
+  - raw_bullet_id: "raw_b000115"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_BA_Holland America Line"
+    source_project_zip:
+      "26 summer_BA_Holland America Line.zip"
+    source_project_id:
+      "project_009_26_summer_ba_holland_america_line"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      311
+  - raw_bullet_id: "raw_b000148"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000149"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000150"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000161"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000162"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000163"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000222"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      295
+  - raw_bullet_id: "raw_b000223"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000224"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      297
+  - raw_bullet_id: "raw_b000279"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      295
+  - raw_bullet_id: "raw_b000280"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000281"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      297
+  - raw_bullet_id: "raw_b000421"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ds_notion"
+    source_project_zip:
+      "26 summer_ds_notion.zip"
+    source_project_id:
+      "project_035_26_summer_ds_notion"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000422"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ds_notion"
+    source_project_zip:
+      "26 summer_ds_notion.zip"
+    source_project_id:
+      "project_035_26_summer_ds_notion"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      297
+  - raw_bullet_id: "raw_b000436"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000437"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      323
+  - raw_bullet_id: "raw_b000438"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      324
+  - raw_bullet_id: "raw_b000677"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Market Strategy_PORSCHE"
+    source_project_zip:
+      "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+    source_project_id:
+      "project_053_ziyuan_guo_market_strategy_porsche"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      274
+  - raw_bullet_id: "raw_b000678"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Market Strategy_PORSCHE"
+    source_project_zip:
+      "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+    source_project_id:
+      "project_053_ziyuan_guo_market_strategy_porsche"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      275
+  - raw_bullet_id: "raw_b000679"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Market Strategy_PORSCHE"
+    source_project_zip:
+      "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+    source_project_id:
+      "project_053_ziyuan_guo_market_strategy_porsche"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000693"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000694"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000695"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000707"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      301
+  - raw_bullet_id: "raw_b000708"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      302
+  - raw_bullet_id: "raw_b000709"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      303
+  - raw_bullet_id: "raw_b000811"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      302
+  - raw_bullet_id: "raw_b000812"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      303
+  - raw_bullet_id: "raw_b000813"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      304
+  - raw_bullet_id: "raw_b000835"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000836"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000837"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000848"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000849"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000850"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000861"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000862"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      277
+  - raw_bullet_id: "raw_b000863"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000880"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000881"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      323
+  - raw_bullet_id: "raw_b000882"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      324
+  - raw_bullet_id: "raw_b000926"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      288
+  - raw_bullet_id: "raw_b000927"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      289
+  - raw_bullet_id: "raw_b000928"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      290
+  - raw_bullet_id: "raw_b000939"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000940"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280
+  - raw_bullet_id: "raw_b000941"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      281
+  - raw_bullet_id: "raw_b000951"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      288
+  - raw_bullet_id: "raw_b000952"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      289
+  - raw_bullet_id: "raw_b000953"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      290
+  - raw_bullet_id: "raw_b000966"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      287
+  - raw_bullet_id: "raw_b000967"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      288
+  - raw_bullet_id: "raw_b000968"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      289
+  - raw_bullet_id: "raw_b000978"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000979"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000980"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280

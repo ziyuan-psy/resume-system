@@ -1,0 +1,51 @@
+experience_id: "project_experience_usability_testing_of_online_pdf_tools_project_lead_apr_2023_j"
+status: excluded
+exclude_from_generation: true
+archive_reason: "Excluded from active generation by Phase 1.5 decision."
+section_type: "PROJECT EXPERIENCE"
+title_en: "Usability Testing of Online PDF Tools"
+organization_en: "Project Lead"
+location: ""
+date: "Apr. 2023 - Jun. 2023"
+role_fit: []
+tools: []
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_data_RTI"
+    source_project_zip: "ziyuan_guo_data_RTI.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "322"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_data_RTI"
+    source_project_zip: "ziyuan_guo_data_RTI.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "323"
+bullets:
+  - bullet_id: "project_experience_usability_testing_of_online_pdf_tools_project_lead_apr_2023_j_b001"
+    status: needs_review
+    text_en: "Designed and conducted a comparative usability study on 2 online PDF tools to explore market differentiation and user preferences across key workflows, employing controlled experiments to assess 3 core functionalities."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_data_RTI"
+        source_project_zip: "ziyuan_guo_data_RTI.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "322"
+  - bullet_id: "project_experience_usability_testing_of_online_pdf_tools_project_lead_apr_2023_j_b002"
+    status: needs_review
+    text_en: "Combined statistical analysis of task times/success rates with user frustration data (think-aloud, interviews), pinpointing efficiency differences and identifying 3 key usability issues affecting satisfaction."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_data_RTI"
+        source_project_zip: "ziyuan_guo_data_RTI.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "323"

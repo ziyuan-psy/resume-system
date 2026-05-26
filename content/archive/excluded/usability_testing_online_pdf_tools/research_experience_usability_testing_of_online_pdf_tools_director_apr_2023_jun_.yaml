@@ -1,0 +1,70 @@
+experience_id: "research_experience_usability_testing_of_online_pdf_tools_director_apr_2023_jun_"
+status: excluded
+exclude_from_generation: true
+archive_reason: "Excluded from active generation by Phase 1.5 decision."
+section_type: "RESEARCH EXPERIENCE"
+title_en: "Usability Testing of Online PDF Tools"
+organization_en: "Director"
+location: ""
+date: "Apr. 2023 - Jun. 2023"
+role_fit: []
+tools: []
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UNC MSIS"
+    source_project_zip: "UNC MSIS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "259"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UNC MSIS"
+    source_project_zip: "UNC MSIS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "260"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "UNC MSIS"
+    source_project_zip: "UNC MSIS.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "261"
+bullets:
+  - bullet_id: "research_experience_usability_testing_of_online_pdf_tools_director_apr_2023_jun__b001"
+    status: needs_review
+    text_en: "Designed and conducted a usability study on 2 online PDF tools with 8 participants, employing controlled experiments to assess 3 distinct functionalities."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UNC MSIS"
+        source_project_zip: "UNC MSIS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "259"
+  - bullet_id: "research_experience_usability_testing_of_online_pdf_tools_director_apr_2023_jun__b002"
+    status: needs_review
+    text_en: "Analyzed task completion times and success rates using paired t-tests to identify efficiency differences, and reduced task completion times by 20% through strategic interface adjustments."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UNC MSIS"
+        source_project_zip: "UNC MSIS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "260"
+  - bullet_id: "research_experience_usability_testing_of_online_pdf_tools_director_apr_2023_jun__b003"
+    status: needs_review
+    text_en: "Analyzed user interaction patterns using think-aloud protocols, video recordings via Tencent Meeting, and user interviews, pinpointing critical usability issues like hidden menus and poor feedback, which directly impacted user efficiency and satisfaction."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "UNC MSIS"
+        source_project_zip: "UNC MSIS.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "261"

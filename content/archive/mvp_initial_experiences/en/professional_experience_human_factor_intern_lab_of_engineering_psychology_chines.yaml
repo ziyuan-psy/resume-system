@@ -1,0 +1,51 @@
+experience_id: "professional_experience_human_factor_intern_lab_of_engineering_psychology_chines"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROFESSIONAL EXPERIENCE"
+title_en: "Human Factor intern"
+organization_en: "Lab of Engineering Psychology, Chinese Academy of Sciences"
+location: ""
+date: "Nov 2023 - Jun 2024"
+role_fit: []
+tools: ["Blender", "Python"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_ergo_antora"
+    source_project_zip: "26 summer_ergo_antora.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "235"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "26 summer_ergo_antora"
+    source_project_zip: "26 summer_ergo_antora.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "237"
+bullets:
+  - bullet_id: "professional_experience_human_factor_intern_lab_of_engineering_psychology_chines_b001"
+    status: needs_review
+    text_en: "Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "235"
+  - bullet_id: "professional_experience_human_factor_intern_lab_of_engineering_psychology_chines_b002"
+    status: needs_review
+    text_en: "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "26 summer_ergo_antora"
+        source_project_zip: "26 summer_ergo_antora.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "237"

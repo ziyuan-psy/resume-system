@@ -1,0 +1,5600 @@
+experience_id: "ut_career_ai_systems"
+status: "needs_review"
+canonical:
+  title_en: "Graduate Assistant"
+  organization_en: "AI-Powered Career Systems, UT Career Success"
+  location: "Austin, TX"
+  date: "Sep. 2025 - Present"
+  experience_type: "work"
+title_variants:
+  - "Graduate Assistant"
+  - "Graduate Assistant, AI-Powered Career Systems, UT Austin, TX"
+  - "Graduate Assistant, AI-Powered Career Systems, UT Career Success"
+display_section_rules:
+  default_section: "professional_experience"
+  allowed_sections:
+    - "professional_experience"
+role_fit:
+  []
+tools:
+  - "Copilot Studio"
+  - "Power Automate"
+  - "SharePoint"
+  - "UT Spark"
+skills:
+  []
+keywords:
+  []
+candidate_bullet_pools:
+  - pool_id: "ut_career_ai_systems_p001"
+    canonical_candidate_text_en:
+      "Configured, tested, and validated Copilot Studio and UT Spark enterprise systems, defining accuracy metrics, failure patterns, and testing protocols to ensure system readiness prior to deployment."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000001"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000001"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ Enterprise Systems_USTA"
+        source_project_zip:
+          "26 summer_ Enterprise Systems_USTA.zip"
+        source_project_id:
+          "project_001_26_summer_enterprise_systems_usta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p002"
+    canonical_candidate_text_en:
+      "Led end-to-end system testing and readiness validation for a SharePoint-based enterprise knowledge platform, conducting task-based tests to ensure configurations aligned with business and operational requirements."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000002"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000002"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ Enterprise Systems_USTA"
+        source_project_zip:
+          "26 summer_ Enterprise Systems_USTA.zip"
+        source_project_id:
+          "project_001_26_summer_enterprise_systems_usta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+  - pool_id: "ut_career_ai_systems_p003"
+    canonical_candidate_text_en:
+      "Designed metadata schemas and automated update pipelines (PowerAutomate) to improve data discoverability and maintain consistent data structures across multi-portal platforms."
+    duplicate_count:
+      8
+    raw_bullet_ids:
+      - "raw_b000003"
+      - "raw_b000025"
+      - "raw_b000156"
+      - "raw_b000169"
+      - "raw_b000843"
+      - "raw_b000856"
+      - "raw_b000869"
+      - "raw_b000876"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000003"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ Enterprise Systems_USTA"
+        source_project_zip:
+          "26 summer_ Enterprise Systems_USTA.zip"
+        source_project_id:
+          "project_001_26_summer_enterprise_systems_usta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000025"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          324
+      - raw_bullet_id: "raw_b000156"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000169"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000843"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000856"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000869"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000876"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          266
+  - pool_id: "ut_career_ai_systems_p004"
+    canonical_candidate_text_en:
+      "Prototyped and benchmarked Copilot Studio and UT Spark AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines."
+    duplicate_count:
+      15
+    raw_bullet_ids:
+      - "raw_b000023"
+      - "raw_b000132"
+      - "raw_b000154"
+      - "raw_b000167"
+      - "raw_b000239"
+      - "raw_b000261"
+      - "raw_b000320"
+      - "raw_b000841"
+      - "raw_b000854"
+      - "raw_b000867"
+      - "raw_b000874"
+      - "raw_b000907"
+      - "raw_b000919"
+      - "raw_b000958"
+      - "raw_b000987"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000023"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          319
+      - raw_bullet_id: "raw_b000132"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000154"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
+      - raw_bullet_id: "raw_b000167"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
+      - raw_bullet_id: "raw_b000239"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000261"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000320"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000841"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
+      - raw_bullet_id: "raw_b000854"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
+      - raw_bullet_id: "raw_b000867"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
+      - raw_bullet_id: "raw_b000874"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          261
+      - raw_bullet_id: "raw_b000907"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000919"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000958"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000987"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+  - pool_id: "ut_career_ai_systems_p005"
+    canonical_candidate_text_en:
+      "Led end-to-end system evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      7
+    raw_bullet_ids:
+      - "raw_b000024"
+      - "raw_b000155"
+      - "raw_b000168"
+      - "raw_b000842"
+      - "raw_b000855"
+      - "raw_b000868"
+      - "raw_b000875"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000024"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          323
+      - raw_bullet_id: "raw_b000155"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          321
+      - raw_bullet_id: "raw_b000168"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          321
+      - raw_bullet_id: "raw_b000842"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          321
+      - raw_bullet_id: "raw_b000855"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          321
+      - raw_bullet_id: "raw_b000868"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          321
+      - raw_bullet_id: "raw_b000875"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+  - pool_id: "ut_career_ai_systems_p006"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000026"
+      - "raw_b000040"
+      - "raw_b000054"
+      - "raw_b000068"
+      - "raw_b000429"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000026"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          232
+      - raw_bullet_id: "raw_b000040"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000054"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000068"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          232
+      - raw_bullet_id: "raw_b000429"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          264
+  - pool_id: "ut_career_ai_systems_p007"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms,"
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000027"
+      - "raw_b000041"
+      - "raw_b000069"
+      - "raw_b000430"
+    quality_flags:
+      - "trailing_comma_fragment"
+    source_references:
+      - raw_bullet_id: "raw_b000027"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000041"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000069"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000430"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+  - pool_id: "ut_career_ai_systems_p008"
+    canonical_candidate_text_en:
+      "Designed PowerAutomate workflows to orchestrate multi-step content updates, metadata propagation, and cross-platform handoffs across SharePoint portals."
+    duplicate_count:
+      7
+    raw_bullet_ids:
+      - "raw_b000028"
+      - "raw_b000042"
+      - "raw_b000056"
+      - "raw_b000070"
+      - "raw_b000084"
+      - "raw_b000431"
+      - "raw_b000691"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000028"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000042"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000056"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000070"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000084"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000431"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+      - raw_bullet_id: "raw_b000691"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+  - pool_id: "ut_career_ai_systems_p009"
+    canonical_candidate_text_en:
+      "Defined requirements and testing protocols for generative-AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into into feature specs and training materials."
+    duplicate_count:
+      8
+    raw_bullet_ids:
+      - "raw_b000029"
+      - "raw_b000043"
+      - "raw_b000057"
+      - "raw_b000071"
+      - "raw_b000085"
+      - "raw_b000218"
+      - "raw_b000432"
+      - "raw_b000692"
+    quality_flags:
+      - "repeated_word_into"
+    source_references:
+      - raw_bullet_id: "raw_b000029"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000043"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000057"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000071"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000085"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000218"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          241
+      - raw_bullet_id: "raw_b000432"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          268
+      - raw_bullet_id: "raw_b000692"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+  - pool_id: "ut_career_ai_systems_p010"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms"
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000055"
+      - "raw_b000083"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000055"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000083"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+  - pool_id: "ut_career_ai_systems_p011"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and automate knowledge retrieval; benchmarked accuracy through iterative testing and failure-mode analysis."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000082"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000082"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+  - pool_id: "ut_career_ai_systems_p012"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot and UT Spark to automate content retrieval and workflows; compared performance through iterative testing and documented accuracy metrics."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000111"
+      - "raw_b000273"
+      - "raw_b000418"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000111"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA_Holland America Line"
+        source_project_zip:
+          "26 summer_BA_Holland America Line.zip"
+        source_project_id:
+          "project_009_26_summer_ba_holland_america_line"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000273"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000418"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+  - pool_id: "ut_career_ai_systems_p013"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for a SharePoint-based SaaS knowledge platform, improving resource discoverability and enabling scalable automation of internal tools."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000112"
+      - "raw_b000274"
+      - "raw_b000419"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000112"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA_Holland America Line"
+        source_project_zip:
+          "26 summer_BA_Holland America Line.zip"
+        source_project_id:
+          "project_009_26_summer_ba_holland_america_line"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
+      - raw_bullet_id: "raw_b000274"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+      - raw_bullet_id: "raw_b000419"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
+  - pool_id: "ut_career_ai_systems_p014"
+    canonical_candidate_text_en:
+      "Conducted usability evaluations of the SharePoint + Copilot Agent; analyzed workflow data to identify UX and operational pain points, leading to improvements in system adoption and design clarity."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000123"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000123"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
+  - pool_id: "ut_career_ai_systems_p015"
+    canonical_candidate_text_en:
+      "Collaborated with design and content teams to redesign information architecture and metadata tagging, applying data storytelling to present impact metrics to leadership and stakeholders."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000124"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000124"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          261
+  - pool_id: "ut_career_ai_systems_p016"
+    canonical_candidate_text_en:
+      "Conducted discovery interviews with 16 cross-functional offices, mapping workflows and synthesizing requirements to propose scalable tagging standards and roadmap-aligned feature enhancements."
+    duplicate_count:
+      9
+    raw_bullet_ids:
+      - "raw_b000133"
+      - "raw_b000240"
+      - "raw_b000262"
+      - "raw_b000321"
+      - "raw_b000908"
+      - "raw_b000920"
+      - "raw_b000945"
+      - "raw_b000959"
+      - "raw_b000988"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000133"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000240"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000262"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000321"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000908"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000920"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000945"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000959"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000988"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          263
+  - pool_id: "ut_career_ai_systems_p017"
+    canonical_candidate_text_en:
+      "Led usability evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      9
+    raw_bullet_ids:
+      - "raw_b000134"
+      - "raw_b000241"
+      - "raw_b000263"
+      - "raw_b000322"
+      - "raw_b000909"
+      - "raw_b000921"
+      - "raw_b000946"
+      - "raw_b000960"
+      - "raw_b000989"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000134"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000241"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000263"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000322"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000909"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000921"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000946"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000960"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000989"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+  - pool_id: "ut_career_ai_systems_p018"
+    canonical_candidate_text_en:
+      "Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through PowerAutomate."
+    duplicate_count:
+      9
+    raw_bullet_ids:
+      - "raw_b000135"
+      - "raw_b000242"
+      - "raw_b000264"
+      - "raw_b000323"
+      - "raw_b000910"
+      - "raw_b000922"
+      - "raw_b000947"
+      - "raw_b000961"
+      - "raw_b000990"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000135"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000242"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000264"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000323"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000910"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000922"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000947"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000961"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000990"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          266
+  - pool_id: "ut_career_ai_systems_p019"
+    canonical_candidate_text_en:
+      "Led user interface and usability evaluation of the SharePoint + Copilot knowledge base, conducting task-based tests with staff and analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000179"
+      - "raw_b000201"
+      - "raw_b000214"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000179"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Garmin"
+        source_project_zip:
+          "26 summer_HF_Garmin.zip"
+        source_project_id:
+          "project_014_26_summer_hf_garmin"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          301
+      - raw_bullet_id: "raw_b000201"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Masimo"
+        source_project_zip:
+          "26 summer_HF_Masimo.zip"
+        source_project_id:
+          "project_016_26_summer_hf_masimo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          301
+      - raw_bullet_id: "raw_b000214"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Nemera"
+        source_project_zip:
+          "26 summer_HF_Nemera.zip"
+        source_project_id:
+          "project_017_26_summer_hf_nemera"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          319
+  - pool_id: "ut_career_ai_systems_p020"
+    canonical_candidate_text_en:
+      "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000180"
+      - "raw_b000202"
+      - "raw_b000215"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000180"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Garmin"
+        source_project_zip:
+          "26 summer_HF_Garmin.zip"
+        source_project_id:
+          "project_014_26_summer_hf_garmin"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          304
+      - raw_bullet_id: "raw_b000202"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Masimo"
+        source_project_zip:
+          "26 summer_HF_Masimo.zip"
+        source_project_id:
+          "project_016_26_summer_hf_masimo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          304
+      - raw_bullet_id: "raw_b000215"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Nemera"
+        source_project_zip:
+          "26 summer_HF_Nemera.zip"
+        source_project_id:
+          "project_017_26_summer_hf_nemera"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+  - pool_id: "ut_career_ai_systems_p021"
+    canonical_candidate_text_en:
+      "Conducted human-system performance evaluations of SharePoint + Copilot knowledge system through task-based testing and navigation data analysis to identify workflow inefficiencies."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000190"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000190"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          325
+  - pool_id: "ut_career_ai_systems_p022"
+    canonical_candidate_text_en:
+      "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved information accessibility and system integration."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000191"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000191"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          326
+  - pool_id: "ut_career_ai_systems_p023"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and internal content retrieval efficiency; compared performance through iterative testing and documented accuracy metrics."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000216"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000216"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+  - pool_id: "ut_career_ai_systems_p024"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms, integrating PowerAutomate flows to automate content updates and improve resource discoverability."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000217"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000217"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+  - pool_id: "ut_career_ai_systems_p025"
+    canonical_candidate_text_en:
+      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered insights that guided iteration of site architecture and feature rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000229"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000229"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p026"
+    canonical_candidate_text_en:
+      "Partnered with 16 career service offices to gather requirements and conduct discovery interviews; synthesized insights and surfaced new use cases that informed roadmap proposals and prioritized enhancements for cross-site navigation redesign."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000230"
+      - "raw_b000256"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000230"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000256"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
+  - pool_id: "ut_career_ai_systems_p027"
+    canonical_candidate_text_en:
+      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000255"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000255"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+  - pool_id: "ut_career_ai_systems_p028"
+    canonical_candidate_text_en:
+      "Defined user testing and documentation standards; gathered feedback from 16 offices and translated findings into feature specs and training materials."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000275"
+      - "raw_b000420"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000275"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          241
+      - raw_bullet_id: "raw_b000420"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          262
+  - pool_id: "ut_career_ai_systems_p029"
+    canonical_candidate_text_en:
+      "Led feature discovery and usability testing of the SharePoint + Copilot SaaS knowledge base, analyzing adoption KPIs and testing navigation flows; delivered insights that guided feature iteration and rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000286"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000286"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+  - pool_id: "ut_career_ai_systems_p030"
+    canonical_candidate_text_en:
+      "Conducted discovery interviews with 16 career offices, identifying new use cases and proposing feature concepts that informed the product roadmap; maintained documentation and update logs to support cross-team transparency."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000287"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000287"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+  - pool_id: "ut_career_ai_systems_p031"
+    canonical_candidate_text_en:
+      "Conducted usability and interface evaluations of the SharePoint + Copilot knowledge system, performing task-based tests with staff and analyzing navigation data to improve workflow and UI clarity."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000299"
+      - "raw_b000311"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000299"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          263
+      - raw_bullet_id: "raw_b000311"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          263
+  - pool_id: "ut_career_ai_systems_p032"
+    canonical_candidate_text_en:
+      "Partnered with designers, engineers, and content managers to iterate information architecture and tagging structure for improved user experience and behavioral consistency across portals."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000300"
+      - "raw_b000312"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000300"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+      - raw_bullet_id: "raw_b000312"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+  - pool_id: "ut_career_ai_systems_p033"
+    canonical_candidate_text_en:
+      "Led usability evaluation of SharePoint + Copilot knowledge base by conducting task-based tests with staff, analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000335"
+      - "raw_b000445"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000335"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          249
+      - raw_bullet_id: "raw_b000445"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+  - pool_id: "ut_career_ai_systems_p034"
+    canonical_candidate_text_en:
+      "Conducted structured feedback sessions with 16 career service offices, coding recurring issues and prioritizing pain points, which guided redesign of content tagging and cross-site navigation."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000336"
+      - "raw_b000349"
+      - "raw_b000361"
+      - "raw_b000373"
+      - "raw_b000384"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000336"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000349"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000361"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000373"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000384"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+  - pool_id: "ut_career_ai_systems_p035"
+    canonical_candidate_text_en:
+      "Led usability evaluation of internal AI + content platforms (SharePoint + Copilot Agent); visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
+    duplicate_count:
+      19
+    raw_bullet_ids:
+      - "raw_b000348"
+      - "raw_b000372"
+      - "raw_b000396"
+      - "raw_b000587"
+      - "raw_b000600"
+      - "raw_b000611"
+      - "raw_b000622"
+      - "raw_b000635"
+      - "raw_b000648"
+      - "raw_b000663"
+      - "raw_b000675"
+      - "raw_b000702"
+      - "raw_b000716"
+      - "raw_b000729"
+      - "raw_b000741"
+      - "raw_b000754"
+      - "raw_b000767"
+      - "raw_b000780"
+      - "raw_b000793"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000348"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+      - raw_bullet_id: "raw_b000372"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000396"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UX_Netflix"
+        source_project_zip:
+          "26 summer_UX_Netflix.zip"
+        source_project_id:
+          "project_033_26_summer_ux_netflix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000587"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_Sandisk"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_Sandisk.zip"
+        source_project_id:
+          "project_046_ziyuan_guo_consumer_sandisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000600"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000611"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000622"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000635"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Genentech"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Genentech.zip"
+        source_project_id:
+          "project_050_ziyuan_guo_hf_genentech"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+      - raw_bullet_id: "raw_b000648"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Wisk"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Wisk.zip"
+        source_project_id:
+          "project_051_ziyuan_guo_hf_wisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+      - raw_bullet_id: "raw_b000663"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          269
+      - raw_bullet_id: "raw_b000675"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000702"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+      - raw_bullet_id: "raw_b000716"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+      - raw_bullet_id: "raw_b000729"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000741"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_TensorWave"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_TensorWave.zip"
+        source_project_id:
+          "project_058_ziyuan_guo_uxr_tensorwave"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000754"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_Fortive"
+        source_project_zip:
+          "Ziyuan_Guo_UX_Fortive.zip"
+        source_project_id:
+          "project_059_ziyuan_guo_ux_fortive"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000767"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_JPMorgan"
+        source_project_zip:
+          "Ziyuan_Guo_UX_JPMorgan.zip"
+        source_project_id:
+          "project_060_ziyuan_guo_ux_jpmorgan"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+      - raw_bullet_id: "raw_b000780"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+      - raw_bullet_id: "raw_b000793"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_research_Gensler"
+        source_project_zip:
+          "Ziyuan_Guo_research_Gensler.zip"
+        source_project_id:
+          "project_062_ziyuan_guo_research_gensler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+  - pool_id: "ut_career_ai_systems_p036"
+    canonical_candidate_text_en:
+      "Led usability evaluation of the SharePoint + Copilot Agent knowledge base; visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000360"
+      - "raw_b000383"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000360"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+      - raw_bullet_id: "raw_b000383"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+  - pool_id: "ut_career_ai_systems_p037"
+    canonical_candidate_text_en:
+      "Conducted structured feedback sessions with 16 career service offices, coding recurring issues and identifying knowledge gaps, which inform redesign priorities and improve system adoption."
+    duplicate_count:
+      17
+    raw_bullet_ids:
+      - "raw_b000397"
+      - "raw_b000588"
+      - "raw_b000601"
+      - "raw_b000612"
+      - "raw_b000623"
+      - "raw_b000636"
+      - "raw_b000649"
+      - "raw_b000664"
+      - "raw_b000676"
+      - "raw_b000703"
+      - "raw_b000717"
+      - "raw_b000730"
+      - "raw_b000742"
+      - "raw_b000755"
+      - "raw_b000768"
+      - "raw_b000781"
+      - "raw_b000794"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000397"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UX_Netflix"
+        source_project_zip:
+          "26 summer_UX_Netflix.zip"
+        source_project_id:
+          "project_033_26_summer_ux_netflix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000588"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_Sandisk"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_Sandisk.zip"
+        source_project_id:
+          "project_046_ziyuan_guo_consumer_sandisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000601"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000612"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000623"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000636"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Genentech"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Genentech.zip"
+        source_project_id:
+          "project_050_ziyuan_guo_hf_genentech"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000649"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Wisk"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Wisk.zip"
+        source_project_id:
+          "project_051_ziyuan_guo_hf_wisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000664"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          270
+      - raw_bullet_id: "raw_b000676"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000703"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+      - raw_bullet_id: "raw_b000717"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+      - raw_bullet_id: "raw_b000730"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000742"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_TensorWave"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_TensorWave.zip"
+        source_project_id:
+          "project_058_ziyuan_guo_uxr_tensorwave"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000755"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_Fortive"
+        source_project_zip:
+          "Ziyuan_Guo_UX_Fortive.zip"
+        source_project_id:
+          "project_059_ziyuan_guo_ux_fortive"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000768"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_JPMorgan"
+        source_project_zip:
+          "Ziyuan_Guo_UX_JPMorgan.zip"
+        source_project_id:
+          "project_060_ziyuan_guo_ux_jpmorgan"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+      - raw_bullet_id: "raw_b000781"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+      - raw_bullet_id: "raw_b000794"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_research_Gensler"
+        source_project_zip:
+          "Ziyuan_Guo_research_Gensler.zip"
+        source_project_id:
+          "project_062_ziyuan_guo_research_gensler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+  - pool_id: "ut_career_ai_systems_p038"
+    canonical_candidate_text_en:
+      "Designed and managed SharePoint-based AI agent system integrating Copilot and SharePoint, streamlining knowledge retrieval and metadata tagging across 200+ internal resources."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000409"
+      - "raw_b000887"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000409"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Wearables Intern"
+        source_project_zip:
+          "26 summer_Wearables Intern.zip"
+        source_project_id:
+          "project_034_26_summer_wearables_intern"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+      - raw_bullet_id: "raw_b000887"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PLM_Hyundai"
+        source_project_zip:
+          "ziyuan_guo_PLM_Hyundai.zip"
+        source_project_id:
+          "project_069_ziyuan_guo_plm_hyundai"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+  - pool_id: "ut_career_ai_systems_p039"
+    canonical_candidate_text_en:
+      "Conducted iterative testing and data validation to enhance agent accuracy (+18% improvement in query relevance), applying hypothesis-driven experimentation methods."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000410"
+      - "raw_b000888"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000410"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Wearables Intern"
+        source_project_zip:
+          "26 summer_Wearables Intern.zip"
+        source_project_id:
+          "project_034_26_summer_wearables_intern"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000888"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PLM_Hyundai"
+        source_project_zip:
+          "ziyuan_guo_PLM_Hyundai.zip"
+        source_project_id:
+          "project_069_ziyuan_guo_plm_hyundai"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+  - pool_id: "ut_career_ai_systems_p040"
+    canonical_candidate_text_en:
+      "Gathered requirements from 16 career service offices, synthesized recurring issues, and prioritized enhancements to redesign tagging & cross-site navigation."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000446"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000446"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
+  - pool_id: "ut_career_ai_systems_p041"
+    canonical_candidate_text_en:
+      "Built and structured an internal SharePoint knowledge platform from information architecture, metadata tagging, to page-level interface design, improving content discoverability across 16 career service offices."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000577"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000577"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          244
+  - pool_id: "ut_career_ai_systems_p042"
+    canonical_candidate_text_en:
+      "Led usability evaluation of the SharePoint + Copilot Agent knowledge base, testing navigation flows and analyzing adoption metrics to guide iterative improvements to site structure and feature rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000578"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000578"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          245
+  - pool_id: "ut_career_ai_systems_p043"
+    canonical_candidate_text_en:
+      "Partnered with 16 career service offices to conduct discovery interviews, synthesize requirements, and prioritize cross-site navigation and content enhancements."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000579"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000579"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          246
+  - pool_id: "ut_career_ai_systems_p044"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000689"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000689"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+  - pool_id: "ut_career_ai_systems_p045"
+    canonical_candidate_text_en:
+      "Developed visual interface and content architecture for 3 SharePoint-based knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000690"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000690"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
+  - pool_id: "ut_career_ai_systems_p046"
+    canonical_candidate_text_en:
+      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000806"
+      - "raw_b000821"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000806"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000821"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          247
+  - pool_id: "ut_career_ai_systems_p047"
+    canonical_candidate_text_en:
+      "Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000807"
+      - "raw_b000822"
+      - "raw_b000895"
+      - "raw_b000933"
+      - "raw_b000972"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000807"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          254
+      - raw_bullet_id: "raw_b000822"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          248
+      - raw_bullet_id: "raw_b000895"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000933"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000972"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+  - pool_id: "ut_career_ai_systems_p048"
+    canonical_candidate_text_en:
+      "Developed visual interface and content architecture for 3 SharePoint knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000808"
+      - "raw_b000823"
+      - "raw_b000896"
+      - "raw_b000934"
+      - "raw_b000973"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000808"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
+      - raw_bullet_id: "raw_b000823"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          249
+      - raw_bullet_id: "raw_b000896"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000934"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000973"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+  - pool_id: "ut_career_ai_systems_p049"
+    canonical_candidate_text_en:
+      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reduced new staff onboarding time by 50%."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000894"
+      - "raw_b000932"
+      - "raw_b000971"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000894"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+      - raw_bullet_id: "raw_b000932"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000971"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p050"
+    canonical_candidate_text_en:
+      "Improved resource discoverability and enabling automated updates through PowerAutomate."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000897"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000897"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+  - pool_id: "ut_career_ai_systems_p051"
+    canonical_candidate_text_en:
+      "Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through Power Automate."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000931"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000931"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p052"
+    canonical_candidate_text_en:
+      "Prototyped and benchmarked Copilot Studio AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000944"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000944"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+source_references:
+  - raw_bullet_id: "raw_b000001"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ Enterprise Systems_USTA"
+    source_project_zip:
+      "26 summer_ Enterprise Systems_USTA.zip"
+    source_project_id:
+      "project_001_26_summer_enterprise_systems_usta"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000002"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ Enterprise Systems_USTA"
+    source_project_zip:
+      "26 summer_ Enterprise Systems_USTA.zip"
+    source_project_id:
+      "project_001_26_summer_enterprise_systems_usta"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      238
+  - raw_bullet_id: "raw_b000003"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ Enterprise Systems_USTA"
+    source_project_zip:
+      "26 summer_ Enterprise Systems_USTA.zip"
+    source_project_id:
+      "project_001_26_summer_enterprise_systems_usta"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000023"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      319
+  - raw_bullet_id: "raw_b000024"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      323
+  - raw_bullet_id: "raw_b000025"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ US Open and Enterprise Systems"
+    source_project_zip:
+      "26 summer_ US Open and Enterprise Systems.zip"
+    source_project_id:
+      "project_002_26_summer_us_open_and_enterprise_systems"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      324
+  - raw_bullet_id: "raw_b000026"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      232
+  - raw_bullet_id: "raw_b000027"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      233
+  - raw_bullet_id: "raw_b000028"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      233
+  - raw_bullet_id: "raw_b000029"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Antora"
+    source_project_zip:
+      "26 summer_AI_Antora.zip"
+    source_project_id:
+      "project_003_26_summer_ai_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000040"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000041"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000042"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000043"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_KLA"
+    source_project_zip:
+      "26 summer_AI_KLA.zip"
+    source_project_id:
+      "project_004_26_summer_ai_kla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000054"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      235
+  - raw_bullet_id: "raw_b000055"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000056"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000057"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_SAP"
+    source_project_zip:
+      "26 summer_AI_SAP.zip"
+    source_project_id:
+      "project_005_26_summer_ai_sap"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000068"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      232
+  - raw_bullet_id: "raw_b000069"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      233
+  - raw_bullet_id: "raw_b000070"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      233
+  - raw_bullet_id: "raw_b000071"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_AI_Schneider"
+    source_project_zip:
+      "26 summer_AI_Schneider.zip"
+    source_project_id:
+      "project_006_26_summer_ai_schneider"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000082"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      235
+  - raw_bullet_id: "raw_b000083"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000084"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000085"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Analytics_Tesla"
+    source_project_zip:
+      "26 summer_Analytics_Tesla.zip"
+    source_project_id:
+      "project_007_26_summer_analytics_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000111"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_BA_Holland America Line"
+    source_project_zip:
+      "26 summer_BA_Holland America Line.zip"
+    source_project_id:
+      "project_009_26_summer_ba_holland_america_line"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000112"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_BA_Holland America Line"
+    source_project_zip:
+      "26 summer_BA_Holland America Line.zip"
+    source_project_id:
+      "project_009_26_summer_ba_holland_america_line"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      259
+  - raw_bullet_id: "raw_b000123"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_DELTA"
+    source_project_zip:
+      "26 summer_DELTA.zip"
+    source_project_id:
+      "project_010_26_summer_delta"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      259
+  - raw_bullet_id: "raw_b000124"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_DELTA"
+    source_project_zip:
+      "26 summer_DELTA.zip"
+    source_project_id:
+      "project_010_26_summer_delta"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      261
+  - raw_bullet_id: "raw_b000132"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_MLB"
+    source_project_zip:
+      "26 summer_Data_MLB.zip"
+    source_project_id:
+      "project_011_26_summer_data_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000133"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_MLB"
+    source_project_zip:
+      "26 summer_Data_MLB.zip"
+    source_project_id:
+      "project_011_26_summer_data_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000134"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_MLB"
+    source_project_zip:
+      "26 summer_Data_MLB.zip"
+    source_project_id:
+      "project_011_26_summer_data_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000135"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_MLB"
+    source_project_zip:
+      "26 summer_Data_MLB.zip"
+    source_project_id:
+      "project_011_26_summer_data_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000154"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      317
+  - raw_bullet_id: "raw_b000155"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      321
+  - raw_bullet_id: "raw_b000156"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_TROON"
+    source_project_zip:
+      "26 summer_Data_TROON.zip"
+    source_project_id:
+      "project_012_26_summer_data_troon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000167"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      317
+  - raw_bullet_id: "raw_b000168"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      321
+  - raw_bullet_id: "raw_b000169"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Data_USA Baseball"
+    source_project_zip:
+      "26 summer_Data_USA Baseball.zip"
+    source_project_id:
+      "project_013_26_summer_data_usa_baseball"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000179"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Garmin"
+    source_project_zip:
+      "26 summer_HF_Garmin.zip"
+    source_project_id:
+      "project_014_26_summer_hf_garmin"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      301
+  - raw_bullet_id: "raw_b000180"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Garmin"
+    source_project_zip:
+      "26 summer_HF_Garmin.zip"
+    source_project_id:
+      "project_014_26_summer_hf_garmin"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      304
+  - raw_bullet_id: "raw_b000190"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Gulfstream"
+    source_project_zip:
+      "26 summer_HF_Gulfstream.zip"
+    source_project_id:
+      "project_015_26_summer_hf_gulfstream"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      325
+  - raw_bullet_id: "raw_b000191"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Gulfstream"
+    source_project_zip:
+      "26 summer_HF_Gulfstream.zip"
+    source_project_id:
+      "project_015_26_summer_hf_gulfstream"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      326
+  - raw_bullet_id: "raw_b000201"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Masimo"
+    source_project_zip:
+      "26 summer_HF_Masimo.zip"
+    source_project_id:
+      "project_016_26_summer_hf_masimo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      301
+  - raw_bullet_id: "raw_b000202"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Masimo"
+    source_project_zip:
+      "26 summer_HF_Masimo.zip"
+    source_project_id:
+      "project_016_26_summer_hf_masimo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      304
+  - raw_bullet_id: "raw_b000214"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Nemera"
+    source_project_zip:
+      "26 summer_HF_Nemera.zip"
+    source_project_id:
+      "project_017_26_summer_hf_nemera"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      319
+  - raw_bullet_id: "raw_b000215"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_HF_Nemera"
+    source_project_zip:
+      "26 summer_HF_Nemera.zip"
+    source_project_id:
+      "project_017_26_summer_hf_nemera"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000216"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000217"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      238
+  - raw_bullet_id: "raw_b000218"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_IS_Gilead"
+    source_project_zip:
+      "26 summer_IS_Gilead.zip"
+    source_project_id:
+      "project_018_26_summer_is_gilead"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      241
+  - raw_bullet_id: "raw_b000229"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_711"
+    source_project_zip:
+      "26 summer_PM_711.zip"
+    source_project_id:
+      "project_019_26_summer_pm_711"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000230"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_711"
+    source_project_zip:
+      "26 summer_PM_711.zip"
+    source_project_id:
+      "project_019_26_summer_pm_711"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000239"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_KEEN"
+    source_project_zip:
+      "26 summer_PM_KEEN.zip"
+    source_project_id:
+      "project_020_26_summer_pm_keen"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000240"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_KEEN"
+    source_project_zip:
+      "26 summer_PM_KEEN.zip"
+    source_project_id:
+      "project_020_26_summer_pm_keen"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000241"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_KEEN"
+    source_project_zip:
+      "26 summer_PM_KEEN.zip"
+    source_project_id:
+      "project_020_26_summer_pm_keen"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000242"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_KEEN"
+    source_project_zip:
+      "26 summer_PM_KEEN.zip"
+    source_project_id:
+      "project_020_26_summer_pm_keen"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000255"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Lucid"
+    source_project_zip:
+      "26 summer_PM_Lucid.zip"
+    source_project_id:
+      "project_021_26_summer_pm_lucid"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000256"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Lucid"
+    source_project_zip:
+      "26 summer_PM_Lucid.zip"
+    source_project_id:
+      "project_021_26_summer_pm_lucid"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      259
+  - raw_bullet_id: "raw_b000261"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_MLB"
+    source_project_zip:
+      "26 summer_PM_MLB.zip"
+    source_project_id:
+      "project_022_26_summer_pm_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000262"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_MLB"
+    source_project_zip:
+      "26 summer_PM_MLB.zip"
+    source_project_id:
+      "project_022_26_summer_pm_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000263"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_MLB"
+    source_project_zip:
+      "26 summer_PM_MLB.zip"
+    source_project_id:
+      "project_022_26_summer_pm_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000264"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_MLB"
+    source_project_zip:
+      "26 summer_PM_MLB.zip"
+    source_project_id:
+      "project_022_26_summer_pm_mlb"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000273"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000274"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      238
+  - raw_bullet_id: "raw_b000275"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_Visa"
+    source_project_zip:
+      "26 summer_PM_Visa.zip"
+    source_project_id:
+      "project_023_26_summer_pm_visa"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      241
+  - raw_bullet_id: "raw_b000286"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_fieldpulse"
+    source_project_zip:
+      "26 summer_PM_fieldpulse.zip"
+    source_project_id:
+      "project_024_26_summer_pm_fieldpulse"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000287"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_PM_fieldpulse"
+    source_project_zip:
+      "26 summer_PM_fieldpulse.zip"
+    source_project_id:
+      "project_024_26_summer_pm_fieldpulse"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000299"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product design"
+    source_project_zip:
+      "26 summer_Product design.zip"
+    source_project_id:
+      "project_025_26_summer_product_design"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      263
+  - raw_bullet_id: "raw_b000300"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product design"
+    source_project_zip:
+      "26 summer_Product design.zip"
+    source_project_id:
+      "project_025_26_summer_product_design"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000311"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product design_Dicks"
+    source_project_zip:
+      "26 summer_Product design_Dicks.zip"
+    source_project_id:
+      "project_026_26_summer_product_design_dicks"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      263
+  - raw_bullet_id: "raw_b000312"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product design_Dicks"
+    source_project_zip:
+      "26 summer_Product design_Dicks.zip"
+    source_project_id:
+      "project_026_26_summer_product_design_dicks"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000320"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product_Cloudflare"
+    source_project_zip:
+      "26 summer_Product_Cloudflare.zip"
+    source_project_id:
+      "project_027_26_summer_product_cloudflare"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000321"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product_Cloudflare"
+    source_project_zip:
+      "26 summer_Product_Cloudflare.zip"
+    source_project_id:
+      "project_027_26_summer_product_cloudflare"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000322"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product_Cloudflare"
+    source_project_zip:
+      "26 summer_Product_Cloudflare.zip"
+    source_project_id:
+      "project_027_26_summer_product_cloudflare"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000323"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Product_Cloudflare"
+    source_project_zip:
+      "26 summer_Product_Cloudflare.zip"
+    source_project_id:
+      "project_027_26_summer_product_cloudflare"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000335"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR (v2）"
+    source_project_zip:
+      "26 summer_UXR (v2）.zip"
+    source_project_id:
+      "project_028_26_summer_uxr_v2"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      249
+  - raw_bullet_id: "raw_b000336"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR (v2）"
+    source_project_zip:
+      "26 summer_UXR (v2）.zip"
+    source_project_id:
+      "project_028_26_summer_uxr_v2"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000348"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_Organon"
+    source_project_zip:
+      "26 summer_UXR_Organon.zip"
+    source_project_id:
+      "project_029_26_summer_uxr_organon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000349"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_Organon"
+    source_project_zip:
+      "26 summer_UXR_Organon.zip"
+    source_project_id:
+      "project_029_26_summer_uxr_organon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000360"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_SIE"
+    source_project_zip:
+      "26 summer_UXR_SIE.zip"
+    source_project_id:
+      "project_030_26_summer_uxr_sie"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000361"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_SIE"
+    source_project_zip:
+      "26 summer_UXR_SIE.zip"
+    source_project_id:
+      "project_030_26_summer_uxr_sie"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000372"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_Xometry"
+    source_project_zip:
+      "26 summer_UXR_Xometry.zip"
+    source_project_id:
+      "project_031_26_summer_uxr_xometry"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000373"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_Xometry"
+    source_project_zip:
+      "26 summer_UXR_Xometry.zip"
+    source_project_id:
+      "project_031_26_summer_uxr_xometry"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000383"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_adobe"
+    source_project_zip:
+      "26 summer_UXR_adobe.zip"
+    source_project_id:
+      "project_032_26_summer_uxr_adobe"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000384"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UXR_adobe"
+    source_project_zip:
+      "26 summer_UXR_adobe.zip"
+    source_project_id:
+      "project_032_26_summer_uxr_adobe"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000396"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UX_Netflix"
+    source_project_zip:
+      "26 summer_UX_Netflix.zip"
+    source_project_id:
+      "project_033_26_summer_ux_netflix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000397"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_UX_Netflix"
+    source_project_zip:
+      "26 summer_UX_Netflix.zip"
+    source_project_id:
+      "project_033_26_summer_ux_netflix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000409"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Wearables Intern"
+    source_project_zip:
+      "26 summer_Wearables Intern.zip"
+    source_project_id:
+      "project_034_26_summer_wearables_intern"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000410"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_Wearables Intern"
+    source_project_zip:
+      "26 summer_Wearables Intern.zip"
+    source_project_id:
+      "project_034_26_summer_wearables_intern"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000418"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ds_notion"
+    source_project_zip:
+      "26 summer_ds_notion.zip"
+    source_project_id:
+      "project_035_26_summer_ds_notion"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000419"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ds_notion"
+    source_project_zip:
+      "26 summer_ds_notion.zip"
+    source_project_id:
+      "project_035_26_summer_ds_notion"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      259
+  - raw_bullet_id: "raw_b000420"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ds_notion"
+    source_project_zip:
+      "26 summer_ds_notion.zip"
+    source_project_id:
+      "project_035_26_summer_ds_notion"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      262
+  - raw_bullet_id: "raw_b000429"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      264
+  - raw_bullet_id: "raw_b000430"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000431"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000432"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_ergo_antora"
+    source_project_zip:
+      "26 summer_ergo_antora.zip"
+    source_project_id:
+      "project_036_26_summer_ergo_antora"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      268
+  - raw_bullet_id: "raw_b000445"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_tech PM (v1)"
+    source_project_zip:
+      "26 summer_tech PM (v1).zip"
+    source_project_id:
+      "project_037_26_summer_tech_pm_v1"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000446"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "26 summer_tech PM (v1)"
+    source_project_zip:
+      "26 summer_tech PM (v1).zip"
+    source_project_id:
+      "project_037_26_summer_tech_pm_v1"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000577"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_CSR & Social Impact_SONY"
+    source_project_zip:
+      "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+    source_project_id:
+      "project_045_ziyuan_guo_csr_social_impact_sony"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      244
+  - raw_bullet_id: "raw_b000578"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_CSR & Social Impact_SONY"
+    source_project_zip:
+      "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+    source_project_id:
+      "project_045_ziyuan_guo_csr_social_impact_sony"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      245
+  - raw_bullet_id: "raw_b000579"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_CSR & Social Impact_SONY"
+    source_project_zip:
+      "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+    source_project_id:
+      "project_045_ziyuan_guo_csr_social_impact_sony"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      246
+  - raw_bullet_id: "raw_b000587"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_Sandisk"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_Sandisk.zip"
+    source_project_id:
+      "project_046_ziyuan_guo_consumer_sandisk"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000588"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_Sandisk"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_Sandisk.zip"
+    source_project_id:
+      "project_046_ziyuan_guo_consumer_sandisk"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000600"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_iff.zip"
+    source_project_id:
+      "project_047_ziyuan_guo_consumer_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000601"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_iff.zip"
+    source_project_id:
+      "project_047_ziyuan_guo_consumer_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000611"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_project_id:
+      "project_048_ziyuan_guo_consumer_market_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000612"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Consumer_market_iff"
+    source_project_zip:
+      "Ziyuan_Guo_Consumer_market_iff.zip"
+    source_project_id:
+      "project_048_ziyuan_guo_consumer_market_iff"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000622"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000623"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000635"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_Genentech"
+    source_project_zip:
+      "Ziyuan_Guo_HF_Genentech.zip"
+    source_project_id:
+      "project_050_ziyuan_guo_hf_genentech"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000636"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_Genentech"
+    source_project_zip:
+      "Ziyuan_Guo_HF_Genentech.zip"
+    source_project_id:
+      "project_050_ziyuan_guo_hf_genentech"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000648"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_Wisk"
+    source_project_zip:
+      "Ziyuan_Guo_HF_Wisk.zip"
+    source_project_id:
+      "project_051_ziyuan_guo_hf_wisk"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000649"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_Wisk"
+    source_project_zip:
+      "Ziyuan_Guo_HF_Wisk.zip"
+    source_project_id:
+      "project_051_ziyuan_guo_hf_wisk"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000663"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_aperture"
+    source_project_zip:
+      "Ziyuan_Guo_HF_aperture.zip"
+    source_project_id:
+      "project_052_ziyuan_guo_hf_aperture"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      269
+  - raw_bullet_id: "raw_b000664"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_HF_aperture"
+    source_project_zip:
+      "Ziyuan_Guo_HF_aperture.zip"
+    source_project_id:
+      "project_052_ziyuan_guo_hf_aperture"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      270
+  - raw_bullet_id: "raw_b000675"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Market Strategy_PORSCHE"
+    source_project_zip:
+      "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+    source_project_id:
+      "project_053_ziyuan_guo_market_strategy_porsche"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000676"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Market Strategy_PORSCHE"
+    source_project_zip:
+      "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+    source_project_id:
+      "project_053_ziyuan_guo_market_strategy_porsche"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000689"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000690"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000691"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      252
+  - raw_bullet_id: "raw_b000692"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_PM_Tencent"
+    source_project_zip:
+      "Ziyuan_Guo_PM_Tencent.zip"
+    source_project_id:
+      "project_054_ziyuan_guo_pm_tencent"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000702"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000703"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_Bluebeam"
+    source_project_zip:
+      "Ziyuan_Guo_Product_Bluebeam.zip"
+    source_project_id:
+      "project_055_ziyuan_guo_product_bluebeam"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000716"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000717"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000729"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000730"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000741"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_TensorWave"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_TensorWave.zip"
+    source_project_id:
+      "project_058_ziyuan_guo_uxr_tensorwave"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000742"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_TensorWave"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_TensorWave.zip"
+    source_project_id:
+      "project_058_ziyuan_guo_uxr_tensorwave"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000754"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UX_Fortive"
+    source_project_zip:
+      "Ziyuan_Guo_UX_Fortive.zip"
+    source_project_id:
+      "project_059_ziyuan_guo_ux_fortive"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000755"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UX_Fortive"
+    source_project_zip:
+      "Ziyuan_Guo_UX_Fortive.zip"
+    source_project_id:
+      "project_059_ziyuan_guo_ux_fortive"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000767"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UX_JPMorgan"
+    source_project_zip:
+      "Ziyuan_Guo_UX_JPMorgan.zip"
+    source_project_id:
+      "project_060_ziyuan_guo_ux_jpmorgan"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000768"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UX_JPMorgan"
+    source_project_zip:
+      "Ziyuan_Guo_UX_JPMorgan.zip"
+    source_project_id:
+      "project_060_ziyuan_guo_ux_jpmorgan"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000780"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_market research_Signet"
+    source_project_zip:
+      "Ziyuan_Guo_market research_Signet.zip"
+    source_project_id:
+      "project_061_ziyuan_guo_market_research_signet"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000781"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_market research_Signet"
+    source_project_zip:
+      "Ziyuan_Guo_market research_Signet.zip"
+    source_project_id:
+      "project_061_ziyuan_guo_market_research_signet"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      256
+  - raw_bullet_id: "raw_b000793"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_research_Gensler"
+    source_project_zip:
+      "Ziyuan_Guo_research_Gensler.zip"
+    source_project_id:
+      "project_062_ziyuan_guo_research_gensler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      250
+  - raw_bullet_id: "raw_b000794"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_research_Gensler"
+    source_project_zip:
+      "Ziyuan_Guo_research_Gensler.zip"
+    source_project_id:
+      "project_062_ziyuan_guo_research_gensler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      251
+  - raw_bullet_id: "raw_b000806"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      253
+  - raw_bullet_id: "raw_b000807"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      254
+  - raw_bullet_id: "raw_b000808"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_robot_amazon"
+    source_project_zip:
+      "Ziyuan_Guo_robot_amazon.zip"
+    source_project_id:
+      "project_063_ziyuan_guo_robot_amazon"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000821"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_test_Bertec"
+    source_project_zip:
+      "Ziyuan_Guo_test_Bertec.zip"
+    source_project_id:
+      "project_064_ziyuan_guo_test_bertec"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      247
+  - raw_bullet_id: "raw_b000822"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_test_Bertec"
+    source_project_zip:
+      "Ziyuan_Guo_test_Bertec.zip"
+    source_project_id:
+      "project_064_ziyuan_guo_test_bertec"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      248
+  - raw_bullet_id: "raw_b000823"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_test_Bertec"
+    source_project_zip:
+      "Ziyuan_Guo_test_Bertec.zip"
+    source_project_id:
+      "project_064_ziyuan_guo_test_bertec"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      249
+  - raw_bullet_id: "raw_b000841"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      317
+  - raw_bullet_id: "raw_b000842"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      321
+  - raw_bullet_id: "raw_b000843"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Roku"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Roku.zip"
+    source_project_id:
+      "project_065_ziyuan_guo_analyst_roku"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000854"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      317
+  - raw_bullet_id: "raw_b000855"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      321
+  - raw_bullet_id: "raw_b000856"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Analyst_Tesla"
+    source_project_zip:
+      "ziyuan_guo_Analyst_Tesla.zip"
+    source_project_id:
+      "project_066_ziyuan_guo_analyst_tesla"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000867"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      317
+  - raw_bullet_id: "raw_b000868"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      321
+  - raw_bullet_id: "raw_b000869"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data Analyst_ALO"
+    source_project_zip:
+      "ziyuan_guo_Data Analyst_ALO.zip"
+    source_project_id:
+      "project_067_ziyuan_guo_data_analyst_alo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      322
+  - raw_bullet_id: "raw_b000874"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      261
+  - raw_bullet_id: "raw_b000875"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000876"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Data_cocacola"
+    source_project_zip:
+      "ziyuan_guo_Data_cocacola.zip"
+    source_project_id:
+      "project_068_ziyuan_guo_data_cocacola"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      266
+  - raw_bullet_id: "raw_b000887"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PLM_Hyundai"
+    source_project_zip:
+      "ziyuan_guo_PLM_Hyundai.zip"
+    source_project_id:
+      "project_069_ziyuan_guo_plm_hyundai"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      255
+  - raw_bullet_id: "raw_b000888"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PLM_Hyundai"
+    source_project_zip:
+      "ziyuan_guo_PLM_Hyundai.zip"
+    source_project_id:
+      "project_069_ziyuan_guo_plm_hyundai"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      257
+  - raw_bullet_id: "raw_b000894"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000895"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      235
+  - raw_bullet_id: "raw_b000896"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000897"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000907"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM_waabi"
+    source_project_zip:
+      "ziyuan_guo_PM_waabi.zip"
+    source_project_id:
+      "project_071_ziyuan_guo_pm_waabi"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000908"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM_waabi"
+    source_project_zip:
+      "ziyuan_guo_PM_waabi.zip"
+    source_project_id:
+      "project_071_ziyuan_guo_pm_waabi"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000909"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM_waabi"
+    source_project_zip:
+      "ziyuan_guo_PM_waabi.zip"
+    source_project_id:
+      "project_071_ziyuan_guo_pm_waabi"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000910"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM_waabi"
+    source_project_zip:
+      "ziyuan_guo_PM_waabi.zip"
+    source_project_id:
+      "project_071_ziyuan_guo_pm_waabi"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000919"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000920"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000921"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000922"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_Product ops_zscaler"
+    source_project_zip:
+      "ziyuan_guo_Product ops_zscaler.zip"
+    source_project_id:
+      "project_072_ziyuan_guo_product_ops_zscaler"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000931"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000932"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      235
+  - raw_bullet_id: "raw_b000933"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000934"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_QA_volvo"
+    source_project_zip:
+      "ziyuan_guo_QA_volvo.zip"
+    source_project_id:
+      "project_073_ziyuan_guo_qa_volvo"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000944"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000945"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000946"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000947"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_data_RTI"
+    source_project_zip:
+      "ziyuan_guo_data_RTI.zip"
+    source_project_id:
+      "project_074_ziyuan_guo_data_rti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000958"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000959"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      237
+  - raw_bullet_id: "raw_b000960"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      239
+  - raw_bullet_id: "raw_b000961"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_TI"
+    source_project_zip:
+      "ziyuan_guo_ops_TI.zip"
+    source_project_id:
+      "project_075_ziyuan_guo_ops_ti"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      240
+  - raw_bullet_id: "raw_b000971"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      234
+  - raw_bullet_id: "raw_b000972"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      235
+  - raw_bullet_id: "raw_b000973"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_ops_sono bello"
+    source_project_zip:
+      "ziyuan_guo_ops_sono bello.zip"
+    source_project_id:
+      "project_076_ziyuan_guo_ops_sono_bello"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      236
+  - raw_bullet_id: "raw_b000987"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_product_Razer"
+    source_project_zip:
+      "ziyuan_guo_product_Razer.zip"
+    source_project_id:
+      "project_077_ziyuan_guo_product_razer"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      260
+  - raw_bullet_id: "raw_b000988"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_product_Razer"
+    source_project_zip:
+      "ziyuan_guo_product_Razer.zip"
+    source_project_id:
+      "project_077_ziyuan_guo_product_razer"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      263
+  - raw_bullet_id: "raw_b000989"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_product_Razer"
+    source_project_zip:
+      "ziyuan_guo_product_Razer.zip"
+    source_project_id:
+      "project_077_ziyuan_guo_product_razer"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      265
+  - raw_bullet_id: "raw_b000990"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_product_Razer"
+    source_project_zip:
+      "ziyuan_guo_product_Razer.zip"
+    source_project_id:
+      "project_077_ziyuan_guo_product_razer"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      266

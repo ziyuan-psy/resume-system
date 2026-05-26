@@ -1,0 +1,493 @@
+experience_id: "thrive_health_product_management"
+status: "needs_review"
+canonical:
+  title_en: "THRIVE | Health Software Product Management & Prototyping"
+  organization_en: "Course Project"
+  location: ""
+  date: "Jan. 2026 - Apr. 2026"
+  experience_type: "project"
+title_variants:
+  - "THRIVE | Health Software Product Management & Prototyping"
+display_section_rules:
+  default_section: "project_experience"
+  allowed_sections:
+    - "project_experience"
+    - "research_experience"
+role_fit:
+  []
+tools:
+  - "Figma"
+skills:
+  []
+keywords:
+  []
+candidate_bullet_pools:
+  - pool_id: "thrive_health_product_management_p001"
+    canonical_candidate_text_en:
+      "Led product definition for THRIVE, a digital chronic-care platform, by defining the problem space, target users, MVP scope, and core feature roadmap across exercise guidance, symptom check-ins, and progress tracking."
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000627"
+      - "raw_b000718"
+      - "raw_b000731"
+      - "raw_b000901"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000627"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000718"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000731"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          273
+      - raw_bullet_id: "raw_b000901"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          285
+  - pool_id: "thrive_health_product_management_p002"
+    canonical_candidate_text_en:
+      "Translated clinical guidelines into structured product requirements and Figma wireframes/prototypes for core flows such as onboarding, dashboard, check-in, exercise, nutrition, and profile."
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000628"
+      - "raw_b000719"
+      - "raw_b000732"
+      - "raw_b000902"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000628"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000719"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+      - raw_bullet_id: "raw_b000732"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          274
+      - raw_bullet_id: "raw_b000902"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          286
+  - pool_id: "thrive_health_product_management_p003"
+    canonical_candidate_text_en:
+      "Authored a design document covering typography, color palette, iconography, and navigation standards to support consistent product communication and usability discussions throughout the design process."
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000629"
+      - "raw_b000720"
+      - "raw_b000733"
+      - "raw_b000903"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000629"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          298
+      - raw_bullet_id: "raw_b000720"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
+      - raw_bullet_id: "raw_b000733"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000903"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+  - pool_id: "thrive_health_product_management_p004"
+    canonical_candidate_text_en:
+      "Iterated from low-fidelity prototype to beta by synthesizing usability feedback and refining key flows, including symptom input, global navigation, and the unified My Progress experience."
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000630"
+      - "raw_b000721"
+      - "raw_b000734"
+      - "raw_b000904"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000630"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          299
+      - raw_bullet_id: "raw_b000721"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000734"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000904"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          288
+source_references:
+  - raw_bullet_id: "raw_b000627"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      296
+  - raw_bullet_id: "raw_b000628"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      297
+  - raw_bullet_id: "raw_b000629"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      298
+  - raw_bullet_id: "raw_b000630"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Digital Ops_Richemont"
+    source_project_zip:
+      "Ziyuan_Guo_Digital Ops_Richemont.zip"
+    source_project_id:
+      "project_049_ziyuan_guo_digital_ops_richemont"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      299
+  - raw_bullet_id: "raw_b000718"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      278
+  - raw_bullet_id: "raw_b000719"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      279
+  - raw_bullet_id: "raw_b000720"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      280
+  - raw_bullet_id: "raw_b000721"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_Product_TheInclab"
+    source_project_zip:
+      "Ziyuan_Guo_Product_TheInclab.zip"
+    source_project_id:
+      "project_056_ziyuan_guo_product_theinclab"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      281
+  - raw_bullet_id: "raw_b000731"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      273
+  - raw_bullet_id: "raw_b000732"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      274
+  - raw_bullet_id: "raw_b000733"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      275
+  - raw_bullet_id: "raw_b000734"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "Ziyuan_Guo_UXR_Equinix"
+    source_project_zip:
+      "Ziyuan_Guo_UXR_Equinix.zip"
+    source_project_id:
+      "project_057_ziyuan_guo_uxr_equinix"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      276
+  - raw_bullet_id: "raw_b000901"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      285
+  - raw_bullet_id: "raw_b000902"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      286
+  - raw_bullet_id: "raw_b000903"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      287
+  - raw_bullet_id: "raw_b000904"
+    original_zip_name:
+      "Overleaf Projects (77 items).zip"
+    source_project:
+      "ziyuan_guo_PM _AMETEK"
+    source_project_zip:
+      "ziyuan_guo_PM _AMETEK.zip"
+    source_project_id:
+      "project_070_ziyuan_guo_pm_ametek"
+    source_tex_file:
+      "main.tex"
+    source_line_number:
+      288

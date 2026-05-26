@@ -1,0 +1,71 @@
+experience_id: "project_experience_sports_performance_dashboard_tennis_analytics_course_project_"
+status: archived
+exclude_from_generation: true
+archive_reason: "Superseded by Phase 1.5 canonical experience files."
+section_type: "PROJECT EXPERIENCE"
+title_en: "Sports Performance Dashboard – Tennis Analytics"
+organization_en: "Course Project"
+location: ""
+date: "Aug. 2025 - Nov. 2025"
+role_fit: []
+tools: ["Tableau"]
+source_references:
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_PM _AMETEK"
+    source_project_zip: "ziyuan_guo_PM _AMETEK.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "303"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_PM _AMETEK"
+    source_project_zip: "ziyuan_guo_PM _AMETEK.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "305"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_data_RTI"
+    source_project_zip: "ziyuan_guo_data_RTI.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "305"
+  - original_zip_name: "Overleaf Projects (77 items).zip"
+    source_project: "ziyuan_guo_data_RTI"
+    source_project_zip: "ziyuan_guo_data_RTI.zip"
+    source_tex_file: "main.tex"
+    source_line_number: "307"
+bullets:
+  - bullet_id: "project_experience_sports_performance_dashboard_tennis_analytics_course_project__b001"
+    status: needs_review
+    text_en: "Analyzed 10k+ rally-level shots and built a multi-view Tableau dashboard revealing serve-return patterns, key-point pressure behavior, and mid-rally performance drop-offs, delivering actionable narratives."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_PM _AMETEK"
+        source_project_zip: "ziyuan_guo_PM _AMETEK.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "303"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_data_RTI"
+        source_project_zip: "ziyuan_guo_data_RTI.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "305"
+  - bullet_id: "project_experience_sports_performance_dashboard_tennis_analytics_course_project__b002"
+    status: needs_review
+    text_en: "Applied visual hierarchy and UX storytelling principles to design interpretable, interactive dashboards supporting coaching and strategy insights."
+    text_zh: ""
+    tags:
+      role: []
+      skills: []
+      keywords: []
+    source_references:
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_PM _AMETEK"
+        source_project_zip: "ziyuan_guo_PM _AMETEK.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "305"
+      - original_zip_name: "Overleaf Projects (77 items).zip"
+        source_project: "ziyuan_guo_data_RTI"
+        source_project_zip: "ziyuan_guo_data_RTI.zip"
+        source_tex_file: "main.tex"
+        source_line_number: "307"
