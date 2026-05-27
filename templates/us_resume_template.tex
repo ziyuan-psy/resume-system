@@ -1,0 +1,263 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Page and layout packages
+\usepackage[
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={[Full Name] Resume},
+    pdfauthor={[Full Name]},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+\usepackage{etoolbox}
+
+% Ensure the generated PDF is machine-readable and ATS-friendly.
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Global formatting
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0 cm + 0.00001 cm}{0 cm + 0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    % RESUME_HEADER_START
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont [Full Name]
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{\hrefWithoutArrow{mailto:placeholder@example.com}{placeholder@example.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://example.com}{example.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{[Location]}%
+    \end{header}
+    % RESUME_HEADER_END
+
+    \vspace{5 pt - 0.3 cm}
+
+    % EDUCATION_START
+    \section{Education}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Institution A]}, [Degree or Program] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \textbf{Relevant Coursework:} [Course 1], [Course 2], [Course 3]
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Institution B]}, [Degree or Program] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \textbf{Relevant Coursework:} [Course 1], [Course 2], [Course 3]
+    \end{onecolentry}
+    % EDUCATION_END
+
+    % PROFESSIONAL_EXPERIENCE_START
+    \section{Professional Experience}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Role Title A]}, [Organization] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Bullet placeholder.
+            \item Bullet placeholder.
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Role Title B]}, [Organization] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Bullet placeholder.
+            \item Bullet placeholder.
+        \end{highlights}
+    \end{onecolentry}
+
+    % PROFESSIONAL_EXPERIENCE_END
+
+    % SELECTED_EXPERIENCE_SECTION_START
+    % Generator note: choose either Project Experience or Research Experience for this section based on the target role.
+    \section{[Project Experience or Research Experience]}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Project or Research Title A]}, [Organization or Context] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Bullet placeholder.
+            \item Bullet placeholder.
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{[Date Range]}
+        \textbf{[Project or Research Title B]}, [Organization or Context] -- [Location]
+    \end{twocolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Bullet placeholder.
+            \item Bullet placeholder.
+        \end{highlights}
+    \end{onecolentry}   
+
+    % SELECTED_EXPERIENCE_SECTION_END
+
+    % SKILLS_START
+    \section{Skills}
+
+    \begin{onecolentry}
+        \textbf{[Skill Category]:} [Skill 1], [Skill 2], [Skill 3]
+    \end{onecolentry}
+
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \textbf{[Skill Category]:} [Skill 1], [Skill 2], [Skill 3]
+    \end{onecolentry}
+    % SKILLS_END
+
+    % Optional section: Awards
+    % \section{Awards}
+    % \begin{onecolentry}
+    %     \textbf{[Award Name]} -- [Awarding Organization], [Date]
+    % \end{onecolentry}
+
+    % Optional section: Certifications
+    % \section{Certifications}
+    % \begin{onecolentry}
+    %     \textbf{[Certification Name]} -- [Issuing Organization], [Date]
+    % \end{onecolentry}
+\end{document}
