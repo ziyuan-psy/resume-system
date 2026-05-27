@@ -1,13 +1,15 @@
 # Resume Library Index
 
-Generated: 2026-05-26T22:17:04
+Generated: 2026-05-27T13:45:42
 
-This index summarizes the Phase 1.5 active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, and `content/experiences/canonical/en/*.yaml`.
+This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, and `content/experiences/canonical/en/*.yaml`.
 
 ## Active Library Summary
 
 - Education entries: 3
 - Coursework entries: 11
+- Active skills: 96
+- Skill categories: 7
 - Canonical experiences: 11
 - Candidate bullet pools: 194
 - Archive content is excluded from default resume generation.
@@ -160,6 +162,633 @@ This index summarizes the Phase 1.5 active canonical library. It is generated fr
 - Source references: 2
 - Variants:
   - Anatomy and Physiology
+
+## Skills
+
+### AI & Knowledge Platforms
+
+- Category ID: `ai_knowledge_platforms`
+- Skills: 11
+- Category aliases: AI & Automation, AI & Knowledge Platforms, AI Tools, AI-Assisted Tools, Data & AI Systems
+
+- **AI Agent** (`ai_agent`)
+  - Status: needs_review
+  - Aliases: AI Agents
+  - Category variants: 7
+  - Raw skill rows: 36
+  - Source references: 36
+- **API integration** (`api_integration`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 7
+  - Source references: 7
+- **ChatGPT** (`chatgpt`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Copilot** (`copilot`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Copilot Studio** (`copilot_studio`)
+  - Status: needs_review
+  - Aliases: Copilot Studio (chatbot prototyping)
+  - Category variants: 6
+  - Raw skill rows: 30
+  - Source references: 30
+- **Gemini** (`gemini`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **LangChain components (retrievers, loaders, prompt templates)** (`langchain_components`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 8
+  - Source references: 8
+- **LLM APIs** (`llm_apis`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **LLM prompting** (`llm_prompting`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 8
+  - Source references: 8
+- **Power Automate** (`power_automate`)
+  - Status: needs_review
+  - Aliases: Power Automation, PowerAutomate (workflow design)
+  - Category variants: 5
+  - Raw skill rows: 30
+  - Source references: 30
+- **RAG pipelines** (`rag_pipelines`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 8
+  - Source references: 8
+
+### Collaboration & Communication
+
+- Category ID: `collaboration_communication`
+- Skills: 5
+- Category aliases: Collaboration & Communication
+
+- **Confluence** (`confluence`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 7
+  - Source references: 7
+- **Cross-functional collaboration** (`cross_functional_collaboration`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 7
+  - Source references: 7
+- **Insight storytelling** (`insight_storytelling`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 17
+  - Source references: 17
+- **Miro** (`miro`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Stakeholder presentations** (`stakeholder_presentations`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 17
+  - Source references: 17
+
+### Data & Analytics
+
+- Category ID: `data_analytics`
+- Skills: 19
+- Category aliases: Data & Analytics, Data & Insights, Data Analysis, Data & Reporting, Data Management& Analytics, Data Visualization & Reporting, Languages, Statistical Software
+
+- **A/B testing** (`a_b_testing`)
+  - Status: needs_review
+  - Aliases: A/B Testing
+  - Category variants: 2
+  - Raw skill rows: 3
+  - Source references: 3
+- **AMOS** (`amos`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Copilot Studio Agent** (`copilot_studio_agent`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 4
+  - Source references: 4
+- **Dashboard Design** (`dashboard_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Data cleaning** (`data_cleaning`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **data transformation** (`data_transformation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **data validation** (`data_validation`)
+  - Status: needs_review
+  - Aliases: Data Validation
+  - Category variants: 2
+  - Raw skill rows: 2
+  - Source references: 2
+- **Data Visualization** (`data_visualization`)
+  - Status: needs_review
+  - Aliases: Data visualization
+  - Category variants: 2
+  - Raw skill rows: 10
+  - Source references: 10
+- **Data Wrangling** (`data_wrangling`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Excel** (`excel`)
+  - Status: needs_review
+  - Aliases: Excel(Pivot Tables)
+  - Category variants: 2
+  - Raw skill rows: 5
+  - Source references: 5
+- **MATLAB** (`matlab`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 3
+  - Raw skill rows: 6
+  - Source references: 6
+- **Power Apps** (`power_apps`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Power BI** (`power_bi`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 4
+  - Raw skill rows: 45
+  - Source references: 45
+- **Python** (`python`)
+  - Status: needs_review
+  - Aliases: Python(cleaning raw data, reshaping datasets), Python(cleaning, exploring, and modeling datasets), Python(libraries: Pytorch, Keras; Pymc3, Arviz; Matplotlib, Seaborn)
+  - Category variants: 7
+  - Raw skill rows: 71
+  - Source references: 71
+- **Quantitative & Qualitative analysis** (`quantitative_and_qualitative_analysis`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **R** (`r`)
+  - Status: needs_review
+  - Aliases: R(Visualization)
+  - Category variants: 7
+  - Raw skill rows: 71
+  - Source references: 71
+- **SPSS** (`spss`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 2
+  - Raw skill rows: 3
+  - Source references: 3
+- **SQL** (`sql`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 6
+  - Raw skill rows: 65
+  - Source references: 65
+- **Tableau** (`tableau`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 5
+  - Raw skill rows: 64
+  - Source references: 64
+
+### Design & Simulation Tools
+
+- Category ID: `design_simulation_tools`
+- Skills: 11
+- Category aliases: Design & Simulation, Lab & Technical Tools, Technical Tools
+
+- **Blender** (`blender`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 3
+  - Raw skill rows: 11
+  - Source references: 11
+- **EEG/GSR/ECG** (`eeg_gsr_ecg`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Eye-tracking** (`eye_tracking`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **iMotion; Axure** (`imotion_axure`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 5
+  - Source references: 5
+- **iMotions** (`imotions`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 3
+  - Raw skill rows: 5
+  - Source references: 5
+- **iMotions; Axure** (`imotions_axure`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **iMotions; Axure; Unreal Engine** (`imotions_axure_unreal_engine`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Psychopy** (`psychopy`)
+  - Status: needs_review
+  - Aliases: PsychoPy
+  - Category variants: 4
+  - Raw skill rows: 12
+  - Source references: 12
+- **UE5** (`ue5`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Visio; Unreal Engine** (`visio_unreal_engine`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 6
+  - Source references: 6
+- **Vizard** (`vizard`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 3
+  - Source references: 3
+
+### Enterprise & Productivity Tools
+
+- Category ID: `enterprise_productivity_tools`
+- Skills: 14
+- Category aliases: Collaboration & Documentation, Collaboration & Productivity Tools, Enterprise & Automation Tools, Enterprise & Productivity Tools, Knowledge Management & Collaboration, Knowledge Management & Productivity, Productivity Tools, Reporting & Documentation
+
+- **configuration documentation** (`configuration_documentation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Google Drive** (`google_drive`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 6
+  - Source references: 6
+- **Google Workspace** (`google_workspace`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **JIRA** (`jira`)
+  - Status: needs_review
+  - Aliases: Jira
+  - Category variants: 2
+  - Raw skill rows: 18
+  - Source references: 18
+- **Microsoft Excel (VLOOKUPs, Pivot Tables)** (`microsoft_excel`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Microsoft Office Suite (Outlook, Excel, Word, PowerPoint, OneNote)** (`microsoft_office_suite`)
+  - Status: needs_review
+  - Aliases: Microsoft Office Suite, Microsoft Office Suite (Excel, OneNote, Outlook, Word, PowerPoint), Microsoft Office Suite (Excel, Outlook, Word, PowerPoint), Microsoft Office Suite (Excel, Word, PowerPoint, OneNote), Microsoft Office Suite (Outlook, Excel, Word, PowerPoint), Microsoft Office Suite(Excel and PowerPoint)
+  - Category variants: 5
+  - Raw skill rows: 42
+  - Source references: 42
+- **Notion** (`notion`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 8
+  - Raw skill rows: 44
+  - Source references: 44
+- **OneDrive** (`onedrive`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **PowerPoint** (`powerpoint`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 2
+  - Raw skill rows: 2
+  - Source references: 2
+- **SharePoint** (`sharepoint`)
+  - Status: needs_review
+  - Aliases: SharePoint (IA), SharePoint (IA, metadata design), Sharepoint
+  - Category variants: 11
+  - Raw skill rows: 42
+  - Source references: 42
+- **SOP Documentation** (`sop_documentation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Tableau dashboards** (`tableau_dashboards`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Technical Reporting** (`technical_reporting`)
+  - Status: needs_review
+  - Aliases: technical reporting
+  - Category variants: 2
+  - Raw skill rows: 3
+  - Source references: 3
+- **testing scripts** (`testing_scripts`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+
+### Product & UX Research
+
+- Category ID: `product_ux_research`
+- Skills: 16
+- Category aliases: Design & Research, Product & Collaboration, Product & UX, Product Testing & Benchmarking, Research & Customer Insight, User Research
+
+- **Competitor Product Benchmarking** (`competitor_product_benchmarking`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Controlled Experiment Design** (`controlled_experiment_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Cross-device usability principles(iOS, Android, HTML5)** (`cross_device_usability_principles`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Figma** (`figma`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 3
+  - Raw skill rows: 10
+  - Source references: 10
+- **Insight Reporting** (`insight_reporting`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Interaction Design** (`interaction_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 3
+  - Source references: 3
+- **Journey Mapping** (`journey_mapping`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 2
+  - Raw skill rows: 7
+  - Source references: 7
+- **Product Roadmaps** (`product_roadmaps`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 3
+  - Source references: 3
+- **Sensory Evaluation** (`sensory_evaluation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Storyboarding** (`storyboarding`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 6
+  - Source references: 6
+- **Stress-Simulation Testing** (`stress_simulation_testing`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Test Protocol Design** (`test_protocol_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **UI/UX Evaluation** (`ui_ux_evaluation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 3
+  - Source references: 3
+- **Unreal Engine 5** (`unreal_engine_5`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Usability Testing** (`usability_testing`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 3
+  - Raw skill rows: 10
+  - Source references: 10
+- **User-Centered Design** (`user_centered_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+
+### Research Methods
+
+- Category ID: `research_methods`
+- Skills: 20
+- Category aliases: Qualitative Methods, Quantitative Methods, Research Methods, Test & Research Methods
+
+- **CLTs** (`clts`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Concept evaluations** (`concept_evaluations`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 15
+  - Source references: 15
+- **Conjoint** (`conjoint`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Contextual inquiry** (`contextual_inquiry`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 17
+  - Source references: 17
+- **Data Collection** (`data_collection`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Experimental Design** (`experimental_design`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Experiments** (`experiments`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 17
+  - Source references: 17
+- **Focus groups** (`focus_groups`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Heuristic evaluation** (`heuristic_evaluation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Human Factors Evaluation** (`human_factors_evaluation`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **HUTs** (`huts`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
+- **Implicit Measures** (`implicit_measures`)
+  - Status: needs_review
+  - Aliases: Implicit Measures(igonogo)
+  - Category variants: 1
+  - Raw skill rows: 17
+  - Source references: 17
+- **Interview** (`interview`)
+  - Status: needs_review
+  - Aliases: Interviewing
+  - Category variants: 4
+  - Raw skill rows: 25
+  - Source references: 25
+- **Mood boards** (`mood_boards`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 6
+  - Source references: 6
+- **Qualtrics** (`qualtrics`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 2
+  - Raw skill rows: 15
+  - Source references: 15
+- **Statistical hypothesis testing** (`statistical_hypothesis_testing`)
+  - Status: needs_review
+  - Aliases: Statistical Hypothesis Testing
+  - Category variants: 2
+  - Raw skill rows: 19
+  - Source references: 19
+- **Survey Design** (`survey_design`)
+  - Status: needs_review
+  - Aliases: Survey Design(U&A)
+  - Category variants: 5
+  - Raw skill rows: 27
+  - Source references: 27
+- **Test Protocol Development** (`test_protocol_development`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 2
+  - Source references: 2
+- **Usability studies** (`usability_studies`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 16
+  - Source references: 16
+- **UserTesting** (`usertesting`)
+  - Status: needs_review
+  - Aliases: None
+  - Category variants: 1
+  - Raw skill rows: 1
+  - Source references: 1
 
 ## Canonical Experiences
 

@@ -641,3 +641,7 @@ After that, open the `resume-system` folder in Codex/VS Code and run the first C
 ## Project Decisions
 
 For long-term architecture and workflow decisions, see `DECISIONS.md`. `DECISIONS.md` is not a changelog and should only be updated when project-level rules change.
+
+## Active Profile Layers
+
+Profile-level content is managed separately from canonical experiences. Education, coursework, and skills live under `content/profile/`; skill categories live under `content/taxonomy/skill_categories.yaml`. Historical Interests entries are excluded from the active skills library and default resume generation.

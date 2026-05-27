@@ -11,6 +11,8 @@ LIBRARY_INDEX_PATH = ROOT / "library_index.md"
 PROFILE_DIR = ROOT / "content" / "profile"
 EDUCATION_PATH = PROFILE_DIR / "education.yaml"
 COURSEWORK_PATH = PROFILE_DIR / "coursework.yaml"
+SKILLS_PATH = PROFILE_DIR / "skills.yaml"
+SKILL_CATEGORIES_PATH = ROOT / "content" / "taxonomy" / "skill_categories.yaml"
 CANONICAL_EN_DIR = ROOT / "content" / "experiences" / "canonical" / "en"
 ARCHIVE_DIR = ROOT / "content" / "archive"
 
@@ -147,6 +149,77 @@ def parse_coursework() -> list[dict[str, object]]:
     return entries
 
 
+def parse_category_variants(segment: list[str]) -> list[dict[str, object]]:
+    start = -1
+    base_indent = 0
+    for index, line in enumerate(segment):
+        match = re.match(r"^(\s*)category_variants:\s*$", line)
+        if match:
+            start = index + 1
+            base_indent = len(match.group(1))
+            break
+    if start == -1:
+        return []
+    end = len(segment)
+    for index in range(start, len(segment)):
+        line = segment[index]
+        if line.strip() and len(line) - len(line.lstrip(" ")) <= base_indent:
+            end = index
+            break
+    block = segment[start:end]
+    variants = []
+    for variant_start, variant_end in parse_entry_segments(block, "raw_category"):
+        variant = block[variant_start:variant_end]
+        variants.append(
+            {
+                "raw_category": find_value(variant, "raw_category"),
+                "canonical_category": find_value(variant, "canonical_category"),
+                "count": int(find_value(variant, "count") or 0),
+            }
+        )
+    return variants
+
+
+def parse_skills() -> list[dict[str, object]]:
+    if not SKILLS_PATH.exists():
+        return []
+    lines = SKILLS_PATH.read_text(encoding="utf-8").splitlines()
+    entries = []
+    for start, end in parse_entry_segments(lines, "skill_id"):
+        segment = lines[start:end]
+        raw_skill_ids = parse_nested_list(segment, "raw_skill_ids")
+        entries.append(
+            {
+                "skill_id": find_value(segment, "skill_id"),
+                "display_name": find_value(segment, "display_name"),
+                "aliases": parse_nested_list(segment, "aliases"),
+                "default_category": find_value(segment, "default_category"),
+                "category_variants": parse_category_variants(segment),
+                "status": find_value(segment, "status"),
+                "raw_skill_count": len(raw_skill_ids),
+                "source_reference_count": sum(1 for line in segment if "source_project:" in line),
+            }
+        )
+    return entries
+
+
+def parse_skill_categories() -> dict[str, dict[str, object]]:
+    if not SKILL_CATEGORIES_PATH.exists():
+        return {}
+    lines = SKILL_CATEGORIES_PATH.read_text(encoding="utf-8").splitlines()
+    categories = {}
+    for start, end in parse_entry_segments(lines, "category_id"):
+        segment = lines[start:end]
+        category_id = find_value(segment, "category_id")
+        categories[category_id] = {
+            "category_id": category_id,
+            "display_name": find_value(segment, "display_name"),
+            "aliases": parse_nested_list(segment, "aliases"),
+            "status": find_value(segment, "status"),
+        }
+    return categories
+
+
 def parse_candidate_pools(lines: list[str]) -> list[dict[str, object]]:
     start, end = find_block(lines, "candidate_bullet_pools")
     if start == -1:
@@ -219,17 +292,21 @@ def write_list(handle, values: list[str]) -> None:
 def main() -> int:
     education = parse_education()
     coursework = parse_coursework()
+    skills = parse_skills()
+    skill_categories = parse_skill_categories()
     experiences = parse_canonical_experiences()
     candidate_pool_count = sum(len(exp["candidate_bullet_pools"]) for exp in experiences)
 
     with LIBRARY_INDEX_PATH.open("w", encoding="utf-8") as handle:
         handle.write("# Resume Library Index\n\n")
         handle.write(f"Generated: {datetime.now().isoformat(timespec='seconds')}\n\n")
-        handle.write("This index summarizes the Phase 1.5 active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, and `content/experiences/canonical/en/*.yaml`.\n\n")
+        handle.write("This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, and `content/experiences/canonical/en/*.yaml`.\n\n")
 
         handle.write("## Active Library Summary\n\n")
         handle.write(f"- Education entries: {len(education)}\n")
         handle.write(f"- Coursework entries: {len(coursework)}\n")
+        handle.write(f"- Active skills: {len(skills)}\n")
+        handle.write(f"- Skill categories: {len(skill_categories)}\n")
         handle.write(f"- Canonical experiences: {len(experiences)}\n")
         handle.write(f"- Candidate bullet pools: {candidate_pool_count}\n")
         handle.write("- Archive content is excluded from default resume generation.\n\n")
@@ -255,6 +332,33 @@ def main() -> int:
             handle.write("- Variants:\n")
             write_list(handle, item["variants"])
             handle.write("\n")
+
+        handle.write("## Skills\n\n")
+        if skills:
+            skills_by_category: dict[str, list[dict[str, object]]] = {}
+            for skill in skills:
+                skills_by_category.setdefault(skill["default_category"], []).append(skill)
+            for category_id, category_skills in sorted(
+                skills_by_category.items(),
+                key=lambda item: skill_categories.get(item[0], {}).get("display_name", item[0]),
+            ):
+                category = skill_categories.get(category_id, {})
+                category_name = category.get("display_name", category_id)
+                handle.write(f"### {category_name}\n\n")
+                handle.write(f"- Category ID: `{category_id}`\n")
+                handle.write(f"- Skills: {len(category_skills)}\n")
+                handle.write(f"- Category aliases: {', '.join(category.get('aliases', [])) if category.get('aliases') else 'None'}\n\n")
+                for skill in sorted(category_skills, key=lambda item: item["display_name"].lower()):
+                    aliases = [alias for alias in skill["aliases"] if alias != skill["display_name"]]
+                    handle.write(f"- **{skill['display_name']}** (`{skill['skill_id']}`)\n")
+                    handle.write(f"  - Status: {skill['status']}\n")
+                    handle.write(f"  - Aliases: {', '.join(aliases) if aliases else 'None'}\n")
+                    handle.write(f"  - Category variants: {len(skill['category_variants'])}\n")
+                    handle.write(f"  - Raw skill rows: {skill['raw_skill_count']}\n")
+                    handle.write(f"  - Source references: {skill['source_reference_count']}\n")
+                handle.write("\n")
+        else:
+            handle.write("- No active skills found.\n\n")
 
         handle.write("## Canonical Experiences\n\n")
         for index, exp in enumerate(experiences, start=1):
@@ -291,6 +395,8 @@ def main() -> int:
 
     print(f"Education entries indexed: {len(education)}")
     print(f"Coursework entries indexed: {len(coursework)}")
+    print(f"Skills indexed: {len(skills)}")
+    print(f"Skill categories indexed: {len(skill_categories)}")
     print(f"Canonical experiences indexed: {len(experiences)}")
     print(f"Candidate bullet pools indexed: {candidate_pool_count}")
     print(f"Wrote {LIBRARY_INDEX_PATH}")

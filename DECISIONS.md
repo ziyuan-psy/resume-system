@@ -5,12 +5,16 @@
 - Raw extracted content is immutable. `extracted/raw_bullets.csv` and `extracted/raw_experiences.csv` are traceability data and must not be rewritten during curation.
 - Education is managed separately from experience content in `content/profile/education.yaml`.
 - Coursework is dynamic profile metadata in `content/profile/coursework.yaml`, not part of fixed education entries.
+- Skills are profile-level content in `content/profile/skills.yaml`, not part of a specific experience.
+- Skill categories are managed in `content/taxonomy/skill_categories.yaml` and are display metadata, not skill identity.
+- Interests detected in historical skills sections are excluded from active skills and default resume generation.
 - Extracurricular content is archived by default.
 - Usability Testing of Online PDF Tools is excluded from active content.
 - Section is display logic, not an identity attribute for canonical experiences.
 - Canonical experiences preserve historical title variants in `title_variants`.
 - Archive content must be excluded from default resume generation.
 - Canonical bullets must come from extracted content or user-approved content only.
+- Skills are selected from display names, aliases, categories, and source evidence; v1 does not infer role tags or skill types.
 
 ## When to update this file
 

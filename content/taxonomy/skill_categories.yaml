@@ -1,0 +1,78 @@
+skill_categories:
+  - category_id: "data_analytics"
+    display_name:
+      "Data & Analytics"
+    aliases:
+      - "Data & Analytics"
+      - "Data & Insights"
+      - "Data Analysis"
+      - "Data & Reporting"
+      - "Data Management& Analytics"
+      - "Data Visualization & Reporting"
+      - "Languages"
+      - "Statistical Software"
+    status:
+      "needs_review"
+  - category_id: "ai_knowledge_platforms"
+    display_name:
+      "AI & Knowledge Platforms"
+    aliases:
+      - "AI & Automation"
+      - "AI & Knowledge Platforms"
+      - "AI Tools"
+      - "AI-Assisted Tools"
+      - "Data & AI Systems"
+    status:
+      "needs_review"
+  - category_id: "product_ux_research"
+    display_name:
+      "Product & UX Research"
+    aliases:
+      - "Design & Research"
+      - "Product & Collaboration"
+      - "Product & UX"
+      - "Product Testing & Benchmarking"
+      - "Research & Customer Insight"
+      - "User Research"
+    status:
+      "needs_review"
+  - category_id: "research_methods"
+    display_name:
+      "Research Methods"
+    aliases:
+      - "Qualitative Methods"
+      - "Quantitative Methods"
+      - "Research Methods"
+      - "Test & Research Methods"
+    status:
+      "needs_review"
+  - category_id: "enterprise_productivity_tools"
+    display_name:
+      "Enterprise & Productivity Tools"
+    aliases:
+      - "Collaboration & Documentation"
+      - "Collaboration & Productivity Tools"
+      - "Enterprise & Automation Tools"
+      - "Enterprise & Productivity Tools"
+      - "Knowledge Management & Collaboration"
+      - "Knowledge Management & Productivity"
+      - "Productivity Tools"
+      - "Reporting & Documentation"
+    status:
+      "needs_review"
+  - category_id: "design_simulation_tools"
+    display_name:
+      "Design & Simulation Tools"
+    aliases:
+      - "Design & Simulation"
+      - "Lab & Technical Tools"
+      - "Technical Tools"
+    status:
+      "needs_review"
+  - category_id: "collaboration_communication"
+    display_name:
+      "Collaboration & Communication"
+    aliases:
+      - "Collaboration & Communication"
+    status:
+      "needs_review"
