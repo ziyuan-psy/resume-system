@@ -6,6 +6,10 @@ extracted/tex_files/
 # Generated resume outputs
 generated/
 
+# Local JD inputs and scratch tests
+jd_inputs/
+tests/
+
 # Binary export artifacts
 *.zip
 *.pdf

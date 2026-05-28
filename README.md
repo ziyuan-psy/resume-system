@@ -470,6 +470,61 @@ Codex should prioritize verified existing content.
 Codex should not invent work experience, metrics, tools, or responsibilities.
 ```
 
+#### Phase 6A: JD Intake and Analysis
+
+Phase 6A stores a reproducible job description source and creates a reviewable Codex-assisted JD analysis. The Python helper handles file I/O and validation only; Codex/LLM reads the saved JD and writes the analysis. Phase 6A does not select resume content, generate LaTeX, or compile PDFs.
+
+Step 1: save or reuse the JD source.
+
+```text
+python scripts/phase6a_jd_intake.py --target-slug sample_product_ops --source-file path/to/job_description.txt
+python scripts/phase6a_jd_intake.py --target-slug sample_product_ops --use-existing
+```
+
+Step 2: ask Codex to read only:
+
+```text
+jd_inputs/<target_slug>.txt
+```
+
+and write:
+
+```text
+generated/analysis/<target_slug>_jd_analysis.md
+```
+
+using this section contract:
+
+```text
+# JD Analysis: <target_slug>
+Status: needs_review
+Source JD: jd_inputs/<target_slug>.txt
+Analysis method: Codex-assisted LLM review
+
+## Role Summary
+## Role Direction
+## Company / Product Context
+## Core Responsibilities
+## Required Qualifications
+## Preferred / Plus Qualifications
+## Skills And Tools Mentioned
+## Keywords And ATS Terms
+### Exact JD Terms To Preserve
+### Normalized Resume / ATS Phrases
+## Screening Criteria
+## Resume Emphasis For Phase 6B
+## Ambiguities Or Review Notes
+## Review Checklist
+```
+
+Step 3: validate the analysis.
+
+```text
+python scripts/phase6a_jd_intake.py --target-slug sample_product_ops --validate-analysis
+```
+
+The analysis is marked `needs_review` and should separate explicit JD requirements from inferred role signals. `Keywords And ATS Terms` should use concise noun phrases with no trailing sentence punctuation. Exact JD terms should preserve meaningful phrases from the posting, while normalized resume/ATS phrases may reframe real JD concepts for later matching without inventing new requirements. For example, `where users drop off` should become `conversation drop-off analysis` or stay under responsibilities, and `right next action` should become `next-action guidance` or `conversation flow optimization`. Codex should not inspect resume content, archive content, raw extracted CSVs, generated TeX, or generated PDFs during Phase 6A.
+
 \---
 
 ## 9\. MVP Plan
