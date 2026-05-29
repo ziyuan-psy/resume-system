@@ -38,8 +38,11 @@ SKILLS_PATH = Path("content") / "profile" / "skills.yaml"
 SELECTION_METHOD = "Codex-assisted hybrid bullet-first content matching"
 
 PAGE_FIT_ESTIMATES = {"likely", "borderline", "too_long"}
+ALLOWED_SECTION_TITLES = {"Professional Experience", "Project Experience", "Research Experience"}
+NON_WORK_SECTION_TITLES = {"Project Experience", "Research Experience"}
 SELECTION_TIERS = {"core", "supporting", "backup"}
 FINAL_PRIORITIES = {"must_include", "include_if_space", "backup"}
+SKILL_DISPLAY_PRIORITIES = {"core_jd", "supporting", "baseline_high_signal"}
 SOURCE_TYPES = {
     "work",
     "internship",
@@ -302,6 +305,16 @@ def validate_resume_budget(selection: dict[str, Any]) -> None:
     required_text(budget, "page_fit_note", context)
 
 
+def validate_resume_section_plan(selection: dict[str, Any]) -> dict[str, Any]:
+    section_plan = as_dict(selection.get("resume_section_plan"), "resume_section_plan")
+    professional_title = required_text(section_plan, "professional_section_title", "resume_section_plan")
+    if professional_title != "Professional Experience":
+        raise Phase6BError('resume_section_plan professional_section_title must be "Professional Experience".')
+    required_enum(section_plan, "non_work_section_title", NON_WORK_SECTION_TITLES, "resume_section_plan")
+    required_text(section_plan, "section_rationale", "resume_section_plan")
+    return section_plan
+
+
 def validate_grounding_notes(bullet: dict[str, Any], context: str) -> None:
     notes = as_dict(bullet.get("grounding_notes"), f"grounding_notes in {context}")
     required_bool(notes, "new_facts_added", f"grounding_notes in {context}")
@@ -311,7 +324,46 @@ def validate_grounding_notes(bullet: dict[str, Any], context: str) -> None:
     required_text(notes, "note", f"grounding_notes in {context}")
 
 
-def validate_skill_or_coursework_group(
+def validate_skill_group(
+    group: dict[str, Any],
+    known_items: dict[str, dict[str, object]],
+) -> None:
+    selected_ids: set[str] = set()
+    for item in as_list(group.get("selected_pool"), "skill_selections.selected_pool"):
+        if not isinstance(item, dict):
+            raise Phase6BError("Each skill_selections selected_pool item must be an object.")
+        skill_id = required_text(item, "skill_id", "skill_selections selected_pool item")
+        if skill_id not in known_items:
+            raise Phase6BError(f"Unknown selected skill_id: {skill_id}")
+        if skill_id in selected_ids:
+            raise Phase6BError(f"Duplicate selected skill_id: {skill_id}")
+        selected_ids.add(skill_id)
+        required_text(item, "rationale", f"skill_selections selected_pool item {skill_id}")
+
+    display_ids: set[str] = set()
+    for item in as_list(group.get("recommended_final_display"), "skill_selections.recommended_final_display"):
+        if not isinstance(item, dict):
+            raise Phase6BError("Each skill_selections recommended_final_display item must be an object.")
+        skill_id = required_text(item, "skill_id", "skill_selections recommended_final_display item")
+        if skill_id not in known_items:
+            raise Phase6BError(f"Unknown recommended skill_id: {skill_id}")
+        if skill_id not in selected_ids:
+            raise Phase6BError(f"Recommended skill_id must also appear in selected_pool: {skill_id}")
+        if skill_id in display_ids:
+            raise Phase6BError(f"Duplicate recommended skill_id: {skill_id}")
+        display_ids.add(skill_id)
+        required_text(item, "display_name", f"skill_selections recommended_final_display item {skill_id}")
+        required_text(item, "display_category", f"skill_selections recommended_final_display item {skill_id}")
+        required_enum(
+            item,
+            "display_priority",
+            SKILL_DISPLAY_PRIORITIES,
+            f"skill_selections recommended_final_display item {skill_id}",
+        )
+        required_text(item, "rationale", f"skill_selections recommended_final_display item {skill_id}")
+
+
+def validate_coursework_group(
     group: dict[str, Any],
     id_field: str,
     known_items: dict[str, dict[str, object]],
@@ -371,6 +423,8 @@ def validate_selection_json(
     required_text(selection, "role_direction", "selection root")
     required_text(selection, "selection_summary", "selection root")
     validate_resume_budget(selection)
+    section_plan = validate_resume_section_plan(selection)
+    non_work_section_title = str(section_plan["non_work_section_title"])
 
     seen_global_ranks: set[int] = set()
     seen_experiences = set()
@@ -384,6 +438,11 @@ def validate_selection_json(
             raise Phase6BError(f"Duplicate selected experience_id: {experience_id}")
         seen_experiences.add(experience_id)
         required_enum(item, "selection_tier", SELECTION_TIERS, f"experience selection {experience_id}")
+        target_section = required_enum(item, "target_section", ALLOWED_SECTION_TITLES, f"experience selection {experience_id}")
+        if target_section != "Professional Experience" and target_section != non_work_section_title:
+            raise Phase6BError(
+                f"experience selection {experience_id} target_section must match resume_section_plan non_work_section_title."
+            )
         required_text(item, "rationale", f"experience selection {experience_id}")
 
         pools = pool_index_for_experience(experiences[experience_id])
@@ -433,8 +492,8 @@ def validate_selection_json(
             if len(source_pool_ids) == 1 and overlap_resolution == "combined":
                 raise Phase6BError(f"{context} uses combined but has only one source pool.")
 
-    validate_skill_or_coursework_group(as_dict(selection.get("skill_selections"), "skill_selections"), "skill_id", skills, "skill_selections")
-    validate_skill_or_coursework_group(
+    validate_skill_group(as_dict(selection.get("skill_selections"), "skill_selections"), skills)
+    validate_coursework_group(
         as_dict(selection.get("coursework_selections"), "coursework_selections"),
         "coursework_id",
         coursework,
@@ -573,6 +632,9 @@ def write_selection_plan(
         handle.write("## Selection Summary\n\n")
         handle.write(f"- Role direction: {selection['role_direction']}\n")
         handle.write(f"- Selection summary: {selection['selection_summary']}\n")
+        section_plan = as_dict(selection["resume_section_plan"], "resume_section_plan")
+        handle.write(f"- Professional section title: {section_plan['professional_section_title']}\n")
+        handle.write(f"- Non-work section title: {section_plan['non_work_section_title']}\n")
         handle.write("- Education rule: UT Austin and Nanjing Normal University are included by default; Lingnan University is compact by default and first to drop when page fit is tight.\n")
         handle.write(f"- Experiences selected by Codex: {len(experience_selections)}\n")
         handle.write(f"- Rendered bullets selected: {bullet_count}\n")
@@ -582,6 +644,11 @@ def write_selection_plan(
         handle.write(f"- Recommended final coursework display: {len(final_coursework_display)}\n\n")
 
         write_resume_budget(handle, as_dict(selection["resume_budget"], "resume_budget"))
+
+        handle.write("## Resume Section Plan\n\n")
+        handle.write(f"- Professional section title: {section_plan['professional_section_title']}\n")
+        handle.write(f"- Non-work section title: {section_plan['non_work_section_title']}\n")
+        handle.write(f"- Section rationale: {section_plan['section_rationale']}\n\n")
 
         education_rules = as_dict(selection["education_display_rules"], "education_display_rules")
         rules_by_id = {str(item["education_id"]): item for item in as_list(education_rules.get("entries"), "education_display_rules.entries") if isinstance(item, dict)}
@@ -612,6 +679,7 @@ def write_selection_plan(
             handle.write(f"### {index}. {exp['title_en']} - {exp['organization_en']}\n\n")
             handle.write(f"- Experience ID: `{experience_id}`\n")
             handle.write(f"- Selection tier: {selection_item['selection_tier']}\n")
+            handle.write(f"- Target section: {selection_item['target_section']}\n")
             handle.write(f"- Source file: `{exp['path'].relative_to(root).as_posix()}`\n")
             handle.write(f"- Status: {exp['status']}\n")
             handle.write(f"- Type: {exp['experience_type']}\n")
@@ -660,6 +728,7 @@ def write_selection_plan(
             handle.write("\n")
 
         handle.write("## Skills Selected Pool\n\n")
+        handle.write("Selected pool is the broader candidate/backup pool; not every selected skill must appear in the final resume.\n\n")
         for item in selected_skill_pool:
             skill_id = str(item["skill_id"])
             skill = skills[skill_id]
@@ -671,10 +740,12 @@ def write_selection_plan(
         handle.write("\n")
 
         handle.write("## Recommended Final Skills Display\n\n")
+        handle.write("Recommended final display is the actual skill set intended for the LaTeX Skills section. Display categories are authored by Codex/LLM for this resume and are not mechanically assigned from `skills.yaml`.\n\n")
         for item in final_skill_display:
             skill_id = str(item["skill_id"])
-            skill = skills[skill_id]
-            handle.write(f"- `{skill_id}` {skill['display_name']}\n")
+            handle.write(f"- `{skill_id}` {item['display_name']}\n")
+            handle.write(f"  - Display category: {item['display_category']}\n")
+            handle.write(f"  - Display priority: {item['display_priority']}\n")
             handle.write(f"  - Rationale: {item_rationale(item)}\n")
         handle.write("\n")
 
@@ -740,12 +811,16 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
         "Status: needs_review",
         f"Selection method: {SELECTION_METHOD}",
         "Selection JSON:",
+        "## Resume Section Plan",
+        "Professional section title:",
+        "Non-work section title:",
         "## Resume Budget",
         "Page-fit estimate:",
         "## Education Display Rule",
         "Lingnan University: include by default only in compact form",
         "## Selected Experiences",
         "Selection tier:",
+        "Target section:",
         "Source pool IDs:",
         "Source candidate text:",
         "Draft bullet text:",
@@ -754,6 +829,8 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
         "Grounding note:",
         "## Skills Selected Pool",
         "## Recommended Final Skills Display",
+        "Display category:",
+        "Display priority:",
         "## Coursework Selected Pool",
         "## Recommended Final Coursework Display",
         "## Trim Order",
@@ -782,6 +859,8 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
     selection = json.loads(paths.selection_json_path.read_text(encoding="utf-8"))
     if selection.get("selection_method") != SELECTION_METHOD:
         raise Phase6BError("Selection JSON artifact has the wrong selection_method.")
+    if "resume_section_plan" not in selection:
+        raise Phase6BError("Selection JSON artifact is missing resume_section_plan.")
     if "education_display_rules" not in selection:
         raise Phase6BError("Selection JSON artifact is missing education_display_rules.")
 
@@ -798,10 +877,12 @@ def render_selection_contract(slug: str) -> str:
    - `content/experiences/canonical/en/*.yaml`
 2. Do not inspect archive content, raw extraction CSVs, generated TeX, or generated PDFs.
 3. Rank candidate bullet pools globally against the Phase 6A JD analysis before grouping by experience.
-4. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
-5. Pipe selected JSON to Python with `--selection-json -`.
-6. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
-7. Use the schema documented in README Phase 6B.
+4. Author resume_section_plan and each experience target_section using only the supported template section titles.
+5. Author display_category and display_priority for each recommended final skill.
+6. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
+7. Pipe selected JSON to Python with `--selection-json -`.
+8. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
+9. Use the schema documented in README Phase 6B.
 """
 
 

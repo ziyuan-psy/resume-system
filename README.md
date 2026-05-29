@@ -548,7 +548,8 @@ Codex should:
 3. Remove or combine overlapping bullets under the same experience.
 4. Group selected bullets by experience afterward.
 5. Order experiences by grouped strength, relevance, coherence, and resume narrative.
-6. Produce a selected pool and recommended final display set for skills and coursework.
+6. Author fixed resume section placement for each selected experience.
+7. Produce a selected pool and recommended final display set for skills and coursework.
 ```
 
 Source context should influence ranking, but it must not dominate JD relevance. A direct project or research match can outrank a weakly relevant work bullet. Suggested context weights: work `1.00`, internship/GA/contractor `0.95-1.00`, applied product or technical project `0.85-0.95`, research project `0.80-0.90`, course project `0.75-0.85`, and coursework-only evidence `0.50-0.70`.
@@ -568,6 +569,11 @@ Selection JSON shape:
   "selection_method": "Codex-assisted hybrid bullet-first content matching",
   "role_direction": "short role direction",
   "selection_summary": "one-sentence summary of the selection strategy",
+  "resume_section_plan": {
+    "professional_section_title": "Professional Experience",
+    "non_work_section_title": "Project Experience | Research Experience",
+    "section_rationale": "why this fixed non-work section title fits the JD and selected content"
+  },
   "resume_budget": {
     "target_pages": 1,
     "preferred_experience_blocks": 4,
@@ -576,8 +582,8 @@ Selection JSON shape:
     "maximum_total_bullets": 14,
     "core_experience_bullets": "3-4",
     "supporting_experience_bullets": "1-2",
-    "preferred_skill_category_lines": "2-3",
-    "preferred_displayed_skills": "10-14",
+    "preferred_skill_category_lines": "3-4",
+    "preferred_displayed_skills": "14-20",
     "preferred_coursework_count": "3-5",
     "page_fit_estimate": "likely | borderline | too_long",
     "page_fit_note": "Phase 6B only estimates page fit. Exact fit must be checked after Phase 6C LaTeX rendering in VS Code."
@@ -586,6 +592,7 @@ Selection JSON shape:
     {
       "experience_id": "active_experience_id",
       "selection_tier": "core | supporting | backup",
+      "target_section": "Professional Experience | Project Experience | Research Experience",
       "rationale": "why this grouped experience belongs",
       "selected_bullets": [
         {
@@ -623,6 +630,9 @@ Selection JSON shape:
     "recommended_final_display": [
       {
         "skill_id": "active_skill_id",
+        "display_name": "Human-readable skill name",
+        "display_category": "Resume-facing skill category authored by Codex/LLM",
+        "display_priority": "core_jd | supporting | baseline_high_signal",
         "rationale": "why this skill should appear in the compact resume"
       }
     ]
@@ -660,7 +670,10 @@ source_pool_ids may contain multiple pool IDs only when overlapping source bulle
 draft_bullet_text may be JD-tuned in Phase 6B, but must remain grounded in the listed source pools.
 Python validates every experience_id, skill_id, coursework_id, and source_pool_id against active YAML.
 Python rejects duplicate source_pool_ids under the same experience unless they are combined into the same rendered bullet.
-Skills should include a broader selected pool and a smaller recommended final display set.
+Experience section titles are fixed to Professional Experience plus either Project Experience or Research Experience.
+Codex/LLM authors target_section for each selected experience; Python validates allowed values and consistency but does not assign sections from source_type.
+Skills should include a broader selected pool and a recommended final display set of 14-20 skills when appropriate.
+Codex/LLM authors each final skill display_category for the target JD and resume narrative; Python validates it exists but does not derive it from skills.yaml default_category.
 Coursework should include a broader selected pool and 3-5 recommended final display entries when possible.
 ```
 
