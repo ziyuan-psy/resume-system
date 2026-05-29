@@ -525,6 +525,167 @@ python scripts/phase6a_jd_intake.py --target-slug sample_product_ops --validate-
 
 The analysis is marked `needs_review` and should separate explicit JD requirements from inferred role signals. `Keywords And ATS Terms` should use concise noun phrases with no trailing sentence punctuation. Exact JD terms should preserve meaningful phrases from the posting, while normalized resume/ATS phrases may reframe real JD concepts for later matching without inventing new requirements. For example, `where users drop off` should become `conversation drop-off analysis` or stay under responsibilities, and `right next action` should become `next-action guidance` or `conversation flow optimization`. Codex should not inspect resume content, archive content, raw extracted CSVs, generated TeX, or generated PDFs during Phase 6A.
 
+#### Phase 6B: Content Selection Plan
+
+Phase 6B uses Codex/LLM judgment for hybrid bullet-first content matching, ranking, overlap resolution, and final display recommendation. Python does not rank content in this phase; it validates Codex-selected active IDs, writes a normalized machine-readable selection JSON artifact, and renders a human-readable Markdown plan. Phase 6B does not generate LaTeX, compile PDFs, or use archive/raw extraction sources as active inputs. Education is not ranked or selected like experiences or bullets. UT Austin and Nanjing Normal University are included by default. Lingnan University is included by default only in compact form unless page budget is tight; if page fit is tight, Lingnan University is the first education entry that can be dropped.
+
+Step 1: ask Codex to read only:
+
+```text
+jd_inputs/<target_slug>.txt
+generated/analysis/<target_slug>_jd_analysis.md
+content/profile/education.yaml
+content/profile/coursework.yaml
+content/profile/skills.yaml
+content/experiences/canonical/en/*.yaml
+```
+
+Codex should:
+
+```text
+1. Rank candidate bullet pools globally against the Phase 6A JD analysis.
+2. Choose bullets based on JD fit before favoring experience structure or source type.
+3. Remove or combine overlapping bullets under the same experience.
+4. Group selected bullets by experience afterward.
+5. Order experiences by grouped strength, relevance, coherence, and resume narrative.
+6. Produce a selected pool and recommended final display set for skills and coursework.
+```
+
+Source context should influence ranking, but it must not dominate JD relevance. A direct project or research match can outrank a weakly relevant work bullet. Suggested context weights: work `1.00`, internship/GA/contractor `0.95-1.00`, applied product or technical project `0.85-0.95`, research project `0.80-0.90`, course project `0.75-0.85`, and coursework-only evidence `0.50-0.70`.
+
+Step 2: pipe Codex-authored selection JSON into the renderer.
+
+```text
+python scripts/phase6b_content_selection.py --target-slug sample_product_ops --selection-json -
+```
+
+Selection JSON shape:
+
+```json
+{
+  "target_slug": "<target_slug>",
+  "status": "needs_review",
+  "selection_method": "Codex-assisted hybrid bullet-first content matching",
+  "role_direction": "short role direction",
+  "selection_summary": "one-sentence summary of the selection strategy",
+  "resume_budget": {
+    "target_pages": 1,
+    "preferred_experience_blocks": 4,
+    "maximum_experience_blocks": 5,
+    "preferred_total_bullets": "10-13",
+    "maximum_total_bullets": 14,
+    "core_experience_bullets": "3-4",
+    "supporting_experience_bullets": "1-2",
+    "preferred_skill_category_lines": "2-3",
+    "preferred_displayed_skills": "10-14",
+    "preferred_coursework_count": "3-5",
+    "page_fit_estimate": "likely | borderline | too_long",
+    "page_fit_note": "Phase 6B only estimates page fit. Exact fit must be checked after Phase 6C LaTeX rendering in VS Code."
+  },
+  "experience_selections": [
+    {
+      "experience_id": "active_experience_id",
+      "selection_tier": "core | supporting | backup",
+      "rationale": "why this grouped experience belongs",
+      "selected_bullets": [
+        {
+          "source_pool_ids": ["pool_id_1"],
+          "global_rank": 1,
+          "final_resume_priority": "must_include | include_if_space | backup",
+          "source_type": "work | internship | contractor_work | applied_project | research_project | course_project | coursework_only",
+          "jd_fit_score": 0,
+          "evidence_strength_score": 0,
+          "source_context_weight": 1.0,
+          "final_selection_score": 0,
+          "score_rationale": "why this score is appropriate",
+          "draft_bullet_text": "JD-tuned bullet text grounded in the source pools",
+          "source_fit_reason": "why this bullet fits",
+          "overlap_resolution": "kept | combined | preferred_overlapping_source",
+          "grounding_notes": {
+            "new_facts_added": false,
+            "tools_or_metrics_changed": false,
+            "match_type": "direct | transferable_analogy",
+            "unsupported_claim_risk": "low | medium | high",
+            "note": "grounding note"
+          }
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "skill_selections": {
+    "selected_pool": [
+      {
+        "skill_id": "active_skill_id",
+        "rationale": "why this skill fits the JD"
+      }
+    ],
+    "recommended_final_display": [
+      {
+        "skill_id": "active_skill_id",
+        "rationale": "why this skill should appear in the compact resume"
+      }
+    ]
+  },
+  "coursework_selections": {
+    "selected_pool": [
+      {
+        "coursework_id": "active_coursework_id",
+        "rationale": "why this coursework fits the JD"
+      }
+    ],
+    "recommended_final_display": [
+      {
+        "coursework_id": "active_coursework_id",
+        "rationale": "why this coursework should appear in the compact resume"
+      }
+    ]
+  },
+  "trim_order": [
+    {
+      "item_type": "experience | bullet | skill | coursework",
+      "id": "item_id_or_pool_id",
+      "reason": "Remove this first if rendered resume is too long."
+    }
+  ],
+  "review_notes": []
+}
+```
+
+Selection rules:
+
+```text
+Each selected experience must have 1-5 rendered bullets.
+source_pool_ids may contain multiple pool IDs only when overlapping source bullets are combined.
+draft_bullet_text may be JD-tuned in Phase 6B, but must remain grounded in the listed source pools.
+Python validates every experience_id, skill_id, coursework_id, and source_pool_id against active YAML.
+Python rejects duplicate source_pool_ids under the same experience unless they are combined into the same rendered bullet.
+Skills should include a broader selected pool and a smaller recommended final display set.
+Coursework should include a broader selected pool and 3-5 recommended final display entries when possible.
+```
+
+Output:
+
+```text
+generated/selection/<target_slug>_selection_plan.md
+generated/selection/<target_slug>_selection.json
+```
+
+Active sources:
+
+```text
+content/profile/education.yaml
+content/profile/coursework.yaml
+content/profile/skills.yaml
+content/experiences/canonical/en/*.yaml
+```
+
+The Markdown selection plan is for human review. The JSON selection artifact is for Phase 6C LaTeX rendering, which should render the recommended final display set rather than blindly rendering every selected pool item. Generated selection artifacts are ignored local outputs and should not be force-added unless explicitly requested.
+
+Python adds `education_display_rules` to the normalized selection JSON artifact. This is a deterministic display rule, not an education ranking: UT Austin and Nanjing Normal University remain default entries, while Lingnan University is compact by default and becomes the first education drop when `page_fit_estimate` is `borderline` or `too_long`.
+
+The selection plan must preserve review traceability by listing selected `experience_id`, source candidate pool IDs, source candidate text, draft bullet text, fit rationale, score summary, overlap resolution, and grounding note. The plan should not include raw bullet IDs, raw bullet counts, duplicate counts, source reference counts, archive/raw paths as active sources, generated TeX/PDF output paths, or legacy intermediate artifact paths. All Phase 6B output is marked `needs_review` and should be checked before Phase 6C.
+
 \---
 
 ## 9\. MVP Plan
