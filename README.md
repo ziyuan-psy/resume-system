@@ -614,6 +614,12 @@ Selection JSON shape:
             "match_type": "direct | transferable_analogy",
             "unsupported_claim_risk": "low | medium | high",
             "note": "grounding note"
+          },
+          "quantitative_evidence": {
+            "source_metrics_detected": ["10k+ shots"],
+            "metrics_preserved": ["10k+ shots"],
+            "metrics_omitted": [],
+            "omission_reason": null
           }
         }
       ],
@@ -670,6 +676,10 @@ source_pool_ids may contain multiple pool IDs only when overlapping source bulle
 draft_bullet_text may be JD-tuned in Phase 6B, but must remain grounded in the listed source pools.
 Python validates every experience_id, skill_id, coursework_id, and source_pool_id against active YAML.
 Python rejects duplicate source_pool_ids under the same experience unless they are combined into the same rendered bullet.
+Combined or multi-source bullets must include quantitative_evidence metadata.
+If selected source pools contain high-signal metrics such as sample sizes, counts, percentages, N= values, number-plus-unit phrases, or measurable improvements, preserve the strongest relevant metrics in draft_bullet_text whenever possible.
+If any detected source metric is omitted from a combined draft bullet, list it in metrics_omitted and explain why in omission_reason.
+Python detects obvious metrics from source candidate text resolved through active canonical YAML and validates that preserved metrics appear in draft_bullet_text.
 Experience section titles are fixed to Professional Experience plus either Project Experience or Research Experience.
 Codex/LLM authors target_section for each selected experience; Python validates allowed values and consistency but does not assign sections from source_type.
 Skills should include a broader selected pool and a recommended final display set of 14-20 skills when appropriate.

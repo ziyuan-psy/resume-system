@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime
@@ -55,6 +56,45 @@ SOURCE_TYPES = {
 OVERLAP_RESOLUTIONS = {"kept", "combined", "preferred_overlapping_source"}
 MATCH_TYPES = {"direct", "transferable_analogy"}
 UNSUPPORTED_CLAIM_RISKS = {"low", "medium", "high"}
+METRIC_PATTERN = re.compile(
+    r"(?ix)"
+    r"\bN\s*=\s*\d+(?:,\d{3})*\b"
+    r"|"
+    r"\b\d+(?:,\d{3})*(?:\.\d+)?\s*%"
+    r"|"
+    r"\b\d+(?:,\d{3})*(?:\.\d+)?\s*[kKmM]?\+?\s+"
+    r"(?:[A-Za-z][A-Za-z/&+-]*(?:\s+[A-Za-z][A-Za-z/&+-]*){0,3})"
+)
+METRIC_CONTEXT_STOPWORDS = {
+    "and",
+    "or",
+    "with",
+    "for",
+    "to",
+    "in",
+    "of",
+    "on",
+    "by",
+    "from",
+    "across",
+    "through",
+    "using",
+    "via",
+    "into",
+}
+METRIC_CONTEXT_BLOCKLIST = {
+    "phase",
+    "phases",
+    "pool",
+    "pools",
+    "raw",
+    "bullet",
+    "bullets",
+    "version",
+    "versions",
+    "schema",
+    "schemas",
+}
 
 
 class Phase6BError(Exception):
@@ -265,6 +305,179 @@ def required_enum(item: dict[str, Any], field_name: str, allowed: set[str], cont
     if value not in allowed:
         raise Phase6BError(f"{context} field {field_name} must be one of: {', '.join(sorted(allowed))}.")
     return value
+
+
+def required_string_list(item: dict[str, Any], field_name: str, context: str) -> list[str]:
+    values = as_list(item.get(field_name), f"{field_name} in {context}")
+    result: list[str] = []
+    for value in values:
+        if not isinstance(value, str) or not value.strip():
+            raise Phase6BError(f"{context} field {field_name} must contain only non-empty strings.")
+        result.append(value.strip())
+    return result
+
+
+def normalize_metric_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value.replace(",", "").strip().lower())
+
+
+def metric_quantity_variants(quantity: str) -> set[str]:
+    normalized = normalize_metric_text(quantity)
+    variants = {normalized}
+    match = re.fullmatch(r"(\d+(?:\.\d+)?)([km])(\+?)", normalized)
+    if match:
+        number = float(match.group(1))
+        multiplier = 1000 if match.group(2) == "k" else 1000000
+        expanded = int(number * multiplier)
+        suffix = match.group(3)
+        variants.add(f"{expanded}{suffix}")
+        variants.add(f"{expanded:,}{suffix}".lower())
+    expanded_match = re.fullmatch(r"(\d{4,})(\+?)", normalized)
+    if expanded_match:
+        number = int(expanded_match.group(1))
+        suffix = expanded_match.group(2)
+        if number % 1000 == 0 and number < 1000000:
+            variants.add(f"{number // 1000}k{suffix}")
+        if number % 1000000 == 0:
+            variants.add(f"{number // 1000000}m{suffix}")
+    return variants
+
+
+def split_metric_quantity(metric: str) -> tuple[str, list[str]]:
+    normalized = normalize_metric_text(metric)
+    n_match = re.match(r"(n\s*=\s*\d+)(.*)", normalized)
+    if n_match:
+        return n_match.group(1).replace(" ", ""), re.findall(r"[a-z]+", n_match.group(2))
+    match = re.match(r"(\d+(?:\.\d+)?(?:[km])?\+?|\d+(?:\.\d+)?%)(.*)", normalized)
+    if not match:
+        return normalized, []
+    quantity = match.group(1)
+    words = [word for word in re.findall(r"[a-z]+", match.group(2)) if word not in METRIC_CONTEXT_STOPWORDS]
+    return quantity, words
+
+
+def text_contains_metric(text: str, metric: str) -> bool:
+    normalized_text = normalize_metric_text(text)
+    normalized_metric = normalize_metric_text(metric)
+    if normalized_metric in normalized_text:
+        return True
+
+    quantity, words = split_metric_quantity(metric)
+    for variant in metric_quantity_variants(quantity):
+        variant_normalized = normalize_metric_text(variant)
+        position = normalized_text.find(variant_normalized)
+        if position == -1:
+            continue
+        if not words:
+            return True
+        window = normalized_text[position : position + max(80, len(normalized_metric) + 40)]
+        if all(re.search(rf"\b{re.escape(word)}\b", window) for word in words):
+            return True
+    return False
+
+
+def equivalent_metric_in_list(metric: str, values: list[str]) -> bool:
+    return any(text_contains_metric(value, metric) or text_contains_metric(metric, value) for value in values)
+
+
+def trim_metric_candidate(candidate: str) -> str:
+    candidate = re.sub(r"\s+", " ", candidate.strip(" .;:,()[]{}"))
+    tokens = candidate.split()
+    if not tokens:
+        return ""
+    trimmed = [tokens[0]]
+    for token in tokens[1:]:
+        clean_token = token.lower().strip(".,;:()[]{}")
+        if clean_token in METRIC_CONTEXT_STOPWORDS:
+            break
+        trimmed.append(token)
+    while trimmed and trimmed[-1].lower().strip(".,;:") in METRIC_CONTEXT_STOPWORDS:
+        trimmed.pop()
+    return " ".join(trimmed)
+
+
+def is_high_signal_metric(candidate: str, source_text: str) -> bool:
+    candidate = trim_metric_candidate(candidate)
+    if not candidate:
+        return False
+    normalized = normalize_metric_text(candidate)
+    prefix = source_text[max(0, source_text.lower().find(candidate.lower()) - 16) : source_text.lower().find(candidate.lower())].lower()
+    if any(word in prefix.split()[-3:] for word in ("phase", "pool", "raw")):
+        return False
+    if re.fullmatch(r"(19|20)\d{2}", normalized):
+        return False
+    words = re.findall(r"[a-z]+", normalized)
+    if words and words[0] in METRIC_CONTEXT_BLOCKLIST:
+        return False
+    if len(words) == 1 and words[0] in METRIC_CONTEXT_STOPWORDS:
+        return False
+    return True
+
+
+def detect_source_metrics(source_text: str) -> list[str]:
+    metrics: list[str] = []
+    for match in METRIC_PATTERN.finditer(source_text):
+        metric = trim_metric_candidate(match.group(0))
+        if not is_high_signal_metric(metric, source_text):
+            continue
+        if not equivalent_metric_in_list(metric, metrics):
+            metrics.append(metric)
+    return metrics
+
+
+def validate_quantitative_evidence(
+    bullet: dict[str, Any],
+    context: str,
+    source_pool_ids: list[str],
+    pool_details: list[dict[str, object]],
+    overlap_resolution: str,
+) -> None:
+    requires_quantitative_evidence = len(source_pool_ids) > 1 or overlap_resolution == "combined"
+    if not requires_quantitative_evidence:
+        return
+
+    evidence = as_dict(bullet.get("quantitative_evidence"), f"quantitative_evidence in {context}")
+    source_metrics_detected = required_string_list(evidence, "source_metrics_detected", f"quantitative_evidence in {context}")
+    metrics_preserved = required_string_list(evidence, "metrics_preserved", f"quantitative_evidence in {context}")
+    metrics_omitted = required_string_list(evidence, "metrics_omitted", f"quantitative_evidence in {context}")
+    omission_reason = evidence.get("omission_reason")
+    if omission_reason is not None and (not isinstance(omission_reason, str) or not omission_reason.strip()):
+        raise Phase6BError(f"quantitative_evidence in {context} omission_reason must be null or non-empty text.")
+    if metrics_omitted and omission_reason is None:
+        raise Phase6BError(f"quantitative_evidence in {context} must include omission_reason when metrics_omitted is not empty.")
+
+    source_text = " ".join(str(pool["text"]) for pool in pool_details)
+    actual_source_metrics = detect_source_metrics(source_text)
+    draft_bullet_text = required_text(bullet, "draft_bullet_text", context)
+
+    for metric in actual_source_metrics:
+        if not equivalent_metric_in_list(metric, source_metrics_detected):
+            raise Phase6BError(
+                f"quantitative_evidence in {context} must list detected source metric: {metric}"
+            )
+
+    for metric in metrics_preserved:
+        if not text_contains_metric(draft_bullet_text, metric):
+            raise Phase6BError(
+                f"quantitative_evidence in {context} lists preserved metric not found in draft_bullet_text: {metric}"
+            )
+
+    for metric in source_metrics_detected:
+        metric_in_draft = text_contains_metric(draft_bullet_text, metric)
+        if metric_in_draft and not equivalent_metric_in_list(metric, metrics_preserved):
+            raise Phase6BError(
+                f"quantitative_evidence in {context} must list preserved source metric: {metric}"
+            )
+        if not metric_in_draft and not equivalent_metric_in_list(metric, metrics_omitted):
+            raise Phase6BError(
+                f"quantitative_evidence in {context} must list omitted source metric or preserve it: {metric}"
+            )
+
+    for metric in actual_source_metrics:
+        if not text_contains_metric(draft_bullet_text, metric) and not equivalent_metric_in_list(metric, metrics_omitted):
+            raise Phase6BError(
+                f"quantitative_evidence in {context} omitted detected source metric without omission record: {metric}"
+            )
 
 
 def load_selection_json(root: Path, source: str) -> dict[str, Any]:
@@ -491,6 +704,13 @@ def validate_selection_json(
                 raise Phase6BError(f"{context} must use overlap_resolution combined when multiple source pools are used.")
             if len(source_pool_ids) == 1 and overlap_resolution == "combined":
                 raise Phase6BError(f"{context} uses combined but has only one source pool.")
+            validate_quantitative_evidence(
+                bullet,
+                context,
+                source_pool_ids,
+                [pools[pool_id] for pool_id in source_pool_ids],
+                overlap_resolution,
+            )
 
     validate_skill_group(as_dict(selection.get("skill_selections"), "skill_selections"), skills)
     validate_coursework_group(
@@ -725,6 +945,16 @@ def write_selection_plan(
                     f"unsupported claim risk = {grounding['unsupported_claim_risk']}; "
                     f"{grounding['note']}\n"
                 )
+                if len(source_pool_ids) > 1 or bullet["overlap_resolution"] == "combined":
+                    quantitative = as_dict(bullet.get("quantitative_evidence"), "quantitative_evidence")
+                    omission_reason = quantitative.get("omission_reason")
+                    handle.write(
+                        "    - Quantitative evidence: "
+                        f"detected = {list_text([str(item) for item in as_list(quantitative.get('source_metrics_detected'), 'source_metrics_detected')])}; "
+                        f"preserved = {list_text([str(item) for item in as_list(quantitative.get('metrics_preserved'), 'metrics_preserved')])}; "
+                        f"omitted = {list_text([str(item) for item in as_list(quantitative.get('metrics_omitted'), 'metrics_omitted')])}; "
+                        f"omission reason = {omission_reason if omission_reason else 'None'}\n"
+                    )
             handle.write("\n")
 
         handle.write("## Skills Selected Pool\n\n")
@@ -880,9 +1110,10 @@ def render_selection_contract(slug: str) -> str:
 4. Author resume_section_plan and each experience target_section using only the supported template section titles.
 5. Author display_category and display_priority for each recommended final skill.
 6. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
-7. Pipe selected JSON to Python with `--selection-json -`.
-8. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
-9. Use the schema documented in README Phase 6B.
+7. For combined/multi-source bullets, preserve high-signal quantitative evidence in draft_bullet_text whenever possible and include quantitative_evidence metadata.
+8. Pipe selected JSON to Python with `--selection-json -`.
+9. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
+10. Use the schema documented in README Phase 6B.
 """
 
 
