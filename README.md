@@ -460,7 +460,7 @@ Codex should then:
 5. Select the strongest bullets under each experience.
 6. Assemble a LaTeX resume using the correct template.
 7. Output a .tex file under generated/tex/.
-8. Compile the .tex file into PDF under generated/pdf/.
+8. Preview or compile manually later if needed; PDF generation is not part of Phase 6C.
 ```
 
 Important rule:
@@ -708,6 +708,19 @@ The Markdown selection plan is for human review. The JSON selection artifact is 
 Python adds `education_display_rules` to the normalized selection JSON artifact. This is a deterministic display rule, not an education ranking: UT Austin and Nanjing Normal University remain default entries, while Lingnan University is compact by default and becomes the first education drop when `page_fit_estimate` is `borderline` or `too_long`.
 
 The selection plan must preserve review traceability by listing selected `experience_id`, source candidate pool IDs, source candidate text, draft bullet text, fit rationale, score summary, overlap resolution, and grounding note. The plan should not include raw bullet IDs, raw bullet counts, duplicate counts, source reference counts, archive/raw paths as active sources, generated TeX/PDF output paths, or legacy intermediate artifact paths. All Phase 6B output is marked `needs_review` and should be checked before Phase 6C.
+
+\---
+
+#### Phase 6C: LaTeX Draft Generation
+
+Phase 6C is a deterministic renderer. It reads the normalized Phase 6B selection JSON, active profile/canonical YAML, `content/profile/contact.yaml`, and `templates/us_resume_template.tex`, then writes one local draft to `generated/tex/<target_slug>.tex`.
+
+```text
+python scripts/phase6c_latex_draft.py --target-slug sample_product_ops
+python scripts/phase6c_latex_draft.py --target-slug sample_product_ops --validate-only
+```
+
+Phase 6C uses the template anchors for the header, education, professional experience, selected project/research section, and skills. It renders Phase 6B `draft_bullet_text` as provided, uses `target_section` and skill `display_category` from selection JSON, and does not select, rank, rewrite, or re-categorize content. It does not create, modify, overwrite, validate, or depend on PDFs; manual VS Code preview remains separate.
 
 \---
 

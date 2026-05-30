@@ -6,6 +6,7 @@
 - Education is managed separately from experience content in `content/profile/education.yaml`.
 - Coursework is dynamic profile metadata in `content/profile/coursework.yaml`, not part of fixed education entries.
 - Skills are profile-level content in `content/profile/skills.yaml`, not part of a specific experience.
+- Contact/header information is fixed profile-level content in `content/profile/contact.yaml`.
 - Skill categories are managed in `content/taxonomy/skill_categories.yaml` and are display metadata, not skill identity.
 - Interests detected in historical skills sections are excluded from active skills and default resume generation.
 - Extracurricular content is archived by default.
@@ -15,6 +16,7 @@
 - Archive content must be excluded from default resume generation.
 - Canonical bullets must come from extracted content or user-approved content only.
 - Skills are selected from display names, aliases, categories, and source evidence; v1 does not infer role tags or skill types.
+- Phase 6C is deterministic LaTeX rendering only. It must not select, rank, rewrite, re-categorize, generate PDFs, or depend on PDFs.
 
 ## When to update this file
 
