@@ -189,7 +189,7 @@ def validate_keyword_bullets(analysis_text: str) -> None:
         raise Phase6AError(f"JD analysis has invalid keyword bullets:\n{formatted}")
 
 
-def validate_analysis_file(paths: Phase6APaths, slug: str) -> None:
+def validate_analysis_file(paths: Phase6APaths, slug: str, *, validate_no_generated_outputs: bool = True) -> None:
     if not paths.jd_path.exists():
         raise Phase6AError(f"JD source file does not exist: {paths.jd_path}")
     if not paths.analysis_path.exists():
@@ -214,7 +214,8 @@ def validate_analysis_file(paths: Phase6APaths, slug: str) -> None:
         raise Phase6AError(f"JD analysis appears to contain obsolete deterministic-analysis language: {formatted}")
 
     validate_keyword_bullets(analysis_text)
-    validate_no_tex_or_pdf(paths)
+    if validate_no_generated_outputs:
+        validate_no_tex_or_pdf(paths)
 
 
 def render_analysis_contract(slug: str) -> str:

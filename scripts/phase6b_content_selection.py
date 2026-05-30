@@ -44,6 +44,7 @@ NON_WORK_SECTION_TITLES = {"Project Experience", "Research Experience"}
 SELECTION_TIERS = {"core", "supporting", "backup"}
 FINAL_PRIORITIES = {"must_include", "include_if_space", "backup"}
 SKILL_DISPLAY_PRIORITIES = {"core_jd", "supporting", "baseline_high_signal"}
+TITLE_SOURCES = {"canonical", "title_variant"}
 SOURCE_TYPES = {
     "work",
     "internship",
@@ -480,6 +481,49 @@ def validate_quantitative_evidence(
             )
 
 
+def validate_proposed_title_for_review(item: dict[str, Any], context: str) -> None:
+    if "proposed_title_for_review" not in item:
+        return
+    proposed = item.get("proposed_title_for_review")
+    if proposed is not None and (not isinstance(proposed, str) or not proposed.strip()):
+        raise Phase6BError(f"{context} proposed_title_for_review must be null or non-empty text.")
+
+
+def resolve_display_title(
+    item: dict[str, Any],
+    experience: dict[str, object],
+    context: str,
+    *,
+    require_display_title: bool = True,
+) -> str:
+    validate_proposed_title_for_review(item, context)
+    if "display_title" not in item or item.get("display_title") in (None, ""):
+        if require_display_title:
+            raise Phase6BError(f"Missing required text field display_title in {context}.")
+        return str(experience["title_en"]).strip()
+
+    display_title = required_text(item, "display_title", context)
+    title_source = required_enum(item, "title_source", TITLE_SOURCES, context)
+    required_text(item, "title_selection_rationale", context)
+
+    canonical_title = str(experience["title_en"]).strip()
+    title_variants = [str(title).strip() for title in experience.get("title_variants", []) if str(title).strip()]
+    if display_title == canonical_title:
+        expected_source = "canonical"
+    elif display_title in title_variants:
+        expected_source = "title_variant"
+    else:
+        raise Phase6BError(
+            f"{context} display_title must match the canonical title or an existing title_variant: {display_title}"
+        )
+
+    if title_source != expected_source:
+        raise Phase6BError(
+            f"{context} title_source must be {expected_source} for display_title: {display_title}"
+        )
+    return display_title
+
+
 def load_selection_json(root: Path, source: str) -> dict[str, Any]:
     if source == "-":
         raw_text = sys.stdin.read()
@@ -625,6 +669,8 @@ def validate_selection_json(
     experiences: dict[str, dict[str, object]],
     skills: dict[str, dict[str, object]],
     coursework: dict[str, dict[str, object]],
+    *,
+    require_display_titles: bool = True,
 ) -> None:
     if selection.get("target_slug") != slug:
         raise Phase6BError("Selection JSON target_slug does not match the requested target slug.")
@@ -656,6 +702,12 @@ def validate_selection_json(
             raise Phase6BError(
                 f"experience selection {experience_id} target_section must match resume_section_plan non_work_section_title."
             )
+        resolve_display_title(
+            item,
+            experiences[experience_id],
+            f"experience selection {experience_id}",
+            require_display_title=require_display_titles,
+        )
         required_text(item, "rationale", f"experience selection {experience_id}")
 
         pools = pool_index_for_experience(experiences[experience_id])
@@ -745,6 +797,12 @@ def selected_pool_details(
 def write_selection_json(path: Path, selection: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(selection, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
+
+
+def normalize_title_review_fields(selection: dict[str, Any]) -> None:
+    for item in as_list(selection.get("experience_selections"), "experience_selections"):
+        if isinstance(item, dict):
+            item.setdefault("proposed_title_for_review", None)
 
 
 def build_education_display_rules(education: list[dict[str, object]], page_fit_estimate: str) -> dict[str, object]:
@@ -896,8 +954,18 @@ def write_selection_plan(
         for index, selection_item in enumerate(experience_selections, start=1):
             experience_id = str(selection_item["experience_id"])
             exp = experiences[experience_id]
-            handle.write(f"### {index}. {exp['title_en']} - {exp['organization_en']}\n\n")
+            display_title = resolve_display_title(selection_item, exp, f"experience selection {experience_id}")
+            proposed_title = selection_item.get("proposed_title_for_review")
+            handle.write(f"### {index}. {display_title} - {exp['organization_en']}\n\n")
             handle.write(f"- Experience ID: `{experience_id}`\n")
+            handle.write(f"- Display title: {display_title}\n")
+            handle.write(f"- Title source: {selection_item['title_source']}\n")
+            handle.write(f"- Title selection rationale: {selection_item['title_selection_rationale']}\n")
+            handle.write(
+                "- Proposed title for review: "
+                f"{proposed_title if proposed_title else 'None'}"
+                " (review-only; not rendered by default)\n"
+            )
             handle.write(f"- Selection tier: {selection_item['selection_tier']}\n")
             handle.write(f"- Target section: {selection_item['target_section']}\n")
             handle.write(f"- Source file: `{exp['path'].relative_to(root).as_posix()}`\n")
@@ -1021,19 +1089,11 @@ def write_selection_plan(
         handle.write("- [ ] This plan is ready for Phase 6C LaTeX draft generation.\n")
 
 
-def validate_no_tex_or_pdf(paths: SelectionPaths) -> None:
-    created_outputs = [path for path in (paths.tex_path, paths.pdf_path) if path.exists()]
-    if created_outputs:
-        formatted = ", ".join(str(path) for path in created_outputs)
-        raise Phase6BError(f"Phase 6B must not create generated TeX or PDF outputs: {formatted}")
-
-
 def validate_selection_outputs(paths: SelectionPaths) -> None:
     if not paths.selection_path.exists():
         raise Phase6BError(f"Selection plan was not created: {paths.selection_path}")
     if not paths.selection_json_path.exists():
         raise Phase6BError(f"Selection JSON was not created: {paths.selection_json_path}")
-    validate_no_tex_or_pdf(paths)
 
     text = paths.selection_path.read_text(encoding="utf-8")
     required_markers = [
@@ -1044,6 +1104,9 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
         "## Resume Section Plan",
         "Professional section title:",
         "Non-work section title:",
+        "Display title:",
+        "Title source:",
+        "Title selection rationale:",
         "## Resume Budget",
         "Page-fit estimate:",
         "## Education Display Rule",
@@ -1108,12 +1171,14 @@ def render_selection_contract(slug: str) -> str:
 2. Do not inspect archive content, raw extraction CSVs, generated TeX, or generated PDFs.
 3. Rank candidate bullet pools globally against the Phase 6A JD analysis before grouping by experience.
 4. Author resume_section_plan and each experience target_section using only the supported template section titles.
-5. Author display_category and display_priority for each recommended final skill.
-6. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
-7. For combined/multi-source bullets, preserve high-signal quantitative evidence in draft_bullet_text whenever possible and include quantitative_evidence metadata.
-8. Pipe selected JSON to Python with `--selection-json -`.
-9. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
-10. Use the schema documented in README Phase 6B.
+5. Author each experience display_title using only the canonical title or existing title_variants from active YAML.
+6. Put any invented title idea only in proposed_title_for_review; it will not render by default.
+7. Author display_category and display_priority for each recommended final skill.
+8. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
+9. For combined/multi-source bullets, preserve high-signal quantitative evidence in draft_bullet_text whenever possible and include quantitative_evidence metadata.
+10. Pipe selected JSON to Python with `--selection-json -`.
+11. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
+12. Use the schema documented in README Phase 6B.
 """
 
 
@@ -1138,6 +1203,7 @@ def run(args: argparse.Namespace) -> SelectionPaths:
             pdf_path=paths.pdf_path,
         ),
         slug,
+        validate_no_generated_outputs=False,
     )
 
     if args.validate_only:
@@ -1145,7 +1211,6 @@ def run(args: argparse.Namespace) -> SelectionPaths:
         return paths
 
     if not args.selection_json:
-        validate_no_tex_or_pdf(paths)
         return paths
 
     selection = load_selection_json(root, args.selection_json)
@@ -1155,6 +1220,7 @@ def run(args: argparse.Namespace) -> SelectionPaths:
     coursework_by_id = index_by(parse_coursework(root), "coursework_id")
     validate_selection_json(selection, slug, experiences_by_id, skills_by_id, coursework_by_id)
     selection_output = copy.deepcopy(selection)
+    normalize_title_review_fields(selection_output)
     budget = as_dict(selection_output["resume_budget"], "resume_budget")
     selection_output["education_display_rules"] = build_education_display_rules(education, str(budget["page_fit_estimate"]))
     write_selection_json(paths.selection_json_path, selection_output)

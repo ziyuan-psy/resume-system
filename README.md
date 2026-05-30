@@ -593,6 +593,10 @@ Selection JSON shape:
       "experience_id": "active_experience_id",
       "selection_tier": "core | supporting | backup",
       "target_section": "Professional Experience | Project Experience | Research Experience",
+      "display_title": "canonical title or existing title_variant from active YAML",
+      "title_source": "canonical | title_variant",
+      "title_selection_rationale": "why this existing title fits the JD",
+      "proposed_title_for_review": null,
       "rationale": "why this grouped experience belongs",
       "selected_bullets": [
         {
@@ -682,6 +686,8 @@ If any detected source metric is omitted from a combined draft bullet, list it i
 Python detects obvious metrics from source candidate text resolved through active canonical YAML and validates that preserved metrics appear in draft_bullet_text.
 Experience section titles are fixed to Professional Experience plus either Project Experience or Research Experience.
 Codex/LLM authors target_section for each selected experience; Python validates allowed values and consistency but does not assign sections from source_type.
+Codex/LLM authors each experience display_title, but it must exactly match the active YAML canonical title or an existing title_variant.
+If a better invented title would help, put it only in proposed_title_for_review; it is review-only and is not rendered by default.
 Skills should include a broader selected pool and a recommended final display set of 14-20 skills when appropriate.
 Codex/LLM authors each final skill display_category for the target JD and resume narrative; Python validates it exists but does not derive it from skills.yaml default_category.
 Coursework should include a broader selected pool and 3-5 recommended final display entries when possible.
@@ -720,7 +726,7 @@ python scripts/phase6c_latex_draft.py --target-slug sample_product_ops
 python scripts/phase6c_latex_draft.py --target-slug sample_product_ops --validate-only
 ```
 
-Phase 6C uses the template anchors for the header, education, professional experience, selected project/research section, and skills. It renders Phase 6B `draft_bullet_text` as provided, uses `target_section` and skill `display_category` from selection JSON, and does not select, rank, rewrite, or re-categorize content. It does not create, modify, overwrite, validate, or depend on PDFs; manual VS Code preview remains separate.
+Phase 6C uses the template anchors for the header, education, professional experience, selected project/research section, and skills. It renders Phase 6B `draft_bullet_text` as provided, uses `target_section`, validated `display_title`, and skill `display_category` from selection JSON, and does not select, rank, rewrite, or re-categorize content. If legacy/manual selection JSON lacks `display_title`, Phase 6C falls back to the active YAML canonical title. It never renders `proposed_title_for_review`, and it does not create, modify, overwrite, validate, or depend on PDFs; manual VS Code preview remains separate.
 
 \---
 

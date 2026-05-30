@@ -202,7 +202,14 @@ def validate_selection(
     coursework: dict[str, dict[str, object]],
     education: dict[str, dict[str, object]],
 ) -> None:
-    phase6b.validate_selection_json(selection, slug, experiences, skills, coursework)
+    phase6b.validate_selection_json(
+        selection,
+        slug,
+        experiences,
+        skills,
+        coursework,
+        require_display_titles=False,
+    )
     if "education_display_rules" not in selection:
         raise Phase6CError("Selection JSON is missing education_display_rules. Re-run Phase 6B first.")
 
@@ -222,6 +229,13 @@ def validate_selection(
         target_section = item["target_section"]
         if target_section != "Professional Experience" and target_section != non_work_section:
             raise Phase6CError(f"Experience {item['experience_id']} target_section is inconsistent with resume_section_plan.")
+        experience_id = str(item["experience_id"])
+        phase6b.resolve_display_title(
+            item,
+            experiences[experience_id],
+            f"experience selection {experience_id}",
+            require_display_title=False,
+        )
 
 
 def selected_coursework_by_education(selection: dict[str, Any], coursework: dict[str, dict[str, object]]) -> dict[str, list[str]]:
@@ -318,9 +332,15 @@ def render_experience_block(
     ]
     if not bullets:
         return ""
+    display_title = phase6b.resolve_display_title(
+        selection_item,
+        experience,
+        f"experience selection {selection_item['experience_id']}",
+        require_display_title=False,
+    )
     chunks = [
         f"    \\begin{{twocolentry}}{{{latex_escape(experience['date'])}}}",
-        f"        \\textbf{{{latex_escape(experience['title_en'])}}}, {join_heading_parts(experience['organization_en'], location=experience['location'])}",
+        f"        \\textbf{{{latex_escape(display_title)}}}, {join_heading_parts(experience['organization_en'], location=experience['location'])}",
         "    \\end{twocolentry}",
         "",
         "    \\vspace{0.10 cm}",
