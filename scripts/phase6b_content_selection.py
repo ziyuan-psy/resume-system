@@ -165,6 +165,17 @@ def parse_candidate_pools(lines: list[str]) -> list[dict[str, object]]:
     return pools
 
 
+def parse_bool_value(value: str, default: bool, field_name: str, context: str) -> bool:
+    if not value:
+        return default
+    normalized = value.strip().lower()
+    if normalized == "true":
+        return True
+    if normalized == "false":
+        return False
+    raise Phase6BError(f"{field_name} in {context} must be true or false.")
+
+
 def parse_education(root: Path) -> list[dict[str, object]]:
     path = root / EDUCATION_PATH
     if not path.exists():
@@ -173,12 +184,22 @@ def parse_education(root: Path) -> list[dict[str, object]]:
     entries = []
     for start, end in parse_entry_segments(lines, "education_id"):
         segment = lines[start:end]
+        education_id = find_value(segment, "education_id")
+        context = f"education entry {education_id or 'unknown'}"
+        gpa_en = find_value(segment, "gpa_en")
+        gpa_display = parse_bool_value(find_value(segment, "gpa_display"), False, "gpa_display", context)
+        location_display = parse_bool_value(find_value(segment, "location_display"), True, "location_display", context)
+        if gpa_display and not gpa_en.strip():
+            raise Phase6BError(f"{context} has gpa_display: true but missing gpa_en.")
         entries.append(
             {
-                "education_id": find_value(segment, "education_id"),
+                "education_id": education_id,
                 "institution_en": find_value(segment, "institution_en"),
                 "degree_en": find_value(segment, "degree_en"),
                 "location": find_value(segment, "location"),
+                "gpa_en": gpa_en,
+                "gpa_display": gpa_display,
+                "location_display": location_display,
                 "date": find_value(segment, "date"),
                 "status": find_value(segment, "status"),
             }
@@ -942,6 +963,9 @@ def write_selection_plan(
             handle.write(f"- `{item['education_id']}` {item['degree_en']}, {item['institution_en']}\n")
             handle.write(f"  - Date: {item['date']}\n")
             handle.write(f"  - Location: {item['location']}\n")
+            if item.get("gpa_display"):
+                handle.write(f"  - GPA: {item['gpa_en']}\n")
+            handle.write(f"  - Location display: {str(item.get('location_display', True)).lower()}\n")
             handle.write(f"  - Status: {item['status']}\n")
             handle.write(f"  - Include by default: {str(rule.get('include_by_default', False)).lower()}\n")
             handle.write(f"  - Display mode: {rule.get('display_mode', 'needs_review')}\n")

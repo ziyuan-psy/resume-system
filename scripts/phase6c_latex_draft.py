@@ -295,20 +295,28 @@ def join_heading_parts(primary: object, secondary: object = "", location: object
     return text
 
 
+def render_education_heading(item: dict[str, object]) -> str:
+    degree = str(item["degree_en"])
+    if item.get("gpa_display"):
+        degree = f"{degree} ({item['gpa_en']})"
+    location = item["location"] if item.get("location_display", True) else ""
+    return f"\\textbf{{{latex_escape(item['institution_en'])}}}, {join_heading_parts(degree, location=location)}"
+
+
 def render_education(
     selection: dict[str, Any],
     education_by_id: dict[str, dict[str, object]],
     coursework_by_id: dict[str, dict[str, object]],
 ) -> str:
     courses_by_education = selected_coursework_by_education(selection, coursework_by_id)
-    chunks = ["    \\section{Education}", ""]
+    chunks = ["    \\section{EDUCATION}", ""]
     entries = included_education_entries(selection, education_by_id)
     for index, (rule, item) in enumerate(entries):
         if index:
             chunks.append("    \\vspace{0.2 cm}")
             chunks.append("")
         chunks.append(f"    \\begin{{twocolentry}}{{{latex_escape(item['date'])}}}")
-        chunks.append(f"        \\textbf{{{latex_escape(item['institution_en'])}}}, {join_heading_parts(item['degree_en'], location=item['location'])}")
+        chunks.append(f"        {render_education_heading(item)}")
         chunks.append("    \\end{twocolentry}")
         education_id = str(item["education_id"])
         course_titles = courses_by_education.get(education_id, [])
@@ -316,7 +324,7 @@ def render_education(
             chunks.append("")
             chunks.append("    \\vspace{0.10 cm}")
             chunks.append("    \\begin{onecolentry}")
-            chunks.append(f"        \\textbf{{Relevant Coursework:}} {latex_escape(', '.join(course_titles))}")
+            chunks.append(f"\\textbf{{Coursework:}} {latex_escape(', '.join(course_titles))}")
             chunks.append("    \\end{onecolentry}")
     return "\n".join(chunks)
 
@@ -372,7 +380,7 @@ def render_experience_section(
             blocks.append(block)
     if not blocks:
         return ""
-    return f"    \\section{{{latex_escape(title)}}}\n\n" + "\n\n    \\vspace{0.2 cm}\n\n".join(blocks)
+    return f"    \\section{{{latex_escape(title.upper())}}}\n\n" + "\n\n    \\vspace{0.2 cm}\n\n".join(blocks)
 
 
 def split_experience_selections(selection: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -399,7 +407,7 @@ def render_skills(selection: dict[str, Any]) -> str:
             order.append(category)
         groups[category].append(str(item["display_name"]))
 
-    chunks = ["    \\section{Skills}", ""]
+    chunks = ["    \\section{SKILLS}", ""]
     for index, category in enumerate(order):
         if index:
             chunks.append("")
@@ -451,8 +459,8 @@ def validate_generated_tex(text: str) -> None:
         raise Phase6CError("Generated TeX contains live placeholder text.")
     if "Bullet placeholder" in live_text:
         raise Phase6CError("Generated TeX contains live bullet placeholder text.")
-    has_project = r"\section{Project Experience}" in live_text
-    has_research = r"\section{Research Experience}" in live_text
+    has_project = bool(re.search(r"\\section\{project experience\}", live_text, flags=re.IGNORECASE))
+    has_research = bool(re.search(r"\\section\{research experience\}", live_text, flags=re.IGNORECASE))
     if has_project and has_research:
         raise Phase6CError("Generated TeX must not include both Project Experience and Research Experience sections.")
     found = [marker for marker in FORBIDDEN_TEX_MARKERS if marker in live_text]

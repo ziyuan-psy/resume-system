@@ -1,11 +1,17 @@
 education:
   - education_id: "ut_austin_msis"
     institution_en:
-      "The University of Texas at Austin"
+      "University of Texas at Austin"
     degree_en:
       "MS in Information Studies"
     location:
       "Austin, TX"
+    gpa_en:
+      "GPA: 4.0"
+    gpa_display:
+      true
+    location_display:
+      false
     date:
       "Aug 2025 – May 2027"
     status:
@@ -1653,7 +1659,7 @@ education:
           207
   - education_id: "lingnan_exchange"
     institution_en:
-      "Lingnan University, Hong Kong"
+      "Lingnan University"
     degree_en:
       "Exchange Student"
     location:
