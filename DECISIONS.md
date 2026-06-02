@@ -6,7 +6,7 @@
 - Education is managed separately from experience content in `content/profile/education.yaml`.
 - Coursework is dynamic profile metadata in `content/profile/coursework.yaml`, not part of fixed education entries.
 - Skills are profile-level content in `content/profile/skills.yaml`, not part of a specific experience.
-- Contact/header information is fixed profile-level content in `content/profile/contact.yaml`.
+- Contact/header information is profile-level content in `content/profile/contacts/`; `content/profile/contact.yaml` is legacy/deprecated compatibility data.
 - Skill categories are managed in `content/taxonomy/skill_categories.yaml` and are display metadata, not skill identity.
 - Interests detected in historical skills sections are excluded from active skills and default resume generation.
 - Extracurricular content is archived by default.
@@ -17,6 +17,7 @@
 - Canonical bullets must come from extracted content or user-approved content only.
 - Skills are selected from display names, aliases, categories, and source evidence; v1 does not infer role tags or skill types.
 - Phase 6C is deterministic LaTeX rendering only. It must not select, rank, rewrite, re-categorize, generate PDFs, or depend on PDFs.
+- English Phase 6C supports only `us_en` and `china_intl_en` contact profiles. `china_domestic_zh` is reserved for a future Chinese resume workflow. Contact profile is selected during rendering, not Phase 6B content selection.
 - JD-aware experience display titles must come from active YAML canonical titles or `title_variants`; new title ideas stay in `proposed_title_for_review` until explicitly approved.
 
 ## When to update this file

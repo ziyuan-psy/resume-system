@@ -20,10 +20,12 @@ except ImportError:  # pragma: no cover - supports running from scripts/
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTACT_PATH = Path("content") / "profile" / "contact.yaml"
+CONTACTS_DIR = Path("content") / "profile" / "contacts"
 TEMPLATE_PATH = Path("templates") / "us_resume_template.tex"
 SELECTION_DIR = Path("generated") / "selection"
 TEX_DIR = Path("generated") / "tex"
+ENGLISH_CONTACT_PROFILES = {"us_en", "china_intl_en"}
+RESERVED_CHINESE_CONTACT_PROFILE = "china_domestic_zh"
 
 ANCHORS = {
     "header": ("RESUME_HEADER_START", "RESUME_HEADER_END"),
@@ -68,11 +70,25 @@ def ensure_path_under(root: Path, path: Path) -> None:
         raise Phase6CError(f"Refusing to use a path outside project root: {path}") from exc
 
 
-def build_paths(root: Path, slug: str) -> Phase6CPaths:
+def contact_profile_path(root: Path, contact_profile: str) -> Path:
+    if contact_profile == RESERVED_CHINESE_CONTACT_PROFILE:
+        raise Phase6CError(
+            "Contact profile china_domestic_zh is reserved for a future Chinese resume workflow. "
+            "The English Phase 6C renderer supports only: china_intl_en, us_en."
+        )
+    if contact_profile not in ENGLISH_CONTACT_PROFILES:
+        raise Phase6CError(
+            f"Unknown English contact profile: {contact_profile}. "
+            "Supported English contact profiles: china_intl_en, us_en."
+        )
+    return root / CONTACTS_DIR / f"{contact_profile}.yaml"
+
+
+def build_paths(root: Path, slug: str, contact_profile: str) -> Phase6CPaths:
     paths = Phase6CPaths(
         selection_path=root / SELECTION_DIR / f"{slug}_selection.json",
         template_path=root / TEMPLATE_PATH,
-        contact_path=root / CONTACT_PATH,
+        contact_path=contact_profile_path(root, contact_profile),
         tex_path=root / TEX_DIR / f"{slug}.tex",
     )
     for path in paths.__dict__.values():
@@ -95,24 +111,32 @@ def read_lines(path: Path) -> list[str]:
     return path.read_text(encoding="utf-8").splitlines()
 
 
-def parse_contact(root: Path) -> dict[str, str]:
-    lines = read_lines(root / CONTACT_PATH)
+def parse_contact(path: Path, contact_profile: str) -> dict[str, str]:
+    lines = read_lines(path)
     contact = {
+        "profile_id": find_value(lines, "profile_id"),
+        "profile_label": find_value(lines, "profile_label"),
         "full_name": find_value(lines, "full_name"),
         "email": find_value(lines, "email"),
         "phone": find_value(lines, "phone"),
         "linkedin_display": find_value(lines, "linkedin_display"),
         "linkedin_url": find_value(lines, "linkedin_url"),
         "location": find_value(lines, "location"),
+        "language": find_value(lines, "language"),
+        "target_market": find_value(lines, "target_market"),
     }
     missing = [key for key, value in contact.items() if not value]
     if missing:
-        raise Phase6CError("Missing contact fields: " + ", ".join(missing))
+        raise Phase6CError(f"Missing contact fields in {contact_profile}: " + ", ".join(missing))
+    if contact["profile_id"] != contact_profile:
+        raise Phase6CError(f"Contact profile_id must match requested profile: {contact_profile}")
+    if contact["language"] != "en":
+        raise Phase6CError(f"English Phase 6C contact profile must use language: en ({contact_profile}).")
     if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", contact["email"]):
-        raise Phase6CError("Contact email is not valid.")
+        raise Phase6CError(f"Contact email is not valid for {contact_profile}.")
     parsed_url = urlparse(contact["linkedin_url"])
     if parsed_url.scheme != "https" or not parsed_url.netloc or any(char in contact["linkedin_url"] for char in "{} \n\r\t"):
-        raise Phase6CError("Contact LinkedIn URL must be a safe https URL.")
+        raise Phase6CError(f"Contact LinkedIn URL must be a safe https URL for {contact_profile}.")
     return contact
 
 
@@ -468,10 +492,10 @@ def validate_generated_tex(text: str) -> None:
         raise Phase6CError("Generated TeX contains forbidden traceability/source markers: " + ", ".join(found))
 
 
-def load_inputs(root: Path, slug: str) -> tuple[Phase6CPaths, dict[str, Any], dict[str, str], str, dict[str, dict[str, object]], dict[str, dict[str, object]], dict[str, dict[str, object]], dict[str, dict[str, object]]]:
-    paths = build_paths(root, slug)
+def load_inputs(root: Path, slug: str, contact_profile: str) -> tuple[Phase6CPaths, dict[str, Any], dict[str, str], str, dict[str, dict[str, object]], dict[str, dict[str, object]], dict[str, dict[str, object]], dict[str, dict[str, object]]]:
+    paths = build_paths(root, slug, contact_profile)
     selection = load_json(paths.selection_path)
-    contact = parse_contact(root)
+    contact = parse_contact(paths.contact_path, contact_profile)
     template = paths.template_path.read_text(encoding="utf-8")
     validate_template_anchors(template)
 
@@ -486,6 +510,7 @@ def load_inputs(root: Path, slug: str) -> tuple[Phase6CPaths, dict[str, Any], di
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Phase 6C deterministic LaTeX draft renderer.")
     parser.add_argument("--target-slug", required=True, help="Safe lowercase basename used for selection and generated TeX files.")
+    parser.add_argument("--contact-profile", default="us_en", help="English contact profile to render: us_en or china_intl_en.")
     parser.add_argument("--validate-only", action="store_true", help="Validate inputs and an existing generated TeX draft if present, without writing.")
     parser.add_argument("--root", default=str(ROOT), help=argparse.SUPPRESS)
     return parser.parse_args(argv)
@@ -494,7 +519,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 def run(args: argparse.Namespace) -> Phase6CPaths:
     root = Path(args.root).resolve()
     slug = phase6a.validate_slug(args.target_slug)
-    paths, selection, contact, template, education, coursework, experiences, _skills = load_inputs(root, slug)
+    paths, selection, contact, template, education, coursework, experiences, _skills = load_inputs(root, slug, args.contact_profile)
 
     if args.validate_only:
         if paths.tex_path.exists():
@@ -524,6 +549,7 @@ def main(argv: list[str] | None = None) -> int:
             print("No generated TeX exists yet; validate-only did not write one.")
     else:
         print(f"LaTeX draft: {paths.tex_path}")
+        print(f"Contact profile: {args.contact_profile}")
         print("Phase 6C complete. No PDF was generated or touched.")
     return 0
 
