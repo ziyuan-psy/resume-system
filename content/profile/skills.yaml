@@ -19,7 +19,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000804"
       - "raw_s000829"
@@ -84,7 +84,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000413"
       - "raw_s000422"
@@ -125,15 +125,15 @@ skills:
     aliases:
       - "Copilot Studio Agent"
     default_category:
-      "data_analytics"
+      "ai_automation"
     category_variants:
-      - raw_category: "Data & Analytics"
+      - raw_category: "AI & Automation"
         canonical_category:
-          "data_analytics"
+          "ai_automation"
         count:
           4
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000300"
       - "raw_s000318"
@@ -214,7 +214,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000019"
     source_references:
@@ -247,7 +247,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000004"
     source_references:
@@ -280,7 +280,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000006"
     source_references:
@@ -319,7 +319,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000005"
       - "raw_s000020"
@@ -374,7 +374,7 @@ skills:
         count:
           4
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000144"
       - "raw_s000156"
@@ -551,7 +551,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000763"
     source_references:
@@ -590,7 +590,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000482"
       - "raw_s000579"
@@ -697,7 +697,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000405"
       - "raw_s000430"
@@ -810,7 +810,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000918"
     source_references:
@@ -858,7 +858,7 @@ skills:
         count:
           7
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000018"
       - "raw_s000029"
@@ -1628,7 +1628,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000008"
       - "raw_s000016"
@@ -2781,7 +2781,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000983"
     source_references:
@@ -2845,7 +2845,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000009"
       - "raw_s000015"
@@ -4003,7 +4003,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000412"
       - "raw_s000421"
@@ -4093,7 +4093,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000007"
       - "raw_s000017"
@@ -5141,6 +5141,7 @@ skills:
       "Tableau"
     aliases:
       - "Tableau"
+      - "Tableau dashboards"
     default_category:
       "data_analytics"
     category_variants:
@@ -5169,8 +5170,13 @@ skills:
           "design_simulation_tools"
         count:
           3
+      - raw_category: "Reporting & Documentation"
+        canonical_category:
+          "enterprise_productivity_tools"
+        count:
+          1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000014"
       - "raw_s000028"
@@ -5236,6 +5242,7 @@ skills:
       - "raw_s000948"
       - "raw_s000961"
       - "raw_s000981"
+      - "raw_s000010"
     source_references:
       - raw_skill_id: "raw_s000014"
         original_zip_name:
@@ -6197,6 +6204,21 @@ skills:
           332
         raw_category:
           "Data & Insights"
+      - raw_skill_id: "raw_s000010"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ Enterprise Systems_USTA"
+        source_project_zip:
+          "26 summer_ Enterprise Systems_USTA.zip"
+        source_project_id:
+          "project_001_26_summer_enterprise_systems_usta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          330
+        raw_category:
+          "Reporting & Documentation"
   - skill_id: "ai_agent"
     display_name:
       "AI Agent"
@@ -6242,7 +6264,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000133"
       - "raw_s000145"
@@ -6835,7 +6857,7 @@ skills:
         count:
           7
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000032"
       - "raw_s000046"
@@ -6964,7 +6986,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000390"
     source_references:
@@ -6997,7 +7019,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000389"
     source_references:
@@ -7056,7 +7078,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000031"
       - "raw_s000045"
@@ -7553,7 +7575,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000391"
     source_references:
@@ -7586,7 +7608,7 @@ skills:
         count:
           8
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000034"
       - "raw_s000048"
@@ -7731,7 +7753,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000448"
     source_references:
@@ -7764,7 +7786,7 @@ skills:
         count:
           8
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000033"
       - "raw_s000047"
@@ -7931,7 +7953,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000002"
       - "raw_s000021"
@@ -8428,7 +8450,7 @@ skills:
         count:
           8
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000030"
       - "raw_s000044"
@@ -8573,44 +8595,11 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000971"
     source_references:
       - raw_skill_id: "raw_s000971"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_product_Razer"
-        source_project_zip:
-          "ziyuan_guo_product_Razer.zip"
-        source_project_id:
-          "project_077_ziyuan_guo_product_razer"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          326
-        raw_category:
-          "Product Testing & Benchmarking"
-  - skill_id: "controlled_experiment_design"
-    display_name:
-      "Controlled Experiment Design"
-    aliases:
-      - "Controlled Experiment Design"
-    default_category:
-      "product_ux_research"
-    category_variants:
-      - raw_category: "Product Testing & Benchmarking"
-        canonical_category:
-          "product_ux_research"
-        count:
-          1
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000972"
-    source_references:
-      - raw_skill_id: "raw_s000972"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
@@ -8639,7 +8628,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000180"
     source_references:
@@ -8682,7 +8671,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000109"
       - "raw_s000114"
@@ -8859,7 +8848,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000988"
     source_references:
@@ -8892,7 +8881,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000118"
       - "raw_s000252"
@@ -8962,7 +8951,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000189"
       - "raw_s000215"
@@ -9091,7 +9080,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000862"
       - "raw_s000881"
@@ -9156,7 +9145,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000975"
     source_references:
@@ -9189,7 +9178,7 @@ skills:
         count:
           6
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000190"
       - "raw_s000216"
@@ -9302,7 +9291,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000973"
     source_references:
@@ -9326,6 +9315,7 @@ skills:
       "Test Protocol Design"
     aliases:
       - "Test Protocol Design"
+      - "Test Protocol Development"
     default_category:
       "product_ux_research"
     category_variants:
@@ -9334,10 +9324,17 @@ skills:
           "product_ux_research"
         count:
           1
+      - raw_category: "Test & Research Methods"
+        canonical_category:
+          "research_methods"
+        count:
+          2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000974"
+      - "raw_s000766"
+      - "raw_s000784"
     source_references:
       - raw_skill_id: "raw_s000974"
         original_zip_name:
@@ -9354,6 +9351,36 @@ skills:
           326
         raw_category:
           "Product Testing & Benchmarking"
+      - raw_skill_id: "raw_s000766"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          334
+        raw_category:
+          "Test & Research Methods"
+      - raw_skill_id: "raw_s000784"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          326
+        raw_category:
+          "Test & Research Methods"
   - skill_id: "ui_ux_evaluation"
     display_name:
       "UI/UX Evaluation"
@@ -9368,7 +9395,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000117"
       - "raw_s000251"
@@ -9424,6 +9451,7 @@ skills:
       "Unreal Engine 5"
     aliases:
       - "Unreal Engine 5"
+      - "UE5"
     default_category:
       "product_ux_research"
     category_variants:
@@ -9432,10 +9460,16 @@ skills:
           "product_ux_research"
         count:
           1
+      - raw_category: "Lab & Technical Tools"
+        canonical_category:
+          "design_simulation_tools"
+        count:
+          1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000115"
+      - "raw_s000790"
     source_references:
       - raw_skill_id: "raw_s000115"
         original_zip_name:
@@ -9452,6 +9486,21 @@ skills:
           342
         raw_category:
           "Design & Research"
+      - raw_skill_id: "raw_s000790"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          332
+        raw_category:
+          "Lab & Technical Tools"
   - skill_id: "usability_testing"
     display_name:
       "Usability Testing"
@@ -9476,7 +9525,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000116"
       - "raw_s000186"
@@ -9653,7 +9702,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000249"
       - "raw_s000263"
@@ -9702,7 +9751,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000472"
     source_references:
@@ -9735,7 +9784,7 @@ skills:
         count:
           15
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000334"
       - "raw_s000457"
@@ -9992,7 +10041,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000570"
     source_references:
@@ -10025,7 +10074,7 @@ skills:
         count:
           17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000333"
       - "raw_s000456"
@@ -10314,7 +10363,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000767"
       - "raw_s000785"
@@ -10354,6 +10403,8 @@ skills:
       "Experimental Design"
     aliases:
       - "Experimental Design"
+      - "Controlled Experiment Design"
+      - "Experiments"
     default_category:
       "research_methods"
     category_variants:
@@ -10362,11 +10413,39 @@ skills:
           "research_methods"
         count:
           2
+      - raw_category: "Product Testing & Benchmarking"
+        canonical_category:
+          "product_ux_research"
+        count:
+          1
+      - raw_category: "Quantitative Methods"
+        canonical_category:
+          "research_methods"
+        count:
+          17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000765"
       - "raw_s000783"
+      - "raw_s000972"
+      - "raw_s000337"
+      - "raw_s000461"
+      - "raw_s000480"
+      - "raw_s000500"
+      - "raw_s000519"
+      - "raw_s000536"
+      - "raw_s000553"
+      - "raw_s000576"
+      - "raw_s000594"
+      - "raw_s000620"
+      - "raw_s000640"
+      - "raw_s000660"
+      - "raw_s000673"
+      - "raw_s000690"
+      - "raw_s000707"
+      - "raw_s000725"
+      - "raw_s000744"
     source_references:
       - raw_skill_id: "raw_s000765"
         original_zip_name:
@@ -10398,40 +10477,21 @@ skills:
           326
         raw_category:
           "Test & Research Methods"
-  - skill_id: "experiments"
-    display_name:
-      "Experiments"
-    aliases:
-      - "Experiments"
-    default_category:
-      "research_methods"
-    category_variants:
-      - raw_category: "Quantitative Methods"
-        canonical_category:
-          "research_methods"
-        count:
-          17
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000337"
-      - "raw_s000461"
-      - "raw_s000480"
-      - "raw_s000500"
-      - "raw_s000519"
-      - "raw_s000536"
-      - "raw_s000553"
-      - "raw_s000576"
-      - "raw_s000594"
-      - "raw_s000620"
-      - "raw_s000640"
-      - "raw_s000660"
-      - "raw_s000673"
-      - "raw_s000690"
-      - "raw_s000707"
-      - "raw_s000725"
-      - "raw_s000744"
-    source_references:
+      - raw_skill_id: "raw_s000972"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          326
+        raw_category:
+          "Product Testing & Benchmarking"
       - raw_skill_id: "raw_s000337"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -10701,7 +10761,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000567"
     source_references:
@@ -10734,7 +10794,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000533"
       - "raw_s000550"
@@ -10783,7 +10843,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000764"
       - "raw_s000782"
@@ -10832,7 +10892,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000473"
     source_references:
@@ -10866,7 +10926,7 @@ skills:
         count:
           17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000336"
       - "raw_s000460"
@@ -11171,7 +11231,7 @@ skills:
         count:
           17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000182"
       - "raw_s000188"
@@ -11588,7 +11648,7 @@ skills:
         count:
           6
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000475"
       - "raw_s000493"
@@ -11706,7 +11766,7 @@ skills:
         count:
           12
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000301"
       - "raw_s000310"
@@ -11969,7 +12029,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000338"
       - "raw_s000462"
@@ -12311,7 +12371,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000181"
       - "raw_s000187"
@@ -12746,55 +12806,6 @@ skills:
           338
         raw_category:
           "Research & Customer Insight"
-  - skill_id: "test_protocol_development"
-    display_name:
-      "Test Protocol Development"
-    aliases:
-      - "Test Protocol Development"
-    default_category:
-      "research_methods"
-    category_variants:
-      - raw_category: "Test & Research Methods"
-        canonical_category:
-          "research_methods"
-        count:
-          2
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000766"
-      - "raw_s000784"
-    source_references:
-      - raw_skill_id: "raw_s000766"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          334
-        raw_category:
-          "Test & Research Methods"
-      - raw_skill_id: "raw_s000784"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          326
-        raw_category:
-          "Test & Research Methods"
   - skill_id: "usability_studies"
     display_name:
       "Usability studies"
@@ -12809,7 +12820,7 @@ skills:
         count:
           16
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000332"
       - "raw_s000455"
@@ -13082,7 +13093,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000652"
     source_references:
@@ -13115,7 +13126,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000011"
     source_references:
@@ -13148,7 +13159,7 @@ skills:
         count:
           6
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000149"
       - "raw_s000161"
@@ -13261,7 +13272,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000312"
     source_references:
@@ -13300,7 +13311,7 @@ skills:
         count:
           7
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000201"
       - "raw_s000227"
@@ -13605,7 +13616,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000003"
     source_references:
@@ -13664,7 +13675,7 @@ skills:
         count:
           22
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000024"
       - "raw_s000038"
@@ -14388,7 +14399,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000023"
       - "raw_s000037"
@@ -15109,7 +15120,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000173"
     source_references:
@@ -15147,7 +15158,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000488"
       - "raw_s000989"
@@ -15249,7 +15260,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000001"
       - "raw_s000022"
@@ -15938,7 +15949,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000772"
       - "raw_s000796"
@@ -15973,39 +15984,6 @@ skills:
           348
         raw_category:
           "Collaboration & Documentation"
-  - skill_id: "tableau_dashboards"
-    display_name:
-      "Tableau dashboards"
-    aliases:
-      - "Tableau dashboards"
-    default_category:
-      "enterprise_productivity_tools"
-    category_variants:
-      - raw_category: "Reporting & Documentation"
-        canonical_category:
-          "enterprise_productivity_tools"
-        count:
-          1
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000010"
-    source_references:
-      - raw_skill_id: "raw_s000010"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_ Enterprise Systems_USTA"
-        source_project_zip:
-          "26 summer_ Enterprise Systems_USTA.zip"
-        source_project_id:
-          "project_001_26_summer_enterprise_systems_usta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          330
-        raw_category:
-          "Reporting & Documentation"
   - skill_id: "technical_reporting"
     display_name:
       "Technical Reporting"
@@ -16026,7 +16004,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000013"
       - "raw_s000773"
@@ -16091,7 +16069,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000012"
     source_references:
@@ -16134,7 +16112,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000100"
       - "raw_s000123"
@@ -16327,7 +16305,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000792"
     source_references:
@@ -16360,7 +16338,7 @@ skills:
         count:
           1
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000793"
     source_references:
@@ -16379,103 +16357,6 @@ skills:
           332
         raw_category:
           "Lab & Technical Tools"
-  - skill_id: "imotion_axure"
-    display_name:
-      "iMotion; Axure"
-    aliases:
-      - "iMotion; Axure"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Design & Simulation"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          5
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000400"
-      - "raw_s000407"
-      - "raw_s000415"
-      - "raw_s000424"
-      - "raw_s000432"
-    source_references:
-      - raw_skill_id: "raw_s000400"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "NEU IS_V2"
-        source_project_zip:
-          "NEU IS_V2.zip"
-        source_project_id:
-          "project_039_neu_is_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          357
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000407"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          353
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000415"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          400
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000424"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          382
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000432"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UR DS"
-        source_project_zip:
-          "UR DS.zip"
-        source_project_id:
-          "project_043_ur_ds"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          358
-        raw_category:
-          "Design & Simulation"
   - skill_id: "imotions"
     display_name:
       "iMotions"
@@ -16500,7 +16381,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000127"
       - "raw_s000261"
@@ -16583,75 +16464,9 @@ skills:
           332
         raw_category:
           "Lab & Technical Tools"
-  - skill_id: "imotions_axure"
-    display_name:
-      "iMotions; Axure"
-    aliases:
-      - "iMotions; Axure"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Design & Simulation"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          1
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000439"
-    source_references:
-      - raw_skill_id: "raw_s000439"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          374
-        raw_category:
-          "Design & Simulation"
-  - skill_id: "imotions_axure_unreal_engine"
-    display_name:
-      "iMotions; Axure; Unreal Engine"
-    aliases:
-      - "iMotions; Axure; Unreal Engine"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Design & Simulation"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          1
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000099"
-    source_references:
-      - raw_skill_id: "raw_s000099"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          308
-        raw_category:
-          "Design & Simulation"
   - skill_id: "psychopy"
     display_name:
-      "Psychopy"
+      "PsychoPy"
     aliases:
       - "Psychopy"
       - "PsychoPy"
@@ -16679,7 +16494,7 @@ skills:
         count:
           3
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000098"
       - "raw_s000125"
@@ -16874,217 +16689,6 @@ skills:
           332
         raw_category:
           "Lab & Technical Tools"
-  - skill_id: "ue5"
-    display_name:
-      "UE5"
-    aliases:
-      - "UE5"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Lab & Technical Tools"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          1
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000790"
-    source_references:
-      - raw_skill_id: "raw_s000790"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          332
-        raw_category:
-          "Lab & Technical Tools"
-  - skill_id: "visio_unreal_engine"
-    display_name:
-      "Visio; Unreal Engine"
-    aliases:
-      - "Visio; Unreal Engine"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Design & Simulation"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          6
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000401"
-      - "raw_s000408"
-      - "raw_s000416"
-      - "raw_s000425"
-      - "raw_s000433"
-      - "raw_s000440"
-    source_references:
-      - raw_skill_id: "raw_s000401"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "NEU IS_V2"
-        source_project_zip:
-          "NEU IS_V2.zip"
-        source_project_id:
-          "project_039_neu_is_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          357
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000408"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          353
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000416"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          400
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000425"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          382
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000433"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UR DS"
-        source_project_zip:
-          "UR DS.zip"
-        source_project_id:
-          "project_043_ur_ds"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          358
-        raw_category:
-          "Design & Simulation"
-      - raw_skill_id: "raw_s000440"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          374
-        raw_category:
-          "Design & Simulation"
-  - skill_id: "vizard"
-    display_name:
-      "Vizard"
-    aliases:
-      - "Vizard"
-    default_category:
-      "design_simulation_tools"
-    category_variants:
-      - raw_category: "Technical Tools"
-        canonical_category:
-          "design_simulation_tools"
-        count:
-          3
-    status:
-      "needs_review"
-    raw_skill_ids:
-      - "raw_s000124"
-      - "raw_s000258"
-      - "raw_s000272"
-    source_references:
-      - raw_skill_id: "raw_s000124"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          367
-        raw_category:
-          "Technical Tools"
-      - raw_skill_id: "raw_s000258"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          369
-        raw_category:
-          "Technical Tools"
-      - raw_skill_id: "raw_s000272"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          369
-        raw_category:
-          "Technical Tools"
   - skill_id: "confluence"
     display_name:
       "Confluence"
@@ -17099,7 +16703,7 @@ skills:
         count:
           7
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000469"
       - "raw_s000508"
@@ -17228,7 +16832,7 @@ skills:
         count:
           7
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000346"
       - "raw_s000546"
@@ -17357,7 +16961,7 @@ skills:
         count:
           17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000344"
       - "raw_s000470"
@@ -17646,7 +17250,7 @@ skills:
         count:
           2
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000662"
       - "raw_s000680"
@@ -17695,7 +17299,7 @@ skills:
         count:
           17
     status:
-      "needs_review"
+      "approved"
     raw_skill_ids:
       - "raw_s000345"
       - "raw_s000471"
