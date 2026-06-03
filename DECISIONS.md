@@ -6,7 +6,7 @@
 - Education is managed separately from experience content in `content/profile/education.yaml`.
 - Coursework is dynamic profile metadata in `content/profile/coursework.yaml`, not part of fixed education entries.
 - Skills are profile-level content in `content/profile/skills.yaml`, not part of a specific experience.
-- Contact/header information is profile-level content in `content/profile/contacts/`; `content/profile/contact.yaml` is legacy/deprecated compatibility data.
+- Contact/header information is profile-level content in `content/profile/contacts/`.
 - Skill categories are managed in `content/taxonomy/skill_categories.yaml` and are display metadata, not skill identity.
 - Interests detected in historical skills sections are excluded from active skills and default resume generation.
 - Extracurricular content is archived by default.

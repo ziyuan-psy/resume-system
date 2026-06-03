@@ -12,6 +12,7 @@ PROFILE_DIR = ROOT / "content" / "profile"
 EDUCATION_PATH = PROFILE_DIR / "education.yaml"
 COURSEWORK_PATH = PROFILE_DIR / "coursework.yaml"
 SKILLS_PATH = PROFILE_DIR / "skills.yaml"
+CONTACTS_DIR = PROFILE_DIR / "contacts"
 SKILL_CATEGORIES_PATH = ROOT / "content" / "taxonomy" / "skill_categories.yaml"
 CANONICAL_EN_DIR = ROOT / "content" / "experiences" / "canonical" / "en"
 ARCHIVE_DIR = ROOT / "content" / "archive"
@@ -45,6 +46,12 @@ def find_value(lines: list[str], key: str, start: int = 0, end: int | None = Non
                 return ""
             return decode_scalar(candidate)
     return ""
+
+
+def normalize_bool_text(value: str, default: bool) -> str:
+    if not value:
+        return "true" if default else "false"
+    return "true" if value.lower() == "true" else "false"
 
 
 def find_block(lines: list[str], key: str) -> tuple[int, int]:
@@ -120,12 +127,38 @@ def parse_education() -> list[dict[str, str]]:
                 "institution_en": find_value(segment, "institution_en"),
                 "degree_en": find_value(segment, "degree_en"),
                 "location": find_value(segment, "location"),
+                "gpa_en": find_value(segment, "gpa_en"),
+                "gpa_display": normalize_bool_text(find_value(segment, "gpa_display"), default=False),
+                "location_display": normalize_bool_text(find_value(segment, "location_display"), default=True),
                 "date": find_value(segment, "date"),
                 "status": find_value(segment, "status"),
                 "source_reference_count": sum(1 for line in segment if "source_project:" in line),
             }
         )
     return entries
+
+
+def parse_contact_profiles() -> list[dict[str, str]]:
+    if not CONTACTS_DIR.exists():
+        return []
+    profiles = []
+    for path in sorted(CONTACTS_DIR.glob("*.yaml")):
+        lines = path.read_text(encoding="utf-8").splitlines()
+        profiles.append(
+            {
+                "path": str(path.relative_to(ROOT)).replace("\\", "/"),
+                "profile_id": find_value(lines, "profile_id"),
+                "profile_label": find_value(lines, "profile_label"),
+                "full_name": find_value(lines, "full_name"),
+                "email": find_value(lines, "email"),
+                "phone": find_value(lines, "phone"),
+                "linkedin_display": find_value(lines, "linkedin_display"),
+                "location": find_value(lines, "location"),
+                "language": find_value(lines, "language"),
+                "target_market": find_value(lines, "target_market"),
+            }
+        )
+    return profiles
 
 
 def parse_coursework() -> list[dict[str, object]]:
@@ -289,8 +322,13 @@ def write_list(handle, values: list[str]) -> None:
         handle.write("  - None\n")
 
 
+def display_value(value: str) -> str:
+    return value if value else "None"
+
+
 def main() -> int:
     education = parse_education()
+    contacts = parse_contact_profiles()
     coursework = parse_coursework()
     skills = parse_skills()
     skill_categories = parse_skill_categories()
@@ -300,10 +338,11 @@ def main() -> int:
     with LIBRARY_INDEX_PATH.open("w", encoding="utf-8") as handle:
         handle.write("# Resume Library Index\n\n")
         handle.write(f"Generated: {datetime.now().isoformat(timespec='seconds')}\n\n")
-        handle.write("This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, and `content/experiences/canonical/en/*.yaml`.\n\n")
+        handle.write("This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, `content/profile/contacts/*.yaml`, and `content/experiences/canonical/en/*.yaml`.\n\n")
 
         handle.write("## Active Library Summary\n\n")
         handle.write(f"- Education entries: {len(education)}\n")
+        handle.write(f"- Contact profiles: {len(contacts)}\n")
         handle.write(f"- Coursework entries: {len(coursework)}\n")
         handle.write(f"- Active skills: {len(skills)}\n")
         handle.write(f"- Skill categories: {len(skill_categories)}\n")
@@ -311,12 +350,31 @@ def main() -> int:
         handle.write(f"- Candidate bullet pools: {candidate_pool_count}\n")
         handle.write("- Archive content is excluded from default resume generation.\n\n")
 
+        handle.write("## Contact Profiles\n\n")
+        if contacts:
+            for item in contacts:
+                handle.write(f"### {item['profile_id']}\n\n")
+                handle.write(f"- Label: {display_value(item['profile_label'])}\n")
+                handle.write(f"- Language: {display_value(item['language'])}\n")
+                handle.write(f"- Target market: {display_value(item['target_market'])}\n")
+                handle.write(f"- Full name: {display_value(item['full_name'])}\n")
+                handle.write(f"- Email: {display_value(item['email'])}\n")
+                handle.write(f"- Phone: {display_value(item['phone'])}\n")
+                handle.write(f"- LinkedIn display: {display_value(item['linkedin_display'])}\n")
+                handle.write(f"- Location: {display_value(item['location'])}\n")
+                handle.write(f"- Source file: `{item['path']}`\n\n")
+        else:
+            handle.write("- No contact profiles found.\n\n")
+
         handle.write("## Education\n\n")
         for item in education:
             handle.write(f"### {item['institution_en']}\n\n")
             handle.write(f"- Education ID: `{item['education_id']}`\n")
             handle.write(f"- Degree: {item['degree_en']}\n")
             handle.write(f"- Location: {item['location']}\n")
+            handle.write(f"- Location display: {item['location_display']}\n")
+            handle.write(f"- GPA display: {item['gpa_display']}\n")
+            handle.write(f"- GPA: {display_value(item['gpa_en'])}\n")
             handle.write(f"- Date: {item['date']}\n")
             handle.write(f"- Status: {item['status']}\n")
             handle.write(f"- Source references: {item['source_reference_count']}\n\n")
@@ -394,6 +452,7 @@ def main() -> int:
             handle.write("- No archived YAML content found.\n")
 
     print(f"Education entries indexed: {len(education)}")
+    print(f"Contact profiles indexed: {len(contacts)}")
     print(f"Coursework entries indexed: {len(coursework)}")
     print(f"Skills indexed: {len(skills)}")
     print(f"Skill categories indexed: {len(skill_categories)}")

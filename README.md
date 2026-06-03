@@ -727,7 +727,7 @@ python scripts/phase6c_latex_draft.py --target-slug sample_product_ops --contact
 python scripts/phase6c_latex_draft.py --target-slug sample_product_ops --validate-only
 ```
 
-English Phase 6C supports `--contact-profile us_en` and `--contact-profile china_intl_en`; the default is `us_en`. The stored `china_domestic_zh` contact profile is reserved for a future Chinese resume workflow and is not accepted by the English renderer. The legacy `content/profile/contact.yaml` file is retained only for compatibility/reference and is no longer the Phase 6C source of truth.
+English Phase 6C supports `--contact-profile us_en` and `--contact-profile china_intl_en`; the default is `us_en`. Contact profiles live under `content/profile/contacts/`. The stored `china_domestic_zh` contact profile is reserved for a future Chinese resume workflow and is not accepted by the English renderer.
 
 Phase 6C uses the template anchors for the header, education, professional experience, selected project/research section, and skills. It renders Phase 6B `draft_bullet_text` as provided, uses `target_section`, validated `display_title`, and skill `display_category` from selection JSON, and does not select, rank, rewrite, or re-categorize content. Contact profile is selected during rendering, not during Phase 6B content selection. If legacy/manual selection JSON lacks `display_title`, Phase 6C falls back to the active YAML canonical title. It never renders `proposed_title_for_review`, and it does not create, modify, overwrite, validate, or depend on PDFs; manual VS Code preview remains separate.
 

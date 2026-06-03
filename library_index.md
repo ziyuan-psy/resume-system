@@ -1,12 +1,13 @@
 # Resume Library Index
 
-Generated: 2026-05-27T13:45:42
+Generated: 2026-06-03T12:43:27
 
-This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, and `content/experiences/canonical/en/*.yaml`.
+This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, `content/profile/contacts/*.yaml`, and `content/experiences/canonical/en/*.yaml`.
 
 ## Active Library Summary
 
 - Education entries: 3
+- Contact profiles: 3
 - Coursework entries: 11
 - Active skills: 96
 - Skill categories: 7
@@ -14,13 +15,54 @@ This index summarizes the active canonical library. It is generated from `conten
 - Candidate bullet pools: 194
 - Archive content is excluded from default resume generation.
 
+## Contact Profiles
+
+### china_domestic_zh
+
+- Label: China domestic Chinese resume contact profile
+- Language: zh
+- Target market: china_domestic
+- Full name: 郭子源
+- Email: zyguo1029@gmail.com
+- Phone: 17397900130
+- LinkedIn display: None
+- Location: 苏州｜可异地实习/工作
+- Source file: `content/profile/contacts/china_domestic_zh.yaml`
+
+### china_intl_en
+
+- Label: China-based international company English resume contact profile
+- Language: en
+- Target market: china_international
+- Full name: Ziyuan Guo
+- Email: zyguo1029@gmail.com
+- Phone: (+86)17397900130
+- LinkedIn display: linkedin.com/in/ziyuanguo
+- Location: Suzhou (Open to relocate)
+- Source file: `content/profile/contacts/china_intl_en.yaml`
+
+### us_en
+
+- Label: US English resume contact profile
+- Language: en
+- Target market: us
+- Full name: Ziyuan Guo
+- Email: ziyuan.guo@utexas.edu
+- Phone: (737) 363 6662
+- LinkedIn display: linkedin.com/in/ziyuanguo
+- Location: Austin, TX (Willing to relocate)
+- Source file: `content/profile/contacts/us_en.yaml`
+
 ## Education
 
-### The University of Texas at Austin
+### University of Texas at Austin
 
 - Education ID: `ut_austin_msis`
 - Degree: MS in Information Studies
 - Location: Austin, TX
+- Location display: false
+- GPA display: true
+- GPA: GPA: 4.0
 - Date: Aug 2025 – May 2027
 - Status: needs_review
 - Source references: 71
@@ -30,15 +72,21 @@ This index summarizes the active canonical library. It is generated from `conten
 - Education ID: `nanjing_normal_applied_psychology`
 - Degree: BS in Applied Psychology
 - Location: 
+- Location display: true
+- GPA display: false
+- GPA: None
 - Date: Sep 2020 – Jun 2024
 - Status: needs_review
 - Source references: 77
 
-### Lingnan University, Hong Kong
+### Lingnan University
 
 - Education ID: `lingnan_exchange`
 - Degree: Exchange Student
 - Location: Hong Kong
+- Location display: true
+- GPA display: false
+- GPA: None
 - Date: Aug 2023 – Dec 2023
 - Status: needs_review
 - Source references: 77
@@ -798,7 +846,7 @@ This index summarizes the active canonical library. It is generated from `conten
 - Status: needs_review
 - Organization: Course Project
 - Location: 
-- Date: Oct. 2025 - Dec. 2025
+- Date: Oct 2025 – Dec 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience
@@ -832,7 +880,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Project Lead
 - Location: 
-- Date: Aug. 2025 - Oct. 2025
+- Date: Aug 2025 – Oct 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
@@ -877,7 +925,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Lab of Engineering Psychology, Chinese Academy of Sciences
 - Location: 
-- Date: Nov. 2023 - Jun. 2024
+- Date: Nov 2023 – Jun 2024
 - Type: research
 - Default section: research_experience
 - Allowed sections: professional_experience, research_experience
@@ -1009,7 +1057,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Undergraduate Thesis
 - Location: 
-- Date: Dec. 2023 - May. 2024
+- Date: Dec 2023 – May 2024
 - Type: research
 - Default section: research_experience
 - Allowed sections: project_experience, research_experience
@@ -1133,7 +1181,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Course Project
 - Location: 
-- Date: Feb. 2026 - Apr. 2026
+- Date: Feb 2026 – Apr 2026
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience
@@ -1172,7 +1220,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Criminal Trial Division of Kunshan People's Court
 - Location: 
-- Date: Jun. 2022 - Aug. 2022
+- Date: Jun 2022 – Aug 2022
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience
@@ -1217,7 +1265,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: L'Oreal R&I Center
 - Location: Shanghai
-- Date: Jul. 2024 - Jul. 2025
+- Date: Jul 2024 – Jul 2025
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience, research_experience
@@ -1565,7 +1613,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Director
 - Location: 
-- Date: Mar. 2022 - Jun. 2022
+- Date: Mar 2022 – Jun 2022
 - Type: research
 - Default section: research_experience
 - Allowed sections: research_experience
@@ -1615,7 +1663,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Course Project
 - Location: 
-- Date: Aug. 2025 - Nov. 2025
+- Date: Aug 2025 – Nov 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
@@ -1678,7 +1726,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: Course Project
 - Location: 
-- Date: Jan. 2026 - Apr. 2026
+- Date: Jan 2026 – Apr 2026
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
@@ -1717,7 +1765,7 @@ Candidate bullet pools:
 - Status: needs_review
 - Organization: UT Austin
 - Location: Austin, TX
-- Date: Sep. 2025 - May. 2026
+- Date: Sep 2025 – May 2026
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience
