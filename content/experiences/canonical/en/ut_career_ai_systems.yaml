@@ -198,7 +198,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Prototyped and benchmarked Copilot Studio and UT Spark AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines."
     duplicate_count:
-      16
+      15
     raw_bullet_ids:
       - "raw_b000023"
       - "raw_b000132"
@@ -215,7 +215,6 @@ candidate_bullet_pools:
       - "raw_b000919"
       - "raw_b000958"
       - "raw_b000987"
-      - "raw_b000944"
     quality_flags:
       []
     source_references:
@@ -414,24 +413,11 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           260
-      - raw_bullet_id: "raw_b000944"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_data_RTI"
-        source_project_zip:
-          "ziyuan_guo_data_RTI.zip"
-        source_project_id:
-          "project_074_ziyuan_guo_data_rti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          234
   - pool_id: "ut_career_ai_systems_p005"
     canonical_candidate_text_en:
       "Led end-to-end system evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
     duplicate_count:
-      16
+      7
     raw_bullet_ids:
       - "raw_b000024"
       - "raw_b000155"
@@ -440,15 +426,6 @@ candidate_bullet_pools:
       - "raw_b000855"
       - "raw_b000868"
       - "raw_b000875"
-      - "raw_b000134"
-      - "raw_b000241"
-      - "raw_b000263"
-      - "raw_b000322"
-      - "raw_b000909"
-      - "raw_b000921"
-      - "raw_b000946"
-      - "raw_b000960"
-      - "raw_b000989"
     quality_flags:
       []
     source_references:
@@ -543,135 +520,17 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           265
-      - raw_bullet_id: "raw_b000134"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_MLB"
-        source_project_zip:
-          "26 summer_Data_MLB.zip"
-        source_project_id:
-          "project_011_26_summer_data_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000241"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_KEEN"
-        source_project_zip:
-          "26 summer_PM_KEEN.zip"
-        source_project_id:
-          "project_020_26_summer_pm_keen"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000263"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_MLB"
-        source_project_zip:
-          "26 summer_PM_MLB.zip"
-        source_project_id:
-          "project_022_26_summer_pm_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000322"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product_Cloudflare"
-        source_project_zip:
-          "26 summer_Product_Cloudflare.zip"
-        source_project_id:
-          "project_027_26_summer_product_cloudflare"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000909"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM_waabi"
-        source_project_zip:
-          "ziyuan_guo_PM_waabi.zip"
-        source_project_id:
-          "project_071_ziyuan_guo_pm_waabi"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000921"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Product ops_zscaler"
-        source_project_zip:
-          "ziyuan_guo_Product ops_zscaler.zip"
-        source_project_id:
-          "project_072_ziyuan_guo_product_ops_zscaler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000946"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_data_RTI"
-        source_project_zip:
-          "ziyuan_guo_data_RTI.zip"
-        source_project_id:
-          "project_074_ziyuan_guo_data_rti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000960"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_TI"
-        source_project_zip:
-          "ziyuan_guo_ops_TI.zip"
-        source_project_id:
-          "project_075_ziyuan_guo_ops_ti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000989"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_product_Razer"
-        source_project_zip:
-          "ziyuan_guo_product_Razer.zip"
-        source_project_id:
-          "project_077_ziyuan_guo_product_razer"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          265
   - pool_id: "ut_career_ai_systems_p006"
     canonical_candidate_text_en:
       "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
     duplicate_count:
-      6
+      5
     raw_bullet_ids:
       - "raw_b000026"
       - "raw_b000040"
       - "raw_b000054"
       - "raw_b000068"
       - "raw_b000429"
-      - "raw_b000689"
     quality_flags:
       []
     source_references:
@@ -740,19 +599,71 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           264
-      - raw_bullet_id: "raw_b000689"
+  - pool_id: "ut_career_ai_systems_p007"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms,"
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000027"
+      - "raw_b000041"
+      - "raw_b000069"
+      - "raw_b000430"
+    quality_flags:
+      - "trailing_comma_fragment"
+    source_references:
+      - raw_bullet_id: "raw_b000027"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "Ziyuan_Guo_PM_Tencent"
+          "26 summer_AI_Antora"
         source_project_zip:
-          "Ziyuan_Guo_PM_Tencent.zip"
+          "26 summer_AI_Antora.zip"
         source_project_id:
-          "project_054_ziyuan_guo_pm_tencent"
+          "project_003_26_summer_ai_antora"
         source_tex_file:
           "main.tex"
         source_line_number:
-          250
+          233
+      - raw_bullet_id: "raw_b000041"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000069"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000430"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
   - pool_id: "ut_career_ai_systems_p008"
     canonical_candidate_text_en:
       "Designed PowerAutomate workflows to orchestrate multi-step content updates, metadata propagation, and cross-platform handoffs across SharePoint portals."
@@ -860,6 +771,164 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           252
+  - pool_id: "ut_career_ai_systems_p009"
+    canonical_candidate_text_en:
+      "Defined requirements and testing protocols for generative-AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into into feature specs and training materials."
+    duplicate_count:
+      8
+    raw_bullet_ids:
+      - "raw_b000029"
+      - "raw_b000043"
+      - "raw_b000057"
+      - "raw_b000071"
+      - "raw_b000085"
+      - "raw_b000218"
+      - "raw_b000432"
+      - "raw_b000692"
+    quality_flags:
+      - "repeated_word_into"
+    source_references:
+      - raw_bullet_id: "raw_b000029"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000043"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000057"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000071"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000085"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000218"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          241
+      - raw_bullet_id: "raw_b000432"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          268
+      - raw_bullet_id: "raw_b000692"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+  - pool_id: "ut_career_ai_systems_p010"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms"
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000055"
+      - "raw_b000083"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000055"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000083"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Analytics_Tesla"
+        source_project_zip:
+          "26 summer_Analytics_Tesla.zip"
+        source_project_id:
+          "project_007_26_summer_analytics_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
   - pool_id: "ut_career_ai_systems_p011"
     canonical_candidate_text_en:
       "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and automate knowledge retrieval; benchmarked accuracy through iterative testing and failure-mode analysis."
@@ -887,12 +956,11 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Prototyped and evaluated AI agents in Copilot and UT Spark to automate content retrieval and workflows; compared performance through iterative testing and documented accuracy metrics."
     duplicate_count:
-      4
+      3
     raw_bullet_ids:
       - "raw_b000111"
       - "raw_b000273"
       - "raw_b000418"
-      - "raw_b000216"
     quality_flags:
       []
     source_references:
@@ -935,19 +1003,57 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           257
-      - raw_bullet_id: "raw_b000216"
+  - pool_id: "ut_career_ai_systems_p013"
+    canonical_candidate_text_en:
+      "Developed metadata tagging and content architecture for a SharePoint-based SaaS knowledge platform, improving resource discoverability and enabling scalable automation of internal tools."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000112"
+      - "raw_b000274"
+      - "raw_b000419"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000112"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "26 summer_IS_Gilead"
+          "26 summer_BA_Holland America Line"
         source_project_zip:
-          "26 summer_IS_Gilead.zip"
+          "26 summer_BA_Holland America Line.zip"
         source_project_id:
-          "project_018_26_summer_is_gilead"
+          "project_009_26_summer_ba_holland_america_line"
         source_tex_file:
           "main.tex"
         source_line_number:
-          236
+          259
+      - raw_bullet_id: "raw_b000274"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+      - raw_bullet_id: "raw_b000419"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          259
   - pool_id: "ut_career_ai_systems_p014"
     canonical_candidate_text_en:
       "Conducted usability evaluations of the SharePoint + Copilot Agent; analyzed workflow data to identify UX and operational pain points, leading to improvements in system adoption and design clarity."
@@ -1129,17 +1235,285 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           263
+  - pool_id: "ut_career_ai_systems_p017"
+    canonical_candidate_text_en:
+      "Led usability evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      9
+    raw_bullet_ids:
+      - "raw_b000134"
+      - "raw_b000241"
+      - "raw_b000263"
+      - "raw_b000322"
+      - "raw_b000909"
+      - "raw_b000921"
+      - "raw_b000946"
+      - "raw_b000960"
+      - "raw_b000989"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000134"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000241"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000263"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000322"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000909"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000921"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000946"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000960"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000989"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+  - pool_id: "ut_career_ai_systems_p018"
+    canonical_candidate_text_en:
+      "Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through PowerAutomate."
+    duplicate_count:
+      9
+    raw_bullet_ids:
+      - "raw_b000135"
+      - "raw_b000242"
+      - "raw_b000264"
+      - "raw_b000323"
+      - "raw_b000910"
+      - "raw_b000922"
+      - "raw_b000947"
+      - "raw_b000961"
+      - "raw_b000990"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000135"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000242"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000264"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000323"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000910"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000922"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000947"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000961"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000990"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          266
   - pool_id: "ut_career_ai_systems_p019"
     canonical_candidate_text_en:
       "Led user interface and usability evaluation of the SharePoint + Copilot knowledge base, conducting task-based tests with staff and analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
     duplicate_count:
-      5
+      3
     raw_bullet_ids:
       - "raw_b000179"
       - "raw_b000201"
       - "raw_b000214"
-      - "raw_b000335"
-      - "raw_b000445"
     quality_flags:
       []
     source_references:
@@ -1182,42 +1556,15 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           319
-      - raw_bullet_id: "raw_b000335"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          249
-      - raw_bullet_id: "raw_b000445"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          255
   - pool_id: "ut_career_ai_systems_p020"
     canonical_candidate_text_en:
       "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports."
     duplicate_count:
-      4
+      3
     raw_bullet_ids:
       - "raw_b000180"
       - "raw_b000202"
       - "raw_b000215"
-      - "raw_b000191"
     quality_flags:
       []
     source_references:
@@ -1260,19 +1607,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           322
-      - raw_bullet_id: "raw_b000191"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Gulfstream"
-        source_project_zip:
-          "26 summer_HF_Gulfstream.zip"
-        source_project_id:
-          "project_015_26_summer_hf_gulfstream"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          326
   - pool_id: "ut_career_ai_systems_p021"
     canonical_candidate_text_en:
       "Conducted human-system performance evaluations of SharePoint + Copilot knowledge system through task-based testing and navigation data analysis to identify workflow inefficiencies."
@@ -1296,6 +1630,52 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           325
+  - pool_id: "ut_career_ai_systems_p022"
+    canonical_candidate_text_en:
+      "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved information accessibility and system integration."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000191"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000191"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          326
+  - pool_id: "ut_career_ai_systems_p023"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and internal content retrieval efficiency; compared performance through iterative testing and documented accuracy metrics."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000216"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000216"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
   - pool_id: "ut_career_ai_systems_p024"
     canonical_candidate_text_en:
       "Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms, integrating PowerAutomate flows to automate content updates and improve resource discoverability."
@@ -1323,10 +1703,9 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered insights that guided iteration of site architecture and feature rollout."
     duplicate_count:
-      2
+      1
     raw_bullet_ids:
       - "raw_b000229"
-      - "raw_b000255"
     quality_flags:
       []
     source_references:
@@ -1343,28 +1722,14 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           234
-      - raw_bullet_id: "raw_b000255"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          256
   - pool_id: "ut_career_ai_systems_p026"
     canonical_candidate_text_en:
       "Partnered with 16 career service offices to gather requirements and conduct discovery interviews; synthesized insights and surfaced new use cases that informed roadmap proposals and prioritized enhancements for cross-site navigation redesign."
     duplicate_count:
-      3
+      2
     raw_bullet_ids:
       - "raw_b000230"
       - "raw_b000256"
-      - "raw_b000579"
     quality_flags:
       []
     source_references:
@@ -1394,32 +1759,37 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           259
-      - raw_bullet_id: "raw_b000579"
+  - pool_id: "ut_career_ai_systems_p027"
+    canonical_candidate_text_en:
+      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000255"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000255"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "Ziyuan_Guo_CSR & Social Impact_SONY"
+          "26 summer_PM_Lucid"
         source_project_zip:
-          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+          "26 summer_PM_Lucid.zip"
         source_project_id:
-          "project_045_ziyuan_guo_csr_social_impact_sony"
+          "project_021_26_summer_pm_lucid"
         source_tex_file:
           "main.tex"
         source_line_number:
-          246
+          256
   - pool_id: "ut_career_ai_systems_p028"
     canonical_candidate_text_en:
       "Defined user testing and documentation standards; gathered feedback from 16 offices and translated findings into feature specs and training materials."
     duplicate_count:
-      7
+      2
     raw_bullet_ids:
       - "raw_b000275"
       - "raw_b000420"
-      - "raw_b000807"
-      - "raw_b000822"
-      - "raw_b000895"
-      - "raw_b000933"
-      - "raw_b000972"
     quality_flags:
       []
     source_references:
@@ -1449,79 +1819,13 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           262
-      - raw_bullet_id: "raw_b000807"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          254
-      - raw_bullet_id: "raw_b000822"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          248
-      - raw_bullet_id: "raw_b000895"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM _AMETEK"
-        source_project_zip:
-          "ziyuan_guo_PM _AMETEK.zip"
-        source_project_id:
-          "project_070_ziyuan_guo_pm_ametek"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
-      - raw_bullet_id: "raw_b000933"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_QA_volvo"
-        source_project_zip:
-          "ziyuan_guo_QA_volvo.zip"
-        source_project_id:
-          "project_073_ziyuan_guo_qa_volvo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
-      - raw_bullet_id: "raw_b000972"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_sono bello"
-        source_project_zip:
-          "ziyuan_guo_ops_sono bello.zip"
-        source_project_id:
-          "project_076_ziyuan_guo_ops_sono_bello"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
   - pool_id: "ut_career_ai_systems_p029"
     canonical_candidate_text_en:
       "Led feature discovery and usability testing of the SharePoint + Copilot SaaS knowledge base, analyzing adoption KPIs and testing navigation flows; delivered insights that guided feature iteration and rollout."
     duplicate_count:
-      2
+      1
     raw_bullet_ids:
       - "raw_b000286"
-      - "raw_b000578"
     quality_flags:
       []
     source_references:
@@ -1538,19 +1842,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           236
-      - raw_bullet_id: "raw_b000578"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_CSR & Social Impact_SONY"
-        source_project_zip:
-          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
-        source_project_id:
-          "project_045_ziyuan_guo_csr_social_impact_sony"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          245
   - pool_id: "ut_career_ai_systems_p030"
     canonical_candidate_text_en:
       "Conducted discovery interviews with 16 career offices, identifying new use cases and proposing feature concepts that informed the product roadmap; maintained documentation and update logs to support cross-team transparency."
@@ -1648,18 +1939,54 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           265
+  - pool_id: "ut_career_ai_systems_p033"
+    canonical_candidate_text_en:
+      "Led usability evaluation of SharePoint + Copilot knowledge base by conducting task-based tests with staff, analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000335"
+      - "raw_b000445"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000335"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          249
+      - raw_bullet_id: "raw_b000445"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
   - pool_id: "ut_career_ai_systems_p034"
     canonical_candidate_text_en:
       "Conducted structured feedback sessions with 16 career service offices, coding recurring issues and prioritizing pain points, which guided redesign of content tagging and cross-site navigation."
     duplicate_count:
-      6
+      5
     raw_bullet_ids:
       - "raw_b000336"
       - "raw_b000349"
       - "raw_b000361"
       - "raw_b000373"
       - "raw_b000384"
-      - "raw_b000446"
     quality_flags:
       []
     source_references:
@@ -1728,24 +2055,11 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           252
-      - raw_bullet_id: "raw_b000446"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          256
   - pool_id: "ut_career_ai_systems_p035"
     canonical_candidate_text_en:
       "Led usability evaluation of internal AI + content platforms (SharePoint + Copilot Agent); visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
     duplicate_count:
-      21
+      19
     raw_bullet_ids:
       - "raw_b000348"
       - "raw_b000372"
@@ -1766,8 +2080,6 @@ candidate_bullet_pools:
       - "raw_b000767"
       - "raw_b000780"
       - "raw_b000793"
-      - "raw_b000360"
-      - "raw_b000383"
     quality_flags:
       []
     source_references:
@@ -2018,6 +2330,17 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           250
+  - pool_id: "ut_career_ai_systems_p036"
+    canonical_candidate_text_en:
+      "Led usability evaluation of the SharePoint + Copilot Agent knowledge base; visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000360"
+      - "raw_b000383"
+    quality_flags:
+      []
+    source_references:
       - raw_bullet_id: "raw_b000360"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -2328,6 +2651,66 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           255
+  - pool_id: "ut_career_ai_systems_p039"
+    canonical_candidate_text_en:
+      "Conducted iterative testing and data validation to enhance agent accuracy (+18% improvement in query relevance), applying hypothesis-driven experimentation methods."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000410"
+      - "raw_b000888"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000410"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Wearables Intern"
+        source_project_zip:
+          "26 summer_Wearables Intern.zip"
+        source_project_id:
+          "project_034_26_summer_wearables_intern"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000888"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PLM_Hyundai"
+        source_project_zip:
+          "ziyuan_guo_PLM_Hyundai.zip"
+        source_project_id:
+          "project_069_ziyuan_guo_plm_hyundai"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+  - pool_id: "ut_career_ai_systems_p040"
+    canonical_candidate_text_en:
+      "Gathered requirements from 16 career service offices, synthesized recurring issues, and prioritized enhancements to redesign tagging & cross-site navigation."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000446"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000446"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          256
   - pool_id: "ut_career_ai_systems_p041"
     canonical_candidate_text_en:
       "Built and structured an internal SharePoint knowledge platform from information architecture, metadata tagging, to page-level interface design, improving content discoverability across 16 career service offices."
@@ -2351,18 +2734,82 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           244
+  - pool_id: "ut_career_ai_systems_p042"
+    canonical_candidate_text_en:
+      "Led usability evaluation of the SharePoint + Copilot Agent knowledge base, testing navigation flows and analyzing adoption metrics to guide iterative improvements to site structure and feature rollout."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000578"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000578"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          245
+  - pool_id: "ut_career_ai_systems_p043"
+    canonical_candidate_text_en:
+      "Partnered with 16 career service offices to conduct discovery interviews, synthesize requirements, and prioritize cross-site navigation and content enhancements."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000579"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000579"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          246
+  - pool_id: "ut_career_ai_systems_p044"
+    canonical_candidate_text_en:
+      "Prototyped and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000689"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000689"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
   - pool_id: "ut_career_ai_systems_p045"
     canonical_candidate_text_en:
       "Developed visual interface and content architecture for 3 SharePoint-based knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
     duplicate_count:
-      6
+      1
     raw_bullet_ids:
       - "raw_b000690"
-      - "raw_b000808"
-      - "raw_b000823"
-      - "raw_b000896"
-      - "raw_b000934"
-      - "raw_b000973"
     quality_flags:
       []
     source_references:
@@ -2379,6 +2826,136 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           251
+  - pool_id: "ut_career_ai_systems_p046"
+    canonical_candidate_text_en:
+      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000806"
+      - "raw_b000821"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000806"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000821"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          247
+  - pool_id: "ut_career_ai_systems_p047"
+    canonical_candidate_text_en:
+      "Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000807"
+      - "raw_b000822"
+      - "raw_b000895"
+      - "raw_b000933"
+      - "raw_b000972"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000807"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          254
+      - raw_bullet_id: "raw_b000822"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          248
+      - raw_bullet_id: "raw_b000895"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000933"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000972"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+  - pool_id: "ut_career_ai_systems_p048"
+    canonical_candidate_text_en:
+      "Developed visual interface and content architecture for 3 SharePoint knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
+    duplicate_count:
+      5
+    raw_bullet_ids:
+      - "raw_b000808"
+      - "raw_b000823"
+      - "raw_b000896"
+      - "raw_b000934"
+      - "raw_b000973"
+    quality_flags:
+      []
+    source_references:
       - raw_bullet_id: "raw_b000808"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -2444,46 +3021,18 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           236
-  - pool_id: "ut_career_ai_systems_p046"
+  - pool_id: "ut_career_ai_systems_p049"
     canonical_candidate_text_en:
-      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows."
+      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reduced new staff onboarding time by 50%."
     duplicate_count:
-      5
+      3
     raw_bullet_ids:
-      - "raw_b000806"
-      - "raw_b000821"
       - "raw_b000894"
       - "raw_b000932"
       - "raw_b000971"
     quality_flags:
       []
     source_references:
-      - raw_bullet_id: "raw_b000806"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          253
-      - raw_bullet_id: "raw_b000821"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          247
       - raw_bullet_id: "raw_b000894"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -2519,6 +3068,75 @@ candidate_bullet_pools:
           "ziyuan_guo_ops_sono bello.zip"
         source_project_id:
           "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p050"
+    canonical_candidate_text_en:
+      "Improved resource discoverability and enabling automated updates through PowerAutomate."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000897"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000897"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+  - pool_id: "ut_career_ai_systems_p051"
+    canonical_candidate_text_en:
+      "Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through Power Automate."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000931"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000931"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "ut_career_ai_systems_p052"
+    canonical_candidate_text_en:
+      "Prototyped and benchmarked Copilot Studio AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000944"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000944"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
         source_tex_file:
           "main.tex"
         source_line_number:

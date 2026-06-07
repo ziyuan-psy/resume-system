@@ -68,6 +68,113 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           284
+  - pool_id: "judge_assistant_kunshan_court_p003"
+    canonical_candidate_text_en:
+      "Analyzed over 600 DUI cases from the past 5 years, coding influential variables for regression analysis, improving data-driven legal evaluations."
+    duplicate_count:
+      7
+    raw_bullet_ids:
+      - "raw_b000472"
+      - "raw_b000485"
+      - "raw_b000502"
+      - "raw_b000530"
+      - "raw_b000549"
+      - "raw_b000565"
+      - "raw_b000661"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000472"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000485"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          293
+      - raw_bullet_id: "raw_b000502"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000530"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000549"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000565"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+      - raw_bullet_id: "raw_b000661"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
   - pool_id: "judge_assistant_kunshan_court_p004"
     canonical_candidate_text_en:
       "Assisted in adjudicating 21 juvenile-related cases, utilizing expertise in developmental and criminal psychology to draft 16 judgments."

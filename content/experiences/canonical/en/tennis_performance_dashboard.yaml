@@ -29,7 +29,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Analyzed rally-level US Open match data (10k+ shots) and built multi-view Tableau dashboards highlighting serve-return patterns, key-point pressure, and mid-rally performance drop-offs."
     duplicate_count:
-      24
+      8
     raw_bullet_ids:
       - "raw_b000007"
       - "raw_b000012"
@@ -39,22 +39,6 @@ candidate_bullet_pools:
       - "raw_b000889"
       - "raw_b000942"
       - "raw_b000981"
-      - "raw_b000140"
-      - "raw_b000144"
-      - "raw_b000157"
-      - "raw_b000247"
-      - "raw_b000269"
-      - "raw_b000328"
-      - "raw_b000795"
-      - "raw_b000831"
-      - "raw_b000844"
-      - "raw_b000857"
-      - "raw_b000877"
-      - "raw_b000905"
-      - "raw_b000915"
-      - "raw_b000929"
-      - "raw_b000954"
-      - "raw_b000991"
     quality_flags:
       - "appears_in_multiple_historical_sections"
     source_references:
@@ -162,214 +146,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           298
-      - raw_bullet_id: "raw_b000140"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_MLB"
-        source_project_zip:
-          "26 summer_Data_MLB.zip"
-        source_project_id:
-          "project_011_26_summer_data_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000144"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_TROON"
-        source_project_zip:
-          "26 summer_Data_TROON.zip"
-        source_project_id:
-          "project_012_26_summer_data_troon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000157"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_USA Baseball"
-        source_project_zip:
-          "26 summer_Data_USA Baseball.zip"
-        source_project_id:
-          "project_013_26_summer_data_usa_baseball"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000247"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_KEEN"
-        source_project_zip:
-          "26 summer_PM_KEEN.zip"
-        source_project_id:
-          "project_020_26_summer_pm_keen"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000269"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_MLB"
-        source_project_zip:
-          "26 summer_PM_MLB.zip"
-        source_project_id:
-          "project_022_26_summer_pm_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000328"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product_Cloudflare"
-        source_project_zip:
-          "26 summer_Product_Cloudflare.zip"
-        source_project_id:
-          "project_027_26_summer_product_cloudflare"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000795"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_research_Gensler"
-        source_project_zip:
-          "Ziyuan_Guo_research_Gensler.zip"
-        source_project_id:
-          "project_062_ziyuan_guo_research_gensler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          273
-      - raw_bullet_id: "raw_b000831"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Analyst_Roku"
-        source_project_zip:
-          "ziyuan_guo_Analyst_Roku.zip"
-        source_project_id:
-          "project_065_ziyuan_guo_analyst_roku"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000844"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Analyst_Tesla"
-        source_project_zip:
-          "ziyuan_guo_Analyst_Tesla.zip"
-        source_project_id:
-          "project_066_ziyuan_guo_analyst_tesla"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000857"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Data Analyst_ALO"
-        source_project_zip:
-          "ziyuan_guo_Data Analyst_ALO.zip"
-        source_project_id:
-          "project_067_ziyuan_guo_data_analyst_alo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000877"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Data_cocacola"
-        source_project_zip:
-          "ziyuan_guo_Data_cocacola.zip"
-        source_project_id:
-          "project_068_ziyuan_guo_data_cocacola"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          283
-      - raw_bullet_id: "raw_b000905"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM _AMETEK"
-        source_project_zip:
-          "ziyuan_guo_PM _AMETEK.zip"
-        source_project_id:
-          "project_070_ziyuan_guo_pm_ametek"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          303
-      - raw_bullet_id: "raw_b000915"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM_waabi"
-        source_project_zip:
-          "ziyuan_guo_PM_waabi.zip"
-        source_project_id:
-          "project_071_ziyuan_guo_pm_waabi"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000929"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Product ops_zscaler"
-        source_project_zip:
-          "ziyuan_guo_Product ops_zscaler.zip"
-        source_project_id:
-          "project_072_ziyuan_guo_product_ops_zscaler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          305
-      - raw_bullet_id: "raw_b000954"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_data_RTI"
-        source_project_zip:
-          "ziyuan_guo_data_RTI.zip"
-        source_project_id:
-          "project_074_ziyuan_guo_data_rti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          305
-      - raw_bullet_id: "raw_b000991"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_product_Razer"
-        source_project_zip:
-          "ziyuan_guo_product_Razer.zip"
-        source_project_id:
-          "project_077_ziyuan_guo_product_razer"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          294
   - pool_id: "tennis_performance_dashboard_p002"
     canonical_candidate_text_en:
       "Defined and validated 6+ performance metrics and framed insights into actionable narratives, supporting performance review and strategy analysis."
@@ -826,6 +602,239 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           295
+  - pool_id: "tennis_performance_dashboard_p006"
+    canonical_candidate_text_en:
+      "Analyzed 10k+ rally-level shots and built a multi-view Tableau dashboard revealing serve-return patterns, key-point pressure behavior, and mid-rally performance drop-offs, delivering actionable narratives."
+    duplicate_count:
+      16
+    raw_bullet_ids:
+      - "raw_b000140"
+      - "raw_b000144"
+      - "raw_b000157"
+      - "raw_b000247"
+      - "raw_b000269"
+      - "raw_b000328"
+      - "raw_b000795"
+      - "raw_b000831"
+      - "raw_b000844"
+      - "raw_b000857"
+      - "raw_b000877"
+      - "raw_b000905"
+      - "raw_b000915"
+      - "raw_b000929"
+      - "raw_b000954"
+      - "raw_b000991"
+    quality_flags:
+      - "appears_in_multiple_historical_sections"
+    source_references:
+      - raw_bullet_id: "raw_b000140"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000144"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000157"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000247"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000269"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000328"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000795"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_research_Gensler"
+        source_project_zip:
+          "Ziyuan_Guo_research_Gensler.zip"
+        source_project_id:
+          "project_062_ziyuan_guo_research_gensler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          273
+      - raw_bullet_id: "raw_b000831"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000844"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000857"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000877"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          283
+      - raw_bullet_id: "raw_b000905"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          303
+      - raw_bullet_id: "raw_b000915"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000929"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          305
+      - raw_bullet_id: "raw_b000954"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          305
+      - raw_bullet_id: "raw_b000991"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          294
   - pool_id: "tennis_performance_dashboard_p007"
     canonical_candidate_text_en:
       "Applied visual hierarchy and UX storytelling principles to design interpretable, interactive dashboards supporting coaching and strategy insights."
@@ -1059,6 +1068,29 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           296
+  - pool_id: "tennis_performance_dashboard_p008"
+    canonical_candidate_text_en:
+      "Mapped the end-to-end “player performance journey” using rally-level tennis data (10k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000696"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000696"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          294
 source_references:
   - raw_bullet_id: "raw_b000007"
     original_zip_name:

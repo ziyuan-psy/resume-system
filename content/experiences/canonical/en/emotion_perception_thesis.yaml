@@ -29,7 +29,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Managed a research project involving 3 studies, using Git for version control and team coordination."
     duplicate_count:
-      34
+      22
     raw_bullet_ids:
       - "raw_b000038"
       - "raw_b000052"
@@ -53,18 +53,6 @@ candidate_bullet_pools:
       - "raw_b000760"
       - "raw_b000773"
       - "raw_b000799"
-      - "raw_b000104"
-      - "raw_b000129"
-      - "raw_b000259"
-      - "raw_b000294"
-      - "raw_b000305"
-      - "raw_b000317"
-      - "raw_b000341"
-      - "raw_b000389"
-      - "raw_b000449"
-      - "raw_b000486"
-      - "raw_b000515"
-      - "raw_b000551"
     quality_flags:
       []
     source_references:
@@ -354,167 +342,11 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           312
-      - raw_bullet_id: "raw_b000104"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          290
-      - raw_bullet_id: "raw_b000129"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          329
-      - raw_bullet_id: "raw_b000259"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          324
-      - raw_bullet_id: "raw_b000294"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          329
-      - raw_bullet_id: "raw_b000305"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          331
-      - raw_bullet_id: "raw_b000317"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          331
-      - raw_bullet_id: "raw_b000341"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          309
-      - raw_bullet_id: "raw_b000389"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          311
-      - raw_bullet_id: "raw_b000449"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          318
-      - raw_bullet_id: "raw_b000486"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          222
-      - raw_bullet_id: "raw_b000515"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          223
-      - raw_bullet_id: "raw_b000551"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          223
   - pool_id: "emotion_perception_thesis_p002"
     canonical_candidate_text_en:
       "Employed psychophysical methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R."
     duplicate_count:
-      38
+      37
     raw_bullet_ids:
       - "raw_b000039"
       - "raw_b000053"
@@ -553,7 +385,6 @@ candidate_bullet_pools:
       - "raw_b000800"
       - "raw_b000815"
       - "raw_b000829"
-      - "raw_b000606"
     quality_flags:
       []
     source_references:
@@ -1038,24 +869,188 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           313
-      - raw_bullet_id: "raw_b000606"
+  - pool_id: "emotion_perception_thesis_p003"
+    canonical_candidate_text_en:
+      "Managed a research project involving 3 studies, using GitHub for version control and team coordination."
+    duplicate_count:
+      12
+    raw_bullet_ids:
+      - "raw_b000104"
+      - "raw_b000129"
+      - "raw_b000259"
+      - "raw_b000294"
+      - "raw_b000305"
+      - "raw_b000317"
+      - "raw_b000341"
+      - "raw_b000389"
+      - "raw_b000449"
+      - "raw_b000486"
+      - "raw_b000515"
+      - "raw_b000551"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000104"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "Ziyuan_Guo_Consumer_iff"
+          "26 summer_BA (v1)"
         source_project_zip:
-          "Ziyuan_Guo_Consumer_iff.zip"
+          "26 summer_BA (v1).zip"
         source_project_id:
-          "project_047_ziyuan_guo_consumer_iff"
+          "project_008_26_summer_ba_v1"
         source_tex_file:
           "main.tex"
         source_line_number:
-          297
+          290
+      - raw_bullet_id: "raw_b000129"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          329
+      - raw_bullet_id: "raw_b000259"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          324
+      - raw_bullet_id: "raw_b000294"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          329
+      - raw_bullet_id: "raw_b000305"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          331
+      - raw_bullet_id: "raw_b000317"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          331
+      - raw_bullet_id: "raw_b000341"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          309
+      - raw_bullet_id: "raw_b000389"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          311
+      - raw_bullet_id: "raw_b000449"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          318
+      - raw_bullet_id: "raw_b000486"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          222
+      - raw_bullet_id: "raw_b000515"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          223
+      - raw_bullet_id: "raw_b000551"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          223
   - pool_id: "emotion_perception_thesis_p004"
     canonical_candidate_text_en:
       "Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion."
     duplicate_count:
-      11
+      6
     raw_bullet_ids:
       - "raw_b000106"
       - "raw_b000343"
@@ -1063,11 +1058,6 @@ candidate_bullet_pools:
       - "raw_b000488"
       - "raw_b000517"
       - "raw_b000553"
-      - "raw_b000464"
-      - "raw_b000476"
-      - "raw_b000541"
-      - "raw_b000816"
-      - "raw_b000830"
     quality_flags:
       []
     source_references:
@@ -1149,131 +1139,12 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           225
-      - raw_bullet_id: "raw_b000464"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "NEU IS_V2"
-        source_project_zip:
-          "NEU IS_V2.zip"
-        source_project_id:
-          "project_039_neu_is_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          224
-      - raw_bullet_id: "raw_b000476"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          224
-      - raw_bullet_id: "raw_b000541"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UR DS"
-        source_project_zip:
-          "UR DS.zip"
-        source_project_id:
-          "project_043_ur_ds"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          224
-      - raw_bullet_id: "raw_b000816"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          322
-      - raw_bullet_id: "raw_b000830"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          314
-  - pool_id: "emotion_perception_thesis_p006"
+  - pool_id: "emotion_perception_thesis_p005"
     canonical_candidate_text_en:
-      "Applied psychophysical modeling and data visualization using R to identify perceptual thresholds and response patterns, generating insights into user cognition and behavioral variability."
+      "Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
     duplicate_count:
-      3
+      14
     raw_bullet_ids:
-      - "raw_b000130"
-      - "raw_b000306"
-      - "raw_b000318"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000130"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          331
-      - raw_bullet_id: "raw_b000306"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          333
-      - raw_bullet_id: "raw_b000318"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          333
-  - pool_id: "emotion_perception_thesis_p007"
-    canonical_candidate_text_en:
-      "Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to decision-making."
-    duplicate_count:
-      17
-    raw_bullet_ids:
-      - "raw_b000131"
-      - "raw_b000307"
-      - "raw_b000319"
       - "raw_b000107"
       - "raw_b000404"
       - "raw_b000489"
@@ -1291,45 +1162,6 @@ candidate_bullet_pools:
     quality_flags:
       []
     source_references:
-      - raw_bullet_id: "raw_b000131"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          335
-      - raw_bullet_id: "raw_b000307"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          337
-      - raw_bullet_id: "raw_b000319"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          337
       - raw_bullet_id: "raw_b000107"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -1512,16 +1344,117 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           314
+  - pool_id: "emotion_perception_thesis_p006"
+    canonical_candidate_text_en:
+      "Applied psychophysical modeling and data visualization using R to identify perceptual thresholds and response patterns, generating insights into user cognition and behavioral variability."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000130"
+      - "raw_b000306"
+      - "raw_b000318"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000130"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          331
+      - raw_bullet_id: "raw_b000306"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          333
+      - raw_bullet_id: "raw_b000318"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          333
+  - pool_id: "emotion_perception_thesis_p007"
+    canonical_candidate_text_en:
+      "Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to decision-making."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000131"
+      - "raw_b000307"
+      - "raw_b000319"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000131"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          335
+      - raw_bullet_id: "raw_b000307"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          337
+      - raw_bullet_id: "raw_b000319"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          337
   - pool_id: "emotion_perception_thesis_p008"
     canonical_candidate_text_en:
       "Designed and executed a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility."
     duplicate_count:
-      4
+      3
     raw_bullet_ids:
       - "raw_b000176"
       - "raw_b000198"
       - "raw_b000208"
-      - "raw_b000187"
     quality_flags:
       []
     source_references:
@@ -1564,19 +1497,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           271
-      - raw_bullet_id: "raw_b000187"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Gulfstream"
-        source_project_zip:
-          "26 summer_HF_Gulfstream.zip"
-        source_project_id:
-          "project_015_26_summer_hf_gulfstream"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          299
   - pool_id: "emotion_perception_thesis_p009"
     canonical_candidate_text_en:
       "Applied psychophysical methods to quantify human performance thresholds and response slopes under categorical vs. continuous judgment conditions, modeling results with R-based statistical analysis."
@@ -1707,6 +1627,29 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           273
+  - pool_id: "emotion_perception_thesis_p011"
+    canonical_candidate_text_en:
+      "Designed and led a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000187"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000187"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          299
   - pool_id: "emotion_perception_thesis_p012"
     canonical_candidate_text_en:
       "Designed and conducted a series of 3 hypothesis-driven experiments, using GitHub for version control and team coordination."
@@ -1827,6 +1770,57 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           222
+  - pool_id: "emotion_perception_thesis_p016"
+    canonical_candidate_text_en:
+      "Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for gray-scale conversion."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000464"
+      - "raw_b000476"
+      - "raw_b000541"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000464"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          224
+      - raw_bullet_id: "raw_b000476"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          224
+      - raw_bullet_id: "raw_b000541"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          224
   - pool_id: "emotion_perception_thesis_p017"
     canonical_candidate_text_en:
       "Managed a research project involving 3 studies, Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
@@ -1850,14 +1844,36 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           296
+  - pool_id: "emotion_perception_thesis_p018"
+    canonical_candidate_text_en:
+      "Employed psychophysics methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000606"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000606"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
   - pool_id: "emotion_perception_thesis_p019"
     canonical_candidate_text_en:
       "Managed a research project involving 3 studies and 135 participants, using Git for version control."
     duplicate_count:
-      2
+      1
     raw_bullet_ids:
       - "raw_b000814"
-      - "raw_b000828"
     quality_flags:
       []
     source_references:
@@ -1874,6 +1890,53 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           320
+  - pool_id: "emotion_perception_thesis_p020"
+    canonical_candidate_text_en:
+      "Developed and executed 3 experimental protocols in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000816"
+      - "raw_b000830"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000816"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000830"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          314
+  - pool_id: "emotion_perception_thesis_p021"
+    canonical_candidate_text_en:
+      "Managed a research project involving 3 studies and 135 participants, using Git for version control and team coordination."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000828"
+    quality_flags:
+      []
+    source_references:
       - raw_bullet_id: "raw_b000828"
         original_zip_name:
           "Overleaf Projects (77 items).zip"

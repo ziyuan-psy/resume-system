@@ -1032,7 +1032,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab."
     duplicate_count:
-      23
+      7
     raw_bullet_ids:
       - "raw_b000098"
       - "raw_b000296"
@@ -1041,22 +1041,6 @@ candidate_bullet_pools:
       - "raw_b000380"
       - "raw_b000481"
       - "raw_b000561"
-      - "raw_b000136"
-      - "raw_b000231"
-      - "raw_b000243"
-      - "raw_b000251"
-      - "raw_b000265"
-      - "raw_b000324"
-      - "raw_b000441"
-      - "raw_b000898"
-      - "raw_b000911"
-      - "raw_b000923"
-      - "raw_b000948"
-      - "raw_b000962"
-      - "raw_b000344"
-      - "raw_b000356"
-      - "raw_b000368"
-      - "raw_b000658"
     quality_flags:
       []
     source_references:
@@ -1151,214 +1135,43 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           278
-      - raw_bullet_id: "raw_b000136"
+  - pool_id: "loreal_cognitive_sciences_lab_p010"
+    canonical_candidate_text_en:
+      "Monitored fieldwork for 6 projects with 300+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000099"
+      - "raw_b000333"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000099"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "26 summer_Data_MLB"
+          "26 summer_BA (v1)"
         source_project_zip:
-          "26 summer_Data_MLB.zip"
+          "26 summer_BA (v1).zip"
         source_project_id:
-          "project_011_26_summer_data_mlb"
+          "project_008_26_summer_ba_v1"
         source_tex_file:
           "main.tex"
         source_line_number:
-          257
-      - raw_bullet_id: "raw_b000231"
+          232
+      - raw_bullet_id: "raw_b000333"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "26 summer_PM_711"
+          "26 summer_UXR (v2）"
         source_project_zip:
-          "26 summer_PM_711.zip"
+          "26 summer_UXR (v2）.zip"
         source_project_id:
-          "project_019_26_summer_pm_711"
+          "project_028_26_summer_uxr_v2"
         source_tex_file:
           "main.tex"
         source_line_number:
-          257
-      - raw_bullet_id: "raw_b000243"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_KEEN"
-        source_project_zip:
-          "26 summer_PM_KEEN.zip"
-        source_project_id:
-          "project_020_26_summer_pm_keen"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000251"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
-      - raw_bullet_id: "raw_b000265"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_MLB"
-        source_project_zip:
-          "26 summer_PM_MLB.zip"
-        source_project_id:
-          "project_022_26_summer_pm_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000324"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product_Cloudflare"
-        source_project_zip:
-          "26 summer_Product_Cloudflare.zip"
-        source_project_id:
-          "project_027_26_summer_product_cloudflare"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000441"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
-      - raw_bullet_id: "raw_b000898"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM _AMETEK"
-        source_project_zip:
-          "ziyuan_guo_PM _AMETEK.zip"
-        source_project_id:
-          "project_070_ziyuan_guo_pm_ametek"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          254
-      - raw_bullet_id: "raw_b000911"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM_waabi"
-        source_project_zip:
-          "ziyuan_guo_PM_waabi.zip"
-        source_project_id:
-          "project_071_ziyuan_guo_pm_waabi"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000923"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Product ops_zscaler"
-        source_project_zip:
-          "ziyuan_guo_Product ops_zscaler.zip"
-        source_project_id:
-          "project_072_ziyuan_guo_product_ops_zscaler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000948"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_data_RTI"
-        source_project_zip:
-          "ziyuan_guo_data_RTI.zip"
-        source_project_id:
-          "project_074_ziyuan_guo_data_rti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000962"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_TI"
-        source_project_zip:
-          "ziyuan_guo_ops_TI.zip"
-        source_project_id:
-          "project_075_ziyuan_guo_ops_ti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          257
-      - raw_bullet_id: "raw_b000344"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Organon"
-        source_project_zip:
-          "26 summer_UXR_Organon.zip"
-        source_project_id:
-          "project_029_26_summer_uxr_organon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          233
-      - raw_bullet_id: "raw_b000356"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_SIE"
-        source_project_zip:
-          "26 summer_UXR_SIE.zip"
-        source_project_id:
-          "project_030_26_summer_uxr_sie"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          233
-      - raw_bullet_id: "raw_b000368"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Xometry"
-        source_project_zip:
-          "26 summer_UXR_Xometry.zip"
-        source_project_id:
-          "project_031_26_summer_uxr_xometry"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000658"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_aperture"
-        source_project_zip:
-          "Ziyuan_Guo_HF_aperture.zip"
-        source_project_id:
-          "project_052_ziyuan_guo_hf_aperture"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          234
+          232
   - pool_id: "loreal_cognitive_sciences_lab_p011"
     canonical_candidate_text_en:
       "Built a SharePoint knowledge base with 40+ SOPs, and established cross-team workflows aligning 4 internal departments and 5 external agencies; streamlined navigation improved resource accessibility and reduced onboarding time by 70%."
@@ -1722,6 +1535,29 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           236
+  - pool_id: "loreal_cognitive_sciences_lab_p014"
+    canonical_candidate_text_en:
+      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing actionable design and business recommendations."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000121"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000121"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
   - pool_id: "loreal_cognitive_sciences_lab_p015"
     canonical_candidate_text_en:
       "Partnered with R&I engineers and designers to prototype and evaluate sensory interaction concepts; co-authored evaluation frameworks linking consumer emotion data to product development goals."
@@ -1745,11 +1581,188 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           244
+  - pool_id: "loreal_cognitive_sciences_lab_p016"
+    canonical_candidate_text_en:
+      "Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab."
+    duplicate_count:
+      12
+    raw_bullet_ids:
+      - "raw_b000136"
+      - "raw_b000231"
+      - "raw_b000243"
+      - "raw_b000251"
+      - "raw_b000265"
+      - "raw_b000324"
+      - "raw_b000441"
+      - "raw_b000898"
+      - "raw_b000911"
+      - "raw_b000923"
+      - "raw_b000948"
+      - "raw_b000962"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000136"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000231"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000243"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000251"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000265"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000324"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000441"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000898"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          254
+      - raw_bullet_id: "raw_b000911"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000923"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Product ops_zscaler"
+        source_project_zip:
+          "ziyuan_guo_Product ops_zscaler.zip"
+        source_project_id:
+          "project_072_ziyuan_guo_product_ops_zscaler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000948"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_data_RTI"
+        source_project_zip:
+          "ziyuan_guo_data_RTI.zip"
+        source_project_id:
+          "project_074_ziyuan_guo_data_rti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
+      - raw_bullet_id: "raw_b000962"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          257
   - pool_id: "loreal_cognitive_sciences_lab_p017"
     canonical_candidate_text_en:
       "Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed product positioning."
     duplicate_count:
-      16
+      9
     raw_bullet_ids:
       - "raw_b000139"
       - "raw_b000246"
@@ -1760,13 +1773,6 @@ candidate_bullet_pools:
       - "raw_b000925"
       - "raw_b000950"
       - "raw_b000965"
-      - "raw_b000234"
-      - "raw_b000254"
-      - "raw_b000291"
-      - "raw_b000408"
-      - "raw_b000443"
-      - "raw_b000871"
-      - "raw_b000886"
     quality_flags:
       []
     source_references:
@@ -1887,97 +1893,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           262
-      - raw_bullet_id: "raw_b000234"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_711"
-        source_project_zip:
-          "26 summer_PM_711.zip"
-        source_project_id:
-          "project_019_26_summer_pm_711"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          262
-      - raw_bullet_id: "raw_b000254"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          240
-      - raw_bullet_id: "raw_b000291"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          265
-      - raw_bullet_id: "raw_b000408"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Wearables Intern"
-        source_project_zip:
-          "26 summer_Wearables Intern.zip"
-        source_project_id:
-          "project_034_26_summer_wearables_intern"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000443"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
-      - raw_bullet_id: "raw_b000871"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Data_cocacola"
-        source_project_zip:
-          "ziyuan_guo_Data_cocacola.zip"
-        source_project_id:
-          "project_068_ziyuan_guo_data_cocacola"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          238
-      - raw_bullet_id: "raw_b000886"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PLM_Hyundai"
-        source_project_zip:
-          "ziyuan_guo_PLM_Hyundai.zip"
-        source_project_id:
-          "project_069_ziyuan_guo_plm_hyundai"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          239
   - pool_id: "loreal_cognitive_sciences_lab_p018"
     canonical_candidate_text_en:
       "Iterated protocols for a 6-month cross-cultural fragrance perception study in iMotions, integrating Implicit Association Tests and multimodal physiological sensors (EEG, GSR, ECG) to evaluate 30 products' characterization."
@@ -2112,13 +2027,12 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Piloted a multimodal evaluation framework combining ECG and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement."
     duplicate_count:
-      5
+      4
     raw_bullet_ids:
       - "raw_b000175"
       - "raw_b000186"
       - "raw_b000197"
       - "raw_b000213"
-      - "raw_b000646"
     quality_flags:
       - "appears_in_multiple_historical_sections"
     source_references:
@@ -2174,19 +2088,178 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           302
-      - raw_bullet_id: "raw_b000646"
+  - pool_id: "loreal_cognitive_sciences_lab_p021"
+    canonical_candidate_text_en:
+      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions."
+    duplicate_count:
+      4
+    raw_bullet_ids:
+      - "raw_b000233"
+      - "raw_b000253"
+      - "raw_b000297"
+      - "raw_b000309"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000233"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "Ziyuan_Guo_HF_Wisk"
+          "26 summer_PM_711"
         source_project_zip:
-          "Ziyuan_Guo_HF_Wisk.zip"
+          "26 summer_PM_711.zip"
         source_project_id:
-          "project_051_ziyuan_guo_hf_wisk"
+          "project_019_26_summer_pm_711"
         source_tex_file:
           "main.tex"
         source_line_number:
-          235
+          260
+      - raw_bullet_id: "raw_b000253"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+      - raw_bullet_id: "raw_b000297"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          242
+      - raw_bullet_id: "raw_b000309"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          242
+  - pool_id: "loreal_cognitive_sciences_lab_p022"
+    canonical_candidate_text_en:
+      "Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed next-step product positioning."
+    duplicate_count:
+      7
+    raw_bullet_ids:
+      - "raw_b000234"
+      - "raw_b000254"
+      - "raw_b000291"
+      - "raw_b000408"
+      - "raw_b000443"
+      - "raw_b000871"
+      - "raw_b000886"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000234"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          262
+      - raw_bullet_id: "raw_b000254"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000291"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          265
+      - raw_bullet_id: "raw_b000408"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Wearables Intern"
+        source_project_zip:
+          "26 summer_Wearables Intern.zip"
+        source_project_id:
+          "project_034_26_summer_wearables_intern"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000443"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
+      - raw_bullet_id: "raw_b000871"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data_cocacola"
+        source_project_zip:
+          "ziyuan_guo_Data_cocacola.zip"
+        source_project_id:
+          "project_068_ziyuan_guo_data_cocacola"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          238
+      - raw_bullet_id: "raw_b000886"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PLM_Hyundai"
+        source_project_zip:
+          "ziyuan_guo_PLM_Hyundai.zip"
+        source_project_id:
+          "project_069_ziyuan_guo_plm_hyundai"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          239
   - pool_id: "loreal_cognitive_sciences_lab_p023"
     canonical_candidate_text_en:
       "Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional metrics measured by EEG and Eye-tracking."
@@ -2308,6 +2381,29 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           260
+  - pool_id: "loreal_cognitive_sciences_lab_p024"
+    canonical_candidate_text_en:
+      "Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000288"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000288"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
   - pool_id: "loreal_cognitive_sciences_lab_p025"
     canonical_candidate_text_en:
       "Led a Voice Analysis project on a hair dye product, designing baseline vs product-phase protocols and analyzing consumer speech data (on-site & home-use, N=25) with R; uncover emotional patterns across usage stages and refine testing protocols."
@@ -2331,6 +2427,29 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           262
+  - pool_id: "loreal_cognitive_sciences_lab_p026"
+    canonical_candidate_text_en:
+      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-user luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000290"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000290"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          263
   - pool_id: "loreal_cognitive_sciences_lab_p027"
     canonical_candidate_text_en:
       "Collaborated with global R&I teams to translate research findings into actionable design guidelines, enhancing sensory experience and ensuring visual consistency across product lines."
@@ -2368,6 +2487,57 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           248
+  - pool_id: "loreal_cognitive_sciences_lab_p028"
+    canonical_candidate_text_en:
+      "Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating interviews and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000344"
+      - "raw_b000356"
+      - "raw_b000368"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000344"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000356"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000368"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
   - pool_id: "loreal_cognitive_sciences_lab_p029"
     canonical_candidate_text_en:
       "Designed and localized multi-phase IAT and CATA surveys integrating reaction-time, rating, semantic free-listing, and projection techniques; refined question framing to ensure cultural validity and comparability across markets."
@@ -2675,32 +2845,11 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Coordinated participant recruitment and multi-day fieldwork (6 studies, N = 300+) in partnership with external agencies, ensuring privacy compliance, participant well-being, and consistent data quality across all sessions."
     duplicate_count:
-      24
+      3
     raw_bullet_ids:
       - "raw_b000346"
       - "raw_b000358"
       - "raw_b000370"
-      - "raw_b000394"
-      - "raw_b000585"
-      - "raw_b000598"
-      - "raw_b000609"
-      - "raw_b000620"
-      - "raw_b000633"
-      - "raw_b000657"
-      - "raw_b000673"
-      - "raw_b000687"
-      - "raw_b000700"
-      - "raw_b000714"
-      - "raw_b000727"
-      - "raw_b000739"
-      - "raw_b000752"
-      - "raw_b000765"
-      - "raw_b000778"
-      - "raw_b000791"
-      - "raw_b000804"
-      - "raw_b000819"
-      - "raw_b000938"
-      - "raw_b000977"
     quality_flags:
       []
     source_references:
@@ -2743,6 +2892,278 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           233
+  - pool_id: "loreal_cognitive_sciences_lab_p031"
+    canonical_candidate_text_en:
+      "Monitored fieldwork for 6 consumer studies (N=300+), translating post-test interviews into user journey maps and opportunity areas that guided iterative product improvements and validated early market fit."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000381"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000381"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "loreal_cognitive_sciences_lab_p032"
+    canonical_candidate_text_en:
+      "Collaborating with the French lab, conducted mixed-methods consumer research (interviews, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across markets, translating findings into actionable insights for product positioning."
+    duplicate_count:
+      15
+    raw_bullet_ids:
+      - "raw_b000392"
+      - "raw_b000583"
+      - "raw_b000607"
+      - "raw_b000618"
+      - "raw_b000631"
+      - "raw_b000671"
+      - "raw_b000685"
+      - "raw_b000698"
+      - "raw_b000712"
+      - "raw_b000725"
+      - "raw_b000737"
+      - "raw_b000750"
+      - "raw_b000763"
+      - "raw_b000776"
+      - "raw_b000789"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000392"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UX_Netflix"
+        source_project_zip:
+          "26 summer_UX_Netflix.zip"
+        source_project_id:
+          "project_033_26_summer_ux_netflix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000583"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_Sandisk"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_Sandisk.zip"
+        source_project_id:
+          "project_046_ziyuan_guo_consumer_sandisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000607"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_market_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_market_iff.zip"
+        source_project_id:
+          "project_048_ziyuan_guo_consumer_market_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000618"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Digital Ops_Richemont"
+        source_project_zip:
+          "Ziyuan_Guo_Digital Ops_Richemont.zip"
+        source_project_id:
+          "project_049_ziyuan_guo_digital_ops_richemont"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000631"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Genentech"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Genentech.zip"
+        source_project_id:
+          "project_050_ziyuan_guo_hf_genentech"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000671"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000685"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_PM_Tencent"
+        source_project_zip:
+          "Ziyuan_Guo_PM_Tencent.zip"
+        source_project_id:
+          "project_054_ziyuan_guo_pm_tencent"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000698"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_Bluebeam"
+        source_project_zip:
+          "Ziyuan_Guo_Product_Bluebeam.zip"
+        source_project_id:
+          "project_055_ziyuan_guo_product_bluebeam"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000712"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Product_TheInclab"
+        source_project_zip:
+          "Ziyuan_Guo_Product_TheInclab.zip"
+        source_project_id:
+          "project_056_ziyuan_guo_product_theinclab"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000725"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_Equinix"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_Equinix.zip"
+        source_project_id:
+          "project_057_ziyuan_guo_uxr_equinix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000737"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_TensorWave"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_TensorWave.zip"
+        source_project_id:
+          "project_058_ziyuan_guo_uxr_tensorwave"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000750"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_Fortive"
+        source_project_zip:
+          "Ziyuan_Guo_UX_Fortive.zip"
+        source_project_id:
+          "project_059_ziyuan_guo_ux_fortive"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000763"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_JPMorgan"
+        source_project_zip:
+          "Ziyuan_Guo_UX_JPMorgan.zip"
+        source_project_id:
+          "project_060_ziyuan_guo_ux_jpmorgan"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+      - raw_bullet_id: "raw_b000776"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_market research_Signet"
+        source_project_zip:
+          "Ziyuan_Guo_market research_Signet.zip"
+        source_project_id:
+          "project_061_ziyuan_guo_market_research_signet"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000789"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_research_Gensler"
+        source_project_zip:
+          "Ziyuan_Guo_research_Gensler.zip"
+        source_project_id:
+          "project_062_ziyuan_guo_research_gensler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          231
+  - pool_id: "loreal_cognitive_sciences_lab_p033"
+    canonical_candidate_text_en:
+      "Coordinated participant recruitment and fieldwork (6 studies, 300+ consumers) in partnership with external agencies, ensuring privacy compliance, participant well-being, and consistent data quality across all sessions."
+    duplicate_count:
+      21
+    raw_bullet_ids:
+      - "raw_b000394"
+      - "raw_b000585"
+      - "raw_b000598"
+      - "raw_b000609"
+      - "raw_b000620"
+      - "raw_b000633"
+      - "raw_b000657"
+      - "raw_b000673"
+      - "raw_b000687"
+      - "raw_b000700"
+      - "raw_b000714"
+      - "raw_b000727"
+      - "raw_b000739"
+      - "raw_b000752"
+      - "raw_b000765"
+      - "raw_b000778"
+      - "raw_b000791"
+      - "raw_b000804"
+      - "raw_b000819"
+      - "raw_b000938"
+      - "raw_b000977"
+    quality_flags:
+      []
+    source_references:
       - raw_bullet_id: "raw_b000394"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -3016,259 +3437,14 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           254
-  - pool_id: "loreal_cognitive_sciences_lab_p031"
-    canonical_candidate_text_en:
-      "Monitored fieldwork for 6 consumer studies (N=300+), translating post-test interviews into user journey maps and opportunity areas that guided iterative product improvements and validated early market fit."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000381"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000381"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          234
-  - pool_id: "loreal_cognitive_sciences_lab_p032"
-    canonical_candidate_text_en:
-      "Collaborating with the French lab, conducted mixed-methods consumer research (interviews, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across markets, translating findings into actionable insights for product positioning."
-    duplicate_count:
-      15
-    raw_bullet_ids:
-      - "raw_b000392"
-      - "raw_b000583"
-      - "raw_b000607"
-      - "raw_b000618"
-      - "raw_b000631"
-      - "raw_b000671"
-      - "raw_b000685"
-      - "raw_b000698"
-      - "raw_b000712"
-      - "raw_b000725"
-      - "raw_b000737"
-      - "raw_b000750"
-      - "raw_b000763"
-      - "raw_b000776"
-      - "raw_b000789"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000392"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UX_Netflix"
-        source_project_zip:
-          "26 summer_UX_Netflix.zip"
-        source_project_id:
-          "project_033_26_summer_ux_netflix"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000583"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Consumer_Sandisk"
-        source_project_zip:
-          "Ziyuan_Guo_Consumer_Sandisk.zip"
-        source_project_id:
-          "project_046_ziyuan_guo_consumer_sandisk"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000607"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Consumer_market_iff"
-        source_project_zip:
-          "Ziyuan_Guo_Consumer_market_iff.zip"
-        source_project_id:
-          "project_048_ziyuan_guo_consumer_market_iff"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000618"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Digital Ops_Richemont"
-        source_project_zip:
-          "Ziyuan_Guo_Digital Ops_Richemont.zip"
-        source_project_id:
-          "project_049_ziyuan_guo_digital_ops_richemont"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000631"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_Genentech"
-        source_project_zip:
-          "Ziyuan_Guo_HF_Genentech.zip"
-        source_project_id:
-          "project_050_ziyuan_guo_hf_genentech"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          233
-      - raw_bullet_id: "raw_b000671"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Market Strategy_PORSCHE"
-        source_project_zip:
-          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
-        source_project_id:
-          "project_053_ziyuan_guo_market_strategy_porsche"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000685"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_PM_Tencent"
-        source_project_zip:
-          "Ziyuan_Guo_PM_Tencent.zip"
-        source_project_id:
-          "project_054_ziyuan_guo_pm_tencent"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000698"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Product_Bluebeam"
-        source_project_zip:
-          "Ziyuan_Guo_Product_Bluebeam.zip"
-        source_project_id:
-          "project_055_ziyuan_guo_product_bluebeam"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
-      - raw_bullet_id: "raw_b000712"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Product_TheInclab"
-        source_project_zip:
-          "Ziyuan_Guo_Product_TheInclab.zip"
-        source_project_id:
-          "project_056_ziyuan_guo_product_theinclab"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
-      - raw_bullet_id: "raw_b000725"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UXR_Equinix"
-        source_project_zip:
-          "Ziyuan_Guo_UXR_Equinix.zip"
-        source_project_id:
-          "project_057_ziyuan_guo_uxr_equinix"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000737"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UXR_TensorWave"
-        source_project_zip:
-          "Ziyuan_Guo_UXR_TensorWave.zip"
-        source_project_id:
-          "project_058_ziyuan_guo_uxr_tensorwave"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000750"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UX_Fortive"
-        source_project_zip:
-          "Ziyuan_Guo_UX_Fortive.zip"
-        source_project_id:
-          "project_059_ziyuan_guo_ux_fortive"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000763"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UX_JPMorgan"
-        source_project_zip:
-          "Ziyuan_Guo_UX_JPMorgan.zip"
-        source_project_id:
-          "project_060_ziyuan_guo_ux_jpmorgan"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
-      - raw_bullet_id: "raw_b000776"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_market research_Signet"
-        source_project_zip:
-          "Ziyuan_Guo_market research_Signet.zip"
-        source_project_id:
-          "project_061_ziyuan_guo_market_research_signet"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
-      - raw_bullet_id: "raw_b000789"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_research_Gensler"
-        source_project_zip:
-          "Ziyuan_Guo_research_Gensler.zip"
-        source_project_id:
-          "project_062_ziyuan_guo_research_gensler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          231
   - pool_id: "loreal_cognitive_sciences_lab_p034"
     canonical_candidate_text_en:
       "Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams."
     duplicate_count:
-      5
+      2
     raw_bullet_ids:
       - "raw_b000405"
       - "raw_b000883"
-      - "raw_b000288"
-      - "raw_b000802"
-      - "raw_b000817"
     quality_flags:
       []
     source_references:
@@ -3298,55 +3474,14 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           235
-      - raw_bullet_id: "raw_b000288"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000802"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          233
-      - raw_bullet_id: "raw_b000817"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          227
   - pool_id: "loreal_cognitive_sciences_lab_p035"
     canonical_candidate_text_en:
       "Managed fieldwork for 6 projects with 300+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights."
     duplicate_count:
-      4
+      2
     raw_bullet_ids:
       - "raw_b000406"
       - "raw_b000884"
-      - "raw_b000099"
-      - "raw_b000333"
     quality_flags:
       []
     source_references:
@@ -3376,32 +3511,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           236
-      - raw_bullet_id: "raw_b000099"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          232
-      - raw_bullet_id: "raw_b000333"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          232
   - pool_id: "loreal_cognitive_sciences_lab_p036"
     canonical_candidate_text_en:
       "Designed and launched SharePoint-based knowledge platform (40+ Workflows & SOPs) aligning 4 departments & 5 agencies; improved onboarding efficiency by 70% and enabled scalable workflow adoption."
@@ -3596,18 +3705,53 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           230
+  - pool_id: "loreal_cognitive_sciences_lab_p042"
+    canonical_candidate_text_en:
+      "Optimized cognitive test protocols for 3-wave fragrance study in iMotion, aligning with FR lab, managing 100+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 18 products."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000469"
+      - "raw_b000498"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000469"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000498"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
   - pool_id: "loreal_cognitive_sciences_lab_p043"
     canonical_candidate_text_en:
       "Implemented VBA-based automation for qualitative data extraction in 32-participant study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data."
     duplicate_count:
-      6
+      4
     raw_bullet_ids:
       - "raw_b000470"
       - "raw_b000499"
       - "raw_b000527"
       - "raw_b000547"
-      - "raw_b000483"
-      - "raw_b000563"
     quality_flags:
       []
     source_references:
@@ -3663,44 +3807,17 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           276
-      - raw_bullet_id: "raw_b000483"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-      - raw_bullet_id: "raw_b000563"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          280
   - pool_id: "loreal_cognitive_sciences_lab_p044"
     canonical_candidate_text_en:
       "Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to align research methodologies with business objectives."
     duplicate_count:
-      6
+      5
     raw_bullet_ids:
       - "raw_b000471"
       - "raw_b000484"
       - "raw_b000529"
       - "raw_b000548"
       - "raw_b000564"
-      - "raw_b000501"
     quality_flags:
       []
     source_references:
@@ -3769,19 +3886,80 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           281
-      - raw_bullet_id: "raw_b000501"
+  - pool_id: "loreal_cognitive_sciences_lab_p045"
+    canonical_candidate_text_en:
+      "Monitored fieldwork for 3 projects with 240+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000482"
+      - "raw_b000562"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000482"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "UIUC MSIM"
+          "UCSD CSS"
         source_project_zip:
-          "UIUC MSIM.zip"
+          "UCSD CSS.zip"
         source_project_id:
-          "project_041_uiuc_msim"
+          "project_040_ucsd_css"
         source_tex_file:
           "main.tex"
         source_line_number:
-          282
+          276
+      - raw_bullet_id: "raw_b000562"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+  - pool_id: "loreal_cognitive_sciences_lab_p046"
+    canonical_candidate_text_en:
+      "Implemented VBA-based automation for qualitative data extraction in a 32-participant Packaging study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000483"
+      - "raw_b000563"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000483"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000563"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          280
   - pool_id: "loreal_cognitive_sciences_lab_p047"
     canonical_candidate_text_en:
       "Streamlined data processing for large datasets by developing PowerShell scripts, reducing CSV file handling time by 50% for 100+ files compared to manual methods."
@@ -3819,6 +3997,75 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           281
+  - pool_id: "loreal_cognitive_sciences_lab_p048"
+    canonical_candidate_text_en:
+      "Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to research methodologies alignment, manage lab equipment and volunteer recruitment."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000501"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000501"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          282
+  - pool_id: "loreal_cognitive_sciences_lab_p049"
+    canonical_candidate_text_en:
+      "Optimized cognitive test protocols for 4-wave fragrance study in iMotion, aligning with FR lab, managing 130+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 24 products."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000526"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000526"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          279
+  - pool_id: "loreal_cognitive_sciences_lab_p050"
+    canonical_candidate_text_en:
+      "Optimized test protocols for 5-wave fragrance characterization study in iMotion, aligning with French lab, managing 170+ participants and using EEG, GSR, and ECG to evaluate emotional responses from 30 products."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000546"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000546"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
   - pool_id: "loreal_cognitive_sciences_lab_p051"
     canonical_candidate_text_en:
       "Conducted mixed-methods consumer research (U&A, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across French and China markets, translating findings into actionable insights for product positioning."
@@ -3888,16 +4135,97 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           233
+  - pool_id: "loreal_cognitive_sciences_lab_p054"
+    canonical_candidate_text_en:
+      "Piloted a multimodal evaluation framework combining Heart Rate Variability and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000646"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000646"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Wisk"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Wisk.zip"
+        source_project_id:
+          "project_051_ziyuan_guo_hf_wisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+  - pool_id: "loreal_cognitive_sciences_lab_p055"
+    canonical_candidate_text_en:
+      "Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products collaborating with the French lab."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000658"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000658"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
+  - pool_id: "loreal_cognitive_sciences_lab_p056"
+    canonical_candidate_text_en:
+      "Iterated protocols for a 6-month multi-cycle study in iMotions, integrating subjective feedback and physiological multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000802"
+      - "raw_b000817"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000802"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          233
+      - raw_bullet_id: "raw_b000817"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          227
   - pool_id: "loreal_cognitive_sciences_lab_p057"
     canonical_candidate_text_en:
       "Documented and updated 40+ SOPs, reusable templates, and device guidebooks in a knowledge base; implemented navigation architecture that improved resource accessibility and reduced onboarding time by 70%."
     duplicate_count:
-      4
+      2
     raw_bullet_ids:
       - "raw_b000803"
       - "raw_b000818"
-      - "raw_b000935"
-      - "raw_b000974"
     quality_flags:
       []
     source_references:
@@ -3927,32 +4255,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           228
-      - raw_bullet_id: "raw_b000935"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_QA_volvo"
-        source_project_zip:
-          "ziyuan_guo_QA_volvo.zip"
-        source_project_id:
-          "project_073_ziyuan_guo_qa_volvo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          252
-      - raw_bullet_id: "raw_b000974"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_sono bello"
-        source_project_zip:
-          "ziyuan_guo_ops_sono bello.zip"
-        source_project_id:
-          "project_076_ziyuan_guo_ops_sono_bello"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          251
   - pool_id: "loreal_cognitive_sciences_lab_p058"
     canonical_candidate_text_en:
       "Collaborated with 6 cross-functional teams to translate formulation requests into 5 pilot tests, standardize practices with global counterparts, and adapt protocols for local execution."
@@ -4018,6 +4320,43 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           253
+  - pool_id: "loreal_cognitive_sciences_lab_p059"
+    canonical_candidate_text_en:
+      "Documented and continuously updated 40+ SOPs, reusable templates, and device guidebooks in a SharePoint knowledge base; implemented navigation architecture that improved resource accessibility."
+    duplicate_count:
+      2
+    raw_bullet_ids:
+      - "raw_b000935"
+      - "raw_b000974"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000935"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          252
+      - raw_bullet_id: "raw_b000974"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          251
   - pool_id: "loreal_cognitive_sciences_lab_p060"
     canonical_candidate_text_en:
       "Conducted 4 trainings for internal research teams on promoting the Cognitive Wheel digital tool and Power BI dashboard to integrate cognitive methods into wider projects."
