@@ -1,5 +1,5 @@
 experience_id: "ai_rag_sql_clinical_query_system"
-status: "needs_review"
+status: "approved"
 canonical:
   title_en: "AI-Powered Data Query System (RAG + SQL) for clinical dataset"
   organization_en: "Project Lead"
@@ -28,7 +28,7 @@ keywords:
 candidate_bullet_pools:
   - pool_id: "ai_rag_sql_clinical_query_system_p001"
     canonical_candidate_text_en:
-      "Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs using LangChain to enable natural language interaction with MIMIC healthcare datasets."
+      "Prototyped an AI-assisted query system integrating SQL data retrieval with LLM-based APIs using LangChain to enable natural language interaction with MIMIC healthcare datasets."
     duplicate_count:
       23
     raw_bullet_ids:
@@ -1035,7 +1035,7 @@ candidate_bullet_pools:
           280
   - pool_id: "ai_rag_sql_clinical_query_system_p004"
     canonical_candidate_text_en:
-      "Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs to enable natural language interaction with MIMIC healthcare datasets."
+      "Prototyped an AI-assisted query system integrating SQL data retrieval with LLM-based APIs to enable natural language interaction with MIMIC healthcare datasets."
     duplicate_count:
       3
     raw_bullet_ids:

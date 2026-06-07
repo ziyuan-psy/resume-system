@@ -1,5 +1,5 @@
 experience_id: "ai_gpu_portfolio_strategy"
-status: "needs_review"
+status: "approved"
 canonical:
   title_en: "AI GPU Portfolio Strategy & Scenario Analysis"
   organization_en: "Course Project"
@@ -15,7 +15,8 @@ display_section_rules:
 role_fit:
   []
 tools:
-  - "R"
+  - "Excel"
+  - "Python"
 skills:
   []
 keywords:
