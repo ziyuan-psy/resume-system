@@ -1068,29 +1068,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           296
-  - pool_id: "tennis_performance_dashboard_p008"
-    canonical_candidate_text_en:
-      "Mapped the end-to-end “player performance journey” using rally-level tennis data (10k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000696"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000696"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_PM_Tencent"
-        source_project_zip:
-          "Ziyuan_Guo_PM_Tencent.zip"
-        source_project_id:
-          "project_054_ziyuan_guo_pm_tencent"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          294
 source_references:
   - raw_bullet_id: "raw_b000007"
     original_zip_name:

@@ -1535,29 +1535,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           236
-  - pool_id: "loreal_cognitive_sciences_lab_p014"
-    canonical_candidate_text_en:
-      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing actionable design and business recommendations."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000121"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000121"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          238
   - pool_id: "loreal_cognitive_sciences_lab_p015"
     canonical_candidate_text_en:
       "Partnered with R&I engineers and designers to prototype and evaluate sensory interaction concepts; co-authored evaluation frameworks linking consumer emotion data to product development goals."
@@ -2088,71 +2065,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           302
-  - pool_id: "loreal_cognitive_sciences_lab_p021"
-    canonical_candidate_text_en:
-      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions."
-    duplicate_count:
-      4
-    raw_bullet_ids:
-      - "raw_b000233"
-      - "raw_b000253"
-      - "raw_b000297"
-      - "raw_b000309"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000233"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_711"
-        source_project_zip:
-          "26 summer_PM_711.zip"
-        source_project_id:
-          "project_019_26_summer_pm_711"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000253"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          238
-      - raw_bullet_id: "raw_b000297"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          242
-      - raw_bullet_id: "raw_b000309"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          242
   - pool_id: "loreal_cognitive_sciences_lab_p022"
     canonical_candidate_text_en:
       "Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed next-step product positioning."
@@ -2427,29 +2339,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           262
-  - pool_id: "loreal_cognitive_sciences_lab_p026"
-    canonical_candidate_text_en:
-      "Built an automation tool to streamline qualitative–physiological data synthesis in a 32-user luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000290"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000290"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          263
   - pool_id: "loreal_cognitive_sciences_lab_p027"
     canonical_candidate_text_en:
       "Collaborated with global R&I teams to translate research findings into actionable design guidelines, enhancing sensory experience and ensuring visual consistency across product lines."
@@ -3705,43 +3594,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           230
-  - pool_id: "loreal_cognitive_sciences_lab_p042"
-    canonical_candidate_text_en:
-      "Optimized cognitive test protocols for 3-wave fragrance study in iMotion, aligning with FR lab, managing 100+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 18 products."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000469"
-      - "raw_b000498"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000469"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "NEU IS_V2"
-        source_project_zip:
-          "NEU IS_V2.zip"
-        source_project_id:
-          "project_039_neu_is_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          275
-      - raw_bullet_id: "raw_b000498"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          279
   - pool_id: "loreal_cognitive_sciences_lab_p043"
     canonical_candidate_text_en:
       "Implemented VBA-based automation for qualitative data extraction in 32-participant study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data."
@@ -3886,43 +3738,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           281
-  - pool_id: "loreal_cognitive_sciences_lab_p045"
-    canonical_candidate_text_en:
-      "Monitored fieldwork for 3 projects with 240+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000482"
-      - "raw_b000562"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000482"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          276
-      - raw_bullet_id: "raw_b000562"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          279
   - pool_id: "loreal_cognitive_sciences_lab_p046"
     canonical_candidate_text_en:
       "Implemented VBA-based automation for qualitative data extraction in a 32-participant Packaging study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data."
@@ -4020,52 +3835,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           282
-  - pool_id: "loreal_cognitive_sciences_lab_p049"
-    canonical_candidate_text_en:
-      "Optimized cognitive test protocols for 4-wave fragrance study in iMotion, aligning with FR lab, managing 130+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 24 products."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000526"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000526"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          279
-  - pool_id: "loreal_cognitive_sciences_lab_p050"
-    canonical_candidate_text_en:
-      "Optimized test protocols for 5-wave fragrance characterization study in iMotion, aligning with French lab, managing 170+ participants and using EEG, GSR, and ECG to evaluate emotional responses from 30 products."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000546"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000546"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UR DS"
-        source_project_zip:
-          "UR DS.zip"
-        source_project_id:
-          "project_043_ur_ds"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          275
   - pool_id: "loreal_cognitive_sciences_lab_p051"
     canonical_candidate_text_en:
       "Conducted mixed-methods consumer research (U&A, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across French and China markets, translating findings into actionable insights for product positioning."

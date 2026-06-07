@@ -1671,43 +1671,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           242
-  - pool_id: "chinese_academy_engineering_psychology_p019"
-    canonical_candidate_text_en:
-      "Participated in VR risk scenario modeling using Blender; designed and tested 3 distinct driving scenarios for realism and variable control, enhancing experimental validity."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000492"
-      - "raw_b000521"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000492"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          242
-      - raw_bullet_id: "raw_b000521"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          243
   - pool_id: "chinese_academy_engineering_psychology_p020"
     canonical_candidate_text_en:
       "Revised survey design on passenger experiences with autonomous taxi services, improving question clarity and reducing ambiguity, enhancing the quality of data collected from over 600 participants."
@@ -1745,29 +1708,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           244
-  - pool_id: "chinese_academy_engineering_psychology_p021"
-    canonical_candidate_text_en:
-      "Modeled 10 VR risk scenarios using Blender; designed and tested 3 distinct driving scenarios for realism and variable control, enhancing experimental validity."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000557"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000557"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          243
   - pool_id: "chinese_academy_engineering_psychology_p022"
     canonical_candidate_text_en:
       "Modeled 10 VR risk scenarios and tested 3 driving scenarios to study user trust and risk perception under safety-critical conditions for autonomous vehicles , improving ecological realism and experimental control."
