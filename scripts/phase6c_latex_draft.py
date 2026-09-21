@@ -225,6 +225,7 @@ def validate_selection(
     skills: dict[str, dict[str, object]],
     coursework: dict[str, dict[str, object]],
     education: dict[str, dict[str, object]],
+    expected_library_fingerprint: str,
 ) -> None:
     phase6b.validate_selection_json(
         selection,
@@ -232,6 +233,7 @@ def validate_selection(
         experiences,
         skills,
         coursework,
+        expected_library_fingerprint=expected_library_fingerprint,
         require_display_titles=False,
     )
     if "education_display_rules" not in selection:
@@ -503,7 +505,15 @@ def load_inputs(root: Path, slug: str, contact_profile: str) -> tuple[Phase6CPat
     experiences_by_id = phase6b.index_by(phase6b.parse_canonical_experiences(root), "experience_id")
     skills_by_id = phase6b.index_by(phase6b.parse_skills(root), "skill_id")
     coursework_by_id = phase6b.index_by(parse_coursework(root), "coursework_id")
-    validate_selection(selection, slug, experiences_by_id, skills_by_id, coursework_by_id, education_by_id)
+    validate_selection(
+        selection,
+        slug,
+        experiences_by_id,
+        skills_by_id,
+        coursework_by_id,
+        education_by_id,
+        phase6b.compute_library_fingerprint(root),
+    )
     return paths, selection, contact, template, education_by_id, coursework_by_id, experiences_by_id, skills_by_id
 
 

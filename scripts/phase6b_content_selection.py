@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 import re
 import sys
@@ -32,6 +33,9 @@ except ImportError:  # pragma: no cover - supports running from scripts/
 
 ROOT = Path(__file__).resolve().parents[1]
 SELECTION_DIR = Path("generated") / "selection"
+SELECTION_INPUTS_DIR = Path("generated") / "selection_inputs"
+ACTIVE_LIBRARY_CATALOG_PATH = SELECTION_INPUTS_DIR / "active_library_catalog.json"
+CATALOG_SCHEMA_VERSION = 1
 CANONICAL_EN_DIR = Path("content") / "experiences" / "canonical" / "en"
 EDUCATION_PATH = Path("content") / "profile" / "education.yaml"
 COURSEWORK_PATH = Path("content") / "profile" / "coursework.yaml"
@@ -108,6 +112,7 @@ class SelectionPaths:
     analysis_path: Path
     selection_path: Path
     selection_json_path: Path
+    catalog_path: Path
     tex_path: Path
     pdf_path: Path
 
@@ -127,6 +132,7 @@ def build_paths(root: Path, slug: str) -> SelectionPaths:
         analysis_path=root / "generated" / "analysis" / f"{slug}_jd_analysis.md",
         selection_path=root / SELECTION_DIR / f"{slug}_selection_plan.md",
         selection_json_path=root / SELECTION_DIR / f"{slug}_selection.json",
+        catalog_path=root / ACTIVE_LIBRARY_CATALOG_PATH,
         tex_path=root / "generated" / "tex" / f"{slug}.tex",
         pdf_path=root / "generated" / "pdf" / f"{slug}.pdf",
     )
@@ -135,6 +141,7 @@ def build_paths(root: Path, slug: str) -> SelectionPaths:
         paths.analysis_path,
         paths.selection_path,
         paths.selection_json_path,
+        paths.catalog_path,
         paths.tex_path,
         paths.pdf_path,
     ):
@@ -163,6 +170,69 @@ def parse_candidate_pools(lines: list[str]) -> list[dict[str, object]]:
             }
         )
     return pools
+
+
+def parse_overlap_groups(lines: list[str]) -> list[dict[str, object]]:
+    start, end = find_block(lines, "bullet_overlap_groups")
+    if start == -1:
+        return []
+    block = lines[start:end]
+    groups = []
+    for group_start, group_end in parse_entry_segments(block, "group_id"):
+        segment = block[group_start:group_end]
+        groups.append(
+            {
+                "group_id": find_value(segment, "group_id"),
+                "pool_ids": parse_nested_list(segment, "pool_ids"),
+            }
+        )
+    return groups
+
+
+def validate_overlap_groups(experience: dict[str, object]) -> None:
+    experience_id = str(experience.get("experience_id", "unknown"))
+    known_pool_ids = {
+        str(pool["pool_id"])
+        for pool in experience.get("candidate_bullet_pools", [])  # type: ignore[union-attr]
+    }
+    seen_group_ids: set[str] = set()
+    pool_membership: dict[str, str] = {}
+    for group in experience.get("bullet_overlap_groups", []):  # type: ignore[union-attr]
+        group_id = str(group.get("group_id", "")).strip()  # type: ignore[union-attr]
+        if not group_id:
+            raise Phase6BError(f"Experience {experience_id} has an overlap group without group_id.")
+        if group_id in seen_group_ids:
+            raise Phase6BError(f"Experience {experience_id} repeats overlap group_id: {group_id}")
+        seen_group_ids.add(group_id)
+
+        pool_ids = [str(pool_id) for pool_id in group.get("pool_ids", [])]  # type: ignore[union-attr]
+        if len(pool_ids) < 2:
+            raise Phase6BError(
+                f"Experience {experience_id} overlap group {group_id} must contain at least two pool IDs."
+            )
+        if len(pool_ids) != len(set(pool_ids)):
+            raise Phase6BError(f"Experience {experience_id} overlap group {group_id} repeats a pool ID.")
+        for pool_id in pool_ids:
+            if pool_id not in known_pool_ids:
+                raise Phase6BError(
+                    f"Experience {experience_id} overlap group {group_id} references unknown pool_id: {pool_id}"
+                )
+            prior_group = pool_membership.get(pool_id)
+            if prior_group is not None:
+                raise Phase6BError(
+                    f"Experience {experience_id} pool {pool_id} belongs to multiple overlap groups: "
+                    f"{prior_group}, {group_id}"
+                )
+            pool_membership[pool_id] = group_id
+
+
+def overlap_group_index(experience: dict[str, object]) -> dict[str, str]:
+    membership: dict[str, str] = {}
+    for group in experience.get("bullet_overlap_groups", []):  # type: ignore[union-attr]
+        group_id = str(group["group_id"])  # type: ignore[index]
+        for pool_id in group["pool_ids"]:  # type: ignore[index]
+            membership[str(pool_id)] = group_id
+    return membership
 
 
 def parse_bool_value(value: str, default: bool, field_name: str, context: str) -> bool:
@@ -252,7 +322,7 @@ def parse_skills(root: Path) -> list[dict[str, object]]:
 
 def parse_canonical_experience(path: Path) -> dict[str, object]:
     lines = read_lines(path)
-    return {
+    experience = {
         "path": path,
         "experience_id": find_value(lines, "experience_id"),
         "status": find_value(lines, "status"),
@@ -269,7 +339,10 @@ def parse_canonical_experience(path: Path) -> dict[str, object]:
         "skills": parse_list_block(lines, "skills"),
         "keywords": parse_list_block(lines, "keywords"),
         "candidate_bullet_pools": parse_candidate_pools(lines),
+        "bullet_overlap_groups": parse_overlap_groups(lines),
     }
+    validate_overlap_groups(experience)
+    return experience
 
 
 def parse_canonical_experiences(root: Path) -> list[dict[str, object]]:
@@ -285,6 +358,157 @@ def index_by(items: list[dict[str, object]], key: str) -> dict[str, dict[str, ob
 
 def pool_index_for_experience(experience: dict[str, object]) -> dict[str, dict[str, object]]:
     return {str(pool["pool_id"]): pool for pool in experience["candidate_bullet_pools"]}  # type: ignore[index]
+
+
+def active_library_source_paths(root: Path) -> list[Path]:
+    required_paths = [root / EDUCATION_PATH, root / COURSEWORK_PATH, root / SKILLS_PATH]
+    missing = [path for path in required_paths if not path.is_file()]
+    canonical_dir = root / CANONICAL_EN_DIR
+    if not canonical_dir.is_dir():
+        missing.append(canonical_dir)
+    if missing:
+        raise Phase6BError("Missing active library source: " + ", ".join(str(path) for path in missing))
+    canonical_paths = sorted(canonical_dir.glob("*.yaml"))
+    if not canonical_paths:
+        raise Phase6BError(f"No canonical English experience YAML files found in: {canonical_dir}")
+    return required_paths + canonical_paths
+
+
+def compute_source_fingerprint(root: Path) -> str:
+    digest = hashlib.sha256()
+    for path in active_library_source_paths(root):
+        digest.update(path.relative_to(root).as_posix().encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(path.read_bytes())
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def library_fingerprint_from_source(source_fingerprint: str) -> str:
+    digest = hashlib.sha256()
+    digest.update(f"catalog-schema:{CATALOG_SCHEMA_VERSION}\0".encode("ascii"))
+    digest.update(source_fingerprint.encode("ascii"))
+    return digest.hexdigest()
+
+
+def compute_library_fingerprint(root: Path) -> str:
+    return library_fingerprint_from_source(compute_source_fingerprint(root))
+
+
+def build_compact_catalog(root: Path, source_fingerprint: str | None = None) -> dict[str, object]:
+    source_fingerprint = source_fingerprint or compute_source_fingerprint(root)
+    library_fingerprint = library_fingerprint_from_source(source_fingerprint)
+    education = parse_education(root)
+    coursework = parse_coursework(root)
+    skills = parse_skills(root)
+    experiences = parse_canonical_experiences(root)
+
+    compact_experiences = []
+    for experience in experiences:
+        overlap_membership = overlap_group_index(experience)
+        compact_experiences.append(
+            {
+                "experience_id": experience["experience_id"],
+                "status": experience["status"],
+                "canonical": {
+                    "title_en": experience["title_en"],
+                    "organization_en": experience["organization_en"],
+                    "location": experience["location"],
+                    "date": experience["date"],
+                    "experience_type": experience["experience_type"],
+                },
+                "title_variants": experience["title_variants"],
+                "display_section_rules": {
+                    "default_section": experience["default_section"],
+                    "allowed_sections": experience["allowed_sections"],
+                },
+                "role_fit": experience["role_fit"],
+                "tools": experience["tools"],
+                "skills": experience["skills"],
+                "keywords": experience["keywords"],
+                "candidate_bullet_pools": [
+                    {
+                        "pool_id": pool["pool_id"],
+                        "overlap_group_id": overlap_membership.get(str(pool["pool_id"])),
+                        "text": pool["text"],
+                    }
+                    for pool in experience["candidate_bullet_pools"]  # type: ignore[index]
+                ],
+            }
+        )
+
+    return {
+        "schema_version": CATALOG_SCHEMA_VERSION,
+        "source_fingerprint": source_fingerprint,
+        "library_fingerprint": library_fingerprint,
+        "overlap_constraint": (
+            "At most one rendered bullet may use members of the same overlap group. "
+            "Multiple members are allowed only when combined into one rendered bullet."
+        ),
+        "education": [
+            {
+                "education_id": item["education_id"],
+                "institution_en": item["institution_en"],
+                "degree_en": item["degree_en"],
+                "location": item["location"],
+                "gpa_en": item["gpa_en"],
+                "gpa_display": item["gpa_display"],
+                "location_display": item["location_display"],
+                "date": item["date"],
+                "status": item["status"],
+            }
+            for item in education
+        ],
+        "coursework": coursework,
+        "skills": [
+            {
+                "skill_id": item["skill_id"],
+                "display_name": item["display_name"],
+                "aliases": item["aliases"],
+                "default_category": item["default_category"],
+                "status": item["status"],
+            }
+            for item in skills
+        ],
+        "experiences": compact_experiences,
+    }
+
+
+def catalog_is_fresh(catalog: object, source_fingerprint: str, library_fingerprint: str) -> bool:
+    if not isinstance(catalog, dict):
+        return False
+    return (
+        catalog.get("schema_version") == CATALOG_SCHEMA_VERSION
+        and catalog.get("source_fingerprint") == source_fingerprint
+        and catalog.get("library_fingerprint") == library_fingerprint
+        and isinstance(catalog.get("education"), list)
+        and isinstance(catalog.get("coursework"), list)
+        and isinstance(catalog.get("skills"), list)
+        and isinstance(catalog.get("experiences"), list)
+    )
+
+
+def ensure_compact_catalog(root: Path, catalog_path: Path) -> tuple[dict[str, object], bool]:
+    source_fingerprint = compute_source_fingerprint(root)
+    library_fingerprint = library_fingerprint_from_source(source_fingerprint)
+    if catalog_path.exists():
+        try:
+            existing = json.loads(catalog_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            existing = None
+        if catalog_is_fresh(existing, source_fingerprint, library_fingerprint):
+            return existing, False  # type: ignore[return-value]
+
+    catalog = build_compact_catalog(root, source_fingerprint)
+    catalog_path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path = catalog_path.with_suffix(catalog_path.suffix + ".tmp")
+    temporary_path.write_text(
+        json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    temporary_path.replace(catalog_path)
+    return catalog, True
 
 
 def as_list(value: Any, field_name: str) -> list[Any]:
@@ -691,6 +915,7 @@ def validate_selection_json(
     skills: dict[str, dict[str, object]],
     coursework: dict[str, dict[str, object]],
     *,
+    expected_library_fingerprint: str,
     require_display_titles: bool = True,
 ) -> None:
     if selection.get("target_slug") != slug:
@@ -699,6 +924,12 @@ def validate_selection_json(
         raise Phase6BError('Selection JSON status must be "needs_review".')
     if selection.get("selection_method") != SELECTION_METHOD:
         raise Phase6BError(f'Selection JSON selection_method must be "{SELECTION_METHOD}".')
+    library_fingerprint = required_text(selection, "library_fingerprint", "selection root")
+    if library_fingerprint != expected_library_fingerprint:
+        raise Phase6BError(
+            "Selection JSON library_fingerprint is stale or does not match the current active library. "
+            "Re-run Phase 6B selection against the current compact catalog."
+        )
 
     required_text(selection, "role_direction", "selection root")
     required_text(selection, "selection_summary", "selection root")
@@ -732,11 +963,13 @@ def validate_selection_json(
         required_text(item, "rationale", f"experience selection {experience_id}")
 
         pools = pool_index_for_experience(experiences[experience_id])
+        overlap_membership = overlap_group_index(experiences[experience_id])
         selected_bullets = as_list(item.get("selected_bullets"), f"selected_bullets for {experience_id}")
         if not 1 <= len(selected_bullets) <= 5:
             raise Phase6BError(f"Experience {experience_id} must have between 1 and 5 selected bullets.")
 
         seen_pool_ids: set[str] = set()
+        seen_overlap_groups: dict[str, int] = {}
         for bullet_index, bullet in enumerate(selected_bullets, start=1):
             if not isinstance(bullet, dict):
                 raise Phase6BError(f"Selected bullet {bullet_index} for {experience_id} must be an object.")
@@ -755,6 +988,20 @@ def validate_selection_json(
                 if pool_id not in pools:
                     raise Phase6BError(f"Unknown source_pool_id for {experience_id}: {pool_id}")
                 seen_pool_ids.add(pool_id)
+
+            bullet_overlap_groups = {
+                overlap_membership[pool_id]
+                for pool_id in source_pool_ids
+                if pool_id in overlap_membership
+            }
+            for group_id in sorted(bullet_overlap_groups):
+                prior_bullet_index = seen_overlap_groups.get(group_id)
+                if prior_bullet_index is not None:
+                    raise Phase6BError(
+                        f"Experience {experience_id} selects overlap group {group_id} in separate rendered bullets "
+                        f"{prior_bullet_index} and {bullet_index}. Keep one member or combine the members into one bullet."
+                    )
+                seen_overlap_groups[group_id] = bullet_index
 
             global_rank = bullet.get("global_rank")
             if not isinstance(global_rank, int) or global_rank < 1:
@@ -899,16 +1146,19 @@ def write_selection_plan(
         handle.write(f"Source analysis: `generated/analysis/{slug}_jd_analysis.md`\n")
         handle.write(f"Selection JSON: `generated/selection/{slug}_selection.json`\n")
         handle.write(f"Selection method: {SELECTION_METHOD}; Python validated IDs and rendered Codex-provided selection JSON.\n\n")
+        handle.write(f"Active library fingerprint: `{selection['library_fingerprint']}`\n\n")
 
         handle.write("## Guardrails\n\n")
         handle.write("- Phase 6B produces content selection artifacts only.\n")
         handle.write("- No LaTeX or PDF output is generated.\n")
         handle.write("- Archive content and raw extraction CSVs are not active sources.\n")
         handle.write("- Codex ranks candidate bullets globally before grouping selected bullets by experience.\n")
+        handle.write("- Canonical overlap groups allow at most one rendered bullet per group unless members are combined into that same bullet.\n")
         handle.write("- Python validates active IDs and renders Markdown/JSON; it does not rank content.\n")
         handle.write("- Draft bullets remain review-needed and must stay grounded in the listed source pools.\n\n")
 
         handle.write("## Active Sources Used\n\n")
+        handle.write("- `generated/selection_inputs/active_library_catalog.json` (freshness-checked compact projection used by Codex)\n")
         handle.write("- `content/profile/education.yaml`\n")
         handle.write("- `content/profile/coursework.yaml`\n")
         handle.write("- `content/profile/skills.yaml`\n")
@@ -1124,6 +1374,7 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
         "# Content Selection Plan:",
         "Status: needs_review",
         f"Selection method: {SELECTION_METHOD}",
+        "Active library fingerprint:",
         "Selection JSON:",
         "## Resume Section Plan",
         "Professional section title:",
@@ -1180,29 +1431,29 @@ def validate_selection_outputs(paths: SelectionPaths) -> None:
         raise Phase6BError("Selection JSON artifact is missing resume_section_plan.")
     if "education_display_rules" not in selection:
         raise Phase6BError("Selection JSON artifact is missing education_display_rules.")
+    required_text(selection, "library_fingerprint", "selection JSON artifact")
 
 
-def render_selection_contract(slug: str) -> str:
+def render_selection_contract(slug: str, library_fingerprint: str) -> str:
     return f"""Codex/LLM Phase 6B selection JSON contract for `{slug}`:
 
 1. Read only these inputs:
    - `jd_inputs/{slug}.txt`
    - `generated/analysis/{slug}_jd_analysis.md`
-   - `content/profile/education.yaml`
-   - `content/profile/coursework.yaml`
-   - `content/profile/skills.yaml`
-   - `content/experiences/canonical/en/*.yaml`
+   - `generated/selection_inputs/active_library_catalog.json`
 2. Do not inspect archive content, raw extraction CSVs, generated TeX, or generated PDFs.
 3. Rank candidate bullet pools globally against the Phase 6A JD analysis before grouping by experience.
 4. Author resume_section_plan and each experience target_section using only the supported template section titles.
 5. Author each experience display_title using only the canonical title or existing title_variants from active YAML.
 6. Put any invented title idea only in proposed_title_for_review; it will not render by default.
 7. Author display_category and display_priority for each recommended final skill.
-8. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
-9. For combined/multi-source bullets, preserve high-signal quantitative evidence in draft_bullet_text whenever possible and include quantitative_evidence metadata.
-10. Pipe selected JSON to Python with `--selection-json -`.
-11. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
-12. Use the schema documented in README Phase 6B.
+8. Enforce overlap_group_id: use at most one member of an overlap group across separate rendered bullets. Multiple members may appear only in one combined rendered bullet.
+9. Resolve overlapping bullets under the same experience by keeping the stronger source pool or combining source pools.
+10. For combined/multi-source bullets, preserve high-signal quantitative evidence in draft_bullet_text whenever possible and include quantitative_evidence metadata.
+11. Set top-level `library_fingerprint` exactly to `{library_fingerprint}`.
+12. Pipe selected JSON to Python with `--selection-json -`.
+13. Python writes `generated/selection/{slug}_selection_plan.md` and `generated/selection/{slug}_selection.json`.
+14. Use the schema documented in README Phase 6B.
 """
 
 
@@ -1230,19 +1481,41 @@ def run(args: argparse.Namespace) -> SelectionPaths:
         validate_no_generated_outputs=False,
     )
 
+    catalog, catalog_regenerated = ensure_compact_catalog(root, paths.catalog_path)
+    library_fingerprint = str(catalog["library_fingerprint"])
+    catalog_action = "regenerated" if catalog_regenerated else "reused"
+    print(f"Active library catalog {catalog_action}: {paths.catalog_path}")
+
+    education = parse_education(root)
+    experiences_by_id = index_by(parse_canonical_experiences(root), "experience_id")
+    skills_by_id = index_by(parse_skills(root), "skill_id")
+    coursework_by_id = index_by(parse_coursework(root), "coursework_id")
+
     if args.validate_only:
         validate_selection_outputs(paths)
+        existing_selection = json.loads(paths.selection_json_path.read_text(encoding="utf-8"))
+        validate_selection_json(
+            existing_selection,
+            slug,
+            experiences_by_id,
+            skills_by_id,
+            coursework_by_id,
+            expected_library_fingerprint=library_fingerprint,
+        )
         return paths
 
     if not args.selection_json:
         return paths
 
     selection = load_selection_json(root, args.selection_json)
-    education = parse_education(root)
-    experiences_by_id = index_by(parse_canonical_experiences(root), "experience_id")
-    skills_by_id = index_by(parse_skills(root), "skill_id")
-    coursework_by_id = index_by(parse_coursework(root), "coursework_id")
-    validate_selection_json(selection, slug, experiences_by_id, skills_by_id, coursework_by_id)
+    validate_selection_json(
+        selection,
+        slug,
+        experiences_by_id,
+        skills_by_id,
+        coursework_by_id,
+        expected_library_fingerprint=library_fingerprint,
+    )
     selection_output = copy.deepcopy(selection)
     normalize_title_review_fields(selection_output)
     budget = as_dict(selection_output["resume_budget"], "resume_budget")
@@ -1271,7 +1544,13 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print("Selection JSON was not provided. Python did not select content or generate selection outputs.")
         print()
-        print(render_selection_contract(phase6a.validate_slug(args.target_slug)))
+        catalog = json.loads(paths.catalog_path.read_text(encoding="utf-8"))
+        print(
+            render_selection_contract(
+                phase6a.validate_slug(args.target_slug),
+                str(catalog["library_fingerprint"]),
+            )
+        )
     return 0
 
 

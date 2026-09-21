@@ -527,18 +527,17 @@ The analysis is marked `needs_review` and should separate explicit JD requiremen
 
 #### Phase 6B: Content Selection Plan
 
-Phase 6B uses Codex/LLM judgment for hybrid bullet-first content matching, ranking, overlap resolution, and final display recommendation. Python does not rank content in this phase; it validates Codex-selected active IDs, writes a normalized machine-readable selection JSON artifact, and renders a human-readable Markdown plan. Phase 6B does not generate LaTeX, compile PDFs, or use archive/raw extraction sources as active inputs. Education is not ranked or selected like experiences or bullets. UT Austin and Nanjing Normal University are included by default. Lingnan University is included by default only in compact form unless page budget is tight; if page fit is tight, Lingnan University is the first education entry that can be dropped.
+Phase 6B uses Codex/LLM judgment for hybrid bullet-first content matching, ranking, overlap resolution, and final display recommendation. Python does not rank content in this phase; it freshness-checks a compact active-library catalog, validates Codex-selected active IDs and overlap constraints, writes a normalized machine-readable selection JSON artifact, and renders a human-readable Markdown plan. The catalog at `generated/selection_inputs/active_library_catalog.json` is regenerated only when its schema or active source content changes. Phase 6B does not generate LaTeX, compile PDFs, or use archive/raw extraction sources as active inputs. Education is not ranked or selected like experiences or bullets. UT Austin and Nanjing Normal University are included by default. Lingnan University is included by default only in compact form unless page budget is tight; if page fit is tight, Lingnan University is the first education entry that can be dropped.
 
 Step 1: ask Codex to read only:
 
 ```text
 jd_inputs/<target_slug>.txt
 generated/analysis/<target_slug>_jd_analysis.md
-content/profile/education.yaml
-content/profile/coursework.yaml
-content/profile/skills.yaml
-content/experiences/canonical/en/*.yaml
+generated/selection_inputs/active_library_catalog.json
 ```
+
+Run Phase 6B once without `--selection-json` to perform the freshness check, generate the catalog when needed, and print the current contract and `library_fingerprint`. Repeated runs reuse the same catalog while the active profile/canonical source bytes and catalog schema remain unchanged.
 
 Codex should:
 
@@ -567,6 +566,7 @@ Selection JSON shape:
   "target_slug": "<target_slug>",
   "status": "needs_review",
   "selection_method": "Codex-assisted hybrid bullet-first content matching",
+  "library_fingerprint": "fingerprint printed by Phase 6B and stored in the compact catalog",
   "role_direction": "short role direction",
   "selection_summary": "one-sentence summary of the selection strategy",
   "resume_section_plan": {
@@ -680,6 +680,8 @@ source_pool_ids may contain multiple pool IDs only when overlapping source bulle
 draft_bullet_text may be JD-tuned in Phase 6B, but must remain grounded in the listed source pools.
 Python validates every experience_id, skill_id, coursework_id, and source_pool_id against active YAML.
 Python rejects duplicate source_pool_ids under the same experience unless they are combined into the same rendered bullet.
+Every overlap_group_id permits at most one rendered bullet. Multiple members of one overlap group may be used only when they are combined into that same rendered bullet.
+Selection JSON must carry the compact catalog's current library_fingerprint; stale selections fail validation after active source or catalog-schema changes.
 Combined or multi-source bullets must include quantitative_evidence metadata.
 If selected source pools contain high-signal metrics such as sample sizes, counts, percentages, N= values, number-plus-unit phrases, or measurable improvements, preserve the strongest relevant metrics in draft_bullet_text whenever possible.
 If any detected source metric is omitted from a combined draft bullet, list it in metrics_omitted and explain why in omission_reason.
@@ -708,6 +710,8 @@ content/profile/coursework.yaml
 content/profile/skills.yaml
 content/experiences/canonical/en/*.yaml
 ```
+
+These YAML files remain the source of truth. Codex reads their compact derived projection during Phase 6B; Python always checks the projection against the active source fingerprint before use. The compact catalog omits raw bullet IDs, source references, duplicate counts, and quality flags while retaining IDs, selectable text, metadata, and overlap group membership.
 
 The Markdown selection plan is for human review. The JSON selection artifact is for Phase 6C LaTeX rendering, which should render the recommended final display set rather than blindly rendering every selected pool item. Generated selection artifacts are ignored local outputs and should not be force-added unless explicitly requested.
 

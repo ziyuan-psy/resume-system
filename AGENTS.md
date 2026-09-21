@@ -57,7 +57,10 @@ Phase 6A:
 Phase 6B:
 
 - Codex/LLM performs content-selection judgment, including JD fit, global bullet ranking, overlap handling, display title selection, section placement, skill display category planning, and rationale writing.
-- Python validates IDs, schema, grounding fields, quantitative evidence, and renders selection JSON and Markdown.
+- Python freshness-checks `generated/selection_inputs/active_library_catalog.json` on every run, regenerating it only when active source content or catalog schema changes.
+- Codex should use the compact catalog for Phase 6B selection; canonical YAML remains the source of truth and the compact catalog remains an ignored derived artifact.
+- Python validates IDs, the current library fingerprint, schema, grounding fields, quantitative evidence, and renders selection JSON and Markdown.
+- Canonical overlap groups are enforced: separate rendered bullets may not use different members of the same group; group members may coexist only in one combined rendered bullet.
 - Do not generate TeX or PDF.
 - Experience `display_title` must come from the canonical title or existing `title_variants`.
 - `proposed_title_for_review` is review-only and must not be rendered.
