@@ -1100,11 +1100,13 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Led user interface and usability evaluation of the SharePoint + Copilot knowledge base, conducting task-based tests with staff and analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
     duplicate_count:
-      3
+      5
     raw_bullet_ids:
       - "raw_b000179"
       - "raw_b000201"
       - "raw_b000214"
+      - "raw_b000335"
+      - "raw_b000445"
     quality_flags:
       []
     source_references:
@@ -1147,6 +1149,32 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           319
+      - raw_bullet_id: "raw_b000335"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          249
+      - raw_bullet_id: "raw_b000445"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          255
   - pool_id: "ut_career_ai_systems_p020"
     canonical_candidate_text_en:
       "Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports."
@@ -1290,37 +1318,15 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           238
-  - pool_id: "ut_career_ai_systems_p025"
-    canonical_candidate_text_en:
-      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered insights that guided iteration of site architecture and feature rollout."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000229"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000229"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_711"
-        source_project_zip:
-          "26 summer_PM_711.zip"
-        source_project_id:
-          "project_019_26_summer_pm_711"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          234
   - pool_id: "ut_career_ai_systems_p026"
     canonical_candidate_text_en:
       "Partnered with 16 career service offices to gather requirements and conduct discovery interviews; synthesized insights and surfaced new use cases that informed roadmap proposals and prioritized enhancements for cross-site navigation redesign."
     duplicate_count:
-      2
+      3
     raw_bullet_ids:
       - "raw_b000230"
       - "raw_b000256"
+      - "raw_b000579"
     quality_flags:
       []
     source_references:
@@ -1350,13 +1356,27 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           259
+      - raw_bullet_id: "raw_b000579"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_CSR & Social Impact_SONY"
+        source_project_zip:
+          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
+        source_project_id:
+          "project_045_ziyuan_guo_csr_social_impact_sony"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          246
   - pool_id: "ut_career_ai_systems_p027"
     canonical_candidate_text_en:
       "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout."
     duplicate_count:
-      1
+      2
     raw_bullet_ids:
       - "raw_b000255"
+      - "raw_b000229"
     quality_flags:
       []
     source_references:
@@ -1373,6 +1393,19 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           256
+      - raw_bullet_id: "raw_b000229"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          234
   - pool_id: "ut_career_ai_systems_p028"
     canonical_candidate_text_en:
       "Defined user testing and documentation standards; gathered feedback from 16 offices and translated findings into feature specs and training materials."
@@ -1530,43 +1563,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           265
-  - pool_id: "ut_career_ai_systems_p033"
-    canonical_candidate_text_en:
-      "Led usability evaluation of SharePoint + Copilot knowledge base by conducting task-based tests with staff, analyzing navigation patterns and adoption metrics to identify workflow bottlenecks."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000335"
-      - "raw_b000445"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000335"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          249
-      - raw_bullet_id: "raw_b000445"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          255
   - pool_id: "ut_career_ai_systems_p034"
     canonical_candidate_text_en:
       "Conducted structured feedback sessions with 16 career service offices, coding recurring issues and prioritizing pain points, which guided redesign of content tagging and cross-site navigation."
@@ -1650,7 +1646,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Led usability evaluation of internal AI + content platforms (SharePoint + Copilot Agent); visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
     duplicate_count:
-      19
+      21
     raw_bullet_ids:
       - "raw_b000348"
       - "raw_b000372"
@@ -1671,6 +1667,8 @@ candidate_bullet_pools:
       - "raw_b000767"
       - "raw_b000780"
       - "raw_b000793"
+      - "raw_b000360"
+      - "raw_b000383"
     quality_flags:
       []
     source_references:
@@ -1921,17 +1919,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           250
-  - pool_id: "ut_career_ai_systems_p036"
-    canonical_candidate_text_en:
-      "Led usability evaluation of the SharePoint + Copilot Agent knowledge base; visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000360"
-      - "raw_b000383"
-    quality_flags:
-      []
-    source_references:
       - raw_bullet_id: "raw_b000360"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -2311,29 +2298,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           245
-  - pool_id: "ut_career_ai_systems_p043"
-    canonical_candidate_text_en:
-      "Partnered with 16 career service offices to conduct discovery interviews, synthesize requirements, and prioritize cross-site navigation and content enhancements."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000579"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000579"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_CSR & Social Impact_SONY"
-        source_project_zip:
-          "Ziyuan_Guo_CSR & Social Impact_SONY.zip"
-        source_project_id:
-          "project_045_ziyuan_guo_csr_social_impact_sony"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          246
   - pool_id: "ut_career_ai_systems_p044"
     canonical_candidate_text_en:
       "Prototyped and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis."
@@ -2361,9 +2325,14 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Developed visual interface and content architecture for 3 SharePoint-based knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
     duplicate_count:
-      1
+      6
     raw_bullet_ids:
       - "raw_b000690"
+      - "raw_b000808"
+      - "raw_b000823"
+      - "raw_b000896"
+      - "raw_b000934"
+      - "raw_b000973"
     quality_flags:
       []
     source_references:
@@ -2380,18 +2349,7 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           251
-  - pool_id: "ut_career_ai_systems_p046"
-    canonical_candidate_text_en:
-      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000806"
-      - "raw_b000821"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000806"
+      - raw_bullet_id: "raw_b000808"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
@@ -2403,8 +2361,8 @@ candidate_bullet_pools:
         source_tex_file:
           "main.tex"
         source_line_number:
-          253
-      - raw_bullet_id: "raw_b000821"
+          255
+      - raw_bullet_id: "raw_b000823"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
@@ -2416,7 +2374,46 @@ candidate_bullet_pools:
         source_tex_file:
           "main.tex"
         source_line_number:
-          247
+          249
+      - raw_bullet_id: "raw_b000896"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM _AMETEK"
+        source_project_zip:
+          "ziyuan_guo_PM _AMETEK.zip"
+        source_project_id:
+          "project_070_ziyuan_guo_pm_ametek"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
+      - raw_bullet_id: "raw_b000934"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_QA_volvo"
+        source_project_zip:
+          "ziyuan_guo_QA_volvo.zip"
+        source_project_id:
+          "project_073_ziyuan_guo_qa_volvo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          237
+      - raw_bullet_id: "raw_b000973"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_sono bello"
+        source_project_zip:
+          "ziyuan_guo_ops_sono bello.zip"
+        source_project_id:
+          "project_076_ziyuan_guo_ops_sono_bello"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          236
   - pool_id: "ut_career_ai_systems_p047"
     canonical_candidate_text_en:
       "Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials."
@@ -2496,94 +2493,17 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           235
-  - pool_id: "ut_career_ai_systems_p048"
-    canonical_candidate_text_en:
-      "Developed visual interface and content architecture for 3 SharePoint knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign."
-    duplicate_count:
-      5
-    raw_bullet_ids:
-      - "raw_b000808"
-      - "raw_b000823"
-      - "raw_b000896"
-      - "raw_b000934"
-      - "raw_b000973"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000808"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          255
-      - raw_bullet_id: "raw_b000823"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          249
-      - raw_bullet_id: "raw_b000896"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM _AMETEK"
-        source_project_zip:
-          "ziyuan_guo_PM _AMETEK.zip"
-        source_project_id:
-          "project_070_ziyuan_guo_pm_ametek"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
-      - raw_bullet_id: "raw_b000934"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_QA_volvo"
-        source_project_zip:
-          "ziyuan_guo_QA_volvo.zip"
-        source_project_id:
-          "project_073_ziyuan_guo_qa_volvo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          237
-      - raw_bullet_id: "raw_b000973"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_sono bello"
-        source_project_zip:
-          "ziyuan_guo_ops_sono bello.zip"
-        source_project_id:
-          "project_076_ziyuan_guo_ops_sono_bello"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          236
   - pool_id: "ut_career_ai_systems_p049"
     canonical_candidate_text_en:
       "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reduced new staff onboarding time by 50%."
     duplicate_count:
-      3
+      5
     raw_bullet_ids:
       - "raw_b000894"
       - "raw_b000932"
       - "raw_b000971"
+      - "raw_b000806"
+      - "raw_b000821"
     quality_flags:
       []
     source_references:
@@ -2626,6 +2546,32 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           234
+      - raw_bullet_id: "raw_b000806"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+      - raw_bullet_id: "raw_b000821"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          247
   - pool_id: "ut_career_ai_systems_p052"
     canonical_candidate_text_en:
       "Prototyped and benchmarked Copilot Studio AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines."
@@ -2649,6 +2595,39 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           234
+bullet_overlap_groups:
+  - group_id: "og001"
+    pool_ids:
+      - "ut_career_ai_systems_p006"
+      - "ut_career_ai_systems_p044"
+  - group_id: "og002"
+    pool_ids:
+      - "ut_career_ai_systems_p004"
+      - "ut_career_ai_systems_p052"
+  - group_id: "og003"
+    pool_ids:
+      - "ut_career_ai_systems_p012"
+      - "ut_career_ai_systems_p023"
+  - group_id: "og004"
+    pool_ids:
+      - "ut_career_ai_systems_p005"
+      - "ut_career_ai_systems_p017"
+  - group_id: "og005"
+    pool_ids:
+      - "ut_career_ai_systems_p029"
+      - "ut_career_ai_systems_p042"
+  - group_id: "og006"
+    pool_ids:
+      - "ut_career_ai_systems_p020"
+      - "ut_career_ai_systems_p022"
+  - group_id: "og007"
+    pool_ids:
+      - "ut_career_ai_systems_p034"
+      - "ut_career_ai_systems_p040"
+  - group_id: "og008"
+    pool_ids:
+      - "ut_career_ai_systems_p028"
+      - "ut_career_ai_systems_p047"
 source_references:
   - raw_bullet_id: "raw_b000001"
     original_zip_name:

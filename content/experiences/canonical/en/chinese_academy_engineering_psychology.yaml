@@ -29,7 +29,7 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Conducted evaluations of human–robot arm interactions, annotating and coding 17+ hours of event-level videos to extract timing, behavioral, and safety performance metrics using Python-based analysis."
     duplicate_count:
-      8
+      32
     raw_bullet_ids:
       - "raw_b000010"
       - "raw_b000015"
@@ -39,8 +39,32 @@ candidate_bullet_pools:
       - "raw_b000846"
       - "raw_b000859"
       - "raw_b000879"
+      - "raw_b000126"
+      - "raw_b000301"
+      - "raw_b000313"
+      - "raw_b000142"
+      - "raw_b000330"
+      - "raw_b000411"
+      - "raw_b000892"
+      - "raw_b000170"
+      - "raw_b000181"
+      - "raw_b000192"
+      - "raw_b000205"
+      - "raw_b000398"
+      - "raw_b000427"
+      - "raw_b000589"
+      - "raw_b000637"
+      - "raw_b000650"
+      - "raw_b000665"
+      - "raw_b000735"
+      - "raw_b000743"
+      - "raw_b000756"
+      - "raw_b000769"
+      - "raw_b000797"
+      - "raw_b000809"
+      - "raw_b000824"
     quality_flags:
-      []
+      - "appears_in_multiple_historical_sections"
     source_references:
       - raw_bullet_id: "raw_b000010"
         original_zip_name:
@@ -146,558 +170,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           302
-  - pool_id: "chinese_academy_engineering_psychology_p002"
-    canonical_candidate_text_en:
-      "Developed interactive VR simulations in Vizard and modeled 10 risk scenarios in Blender to study behavioral responses and risk perception, enhancing ecological validity and experimental control."
-    duplicate_count:
-      11
-    raw_bullet_ids:
-      - "raw_b000011"
-      - "raw_b000016"
-      - "raw_b000143"
-      - "raw_b000147"
-      - "raw_b000160"
-      - "raw_b000331"
-      - "raw_b000412"
-      - "raw_b000834"
-      - "raw_b000847"
-      - "raw_b000860"
-      - "raw_b000893"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000011"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_ Enterprise Systems_USTA"
-        source_project_zip:
-          "26 summer_ Enterprise Systems_USTA.zip"
-        source_project_id:
-          "project_001_26_summer_enterprise_systems_usta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          308
-      - raw_bullet_id: "raw_b000016"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_ US Open and Enterprise Systems"
-        source_project_zip:
-          "26 summer_ US Open and Enterprise Systems.zip"
-        source_project_id:
-          "project_002_26_summer_us_open_and_enterprise_systems"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          262
-      - raw_bullet_id: "raw_b000143"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_MLB"
-        source_project_zip:
-          "26 summer_Data_MLB.zip"
-        source_project_id:
-          "project_011_26_summer_data_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000147"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_TROON"
-        source_project_zip:
-          "26 summer_Data_TROON.zip"
-        source_project_id:
-          "project_012_26_summer_data_troon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000160"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Data_USA Baseball"
-        source_project_zip:
-          "26 summer_Data_USA Baseball.zip"
-        source_project_id:
-          "project_013_26_summer_data_usa_baseball"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000331"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product_Cloudflare"
-        source_project_zip:
-          "26 summer_Product_Cloudflare.zip"
-        source_project_id:
-          "project_027_26_summer_product_cloudflare"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000412"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Wearables Intern"
-        source_project_zip:
-          "26 summer_Wearables Intern.zip"
-        source_project_id:
-          "project_034_26_summer_wearables_intern"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000834"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Analyst_Roku"
-        source_project_zip:
-          "ziyuan_guo_Analyst_Roku.zip"
-        source_project_id:
-          "project_065_ziyuan_guo_analyst_roku"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000847"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Analyst_Tesla"
-        source_project_zip:
-          "ziyuan_guo_Analyst_Tesla.zip"
-        source_project_id:
-          "project_066_ziyuan_guo_analyst_tesla"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000860"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_Data Analyst_ALO"
-        source_project_zip:
-          "ziyuan_guo_Data Analyst_ALO.zip"
-        source_project_id:
-          "project_067_ziyuan_guo_data_analyst_alo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          260
-      - raw_bullet_id: "raw_b000893"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PLM_Hyundai"
-        source_project_zip:
-          "ziyuan_guo_PLM_Hyundai.zip"
-        source_project_id:
-          "project_069_ziyuan_guo_plm_hyundai"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          313
-  - pool_id: "chinese_academy_engineering_psychology_p003"
-    canonical_candidate_text_en:
-      "Annotated 17 videos of mechanical arm interactions, applying rigorous coding standards to extract critical timing and behavioral data in Python, improving understanding of safety perceptions."
-    duplicate_count:
-      16
-    raw_bullet_ids:
-      - "raw_b000102"
-      - "raw_b000235"
-      - "raw_b000257"
-      - "raw_b000292"
-      - "raw_b000337"
-      - "raw_b000350"
-      - "raw_b000362"
-      - "raw_b000374"
-      - "raw_b000385"
-      - "raw_b000447"
-      - "raw_b000465"
-      - "raw_b000477"
-      - "raw_b000490"
-      - "raw_b000519"
-      - "raw_b000542"
-      - "raw_b000555"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000102"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          271
-      - raw_bullet_id: "raw_b000235"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_711"
-        source_project_zip:
-          "26 summer_PM_711.zip"
-        source_project_id:
-          "project_019_26_summer_pm_711"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          289
-      - raw_bullet_id: "raw_b000257"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          287
-      - raw_bullet_id: "raw_b000292"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          292
-      - raw_bullet_id: "raw_b000337"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          274
-      - raw_bullet_id: "raw_b000350"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Organon"
-        source_project_zip:
-          "26 summer_UXR_Organon.zip"
-        source_project_id:
-          "project_029_26_summer_uxr_organon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-      - raw_bullet_id: "raw_b000362"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_SIE"
-        source_project_zip:
-          "26 summer_UXR_SIE.zip"
-        source_project_id:
-          "project_030_26_summer_uxr_sie"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-      - raw_bullet_id: "raw_b000374"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Xometry"
-        source_project_zip:
-          "26 summer_UXR_Xometry.zip"
-        source_project_id:
-          "project_031_26_summer_uxr_xometry"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          275
-      - raw_bullet_id: "raw_b000385"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          276
-      - raw_bullet_id: "raw_b000447"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          281
-      - raw_bullet_id: "raw_b000465"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "NEU IS_V2"
-        source_project_zip:
-          "NEU IS_V2.zip"
-        source_project_id:
-          "project_039_neu_is_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          240
-      - raw_bullet_id: "raw_b000477"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UCSD CSS"
-        source_project_zip:
-          "UCSD CSS.zip"
-        source_project_id:
-          "project_040_ucsd_css"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          240
-      - raw_bullet_id: "raw_b000490"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          240
-      - raw_bullet_id: "raw_b000519"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          241
-      - raw_bullet_id: "raw_b000542"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UR DS"
-        source_project_zip:
-          "UR DS.zip"
-        source_project_id:
-          "project_043_ur_ds"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          240
-      - raw_bullet_id: "raw_b000555"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          241
-  - pool_id: "chinese_academy_engineering_psychology_p004"
-    canonical_candidate_text_en:
-      "Screened over 580 articles and systematically coded 100 relevant studies, tagging key metadata such as study design and variables. Structured the dataset to support a meta-analysis on trust factors in autonomous driving."
-    duplicate_count:
-      6
-    raw_bullet_ids:
-      - "raw_b000103"
-      - "raw_b000338"
-      - "raw_b000351"
-      - "raw_b000363"
-      - "raw_b000375"
-      - "raw_b000386"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000103"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          272
-      - raw_bullet_id: "raw_b000338"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          275
-      - raw_bullet_id: "raw_b000351"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Organon"
-        source_project_zip:
-          "26 summer_UXR_Organon.zip"
-        source_project_id:
-          "project_029_26_summer_uxr_organon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          278
-      - raw_bullet_id: "raw_b000363"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_SIE"
-        source_project_zip:
-          "26 summer_UXR_SIE.zip"
-        source_project_id:
-          "project_030_26_summer_uxr_sie"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          278
-      - raw_bullet_id: "raw_b000375"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Xometry"
-        source_project_zip:
-          "26 summer_UXR_Xometry.zip"
-        source_project_id:
-          "project_031_26_summer_uxr_xometry"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          276
-      - raw_bullet_id: "raw_b000386"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-  - pool_id: "chinese_academy_engineering_psychology_p005"
-    canonical_candidate_text_en:
-      "Modeled 10 VR risk scenarios using Blender and designed 6 distinct driving scenarios in Vizard to examine user trust and risk perception, enhancing ecological realism and informing interaction design for safety-critical interfaces."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000125"
-      - "raw_b000302"
-      - "raw_b000314"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000125"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          286
-      - raw_bullet_id: "raw_b000302"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          297
-      - raw_bullet_id: "raw_b000314"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          297
-  - pool_id: "chinese_academy_engineering_psychology_p006"
-    canonical_candidate_text_en:
-      "Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract task timing, behavioral, and safety performance metrics using Python-based analysis."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000126"
-      - "raw_b000301"
-      - "raw_b000313"
-    quality_flags:
-      []
-    source_references:
       - raw_bullet_id: "raw_b000126"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -737,19 +209,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           290
-  - pool_id: "chinese_academy_engineering_psychology_p007"
-    canonical_candidate_text_en:
-      "Conducted evaluations of human–robot arm interactions, annotating and coding 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis."
-    duplicate_count:
-      4
-    raw_bullet_ids:
-      - "raw_b000142"
-      - "raw_b000330"
-      - "raw_b000411"
-      - "raw_b000892"
-    quality_flags:
-      []
-    source_references:
       - raw_bullet_id: "raw_b000142"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -802,32 +261,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           311
-  - pool_id: "chinese_academy_engineering_psychology_p008"
-    canonical_candidate_text_en:
-      "Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis."
-    duplicate_count:
-      17
-    raw_bullet_ids:
-      - "raw_b000170"
-      - "raw_b000181"
-      - "raw_b000192"
-      - "raw_b000205"
-      - "raw_b000398"
-      - "raw_b000427"
-      - "raw_b000589"
-      - "raw_b000637"
-      - "raw_b000650"
-      - "raw_b000665"
-      - "raw_b000735"
-      - "raw_b000743"
-      - "raw_b000756"
-      - "raw_b000769"
-      - "raw_b000797"
-      - "raw_b000809"
-      - "raw_b000824"
-    quality_flags:
-      - "appears_in_multiple_historical_sections"
-    source_references:
       - raw_bullet_id: "raw_b000170"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -1049,15 +482,242 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           275
+  - pool_id: "chinese_academy_engineering_psychology_p002"
+    canonical_candidate_text_en:
+      "Developed interactive VR simulations in Vizard and modeled 10 risk scenarios in Blender to study behavioral responses and risk perception, enhancing ecological validity and experimental control."
+    duplicate_count:
+      11
+    raw_bullet_ids:
+      - "raw_b000011"
+      - "raw_b000016"
+      - "raw_b000143"
+      - "raw_b000147"
+      - "raw_b000160"
+      - "raw_b000331"
+      - "raw_b000412"
+      - "raw_b000834"
+      - "raw_b000847"
+      - "raw_b000860"
+      - "raw_b000893"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000011"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ Enterprise Systems_USTA"
+        source_project_zip:
+          "26 summer_ Enterprise Systems_USTA.zip"
+        source_project_id:
+          "project_001_26_summer_enterprise_systems_usta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          308
+      - raw_bullet_id: "raw_b000016"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ US Open and Enterprise Systems"
+        source_project_zip:
+          "26 summer_ US Open and Enterprise Systems.zip"
+        source_project_id:
+          "project_002_26_summer_us_open_and_enterprise_systems"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          262
+      - raw_bullet_id: "raw_b000143"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_MLB"
+        source_project_zip:
+          "26 summer_Data_MLB.zip"
+        source_project_id:
+          "project_011_26_summer_data_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000147"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_TROON"
+        source_project_zip:
+          "26 summer_Data_TROON.zip"
+        source_project_id:
+          "project_012_26_summer_data_troon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+      - raw_bullet_id: "raw_b000160"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Data_USA Baseball"
+        source_project_zip:
+          "26 summer_Data_USA Baseball.zip"
+        source_project_id:
+          "project_013_26_summer_data_usa_baseball"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+      - raw_bullet_id: "raw_b000331"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product_Cloudflare"
+        source_project_zip:
+          "26 summer_Product_Cloudflare.zip"
+        source_project_id:
+          "project_027_26_summer_product_cloudflare"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000412"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Wearables Intern"
+        source_project_zip:
+          "26 summer_Wearables Intern.zip"
+        source_project_id:
+          "project_034_26_summer_wearables_intern"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000834"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Roku"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Roku.zip"
+        source_project_id:
+          "project_065_ziyuan_guo_analyst_roku"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+      - raw_bullet_id: "raw_b000847"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Analyst_Tesla"
+        source_project_zip:
+          "ziyuan_guo_Analyst_Tesla.zip"
+        source_project_id:
+          "project_066_ziyuan_guo_analyst_tesla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+      - raw_bullet_id: "raw_b000860"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_Data Analyst_ALO"
+        source_project_zip:
+          "ziyuan_guo_Data Analyst_ALO.zip"
+        source_project_id:
+          "project_067_ziyuan_guo_data_analyst_alo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          260
+      - raw_bullet_id: "raw_b000893"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PLM_Hyundai"
+        source_project_zip:
+          "ziyuan_guo_PLM_Hyundai.zip"
+        source_project_id:
+          "project_069_ziyuan_guo_plm_hyundai"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          313
+  - pool_id: "chinese_academy_engineering_psychology_p005"
+    canonical_candidate_text_en:
+      "Modeled 10 VR risk scenarios using Blender and designed 6 distinct driving scenarios in Vizard to examine user trust and risk perception, enhancing ecological realism and informing interaction design for safety-critical interfaces."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000125"
+      - "raw_b000302"
+      - "raw_b000314"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000125"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          286
+      - raw_bullet_id: "raw_b000302"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
+      - raw_bullet_id: "raw_b000314"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          297
   - pool_id: "chinese_academy_engineering_psychology_p009"
     canonical_candidate_text_en:
       "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism."
     duplicate_count:
-      3
+      16
     raw_bullet_ids:
       - "raw_b000171"
       - "raw_b000193"
       - "raw_b000206"
+      - "raw_b000399"
+      - "raw_b000590"
+      - "raw_b000638"
+      - "raw_b000651"
+      - "raw_b000667"
+      - "raw_b000736"
+      - "raw_b000744"
+      - "raw_b000757"
+      - "raw_b000770"
+      - "raw_b000798"
+      - "raw_b000810"
+      - "raw_b000825"
+      - "raw_b000428"
     quality_flags:
       []
     source_references:
@@ -1100,268 +760,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           242
-  - pool_id: "chinese_academy_engineering_psychology_p010"
-    canonical_candidate_text_en:
-      "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling and system-level validation."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000172"
-      - "raw_b000194"
-      - "raw_b000207"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000172"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Garmin"
-        source_project_zip:
-          "26 summer_HF_Garmin.zip"
-        source_project_id:
-          "project_014_26_summer_hf_garmin"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
-      - raw_bullet_id: "raw_b000194"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Masimo"
-        source_project_zip:
-          "26 summer_HF_Masimo.zip"
-        source_project_id:
-          "project_016_26_summer_hf_masimo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
-      - raw_bullet_id: "raw_b000207"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Nemera"
-        source_project_zip:
-          "26 summer_HF_Nemera.zip"
-        source_project_id:
-          "project_017_26_summer_hf_nemera"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          250
-  - pool_id: "chinese_academy_engineering_psychology_p011"
-    canonical_candidate_text_en:
-      "Developed 3 immersive autonomous driving simulations in Vizard and modeled 10 VR risk scenarios in Blender to examine user trust and risk perception, enhancing ecological validity and experimental control."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000182"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000182"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Gulfstream"
-        source_project_zip:
-          "26 summer_HF_Gulfstream.zip"
-        source_project_id:
-          "project_015_26_summer_hf_gulfstream"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          253
-  - pool_id: "chinese_academy_engineering_psychology_p012"
-    canonical_candidate_text_en:
-      "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling of trust factors in autonomous systems."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000183"
-      - "raw_b000666"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000183"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Gulfstream"
-        source_project_zip:
-          "26 summer_HF_Gulfstream.zip"
-        source_project_id:
-          "project_015_26_summer_hf_gulfstream"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          258
-      - raw_bullet_id: "raw_b000666"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_aperture"
-        source_project_zip:
-          "Ziyuan_Guo_HF_aperture.zip"
-        source_project_id:
-          "project_052_ziyuan_guo_hf_aperture"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          296
-  - pool_id: "chinese_academy_engineering_psychology_p013"
-    canonical_candidate_text_en:
-      "Annotated 17 videos of human–robot interactions, applying rigorous coding standards to extract critical timing and behavioral data in Python, improving understanding of safety perceptions."
-    duplicate_count:
-      5
-    raw_bullet_ids:
-      - "raw_b000249"
-      - "raw_b000271"
-      - "raw_b000917"
-      - "raw_b000969"
-      - "raw_b000993"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000249"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_KEEN"
-        source_project_zip:
-          "26 summer_PM_KEEN.zip"
-        source_project_id:
-          "project_020_26_summer_pm_keen"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          306
-      - raw_bullet_id: "raw_b000271"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_MLB"
-        source_project_zip:
-          "26 summer_PM_MLB.zip"
-        source_project_id:
-          "project_022_26_summer_pm_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          306
-      - raw_bullet_id: "raw_b000917"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_PM_waabi"
-        source_project_zip:
-          "ziyuan_guo_PM_waabi.zip"
-        source_project_id:
-          "project_071_ziyuan_guo_pm_waabi"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          306
-      - raw_bullet_id: "raw_b000969"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_ops_TI"
-        source_project_zip:
-          "ziyuan_guo_ops_TI.zip"
-        source_project_id:
-          "project_075_ziyuan_guo_ops_ti"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          306
-      - raw_bullet_id: "raw_b000993"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_product_Razer"
-        source_project_zip:
-          "ziyuan_guo_product_Razer.zip"
-        source_project_id:
-          "project_077_ziyuan_guo_product_razer"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          313
-  - pool_id: "chinese_academy_engineering_psychology_p014"
-    canonical_candidate_text_en:
-      "Modeled 10 VR risk scenarios (Blender + Vizard) and designed and tested 3 driving scenarios to study user trust and risk perception under safety-critical conditions, improving ecological realism and experimental control."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000250"
-      - "raw_b000272"
-      - "raw_b000994"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000250"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_KEEN"
-        source_project_zip:
-          "26 summer_PM_KEEN.zip"
-        source_project_id:
-          "project_020_26_summer_pm_keen"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000272"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_MLB"
-        source_project_zip:
-          "26 summer_PM_MLB.zip"
-        source_project_id:
-          "project_022_26_summer_pm_mlb"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000994"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "ziyuan_guo_product_Razer"
-        source_project_zip:
-          "ziyuan_guo_product_Razer.zip"
-        source_project_id:
-          "project_077_ziyuan_guo_product_razer"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          317
-  - pool_id: "chinese_academy_engineering_psychology_p015"
-    canonical_candidate_text_en:
-      "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity."
-    duplicate_count:
-      12
-    raw_bullet_ids:
-      - "raw_b000399"
-      - "raw_b000590"
-      - "raw_b000638"
-      - "raw_b000651"
-      - "raw_b000667"
-      - "raw_b000736"
-      - "raw_b000744"
-      - "raw_b000757"
-      - "raw_b000770"
-      - "raw_b000798"
-      - "raw_b000810"
-      - "raw_b000825"
-    quality_flags:
-      []
-    source_references:
       - raw_bullet_id: "raw_b000399"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -1518,16 +916,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           279
-  - pool_id: "chinese_academy_engineering_psychology_p016"
-    canonical_candidate_text_en:
-      "Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000428"
-    quality_flags:
-      []
-    source_references:
       - raw_bullet_id: "raw_b000428"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -1541,14 +929,450 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           237
+  - pool_id: "chinese_academy_engineering_psychology_p010"
+    canonical_candidate_text_en:
+      "Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling and system-level validation."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000172"
+      - "raw_b000194"
+      - "raw_b000207"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000172"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Garmin"
+        source_project_zip:
+          "26 summer_HF_Garmin.zip"
+        source_project_id:
+          "project_014_26_summer_hf_garmin"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000194"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Masimo"
+        source_project_zip:
+          "26 summer_HF_Masimo.zip"
+        source_project_id:
+          "project_016_26_summer_hf_masimo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
+      - raw_bullet_id: "raw_b000207"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Nemera"
+        source_project_zip:
+          "26 summer_HF_Nemera.zip"
+        source_project_id:
+          "project_017_26_summer_hf_nemera"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          250
+  - pool_id: "chinese_academy_engineering_psychology_p011"
+    canonical_candidate_text_en:
+      "Developed 3 immersive autonomous driving simulations in Vizard and modeled 10 VR risk scenarios in Blender to examine user trust and risk perception, enhancing ecological validity and experimental control."
+    duplicate_count:
+      1
+    raw_bullet_ids:
+      - "raw_b000182"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000182"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          253
+  - pool_id: "chinese_academy_engineering_psychology_p013"
+    canonical_candidate_text_en:
+      "Annotated 17 videos of human–robot interactions, applying rigorous coding standards to extract critical timing and behavioral data in Python, improving understanding of safety perceptions."
+    duplicate_count:
+      21
+    raw_bullet_ids:
+      - "raw_b000249"
+      - "raw_b000271"
+      - "raw_b000917"
+      - "raw_b000969"
+      - "raw_b000993"
+      - "raw_b000102"
+      - "raw_b000235"
+      - "raw_b000257"
+      - "raw_b000292"
+      - "raw_b000337"
+      - "raw_b000350"
+      - "raw_b000362"
+      - "raw_b000374"
+      - "raw_b000385"
+      - "raw_b000447"
+      - "raw_b000465"
+      - "raw_b000477"
+      - "raw_b000490"
+      - "raw_b000519"
+      - "raw_b000542"
+      - "raw_b000555"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000249"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          306
+      - raw_bullet_id: "raw_b000271"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          306
+      - raw_bullet_id: "raw_b000917"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_PM_waabi"
+        source_project_zip:
+          "ziyuan_guo_PM_waabi.zip"
+        source_project_id:
+          "project_071_ziyuan_guo_pm_waabi"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          306
+      - raw_bullet_id: "raw_b000969"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_ops_TI"
+        source_project_zip:
+          "ziyuan_guo_ops_TI.zip"
+        source_project_id:
+          "project_075_ziyuan_guo_ops_ti"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          306
+      - raw_bullet_id: "raw_b000993"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          313
+      - raw_bullet_id: "raw_b000102"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA (v1)"
+        source_project_zip:
+          "26 summer_BA (v1).zip"
+        source_project_id:
+          "project_008_26_summer_ba_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          271
+      - raw_bullet_id: "raw_b000235"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_711"
+        source_project_zip:
+          "26 summer_PM_711.zip"
+        source_project_id:
+          "project_019_26_summer_pm_711"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          289
+      - raw_bullet_id: "raw_b000257"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          287
+      - raw_bullet_id: "raw_b000292"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000337"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          274
+      - raw_bullet_id: "raw_b000350"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000362"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000374"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000385"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000447"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          281
+      - raw_bullet_id: "raw_b000465"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "NEU IS_V2"
+        source_project_zip:
+          "NEU IS_V2.zip"
+        source_project_id:
+          "project_039_neu_is_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000477"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UCSD CSS"
+        source_project_zip:
+          "UCSD CSS.zip"
+        source_project_id:
+          "project_040_ucsd_css"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000490"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000519"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          241
+      - raw_bullet_id: "raw_b000542"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UR DS"
+        source_project_zip:
+          "UR DS.zip"
+        source_project_id:
+          "project_043_ur_ds"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          240
+      - raw_bullet_id: "raw_b000555"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          241
+  - pool_id: "chinese_academy_engineering_psychology_p014"
+    canonical_candidate_text_en:
+      "Modeled 10 VR risk scenarios (Blender + Vizard) and designed and tested 3 driving scenarios to study user trust and risk perception under safety-critical conditions, improving ecological realism and experimental control."
+    duplicate_count:
+      3
+    raw_bullet_ids:
+      - "raw_b000250"
+      - "raw_b000272"
+      - "raw_b000994"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000250"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_KEEN"
+        source_project_zip:
+          "26 summer_PM_KEEN.zip"
+        source_project_id:
+          "project_020_26_summer_pm_keen"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000272"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_MLB"
+        source_project_zip:
+          "26 summer_PM_MLB.zip"
+        source_project_id:
+          "project_022_26_summer_pm_mlb"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000994"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "ziyuan_guo_product_Razer"
+        source_project_zip:
+          "ziyuan_guo_product_Razer.zip"
+        source_project_id:
+          "project_077_ziyuan_guo_product_razer"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          317
   - pool_id: "chinese_academy_engineering_psychology_p017"
     canonical_candidate_text_en:
       "Screened over 580 articles and systematically coded 100 relevant studies, tagging key metadata such as study design, sample characteristics, and variables. Structured the dataset to support a meta-analysis on trust factors in autonomous driving."
     duplicate_count:
-      2
+      10
     raw_bullet_ids:
       - "raw_b000456"
       - "raw_b000580"
+      - "raw_b000103"
+      - "raw_b000338"
+      - "raw_b000351"
+      - "raw_b000363"
+      - "raw_b000375"
+      - "raw_b000386"
+      - "raw_b000183"
+      - "raw_b000666"
     quality_flags:
       []
     source_references:
@@ -1578,6 +1402,110 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           262
+      - raw_bullet_id: "raw_b000103"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA (v1)"
+        source_project_zip:
+          "26 summer_BA (v1).zip"
+        source_project_id:
+          "project_008_26_summer_ba_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          272
+      - raw_bullet_id: "raw_b000338"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          275
+      - raw_bullet_id: "raw_b000351"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000363"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          278
+      - raw_bullet_id: "raw_b000375"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          276
+      - raw_bullet_id: "raw_b000386"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000183"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Gulfstream"
+        source_project_zip:
+          "26 summer_HF_Gulfstream.zip"
+        source_project_id:
+          "project_015_26_summer_hf_gulfstream"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          258
+      - raw_bullet_id: "raw_b000666"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
   - pool_id: "chinese_academy_engineering_psychology_p018"
     canonical_candidate_text_en:
       "Screened over 580 articles, selecting and extracting data from 100 relevant studies to support a meta-analysis on trust factors in autonomous driving, enhancing the data pool for broader research implications."

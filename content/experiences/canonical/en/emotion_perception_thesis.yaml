@@ -25,328 +25,11 @@ skills:
 keywords:
   []
 candidate_bullet_pools:
-  - pool_id: "emotion_perception_thesis_p001"
-    canonical_candidate_text_en:
-      "Managed a research project involving 3 studies, using Git for version control and team coordination."
-    duplicate_count:
-      22
-    raw_bullet_ids:
-      - "raw_b000038"
-      - "raw_b000052"
-      - "raw_b000066"
-      - "raw_b000080"
-      - "raw_b000118"
-      - "raw_b000227"
-      - "raw_b000284"
-      - "raw_b000354"
-      - "raw_b000366"
-      - "raw_b000378"
-      - "raw_b000402"
-      - "raw_b000425"
-      - "raw_b000439"
-      - "raw_b000593"
-      - "raw_b000641"
-      - "raw_b000654"
-      - "raw_b000668"
-      - "raw_b000682"
-      - "raw_b000747"
-      - "raw_b000760"
-      - "raw_b000773"
-      - "raw_b000799"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000038"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_AI_Antora"
-        source_project_zip:
-          "26 summer_AI_Antora.zip"
-        source_project_id:
-          "project_003_26_summer_ai_antora"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          323
-      - raw_bullet_id: "raw_b000052"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_AI_KLA"
-        source_project_zip:
-          "26 summer_AI_KLA.zip"
-        source_project_id:
-          "project_004_26_summer_ai_kla"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          327
-      - raw_bullet_id: "raw_b000066"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_AI_SAP"
-        source_project_zip:
-          "26 summer_AI_SAP.zip"
-        source_project_id:
-          "project_005_26_summer_ai_sap"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          327
-      - raw_bullet_id: "raw_b000080"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_AI_Schneider"
-        source_project_zip:
-          "26 summer_AI_Schneider.zip"
-        source_project_id:
-          "project_006_26_summer_ai_schneider"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          323
-      - raw_bullet_id: "raw_b000118"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA_Holland America Line"
-        source_project_zip:
-          "26 summer_BA_Holland America Line.zip"
-        source_project_id:
-          "project_009_26_summer_ba_holland_america_line"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          343
-      - raw_bullet_id: "raw_b000227"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_IS_Gilead"
-        source_project_zip:
-          "26 summer_IS_Gilead.zip"
-        source_project_id:
-          "project_018_26_summer_is_gilead"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          328
-      - raw_bullet_id: "raw_b000284"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Visa"
-        source_project_zip:
-          "26 summer_PM_Visa.zip"
-        source_project_id:
-          "project_023_26_summer_pm_visa"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          328
-      - raw_bullet_id: "raw_b000354"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Organon"
-        source_project_zip:
-          "26 summer_UXR_Organon.zip"
-        source_project_id:
-          "project_029_26_summer_uxr_organon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          312
-      - raw_bullet_id: "raw_b000366"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_SIE"
-        source_project_zip:
-          "26 summer_UXR_SIE.zip"
-        source_project_id:
-          "project_030_26_summer_uxr_sie"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          312
-      - raw_bullet_id: "raw_b000378"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_Xometry"
-        source_project_zip:
-          "26 summer_UXR_Xometry.zip"
-        source_project_id:
-          "project_031_26_summer_uxr_xometry"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000402"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UX_Netflix"
-        source_project_zip:
-          "26 summer_UX_Netflix.zip"
-        source_project_id:
-          "project_033_26_summer_ux_netflix"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000425"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_ds_notion"
-        source_project_zip:
-          "26 summer_ds_notion.zip"
-        source_project_id:
-          "project_035_26_summer_ds_notion"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          329
-      - raw_bullet_id: "raw_b000439"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_ergo_antora"
-        source_project_zip:
-          "26 summer_ergo_antora.zip"
-        source_project_id:
-          "project_036_26_summer_ergo_antora"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          339
-      - raw_bullet_id: "raw_b000593"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Consumer_Sandisk"
-        source_project_zip:
-          "Ziyuan_Guo_Consumer_Sandisk.zip"
-        source_project_id:
-          "project_046_ziyuan_guo_consumer_sandisk"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000641"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_Genentech"
-        source_project_zip:
-          "Ziyuan_Guo_HF_Genentech.zip"
-        source_project_id:
-          "project_050_ziyuan_guo_hf_genentech"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          312
-      - raw_bullet_id: "raw_b000654"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_Wisk"
-        source_project_zip:
-          "Ziyuan_Guo_HF_Wisk.zip"
-        source_project_id:
-          "project_051_ziyuan_guo_hf_wisk"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          312
-      - raw_bullet_id: "raw_b000668"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_aperture"
-        source_project_zip:
-          "Ziyuan_Guo_HF_aperture.zip"
-        source_project_id:
-          "project_052_ziyuan_guo_hf_aperture"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          313
-      - raw_bullet_id: "raw_b000682"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Market Strategy_PORSCHE"
-        source_project_zip:
-          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
-        source_project_id:
-          "project_053_ziyuan_guo_market_strategy_porsche"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          308
-      - raw_bullet_id: "raw_b000747"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UXR_TensorWave"
-        source_project_zip:
-          "Ziyuan_Guo_UXR_TensorWave.zip"
-        source_project_id:
-          "project_058_ziyuan_guo_uxr_tensorwave"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000760"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UX_Fortive"
-        source_project_zip:
-          "Ziyuan_Guo_UX_Fortive.zip"
-        source_project_id:
-          "project_059_ziyuan_guo_ux_fortive"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000773"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_UX_JPMorgan"
-        source_project_zip:
-          "Ziyuan_Guo_UX_JPMorgan.zip"
-        source_project_id:
-          "project_060_ziyuan_guo_ux_jpmorgan"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          310
-      - raw_bullet_id: "raw_b000799"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_research_Gensler"
-        source_project_zip:
-          "Ziyuan_Guo_research_Gensler.zip"
-        source_project_id:
-          "project_062_ziyuan_guo_research_gensler"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          312
   - pool_id: "emotion_perception_thesis_p002"
     canonical_candidate_text_en:
       "Employed psychophysical methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R."
     duplicate_count:
-      37
+      38
     raw_bullet_ids:
       - "raw_b000039"
       - "raw_b000053"
@@ -385,6 +68,7 @@ candidate_bullet_pools:
       - "raw_b000800"
       - "raw_b000815"
       - "raw_b000829"
+      - "raw_b000606"
     quality_flags:
       []
     source_references:
@@ -869,281 +553,24 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           313
-  - pool_id: "emotion_perception_thesis_p003"
-    canonical_candidate_text_en:
-      "Managed a research project involving 3 studies, using GitHub for version control and team coordination."
-    duplicate_count:
-      12
-    raw_bullet_ids:
-      - "raw_b000104"
-      - "raw_b000129"
-      - "raw_b000259"
-      - "raw_b000294"
-      - "raw_b000305"
-      - "raw_b000317"
-      - "raw_b000341"
-      - "raw_b000389"
-      - "raw_b000449"
-      - "raw_b000486"
-      - "raw_b000515"
-      - "raw_b000551"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000104"
+      - raw_bullet_id: "raw_b000606"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
         source_project:
-          "26 summer_BA (v1)"
+          "Ziyuan_Guo_Consumer_iff"
         source_project_zip:
-          "26 summer_BA (v1).zip"
+          "Ziyuan_Guo_Consumer_iff.zip"
         source_project_id:
-          "project_008_26_summer_ba_v1"
+          "project_047_ziyuan_guo_consumer_iff"
         source_tex_file:
           "main.tex"
         source_line_number:
-          290
-      - raw_bullet_id: "raw_b000129"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          329
-      - raw_bullet_id: "raw_b000259"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_Lucid"
-        source_project_zip:
-          "26 summer_PM_Lucid.zip"
-        source_project_id:
-          "project_021_26_summer_pm_lucid"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          324
-      - raw_bullet_id: "raw_b000294"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_PM_fieldpulse"
-        source_project_zip:
-          "26 summer_PM_fieldpulse.zip"
-        source_project_id:
-          "project_024_26_summer_pm_fieldpulse"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          329
-      - raw_bullet_id: "raw_b000305"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          331
-      - raw_bullet_id: "raw_b000317"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          331
-      - raw_bullet_id: "raw_b000341"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          309
-      - raw_bullet_id: "raw_b000389"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          311
-      - raw_bullet_id: "raw_b000449"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_tech PM (v1)"
-        source_project_zip:
-          "26 summer_tech PM (v1).zip"
-        source_project_id:
-          "project_037_26_summer_tech_pm_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          318
-      - raw_bullet_id: "raw_b000486"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          222
-      - raw_bullet_id: "raw_b000515"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          223
-      - raw_bullet_id: "raw_b000551"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          223
-  - pool_id: "emotion_perception_thesis_p004"
-    canonical_candidate_text_en:
-      "Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion."
-    duplicate_count:
-      6
-    raw_bullet_ids:
-      - "raw_b000106"
-      - "raw_b000343"
-      - "raw_b000391"
-      - "raw_b000488"
-      - "raw_b000517"
-      - "raw_b000553"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000106"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_BA (v1)"
-        source_project_zip:
-          "26 summer_BA (v1).zip"
-        source_project_id:
-          "project_008_26_summer_ba_v1"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          292
-      - raw_bullet_id: "raw_b000343"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR (v2）"
-        source_project_zip:
-          "26 summer_UXR (v2）.zip"
-        source_project_id:
-          "project_028_26_summer_uxr_v2"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          311
-      - raw_bullet_id: "raw_b000391"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_UXR_adobe"
-        source_project_zip:
-          "26 summer_UXR_adobe.zip"
-        source_project_id:
-          "project_032_26_summer_uxr_adobe"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          313
-      - raw_bullet_id: "raw_b000488"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UIUC MSIM"
-        source_project_zip:
-          "UIUC MSIM.zip"
-        source_project_id:
-          "project_041_uiuc_msim"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          224
-      - raw_bullet_id: "raw_b000517"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UNC MSIS"
-        source_project_zip:
-          "UNC MSIS.zip"
-        source_project_id:
-          "project_042_unc_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          225
-      - raw_bullet_id: "raw_b000553"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "UTA MSIS"
-        source_project_zip:
-          "UTA MSIS.zip"
-        source_project_id:
-          "project_044_uta_msis"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          225
+          297
   - pool_id: "emotion_perception_thesis_p005"
     canonical_candidate_text_en:
       "Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
     duplicate_count:
-      14
+      17
     raw_bullet_ids:
       - "raw_b000107"
       - "raw_b000404"
@@ -1159,6 +586,9 @@ candidate_bullet_pools:
       - "raw_b000762"
       - "raw_b000775"
       - "raw_b000801"
+      - "raw_b000131"
+      - "raw_b000307"
+      - "raw_b000319"
     quality_flags:
       []
     source_references:
@@ -1344,6 +774,45 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           314
+      - raw_bullet_id: "raw_b000131"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          335
+      - raw_bullet_id: "raw_b000307"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          337
+      - raw_bullet_id: "raw_b000319"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          337
   - pool_id: "emotion_perception_thesis_p006"
     canonical_candidate_text_en:
       "Applied psychophysical modeling and data visualization using R to identify perceptual thresholds and response patterns, generating insights into user cognition and behavioral variability."
@@ -1395,108 +864,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           333
-  - pool_id: "emotion_perception_thesis_p007"
-    canonical_candidate_text_en:
-      "Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to decision-making."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000131"
-      - "raw_b000307"
-      - "raw_b000319"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000131"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_DELTA"
-        source_project_zip:
-          "26 summer_DELTA.zip"
-        source_project_id:
-          "project_010_26_summer_delta"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          335
-      - raw_bullet_id: "raw_b000307"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design"
-        source_project_zip:
-          "26 summer_Product design.zip"
-        source_project_id:
-          "project_025_26_summer_product_design"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          337
-      - raw_bullet_id: "raw_b000319"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_Product design_Dicks"
-        source_project_zip:
-          "26 summer_Product design_Dicks.zip"
-        source_project_id:
-          "project_026_26_summer_product_design_dicks"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          337
-  - pool_id: "emotion_perception_thesis_p008"
-    canonical_candidate_text_en:
-      "Designed and executed a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility."
-    duplicate_count:
-      3
-    raw_bullet_ids:
-      - "raw_b000176"
-      - "raw_b000198"
-      - "raw_b000208"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000176"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Garmin"
-        source_project_zip:
-          "26 summer_HF_Garmin.zip"
-        source_project_id:
-          "project_014_26_summer_hf_garmin"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-      - raw_bullet_id: "raw_b000198"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Masimo"
-        source_project_zip:
-          "26 summer_HF_Masimo.zip"
-        source_project_id:
-          "project_016_26_summer_hf_masimo"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          277
-      - raw_bullet_id: "raw_b000208"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "26 summer_HF_Nemera"
-        source_project_zip:
-          "26 summer_HF_Nemera.zip"
-        source_project_id:
-          "project_017_26_summer_hf_nemera"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          271
   - pool_id: "emotion_perception_thesis_p009"
     canonical_candidate_text_en:
       "Applied psychophysical methods to quantify human performance thresholds and response slopes under categorical vs. continuous judgment conditions, modeling results with R-based statistical analysis."
@@ -1631,9 +998,12 @@ candidate_bullet_pools:
     canonical_candidate_text_en:
       "Designed and led a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility."
     duplicate_count:
-      1
+      4
     raw_bullet_ids:
       - "raw_b000187"
+      - "raw_b000176"
+      - "raw_b000198"
+      - "raw_b000208"
     quality_flags:
       []
     source_references:
@@ -1650,6 +1020,45 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           299
+      - raw_bullet_id: "raw_b000176"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Garmin"
+        source_project_zip:
+          "26 summer_HF_Garmin.zip"
+        source_project_id:
+          "project_014_26_summer_hf_garmin"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000198"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Masimo"
+        source_project_zip:
+          "26 summer_HF_Masimo.zip"
+        source_project_id:
+          "project_016_26_summer_hf_masimo"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          277
+      - raw_bullet_id: "raw_b000208"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_HF_Nemera"
+        source_project_zip:
+          "26 summer_HF_Nemera.zip"
+        source_project_id:
+          "project_017_26_summer_hf_nemera"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          271
   - pool_id: "emotion_perception_thesis_p012"
     canonical_candidate_text_en:
       "Designed and conducted a series of 3 hypothesis-driven experiments, using GitHub for version control and team coordination."
@@ -1770,18 +1179,153 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           222
-  - pool_id: "emotion_perception_thesis_p016"
+  - pool_id: "emotion_perception_thesis_p017"
     canonical_candidate_text_en:
-      "Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for gray-scale conversion."
+      "Managed a research project involving 3 studies, Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
     duplicate_count:
-      3
+      1
     raw_bullet_ids:
+      - "raw_b000605"
+    quality_flags:
+      []
+    source_references:
+      - raw_bullet_id: "raw_b000605"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_iff"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_iff.zip"
+        source_project_id:
+          "project_047_ziyuan_guo_consumer_iff"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          296
+  - pool_id: "emotion_perception_thesis_p020"
+    canonical_candidate_text_en:
+      "Developed and executed 3 experimental protocols in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion."
+    duplicate_count:
+      11
+    raw_bullet_ids:
+      - "raw_b000816"
+      - "raw_b000830"
+      - "raw_b000106"
+      - "raw_b000343"
+      - "raw_b000391"
+      - "raw_b000488"
+      - "raw_b000517"
+      - "raw_b000553"
       - "raw_b000464"
       - "raw_b000476"
       - "raw_b000541"
     quality_flags:
       []
     source_references:
+      - raw_bullet_id: "raw_b000816"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          322
+      - raw_bullet_id: "raw_b000830"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_test_Bertec"
+        source_project_zip:
+          "Ziyuan_Guo_test_Bertec.zip"
+        source_project_id:
+          "project_064_ziyuan_guo_test_bertec"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          314
+      - raw_bullet_id: "raw_b000106"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA (v1)"
+        source_project_zip:
+          "26 summer_BA (v1).zip"
+        source_project_id:
+          "project_008_26_summer_ba_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          292
+      - raw_bullet_id: "raw_b000343"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          311
+      - raw_bullet_id: "raw_b000391"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          313
+      - raw_bullet_id: "raw_b000488"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          224
+      - raw_bullet_id: "raw_b000517"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          225
+      - raw_bullet_id: "raw_b000553"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          225
       - raw_bullet_id: "raw_b000464"
         original_zip_name:
           "Overleaf Projects (77 items).zip"
@@ -1821,119 +1365,48 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           224
-  - pool_id: "emotion_perception_thesis_p017"
-    canonical_candidate_text_en:
-      "Managed a research project involving 3 studies, Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000605"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000605"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Consumer_iff"
-        source_project_zip:
-          "Ziyuan_Guo_Consumer_iff.zip"
-        source_project_id:
-          "project_047_ziyuan_guo_consumer_iff"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          296
-  - pool_id: "emotion_perception_thesis_p018"
-    canonical_candidate_text_en:
-      "Employed psychophysics methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000606"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000606"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_Consumer_iff"
-        source_project_zip:
-          "Ziyuan_Guo_Consumer_iff.zip"
-        source_project_id:
-          "project_047_ziyuan_guo_consumer_iff"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          297
-  - pool_id: "emotion_perception_thesis_p019"
-    canonical_candidate_text_en:
-      "Managed a research project involving 3 studies and 135 participants, using Git for version control."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000814"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000814"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          320
-  - pool_id: "emotion_perception_thesis_p020"
-    canonical_candidate_text_en:
-      "Developed and executed 3 experimental protocols in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion."
-    duplicate_count:
-      2
-    raw_bullet_ids:
-      - "raw_b000816"
-      - "raw_b000830"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000816"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_robot_amazon"
-        source_project_zip:
-          "Ziyuan_Guo_robot_amazon.zip"
-        source_project_id:
-          "project_063_ziyuan_guo_robot_amazon"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          322
-      - raw_bullet_id: "raw_b000830"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_test_Bertec"
-        source_project_zip:
-          "Ziyuan_Guo_test_Bertec.zip"
-        source_project_id:
-          "project_064_ziyuan_guo_test_bertec"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          314
   - pool_id: "emotion_perception_thesis_p021"
     canonical_candidate_text_en:
       "Managed a research project involving 3 studies and 135 participants, using Git for version control and team coordination."
     duplicate_count:
-      1
+      36
     raw_bullet_ids:
       - "raw_b000828"
+      - "raw_b000038"
+      - "raw_b000052"
+      - "raw_b000066"
+      - "raw_b000080"
+      - "raw_b000118"
+      - "raw_b000227"
+      - "raw_b000284"
+      - "raw_b000354"
+      - "raw_b000366"
+      - "raw_b000378"
+      - "raw_b000402"
+      - "raw_b000425"
+      - "raw_b000439"
+      - "raw_b000593"
+      - "raw_b000641"
+      - "raw_b000654"
+      - "raw_b000668"
+      - "raw_b000682"
+      - "raw_b000747"
+      - "raw_b000760"
+      - "raw_b000773"
+      - "raw_b000799"
+      - "raw_b000104"
+      - "raw_b000129"
+      - "raw_b000259"
+      - "raw_b000294"
+      - "raw_b000305"
+      - "raw_b000317"
+      - "raw_b000341"
+      - "raw_b000389"
+      - "raw_b000449"
+      - "raw_b000486"
+      - "raw_b000515"
+      - "raw_b000551"
+      - "raw_b000814"
     quality_flags:
       []
     source_references:
@@ -1950,6 +1423,462 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           312
+      - raw_bullet_id: "raw_b000038"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Antora"
+        source_project_zip:
+          "26 summer_AI_Antora.zip"
+        source_project_id:
+          "project_003_26_summer_ai_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          323
+      - raw_bullet_id: "raw_b000052"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_KLA"
+        source_project_zip:
+          "26 summer_AI_KLA.zip"
+        source_project_id:
+          "project_004_26_summer_ai_kla"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          327
+      - raw_bullet_id: "raw_b000066"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_SAP"
+        source_project_zip:
+          "26 summer_AI_SAP.zip"
+        source_project_id:
+          "project_005_26_summer_ai_sap"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          327
+      - raw_bullet_id: "raw_b000080"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_AI_Schneider"
+        source_project_zip:
+          "26 summer_AI_Schneider.zip"
+        source_project_id:
+          "project_006_26_summer_ai_schneider"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          323
+      - raw_bullet_id: "raw_b000118"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA_Holland America Line"
+        source_project_zip:
+          "26 summer_BA_Holland America Line.zip"
+        source_project_id:
+          "project_009_26_summer_ba_holland_america_line"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          343
+      - raw_bullet_id: "raw_b000227"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_IS_Gilead"
+        source_project_zip:
+          "26 summer_IS_Gilead.zip"
+        source_project_id:
+          "project_018_26_summer_is_gilead"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          328
+      - raw_bullet_id: "raw_b000284"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Visa"
+        source_project_zip:
+          "26 summer_PM_Visa.zip"
+        source_project_id:
+          "project_023_26_summer_pm_visa"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          328
+      - raw_bullet_id: "raw_b000354"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Organon"
+        source_project_zip:
+          "26 summer_UXR_Organon.zip"
+        source_project_id:
+          "project_029_26_summer_uxr_organon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          312
+      - raw_bullet_id: "raw_b000366"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_SIE"
+        source_project_zip:
+          "26 summer_UXR_SIE.zip"
+        source_project_id:
+          "project_030_26_summer_uxr_sie"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          312
+      - raw_bullet_id: "raw_b000378"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_Xometry"
+        source_project_zip:
+          "26 summer_UXR_Xometry.zip"
+        source_project_id:
+          "project_031_26_summer_uxr_xometry"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000402"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UX_Netflix"
+        source_project_zip:
+          "26 summer_UX_Netflix.zip"
+        source_project_id:
+          "project_033_26_summer_ux_netflix"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000425"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ds_notion"
+        source_project_zip:
+          "26 summer_ds_notion.zip"
+        source_project_id:
+          "project_035_26_summer_ds_notion"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          329
+      - raw_bullet_id: "raw_b000439"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_ergo_antora"
+        source_project_zip:
+          "26 summer_ergo_antora.zip"
+        source_project_id:
+          "project_036_26_summer_ergo_antora"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          339
+      - raw_bullet_id: "raw_b000593"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Consumer_Sandisk"
+        source_project_zip:
+          "Ziyuan_Guo_Consumer_Sandisk.zip"
+        source_project_id:
+          "project_046_ziyuan_guo_consumer_sandisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000641"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Genentech"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Genentech.zip"
+        source_project_id:
+          "project_050_ziyuan_guo_hf_genentech"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          312
+      - raw_bullet_id: "raw_b000654"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Wisk"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Wisk.zip"
+        source_project_id:
+          "project_051_ziyuan_guo_hf_wisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          312
+      - raw_bullet_id: "raw_b000668"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_aperture"
+        source_project_zip:
+          "Ziyuan_Guo_HF_aperture.zip"
+        source_project_id:
+          "project_052_ziyuan_guo_hf_aperture"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          313
+      - raw_bullet_id: "raw_b000682"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_Market Strategy_PORSCHE"
+        source_project_zip:
+          "Ziyuan_Guo_Market Strategy_PORSCHE.zip"
+        source_project_id:
+          "project_053_ziyuan_guo_market_strategy_porsche"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          308
+      - raw_bullet_id: "raw_b000747"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UXR_TensorWave"
+        source_project_zip:
+          "Ziyuan_Guo_UXR_TensorWave.zip"
+        source_project_id:
+          "project_058_ziyuan_guo_uxr_tensorwave"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000760"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_Fortive"
+        source_project_zip:
+          "Ziyuan_Guo_UX_Fortive.zip"
+        source_project_id:
+          "project_059_ziyuan_guo_ux_fortive"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000773"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_UX_JPMorgan"
+        source_project_zip:
+          "Ziyuan_Guo_UX_JPMorgan.zip"
+        source_project_id:
+          "project_060_ziyuan_guo_ux_jpmorgan"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          310
+      - raw_bullet_id: "raw_b000799"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_research_Gensler"
+        source_project_zip:
+          "Ziyuan_Guo_research_Gensler.zip"
+        source_project_id:
+          "project_062_ziyuan_guo_research_gensler"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          312
+      - raw_bullet_id: "raw_b000104"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_BA (v1)"
+        source_project_zip:
+          "26 summer_BA (v1).zip"
+        source_project_id:
+          "project_008_26_summer_ba_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          290
+      - raw_bullet_id: "raw_b000129"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_DELTA"
+        source_project_zip:
+          "26 summer_DELTA.zip"
+        source_project_id:
+          "project_010_26_summer_delta"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          329
+      - raw_bullet_id: "raw_b000259"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_Lucid"
+        source_project_zip:
+          "26 summer_PM_Lucid.zip"
+        source_project_id:
+          "project_021_26_summer_pm_lucid"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          324
+      - raw_bullet_id: "raw_b000294"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_PM_fieldpulse"
+        source_project_zip:
+          "26 summer_PM_fieldpulse.zip"
+        source_project_id:
+          "project_024_26_summer_pm_fieldpulse"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          329
+      - raw_bullet_id: "raw_b000305"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design"
+        source_project_zip:
+          "26 summer_Product design.zip"
+        source_project_id:
+          "project_025_26_summer_product_design"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          331
+      - raw_bullet_id: "raw_b000317"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_Product design_Dicks"
+        source_project_zip:
+          "26 summer_Product design_Dicks.zip"
+        source_project_id:
+          "project_026_26_summer_product_design_dicks"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          331
+      - raw_bullet_id: "raw_b000341"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR (v2）"
+        source_project_zip:
+          "26 summer_UXR (v2）.zip"
+        source_project_id:
+          "project_028_26_summer_uxr_v2"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          309
+      - raw_bullet_id: "raw_b000389"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_UXR_adobe"
+        source_project_zip:
+          "26 summer_UXR_adobe.zip"
+        source_project_id:
+          "project_032_26_summer_uxr_adobe"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          311
+      - raw_bullet_id: "raw_b000449"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "26 summer_tech PM (v1)"
+        source_project_zip:
+          "26 summer_tech PM (v1).zip"
+        source_project_id:
+          "project_037_26_summer_tech_pm_v1"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          318
+      - raw_bullet_id: "raw_b000486"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UIUC MSIM"
+        source_project_zip:
+          "UIUC MSIM.zip"
+        source_project_id:
+          "project_041_uiuc_msim"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          222
+      - raw_bullet_id: "raw_b000515"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UNC MSIS"
+        source_project_zip:
+          "UNC MSIS.zip"
+        source_project_id:
+          "project_042_unc_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          223
+      - raw_bullet_id: "raw_b000551"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "UTA MSIS"
+        source_project_zip:
+          "UTA MSIS.zip"
+        source_project_id:
+          "project_044_uta_msis"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          223
+      - raw_bullet_id: "raw_b000814"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_robot_amazon"
+        source_project_zip:
+          "Ziyuan_Guo_robot_amazon.zip"
+        source_project_id:
+          "project_063_ziyuan_guo_robot_amazon"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          320
+
 source_references:
   - raw_bullet_id: "raw_b000038"
     original_zip_name:
