@@ -1371,7 +1371,7 @@ candidate_bullet_pools:
           246
   - pool_id: "ut_career_ai_systems_p027"
     canonical_candidate_text_en:
-      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout."
+      "Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyzing adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout."
     duplicate_count:
       2
     raw_bullet_ids:
@@ -2495,7 +2495,7 @@ candidate_bullet_pools:
           235
   - pool_id: "ut_career_ai_systems_p049"
     canonical_candidate_text_en:
-      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reduced new staff onboarding time by 50%."
+      "Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reducing new staff onboarding time by 50%."
     duplicate_count:
       5
     raw_bullet_ids:

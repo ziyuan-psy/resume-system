@@ -1705,7 +1705,7 @@ candidate_bullet_pools:
           244
   - pool_id: "loreal_cognitive_sciences_lab_p017"
     canonical_candidate_text_en:
-      "Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed product positioning."
+      "Piloted a holistic evaluation framework combining ECG and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed product positioning."
     duplicate_count:
       16
     raw_bullet_ids:
@@ -2068,14 +2068,15 @@ candidate_bullet_pools:
           299
   - pool_id: "loreal_cognitive_sciences_lab_p020"
     canonical_candidate_text_en:
-      "Piloted a multimodal evaluation framework combining ECG and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement."
+      "Piloted a multimodal evaluation framework combining ECG/HRV and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement."
     duplicate_count:
-      4
+      5
     raw_bullet_ids:
       - "raw_b000175"
       - "raw_b000186"
       - "raw_b000197"
       - "raw_b000213"
+      - "raw_b000646"
     quality_flags:
       - "appears_in_multiple_historical_sections"
     source_references:
@@ -2131,6 +2132,19 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           302
+      - raw_bullet_id: "raw_b000646"
+        original_zip_name:
+          "Overleaf Projects (77 items).zip"
+        source_project:
+          "Ziyuan_Guo_HF_Wisk"
+        source_project_zip:
+          "Ziyuan_Guo_HF_Wisk.zip"
+        source_project_id:
+          "project_051_ziyuan_guo_hf_wisk"
+        source_tex_file:
+          "main.tex"
+        source_line_number:
+          235
   - pool_id: "loreal_cognitive_sciences_lab_p023"
     canonical_candidate_text_en:
       "Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional metrics measured by EEG and Eye-tracking."
@@ -3774,7 +3788,7 @@ candidate_bullet_pools:
           281
   - pool_id: "loreal_cognitive_sciences_lab_p048"
     canonical_candidate_text_en:
-      "Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to research methodologies alignment, manage lab equipment and volunteer recruitment."
+      "Established a structured daily workflow and coordinated with 4 internal departments and 5 external agencies to align research methodologies, manage lab equipment, and coordinate volunteer recruitment."
     duplicate_count:
       1
     raw_bullet_ids:
@@ -3864,29 +3878,6 @@ candidate_bullet_pools:
           "main.tex"
         source_line_number:
           233
-  - pool_id: "loreal_cognitive_sciences_lab_p054"
-    canonical_candidate_text_en:
-      "Piloted a multimodal evaluation framework combining Heart Rate Variability and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement."
-    duplicate_count:
-      1
-    raw_bullet_ids:
-      - "raw_b000646"
-    quality_flags:
-      []
-    source_references:
-      - raw_bullet_id: "raw_b000646"
-        original_zip_name:
-          "Overleaf Projects (77 items).zip"
-        source_project:
-          "Ziyuan_Guo_HF_Wisk"
-        source_project_zip:
-          "Ziyuan_Guo_HF_Wisk.zip"
-        source_project_id:
-          "project_051_ziyuan_guo_hf_wisk"
-        source_tex_file:
-          "main.tex"
-        source_line_number:
-          235
   - pool_id: "loreal_cognitive_sciences_lab_p056"
     canonical_candidate_text_en:
       "Iterated protocols for a 6-month multi-cycle study in iMotions, integrating subjective feedback and physiological multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams."
@@ -4201,10 +4192,6 @@ bullet_overlap_groups:
     pool_ids:
       - "loreal_cognitive_sciences_lab_p034"
       - "loreal_cognitive_sciences_lab_p056"
-  - group_id: "og003"
-    pool_ids:
-      - "loreal_cognitive_sciences_lab_p020"
-      - "loreal_cognitive_sciences_lab_p054"
   - group_id: "og004"
     pool_ids:
       - "loreal_cognitive_sciences_lab_p057"
