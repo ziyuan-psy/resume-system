@@ -13,7 +13,8 @@ from typing import Any
 
 try:
     from scripts import phase6a_jd_intake as phase6a
-    from scripts.generate_library_index import (
+    from scripts.generate_library_index import refresh_library_index
+    from scripts.library_yaml import (
         find_block,
         find_value,
         parse_entry_segments,
@@ -22,7 +23,8 @@ try:
     )
 except ImportError:  # pragma: no cover - supports running from scripts/
     import phase6a_jd_intake as phase6a
-    from generate_library_index import (
+    from generate_library_index import refresh_library_index
+    from library_yaml import (
         find_block,
         find_value,
         parse_entry_segments,
@@ -1485,6 +1487,9 @@ def run(args: argparse.Namespace) -> SelectionPaths:
     library_fingerprint = str(catalog["library_fingerprint"])
     catalog_action = "regenerated" if catalog_regenerated else "reused"
     print(f"Active library catalog {catalog_action}: {paths.catalog_path}")
+    index_regenerated = refresh_library_index(root, catalog)
+    index_action = "regenerated" if index_regenerated else "reused"
+    print(f"Library index {index_action}: {root / 'library_index.md'}")
 
     education = parse_education(root)
     experiences_by_id = index_by(parse_canonical_experiences(root), "experience_id")

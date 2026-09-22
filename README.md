@@ -417,28 +417,11 @@ For the MVP, `text\_zh` can be empty.
 
 \---
 
-### Phase 5: Generate Human-Readable Library Index
+### Phase 5: Human-Readable Library Index
 
-Codex should generate a Markdown file:
+`library_index.md` is the review view of the compact active-library catalog. It shows education, coursework, skills, contact profiles, and canonical experiences with grouped and independent candidate bullets. Raw bullet IDs, source references, duplicate counts, quality flags, and archive summaries remain outside this view.
 
-```text
-library\_index.md
-```
-
-This file should allow the user to visually review the content library.
-
-It should show:
-
-```text
-- All experiences/projects
-- Their role-fit tags
-- Tools and skills
-- All bullet versions
-- Source references
-- Suggested role categories
-```
-
-This is the file the user will mainly review.
+Phase 6B freshness-checks the catalog and index together. The index is rewritten only when the catalog, contact profiles, category labels, or index format changes. Run `python scripts/generate_library_index.py` to refresh both views directly.
 
 \---
 
@@ -527,7 +510,7 @@ The analysis is marked `needs_review` and should separate explicit JD requiremen
 
 #### Phase 6B: Content Selection Plan
 
-Phase 6B uses Codex/LLM judgment for hybrid bullet-first content matching, ranking, overlap resolution, and final display recommendation. Python does not rank content in this phase; it freshness-checks a compact active-library catalog, validates Codex-selected active IDs and overlap constraints, writes a normalized machine-readable selection JSON artifact, and renders a human-readable Markdown plan. The catalog at `generated/selection_inputs/active_library_catalog.json` is regenerated only when its schema or active source content changes. Phase 6B does not generate LaTeX, compile PDFs, or use archive/raw extraction sources as active inputs. Education is not ranked or selected like experiences or bullets. UT Austin and Nanjing Normal University are included by default. Lingnan University is included by default only in compact form unless page budget is tight; if page fit is tight, Lingnan University is the first education entry that can be dropped.
+Phase 6B uses Codex/LLM judgment for hybrid bullet-first content matching, ranking, overlap resolution, and final display recommendation. Python does not rank content in this phase; it freshness-checks the compact active-library catalog and its Markdown index, validates Codex-selected active IDs and overlap constraints, writes a normalized machine-readable selection JSON artifact, and renders a human-readable Markdown plan. The catalog at `generated/selection_inputs/active_library_catalog.json` is regenerated only when its schema or active source content changes; `library_index.md` is regenerated only when its catalog or display inputs change. Phase 6B does not generate LaTeX, compile PDFs, or use archive/raw extraction sources as active inputs. Education is not ranked or selected like experiences or bullets. UT Austin and Nanjing Normal University are included by default. Lingnan University is included by default only in compact form unless page budget is tight; if page fit is tight, Lingnan University is the first education entry that can be dropped.
 
 Step 1: ask Codex to read only:
 

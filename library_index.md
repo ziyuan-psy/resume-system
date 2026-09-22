@@ -1,18 +1,18 @@
 # Resume Library Index
 
-Generated: 2026-06-03T12:43:27
+<!-- index_format_version: 2; index_fingerprint: 627d4430a211a956f8189d679b7d85d9b868131ca6e52f33aa4db91b1b951a8a -->
 
-This index summarizes the active canonical library. It is generated from `content/profile/education.yaml`, `content/profile/coursework.yaml`, `content/profile/skills.yaml`, `content/profile/contacts/*.yaml`, and `content/experiences/canonical/en/*.yaml`.
+This is the review view of the active library catalog. Canonical YAML remains the source of truth; contact profiles and skill-category labels are display-only additions.
 
 ## Active Library Summary
 
 - Education entries: 3
 - Contact profiles: 3
 - Coursework entries: 11
-- Active skills: 96
+- Active skills: 86
 - Skill categories: 7
 - Canonical experiences: 11
-- Candidate bullet pools: 194
+- Candidate bullet pools: 144
 - Archive content is excluded from default resume generation.
 
 ## Contact Profiles
@@ -64,20 +64,18 @@ This index summarizes the active canonical library. It is generated from `conten
 - GPA display: true
 - GPA: GPA: 4.0
 - Date: Aug 2025 – May 2027
-- Status: needs_review
-- Source references: 71
+- Status: approved
 
 ### Nanjing Normal University
 
 - Education ID: `nanjing_normal_applied_psychology`
 - Degree: BS in Applied Psychology
-- Location: 
+- Location: None
 - Location display: true
 - GPA display: false
 - GPA: None
 - Date: Sep 2020 – Jun 2024
-- Status: needs_review
-- Source references: 77
+- Status: approved
 
 ### Lingnan University
 
@@ -88,18 +86,16 @@ This index summarizes the active canonical library. It is generated from `conten
 - GPA display: false
 - GPA: None
 - Date: Aug 2023 – Dec 2023
-- Status: needs_review
-- Source references: 77
+- Status: approved
 
 ## Coursework
 
 ### Database Management
 
 - Coursework ID: `database_management`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
-- Tools: SQL, RAG
-- Source references: 48
+- Tools: SQL, RAG, LLM API
 - Variants:
   - Database Management
   - Database Management (SQL)
@@ -109,10 +105,9 @@ This index summarizes the active canonical library. It is generated from `conten
 ### Data Storytelling
 
 - Coursework ID: `data_storytelling`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
 - Tools: Tableau
-- Source references: 60
 - Variants:
   - Data Storytelling
   - Data Storytelling (Tableau)
@@ -120,30 +115,27 @@ This index summarizes the active canonical library. It is generated from `conten
 ### Product Management
 
 - Coursework ID: `product_management`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
 - Tools: None
-- Source references: 24
 - Variants:
   - Product Management
 
 ### Machine Learning with Python
 
 - Coursework ID: `machine_learning_python`
-- Status: needs_review
+- Status: approved
 - Education IDs: nanjing_normal_applied_psychology
 - Tools: Python
-- Source references: 13
 - Variants:
   - Machine Learning with Python
 
 ### Quantifying UX
 
 - Coursework ID: `quantifying_ux`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
-- Tools: None
-- Source references: 13
+- Tools: A/B Testing, R
 - Variants:
   - Quantifying UX
   - Quantifying UX (A/B Test)
@@ -152,10 +144,9 @@ This index summarizes the active canonical library. It is generated from `conten
 ### UX Prototyping
 
 - Coursework ID: `ux_prototyping`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
 - Tools: Figma
-- Source references: 11
 - Variants:
   - UX Prototyping
   - UX Prototyping (Figma)
@@ -163,20 +154,18 @@ This index summarizes the active canonical library. It is generated from `conten
 ### Time Series Forecasting
 
 - Coursework ID: `time_series_forecasting`
-- Status: needs_review
+- Status: approved
 - Education IDs: ut_austin_msis
-- Tools: None
-- Source references: 9
+- Tools: R
 - Variants:
   - Time Series Forecasting
 
 ### Human Factors Engineering
 
 - Coursework ID: `human_factors_engineering`
-- Status: needs_review
+- Status: approved
 - Education IDs: nanjing_normal_applied_psychology
 - Tools: None
-- Source references: 10
 - Variants:
   - Human Factor Engineering
   - Human Factors Engineering
@@ -184,30 +173,27 @@ This index summarizes the active canonical library. It is generated from `conten
 ### Psychometrics
 
 - Coursework ID: `psychometrics`
-- Status: needs_review
+- Status: approved
 - Education IDs: nanjing_normal_applied_psychology
 - Tools: None
-- Source references: 7
 - Variants:
   - Psychometrics
 
 ### Bayesian Statistics with Python
 
 - Coursework ID: `bayesian_statistics_python`
-- Status: needs_review
+- Status: approved
 - Education IDs: nanjing_normal_applied_psychology
 - Tools: Python
-- Source references: 5
 - Variants:
   - Bayesian Statistics with Python
 
 ### Anatomy and Physiology
 
 - Coursework ID: `anatomy_and_physiology`
-- Status: needs_review
+- Status: approved
 - Education IDs: nanjing_normal_applied_psychology
 - Tools: None
-- Source references: 2
 - Variants:
   - Anatomy and Physiology
 
@@ -220,71 +206,38 @@ This index summarizes the active canonical library. It is generated from `conten
 - Category aliases: AI & Automation, AI & Knowledge Platforms, AI Tools, AI-Assisted Tools, Data & AI Systems
 
 - **AI Agent** (`ai_agent`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: AI Agents
-  - Category variants: 7
-  - Raw skill rows: 36
-  - Source references: 36
 - **API integration** (`api_integration`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 7
-  - Source references: 7
 - **ChatGPT** (`chatgpt`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Copilot** (`copilot`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Copilot Studio** (`copilot_studio`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Copilot Studio (chatbot prototyping)
-  - Category variants: 6
-  - Raw skill rows: 30
-  - Source references: 30
 - **Gemini** (`gemini`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **LangChain components (retrievers, loaders, prompt templates)** (`langchain_components`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 8
-  - Source references: 8
 - **LLM APIs** (`llm_apis`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **LLM prompting** (`llm_prompting`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 8
-  - Source references: 8
 - **Power Automate** (`power_automate`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Power Automation, PowerAutomate (workflow design)
-  - Category variants: 5
-  - Raw skill rows: 30
-  - Source references: 30
 - **RAG pipelines** (`rag_pipelines`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 8
-  - Source references: 8
 
 ### Collaboration & Communication
 
@@ -293,1471 +246,638 @@ This index summarizes the active canonical library. It is generated from `conten
 - Category aliases: Collaboration & Communication
 
 - **Confluence** (`confluence`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 7
-  - Source references: 7
 - **Cross-functional collaboration** (`cross_functional_collaboration`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 7
-  - Source references: 7
 - **Insight storytelling** (`insight_storytelling`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 17
-  - Source references: 17
 - **Miro** (`miro`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 - **Stakeholder presentations** (`stakeholder_presentations`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 17
-  - Source references: 17
 
 ### Data & Analytics
 
 - Category ID: `data_analytics`
-- Skills: 19
+- Skills: 18
 - Category aliases: Data & Analytics, Data & Insights, Data Analysis, Data & Reporting, Data Management& Analytics, Data Visualization & Reporting, Languages, Statistical Software
 
 - **A/B testing** (`a_b_testing`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: A/B Testing
-  - Category variants: 2
-  - Raw skill rows: 3
-  - Source references: 3
 - **AMOS** (`amos`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
-- **Copilot Studio Agent** (`copilot_studio_agent`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 4
-  - Source references: 4
 - **Dashboard Design** (`dashboard_design`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Data cleaning** (`data_cleaning`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **data transformation** (`data_transformation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **data validation** (`data_validation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Data Validation
-  - Category variants: 2
-  - Raw skill rows: 2
-  - Source references: 2
 - **Data Visualization** (`data_visualization`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Data visualization
-  - Category variants: 2
-  - Raw skill rows: 10
-  - Source references: 10
 - **Data Wrangling** (`data_wrangling`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Excel** (`excel`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Excel(Pivot Tables)
-  - Category variants: 2
-  - Raw skill rows: 5
-  - Source references: 5
 - **MATLAB** (`matlab`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 3
-  - Raw skill rows: 6
-  - Source references: 6
 - **Power Apps** (`power_apps`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Power BI** (`power_bi`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 4
-  - Raw skill rows: 45
-  - Source references: 45
 - **Python** (`python`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Python(cleaning raw data, reshaping datasets), Python(cleaning, exploring, and modeling datasets), Python(libraries: Pytorch, Keras; Pymc3, Arviz; Matplotlib, Seaborn)
-  - Category variants: 7
-  - Raw skill rows: 71
-  - Source references: 71
 - **Quantitative & Qualitative analysis** (`quantitative_and_qualitative_analysis`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **R** (`r`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: R(Visualization)
-  - Category variants: 7
-  - Raw skill rows: 71
-  - Source references: 71
 - **SPSS** (`spss`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 2
-  - Raw skill rows: 3
-  - Source references: 3
 - **SQL** (`sql`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 6
-  - Raw skill rows: 65
-  - Source references: 65
 - **Tableau** (`tableau`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 5
-  - Raw skill rows: 64
-  - Source references: 64
+  - Status: approved
+  - Aliases: Tableau dashboards
 
 ### Design & Simulation Tools
 
 - Category ID: `design_simulation_tools`
-- Skills: 11
+- Skills: 5
 - Category aliases: Design & Simulation, Lab & Technical Tools, Technical Tools
 
 - **Blender** (`blender`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 3
-  - Raw skill rows: 11
-  - Source references: 11
 - **EEG/GSR/ECG** (`eeg_gsr_ecg`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Eye-tracking** (`eye_tracking`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
-- **iMotion; Axure** (`imotion_axure`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 5
-  - Source references: 5
 - **iMotions** (`imotions`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 3
-  - Raw skill rows: 5
-  - Source references: 5
-- **iMotions; Axure** (`imotions_axure`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
-- **iMotions; Axure; Unreal Engine** (`imotions_axure_unreal_engine`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
-- **Psychopy** (`psychopy`)
-  - Status: needs_review
-  - Aliases: PsychoPy
-  - Category variants: 4
-  - Raw skill rows: 12
-  - Source references: 12
-- **UE5** (`ue5`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
-- **Visio; Unreal Engine** (`visio_unreal_engine`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 6
-  - Source references: 6
-- **Vizard** (`vizard`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 3
-  - Source references: 3
+- **PsychoPy** (`psychopy`)
+  - Status: approved
+  - Aliases: Psychopy
 
 ### Enterprise & Productivity Tools
 
 - Category ID: `enterprise_productivity_tools`
-- Skills: 14
+- Skills: 13
 - Category aliases: Collaboration & Documentation, Collaboration & Productivity Tools, Enterprise & Automation Tools, Enterprise & Productivity Tools, Knowledge Management & Collaboration, Knowledge Management & Productivity, Productivity Tools, Reporting & Documentation
 
 - **configuration documentation** (`configuration_documentation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Google Drive** (`google_drive`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 6
-  - Source references: 6
 - **Google Workspace** (`google_workspace`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **JIRA** (`jira`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Jira
-  - Category variants: 2
-  - Raw skill rows: 18
-  - Source references: 18
 - **Microsoft Excel (VLOOKUPs, Pivot Tables)** (`microsoft_excel`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Microsoft Office Suite (Outlook, Excel, Word, PowerPoint, OneNote)** (`microsoft_office_suite`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Microsoft Office Suite, Microsoft Office Suite (Excel, OneNote, Outlook, Word, PowerPoint), Microsoft Office Suite (Excel, Outlook, Word, PowerPoint), Microsoft Office Suite (Excel, Word, PowerPoint, OneNote), Microsoft Office Suite (Outlook, Excel, Word, PowerPoint), Microsoft Office Suite(Excel and PowerPoint)
-  - Category variants: 5
-  - Raw skill rows: 42
-  - Source references: 42
 - **Notion** (`notion`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 8
-  - Raw skill rows: 44
-  - Source references: 44
 - **OneDrive** (`onedrive`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **PowerPoint** (`powerpoint`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 2
-  - Raw skill rows: 2
-  - Source references: 2
 - **SharePoint** (`sharepoint`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: SharePoint (IA), SharePoint (IA, metadata design), Sharepoint
-  - Category variants: 11
-  - Raw skill rows: 42
-  - Source references: 42
 - **SOP Documentation** (`sop_documentation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
-- **Tableau dashboards** (`tableau_dashboards`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Technical Reporting** (`technical_reporting`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: technical reporting
-  - Category variants: 2
-  - Raw skill rows: 3
-  - Source references: 3
 - **testing scripts** (`testing_scripts`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 
 ### Product & UX Research
 
 - Category ID: `product_ux_research`
-- Skills: 16
+- Skills: 15
 - Category aliases: Design & Research, Product & Collaboration, Product & UX, Product Testing & Benchmarking, Research & Customer Insight, User Research
 
 - **Competitor Product Benchmarking** (`competitor_product_benchmarking`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
-- **Controlled Experiment Design** (`controlled_experiment_design`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Cross-device usability principles(iOS, Android, HTML5)** (`cross_device_usability_principles`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Figma** (`figma`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 3
-  - Raw skill rows: 10
-  - Source references: 10
 - **Insight Reporting** (`insight_reporting`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Interaction Design** (`interaction_design`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 3
-  - Source references: 3
 - **Journey Mapping** (`journey_mapping`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 2
-  - Raw skill rows: 7
-  - Source references: 7
 - **Product Roadmaps** (`product_roadmaps`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 3
-  - Source references: 3
 - **Sensory Evaluation** (`sensory_evaluation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Storyboarding** (`storyboarding`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 6
-  - Source references: 6
 - **Stress-Simulation Testing** (`stress_simulation_testing`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Test Protocol Design** (`test_protocol_design`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
+  - Status: approved
+  - Aliases: Test Protocol Development
 - **UI/UX Evaluation** (`ui_ux_evaluation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 3
-  - Source references: 3
 - **Unreal Engine 5** (`unreal_engine_5`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
+  - Status: approved
+  - Aliases: UE5
 - **Usability Testing** (`usability_testing`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 3
-  - Raw skill rows: 10
-  - Source references: 10
 - **User-Centered Design** (`user_centered_design`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 
 ### Research Methods
 
 - Category ID: `research_methods`
-- Skills: 20
+- Skills: 18
 - Category aliases: Qualitative Methods, Quantitative Methods, Research Methods, Test & Research Methods
 
 - **CLTs** (`clts`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Concept evaluations** (`concept_evaluations`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 15
-  - Source references: 15
 - **Conjoint** (`conjoint`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Contextual inquiry** (`contextual_inquiry`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 17
-  - Source references: 17
 - **Data Collection** (`data_collection`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 - **Experimental Design** (`experimental_design`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
-- **Experiments** (`experiments`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 17
-  - Source references: 17
+  - Status: approved
+  - Aliases: Controlled Experiment Design, Experiments
 - **Focus groups** (`focus_groups`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Heuristic evaluation** (`heuristic_evaluation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 - **Human Factors Evaluation** (`human_factors_evaluation`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 - **HUTs** (`huts`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
 - **Implicit Measures** (`implicit_measures`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Implicit Measures(igonogo)
-  - Category variants: 1
-  - Raw skill rows: 17
-  - Source references: 17
 - **Interview** (`interview`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Interviewing
-  - Category variants: 4
-  - Raw skill rows: 25
-  - Source references: 25
 - **Mood boards** (`mood_boards`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 6
-  - Source references: 6
 - **Qualtrics** (`qualtrics`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 2
-  - Raw skill rows: 15
-  - Source references: 15
 - **Statistical hypothesis testing** (`statistical_hypothesis_testing`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Statistical Hypothesis Testing
-  - Category variants: 2
-  - Raw skill rows: 19
-  - Source references: 19
 - **Survey Design** (`survey_design`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: Survey Design(U&A)
-  - Category variants: 5
-  - Raw skill rows: 27
-  - Source references: 27
-- **Test Protocol Development** (`test_protocol_development`)
-  - Status: needs_review
-  - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 2
-  - Source references: 2
 - **Usability studies** (`usability_studies`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 16
-  - Source references: 16
 - **UserTesting** (`usertesting`)
-  - Status: needs_review
+  - Status: approved
   - Aliases: None
-  - Category variants: 1
-  - Raw skill rows: 1
-  - Source references: 1
+
+### ai_automation
+
+- Category ID: `ai_automation`
+- Skills: 1
+- Category aliases: None
+
+- **Copilot Studio Agent** (`copilot_studio_agent`)
+  - Status: approved
+  - Aliases: None
 
 ## Canonical Experiences
 
 ### 1. AI GPU Portfolio Strategy & Scenario Analysis
 
 - Experience ID: `ai_gpu_portfolio_strategy`
-- Status: needs_review
+- Status: approved
 - Organization: Course Project
-- Location: 
+- Location: None
 - Date: Oct 2025 – Dec 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience
-- Tools: R
+- Role fit: None
+- Tools: Excel, Python
+- Skills: None
+- Keywords: None
 - Candidate bullet pools: 3
-- Source references: 36
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 3
 - Title variants:
   - AI GPU Portfolio Strategy & Scenario Analysis
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `ai_gpu_portfolio_strategy_p001` Built and revised a multi-scenario business case for a Gen8 AI GPU portfolio, evaluating 4 launch and supply-chain scenarios under fixed TAM, R&D, SG&A, and discount-rate assumptions.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000602, raw_b000613, raw_b000624, raw_b000704, raw_b000722, raw_b000782
-  - Quality flags: None
-  - Source references: 6
 - `ai_gpu_portfolio_strategy_p002` Modeled the impact of supplier cost increases, production caps, and launch delays on budget, revenue share, unit share, gross margin, operating income, NPV, and IRR.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000603, raw_b000614, raw_b000625, raw_b000705, raw_b000723, raw_b000783
-  - Quality flags: None
-  - Source references: 6
 - `ai_gpu_portfolio_strategy_p003` Compared financial and strategic trade-offs across scenarios and recommended the strongest path based on market-share targets, profitability, and competitive timing risk.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000604, raw_b000615, raw_b000626, raw_b000706, raw_b000724, raw_b000784
-  - Quality flags: None
-  - Source references: 6
 
 ### 2. AI-Powered Data Query System (RAG + SQL) for clinical dataset
 
 - Experience ID: `ai_rag_sql_clinical_query_system`
-- Status: needs_review
+- Status: approved
 - Organization: Project Lead
-- Location: 
+- Location: None
 - Date: Aug 2025 – Oct 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
+- Role fit: None
 - Tools: LLM, LangChain, RAG, SQL
+- Skills: None
+- Keywords: None
 - Candidate bullet pools: 5
-- Source references: 152
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 5
 - Title variants:
   - AI-Powered Data Query System (RAG + SQL)
   - AI-Powered Data Query System (RAG + SQL) for clinical dataset
+#### Independent Candidates
 
-Candidate bullet pools:
-
-- `ai_rag_sql_clinical_query_system_p001` Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs using LangChain to enable natural language interaction with MIMIC healthcare datasets.
-  - Duplicate count: 23
-  - Raw bullet IDs: raw_b000017, raw_b000033, raw_b000047, raw_b000061, raw_b000075, raw_b000089, raw_b000148, raw_b000161, raw_b000222, raw_b000436, raw_b000677, raw_b000693, raw_b000707, raw_b000811, raw_b000835, raw_b000848, raw_b000861, raw_b000880, raw_b000926, raw_b000939, raw_b000951, raw_b000966, raw_b000978
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 23
+- `ai_rag_sql_clinical_query_system_p001` Prototyped an AI-assisted query system integrating SQL data retrieval with LLM-based APIs using LangChain to enable natural language interaction with MIMIC healthcare datasets.
 - `ai_rag_sql_clinical_query_system_p002` Implemented a schema- and domain-aware RAG pipeline to enable accurate LLM-generated SQL queries, reducing manual query time by 80% and improving data accessibility.
-  - Duplicate count: 23
-  - Raw bullet IDs: raw_b000018, raw_b000034, raw_b000048, raw_b000062, raw_b000076, raw_b000090, raw_b000149, raw_b000162, raw_b000223, raw_b000437, raw_b000678, raw_b000694, raw_b000708, raw_b000812, raw_b000836, raw_b000849, raw_b000862, raw_b000881, raw_b000927, raw_b000940, raw_b000952, raw_b000967, raw_b000979
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 23
 - `ai_rag_sql_clinical_query_system_p003` Defined data schemas, documented the workflow and prompt logic for reproducibility and team handoff.
-  - Duplicate count: 24
-  - Raw bullet IDs: raw_b000019, raw_b000035, raw_b000049, raw_b000063, raw_b000077, raw_b000091, raw_b000150, raw_b000163, raw_b000224, raw_b000281, raw_b000438, raw_b000679, raw_b000695, raw_b000709, raw_b000813, raw_b000837, raw_b000850, raw_b000863, raw_b000882, raw_b000928, raw_b000941, raw_b000953, raw_b000968, raw_b000980
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 24
-- `ai_rag_sql_clinical_query_system_p004` Prototyped an AI-assisted query system integrating SQL data retrieva with LLM-based APIs to enable natural language interaction with MIMIC healthcare datasets.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000114, raw_b000279, raw_b000421
-  - Quality flags: None
-  - Source references: 3
+- `ai_rag_sql_clinical_query_system_p004` Prototyped an AI-assisted query system integrating SQL data retrieval with LLM-based APIs to enable natural language interaction with MIMIC healthcare datasets.
 - `ai_rag_sql_clinical_query_system_p005` Automated retrieval and response workflows through a RAG pipeline, reducing manual query time by 80% and improving data accessibility.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000115, raw_b000280, raw_b000422
-  - Quality flags: None
-  - Source references: 3
 
-### 3. Research Intern
+### 3. Human Factors Intern
 
 - Experience ID: `chinese_academy_engineering_psychology`
 - Status: needs_review
 - Organization: Lab of Engineering Psychology, Chinese Academy of Sciences
-- Location: 
+- Location: None
 - Date: Nov 2023 – Jun 2024
 - Type: research
 - Default section: research_experience
 - Allowed sections: professional_experience, research_experience
+- Role fit: None
 - Tools: Blender, Python
-- Candidate bullet pools: 22
-- Source references: 226
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 12
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 12
 - Title variants:
   - Research Intern
-  - Human Factor Intern, Lab of Engineering Psychology, Chinese Academy of Sciences
-  - Human Factor intern, Lab of Engineering Psychology, Chinese Academy of Sciences
-  - Research intern, Lab of Engineering Psychology, Chinese Academy of Sciences
-
-Candidate bullet pools:
+  - Human Factors Intern
+  - Human Factors Research Intern
+#### Independent Candidates
 
 - `chinese_academy_engineering_psychology_p001` Conducted evaluations of human–robot arm interactions, annotating and coding 17+ hours of event-level videos to extract timing, behavioral, and safety performance metrics using Python-based analysis.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000010, raw_b000015, raw_b000146, raw_b000159, raw_b000833, raw_b000846, raw_b000859, raw_b000879
-  - Quality flags: None
-  - Source references: 8
 - `chinese_academy_engineering_psychology_p002` Developed interactive VR simulations in Vizard and modeled 10 risk scenarios in Blender to study behavioral responses and risk perception, enhancing ecological validity and experimental control.
-  - Duplicate count: 11
-  - Raw bullet IDs: raw_b000011, raw_b000016, raw_b000143, raw_b000147, raw_b000160, raw_b000331, raw_b000412, raw_b000834, raw_b000847, raw_b000860, raw_b000893
-  - Quality flags: None
-  - Source references: 11
-- `chinese_academy_engineering_psychology_p003` Annotated 17 videos of mechanical arm interactions, applying rigorous coding standards to extract critical timing and behavioral data in Python, improving understanding of safety perceptions.
-  - Duplicate count: 16
-  - Raw bullet IDs: raw_b000102, raw_b000235, raw_b000257, raw_b000292, raw_b000337, raw_b000350, raw_b000362, raw_b000374, raw_b000385, raw_b000447, raw_b000465, raw_b000477, raw_b000490, raw_b000519, raw_b000542, raw_b000555
-  - Quality flags: None
-  - Source references: 16
-- `chinese_academy_engineering_psychology_p004` Screened over 580 articles and systematically coded 100 relevant studies, tagging key metadata such as study design and variables. Structured the dataset to support a meta-analysis on trust factors in autonomous driving.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000103, raw_b000338, raw_b000351, raw_b000363, raw_b000375, raw_b000386
-  - Quality flags: None
-  - Source references: 6
 - `chinese_academy_engineering_psychology_p005` Modeled 10 VR risk scenarios using Blender and designed 6 distinct driving scenarios in Vizard to examine user trust and risk perception, enhancing ecological realism and informing interaction design for safety-critical interfaces.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000125, raw_b000302, raw_b000314
-  - Quality flags: None
-  - Source references: 3
-- `chinese_academy_engineering_psychology_p006` Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract task timing, behavioral, and safety performance metrics using Python-based analysis.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000126, raw_b000301, raw_b000313
-  - Quality flags: None
-  - Source references: 3
-- `chinese_academy_engineering_psychology_p007` Conducted evaluations of human–robot arm interactions, annotating and coding 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000142, raw_b000330, raw_b000411, raw_b000892
-  - Quality flags: None
-  - Source references: 4
-- `chinese_academy_engineering_psychology_p008` Conducted human factors evaluations of human–robot arm interactions, annotating 17+ hours of video data to extract timing, behavioral, and safety performance metrics using Python-based analysis.
-  - Duplicate count: 17
-  - Raw bullet IDs: raw_b000170, raw_b000181, raw_b000192, raw_b000205, raw_b000398, raw_b000427, raw_b000589, raw_b000637, raw_b000650, raw_b000665, raw_b000735, raw_b000743, raw_b000756, raw_b000769, raw_b000797, raw_b000809, raw_b000824
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 17
 - `chinese_academy_engineering_psychology_p009` Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000171, raw_b000193, raw_b000206
-  - Quality flags: None
-  - Source references: 3
 - `chinese_academy_engineering_psychology_p010` Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling and system-level validation.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000172, raw_b000194, raw_b000207
-  - Quality flags: None
-  - Source references: 3
 - `chinese_academy_engineering_psychology_p011` Developed 3 immersive autonomous driving simulations in Vizard and modeled 10 VR risk scenarios in Blender to examine user trust and risk perception, enhancing ecological validity and experimental control.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000182
-  - Quality flags: None
-  - Source references: 1
-- `chinese_academy_engineering_psychology_p012` Structured a research database by screening 580+ publications and systematically coding 100 studies, tagging key variables and study parameters to support meta-analytic modeling of trust factors in autonomous systems.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000183, raw_b000666
-  - Quality flags: None
-  - Source references: 2
 - `chinese_academy_engineering_psychology_p013` Annotated 17 videos of human–robot interactions, applying rigorous coding standards to extract critical timing and behavioral data in Python, improving understanding of safety perceptions.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000249, raw_b000271, raw_b000917, raw_b000969, raw_b000993
-  - Quality flags: None
-  - Source references: 5
 - `chinese_academy_engineering_psychology_p014` Modeled 10 VR risk scenarios (Blender + Vizard) and designed and tested 3 driving scenarios to study user trust and risk perception under safety-critical conditions, improving ecological realism and experimental control.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000250, raw_b000272, raw_b000994
-  - Quality flags: None
-  - Source references: 3
-- `chinese_academy_engineering_psychology_p015` Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes in Vizard to examine risk perception in autonomous operation environment, enhancing ecological validity.
-  - Duplicate count: 12
-  - Raw bullet IDs: raw_b000399, raw_b000590, raw_b000638, raw_b000651, raw_b000667, raw_b000736, raw_b000744, raw_b000757, raw_b000770, raw_b000798, raw_b000810, raw_b000825
-  - Quality flags: None
-  - Source references: 12
-- `chinese_academy_engineering_psychology_p016` Modeled 10 VR risk scenarios in Blender and bench-tested 3 controlled simulation prototypes to examine risk perception in autonomous operation environment, enhancing ecological validity and system-level realism.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000428
-  - Quality flags: None
-  - Source references: 1
 - `chinese_academy_engineering_psychology_p017` Screened over 580 articles and systematically coded 100 relevant studies, tagging key metadata such as study design, sample characteristics, and variables. Structured the dataset to support a meta-analysis on trust factors in autonomous driving.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000456, raw_b000580
-  - Quality flags: None
-  - Source references: 2
 - `chinese_academy_engineering_psychology_p018` Screened over 580 articles, selecting and extracting data from 100 relevant studies to support a meta-analysis on trust factors in autonomous driving, enhancing the data pool for broader research implications.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000466, raw_b000478, raw_b000491, raw_b000520, raw_b000543, raw_b000556
-  - Quality flags: None
-  - Source references: 6
-- `chinese_academy_engineering_psychology_p019` Participated in VR risk scenario modeling using Blender; designed and tested 3 distinct driving scenarios for realism and variable control, enhancing experimental validity.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000492, raw_b000521
-  - Quality flags: None
-  - Source references: 2
 - `chinese_academy_engineering_psychology_p020` Revised survey design on passenger experiences with autonomous taxi services, improving question clarity and reducing ambiguity, enhancing the quality of data collected from over 600 participants.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000493, raw_b000522
-  - Quality flags: None
-  - Source references: 2
-- `chinese_academy_engineering_psychology_p021` Modeled 10 VR risk scenarios using Blender; designed and tested 3 distinct driving scenarios for realism and variable control, enhancing experimental validity.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000557
-  - Quality flags: None
-  - Source references: 1
 - `chinese_academy_engineering_psychology_p022` Modeled 10 VR risk scenarios and tested 3 driving scenarios to study user trust and risk perception under safety-critical conditions for autonomous vehicles , improving ecological realism and experimental control.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000918, raw_b000970
-  - Quality flags: None
-  - Source references: 2
 
 ### 4. The Impact of Continuous or Categorical Thinking on Emotion Perception
 
 - Experience ID: `emotion_perception_thesis`
 - Status: needs_review
 - Organization: Undergraduate Thesis
-- Location: 
+- Location: None
 - Date: Dec 2023 – May 2024
 - Type: research
 - Default section: research_experience
 - Allowed sections: project_experience, research_experience
+- Role fit: None
 - Tools: Git, MATLAB, PsychoPy, R
-- Candidate bullet pools: 21
-- Source references: 248
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 13
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 13
 - Title variants:
   - The Impact of Continuous or Categorical Thinking on Emotion Perception
+#### Independent Candidates
 
-Candidate bullet pools:
-
-- `emotion_perception_thesis_p001` Managed a research project involving 3 studies, using Git for version control and team coordination.
-  - Duplicate count: 22
-  - Raw bullet IDs: raw_b000038, raw_b000052, raw_b000066, raw_b000080, raw_b000118, raw_b000227, raw_b000284, raw_b000354, raw_b000366, raw_b000378, raw_b000402, raw_b000425, raw_b000439, raw_b000593, raw_b000641, raw_b000654, raw_b000668, raw_b000682, raw_b000747, raw_b000760, raw_b000773, raw_b000799
-  - Quality flags: None
-  - Source references: 22
 - `emotion_perception_thesis_p002` Employed psychophysical methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R.
-  - Duplicate count: 37
-  - Raw bullet IDs: raw_b000039, raw_b000053, raw_b000067, raw_b000081, raw_b000105, raw_b000119, raw_b000228, raw_b000238, raw_b000260, raw_b000285, raw_b000295, raw_b000342, raw_b000355, raw_b000367, raw_b000379, raw_b000390, raw_b000403, raw_b000426, raw_b000440, raw_b000450, raw_b000463, raw_b000475, raw_b000487, raw_b000516, raw_b000540, raw_b000552, raw_b000594, raw_b000642, raw_b000655, raw_b000669, raw_b000683, raw_b000748, raw_b000761, raw_b000774, raw_b000800, raw_b000815, raw_b000829
-  - Quality flags: None
-  - Source references: 37
-- `emotion_perception_thesis_p003` Managed a research project involving 3 studies, using GitHub for version control and team coordination.
-  - Duplicate count: 12
-  - Raw bullet IDs: raw_b000104, raw_b000129, raw_b000259, raw_b000294, raw_b000305, raw_b000317, raw_b000341, raw_b000389, raw_b000449, raw_b000486, raw_b000515, raw_b000551
-  - Quality flags: None
-  - Source references: 12
-- `emotion_perception_thesis_p004` Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion.
-  - Duplicate count: 6
-  - Raw bullet IDs: raw_b000106, raw_b000343, raw_b000391, raw_b000488, raw_b000517, raw_b000553
-  - Quality flags: None
-  - Source references: 6
 - `emotion_perception_thesis_p005` Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection.
-  - Duplicate count: 14
-  - Raw bullet IDs: raw_b000107, raw_b000404, raw_b000489, raw_b000518, raw_b000554, raw_b000595, raw_b000643, raw_b000656, raw_b000670, raw_b000684, raw_b000749, raw_b000762, raw_b000775, raw_b000801
-  - Quality flags: None
-  - Source references: 14
 - `emotion_perception_thesis_p006` Applied psychophysical modeling and data visualization using R to identify perceptual thresholds and response patterns, generating insights into user cognition and behavioral variability.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000130, raw_b000306, raw_b000318
-  - Quality flags: None
-  - Source references: 3
-- `emotion_perception_thesis_p007` Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to decision-making.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000131, raw_b000307, raw_b000319
-  - Quality flags: None
-  - Source references: 3
-- `emotion_perception_thesis_p008` Designed and executed a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000176, raw_b000198, raw_b000208
-  - Quality flags: None
-  - Source references: 3
 - `emotion_perception_thesis_p009` Applied psychophysical methods to quantify human performance thresholds and response slopes under categorical vs. continuous judgment conditions, modeling results with R-based statistical analysis.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000177, raw_b000188, raw_b000199, raw_b000209
-  - Quality flags: None
-  - Source references: 4
 - `emotion_perception_thesis_p010` Developed experimental protocols in PsychoPy and MATLAB to manipulate facial stimuli and collect perception data from 135 participants, ensuring high data quality and procedural consistency.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000178, raw_b000189, raw_b000200, raw_b000210
-  - Quality flags: None
-  - Source references: 4
 - `emotion_perception_thesis_p011` Designed and led a multi-phase experimental study on human perception and decision-making, coordinating three sub-studies via GitHub for version control and reproducibility.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000187
-  - Quality flags: None
-  - Source references: 1
 - `emotion_perception_thesis_p012` Designed and conducted a series of 3 hypothesis-driven experiments, using GitHub for version control and team coordination.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000237
-  - Quality flags: None
-  - Source references: 1
 - `emotion_perception_thesis_p013` Managed a multi-phase behavioral research project (N=135), coordinating progress and version control through GitHub to ensure data integrity and team alignment.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000413
-  - Quality flags: None
-  - Source references: 1
 - `emotion_perception_thesis_p014` Designed and implemented 3 psychophysical experiments to model perceptual thresholds and sensitivity slopes under varying judgment conditions, applying R for model fitting and comparative analysis.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000414
-  - Quality flags: None
-  - Source references: 1
 - `emotion_perception_thesis_p015` Designed and implemented 3 experimental protocols, using GitHub for version control.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000462, raw_b000474, raw_b000539
-  - Quality flags: None
-  - Source references: 3
-- `emotion_perception_thesis_p016` Developed and executed an experimental protocol in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for gray-scale conversion.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000464, raw_b000476, raw_b000541
-  - Quality flags: None
-  - Source references: 3
 - `emotion_perception_thesis_p017` Managed a research project involving 3 studies, Collected data from 135 participants to explore the effects of thinking styles on stages of emotion perception from stimulus representation to response selection.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000605
-  - Quality flags: None
-  - Source references: 1
-- `emotion_perception_thesis_p018` Employed psychophysics methods to determine thresholds and slopes under categorical or continuous judgment conditions, fitting psychometric functions and conducting model comparisons using R.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000606
-  - Quality flags: None
-  - Source references: 1
-- `emotion_perception_thesis_p019` Managed a research project involving 3 studies and 135 participants, using Git for version control.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000814
-  - Quality flags: None
-  - Source references: 1
 - `emotion_perception_thesis_p020` Developed and executed 3 experimental protocols in PsychoPy, manipulating facial expressions along continuous dimensions using MATLAB for grayscale conversion.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000816, raw_b000830
-  - Quality flags: None
-  - Source references: 2
 - `emotion_perception_thesis_p021` Managed a research project involving 3 studies and 135 participants, using Git for version control and team coordination.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000828
-  - Quality flags: None
-  - Source references: 1
 
 ### 5. Product Performance & Time Series Forecasting - GoPro
 
 - Experience ID: `gopro_time_series_forecasting`
-- Status: needs_review
+- Status: approved
 - Organization: Course Project
-- Location: 
+- Location: None
 - Date: Feb 2026 – Apr 2026
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience
+- Role fit: None
 - Tools: R
+- Skills: None
+- Keywords: None
 - Candidate bullet pools: 4
-- Source references: 16
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 4
 - Title variants:
   - Product Performance & Time Series Forecasting - GoPro
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `gopro_time_series_forecasting_p001` Analyzed 2013–2025 quarterly revenue data to evaluate GoPro’s product performance trends, including Q4 seasonality, COVID-era disruption, and post-pandemic revenue decline.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000094, raw_b000785
-  - Quality flags: None
-  - Source references: 2
 - `gopro_time_series_forecasting_p002` Built and compared 2 time series forecasting models using a 2024–2025 validation set, selecting the stronger STL-based ARIMA model based on lower error metrics (RMSE = 109.88; MAE = 97.82).
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000095, raw_b000786
-  - Quality flags: None
-  - Source references: 2
 - `gopro_time_series_forecasting_p003` Produced 4-quarter revenue forecasts for 2026 with 80% prediction intervals, projecting revenue from $131.5M in Q1 to $320.1M in Q4.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000096, raw_b000787
-  - Quality flags: None
-  - Source references: 2
 - `gopro_time_series_forecasting_p004` Created a reproducible R script, visualizations, and final report summarizing actionable planning implications around seasonal demand, forecast uncertainty, and the potential value of adding product launch timing.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000097, raw_b000788
-  - Quality flags: None
-  - Source references: 2
 
 ### 6. Judge Assistant Intern
 
 - Experience ID: `judge_assistant_kunshan_court`
 - Status: needs_review
 - Organization: Criminal Trial Division of Kunshan People's Court
-- Location: 
+- Location: None
 - Date: Jun 2022 – Aug 2022
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience
+- Role fit: None
 - Tools: Python
-- Candidate bullet pools: 5
-- Source references: 28
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 4
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 4
 - Title variants:
   - Judge Assistant Intern
   - Judge Assistant Intern, Criminal Trial Division of Kunshan People's Court
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `judge_assistant_kunshan_court_p001` Analyzed over 600 DUI cases from the past 5 years, coding influential variables for regression analysis in Python, improving data-driven legal evaluations.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000101
-  - Quality flags: None
-  - Source references: 1
 - `judge_assistant_kunshan_court_p002` Analyzed 600+ DUI cases spanning 5 years using Python; coded and modeled key predictors through regression analysis to quantify factors affecting case outcomes and support data-driven legal evaluations.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000113
-  - Quality flags: None
-  - Source references: 1
-- `judge_assistant_kunshan_court_p003` Analyzed over 600 DUI cases from the past 5 years, coding influential variables for regression analysis, improving data-driven legal evaluations.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000472, raw_b000485, raw_b000502, raw_b000530, raw_b000549, raw_b000565, raw_b000661
-  - Quality flags: None
-  - Source references: 7
 - `judge_assistant_kunshan_court_p004` Assisted in adjudicating 21 juvenile-related cases, utilizing expertise in developmental and criminal psychology to draft 16 judgments.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000503, raw_b000531, raw_b000566, raw_b000662
-  - Quality flags: None
-  - Source references: 4
 - `judge_assistant_kunshan_court_p005` Managed over 100 case files and maintained courtroom order, streamlining judicial processes.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000504
-  - Quality flags: None
-  - Source references: 1
 
 ### 7. Cognitive Sciences Lab Technician (Contractor)
 
 - Experience ID: `loreal_cognitive_sciences_lab`
 - Status: needs_review
-- Organization: L'Oreal R&I Center
+- Organization: L'Oreal R&I
 - Location: Shanghai
 - Date: Jul 2024 – Jul 2025
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience, research_experience
+- Role fit: None
 - Tools: Power BI, Python, R, SharePoint, VBA, iMotions
-- Candidate bullet pools: 64
-- Source references: 554
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 49
+- Overlap groups: 4
+- Grouped candidates: 8
+- Independent candidates: 41
 - Title variants:
   - Cognitive Sciences Lab Technician (Contractor)
-  - Cognitive Science Technician (Contractor), L'Oreal R&I Center -- Shanghai
-  - Cognitive Sciences Lab Technician (Contractor), L'Oreal R&I , Shanghai
-  - Cognitive Sciences Lab Technician (Contractor), L'Oreal R&I Center -- Shanghai
-  - Cognitive Sciences Lab Technician (Contractor), L'Oreal R&I Center, Shanghai
-  - Cognitive Sciences Lab Technician(Contractor), L'Oreal R&I, Shanghai
-  - Cognitive Sciences Lab Technician, Evaluation Intelligence, L'Oreal R&I, Shanghai
-  - Cognitive Technician (Contractor), L'Oreal R&I Center -- Shanghai
-  - Sensory & Cognitive Science Lab Technician (Contractor), L'Oreal R&I, Shanghai
-  - Sensory & Cognitive Sciences Lab Technician(Contractor), L'Oreal R&I, Shanghai
+  - Cognitive Science Technician (Contractor)
+  - Cognitive Sciences Lab Technician
+  - Cognitive Sciences Lab Technician, Evaluation Intelligence
+  - Cognitive Technician (Contractor)
+  - Sensory & Cognitive Sciences Lab Technician(Contractor)
 
-Candidate bullet pools:
+#### Grouped Candidates
+
+##### og001
+
+- `loreal_cognitive_sciences_lab_p009` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab.
+- `loreal_cognitive_sciences_lab_p028` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating interviews and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab.
+
+##### og002
+
+- `loreal_cognitive_sciences_lab_p034` Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams.
+- `loreal_cognitive_sciences_lab_p056` Iterated protocols for a 6-month multi-cycle study in iMotions, integrating subjective feedback and physiological multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams.
+
+##### og004
+
+- `loreal_cognitive_sciences_lab_p057` Documented and updated 40+ SOPs, reusable templates, and device guidebooks in a knowledge base; implemented navigation architecture that improved resource accessibility and reduced onboarding time by 70%.
+- `loreal_cognitive_sciences_lab_p059` Documented and continuously updated 40+ SOPs, reusable templates, and device guidebooks in a SharePoint knowledge base; implemented navigation architecture that improved resource accessibility.
+
+##### og005
+
+- `loreal_cognitive_sciences_lab_p044` Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to align research methodologies with business objectives.
+- `loreal_cognitive_sciences_lab_p048` Established a structured daily workflow and coordinated with 4 internal departments and 5 external agencies to align research methodologies, manage lab equipment, and coordinate volunteer recruitment.
+
+#### Independent Candidates
 
 - `loreal_cognitive_sciences_lab_p001` Supported operational execution of a 6-month, multi-project study and captured multimodal sensor data from 180+ participants; performed data cleaning, calibration checks, and quality validation to ensure accurate system inputs across 30 products.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000004
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p002` Led a Voice Analysis project on a hair dye product, designing baseline vs product-phase protocols and analyzing consumer speech data (on-site & home-use, N=25) with R; identified stage-specific emotional response patterns and recommended improvements to future testing guidelines.
-  - Duplicate count: 19
-  - Raw bullet IDs: raw_b000005, raw_b000021, raw_b000137, raw_b000152, raw_b000165, raw_b000232, raw_b000244, raw_b000252, raw_b000266, raw_b000325, raw_b000407, raw_b000442, raw_b000839, raw_b000852, raw_b000865, raw_b000872, raw_b000885, raw_b000912, raw_b000963
-  - Quality flags: None
-  - Source references: 19
 - `loreal_cognitive_sciences_lab_p003` Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, improving accuracy and efficiency of datasets used for analysis and reporting.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000006
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p004` Oversaw fieldwork for a 6-month study and captured multimodal sensor data (EEG, GSR, ECG) from 180+ participants; performed data cleaning, calibration checks, and quality validation to ensure reliable performance metrics across 30 products.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000020, raw_b000151, raw_b000164, raw_b000838, raw_b000851, raw_b000864, raw_b000870
-  - Quality flags: None
-  - Source references: 7
 - `loreal_cognitive_sciences_lab_p005` Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional metrics measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions.
-  - Duplicate count: 10
-  - Raw bullet IDs: raw_b000022, raw_b000138, raw_b000153, raw_b000166, raw_b000267, raw_b000326, raw_b000840, raw_b000853, raw_b000866, raw_b000873
-  - Quality flags: None
-  - Source references: 10
 - `loreal_cognitive_sciences_lab_p006` Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating multimodal measures to evaluate the emotion journey of 30+ products in collaboration with global teams.
-  - Duplicate count: 10
-  - Raw bullet IDs: raw_b000030, raw_b000044, raw_b000058, raw_b000072, raw_b000086, raw_b000108, raw_b000219, raw_b000276, raw_b000415, raw_b000433
-  - Quality flags: None
-  - Source references: 10
 - `loreal_cognitive_sciences_lab_p007` Automated qualitative–physiological data integration in a packaging study(N=32) using Python, reducing manual processing time and linking design cues to emotional metrics that guided usability decisions.
-  - Duplicate count: 10
-  - Raw bullet IDs: raw_b000031, raw_b000045, raw_b000059, raw_b000073, raw_b000087, raw_b000110, raw_b000220, raw_b000277, raw_b000417, raw_b000434
-  - Quality flags: None
-  - Source references: 10
 - `loreal_cognitive_sciences_lab_p008` Documented 40+ experimental workflows and standardized data-reporting templates in a knowledge base, improving knowledge transfer and enabling reproducible analyses across 4 cross-functional R&I teams.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000032, raw_b000046, raw_b000060, raw_b000074, raw_b000088, raw_b000221, raw_b000278, raw_b000435
-  - Quality flags: None
-  - Source references: 8
-- `loreal_cognitive_sciences_lab_p009` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000098, raw_b000296, raw_b000308, raw_b000332, raw_b000380, raw_b000481, raw_b000561
-  - Quality flags: None
-  - Source references: 7
-- `loreal_cognitive_sciences_lab_p010` Monitored fieldwork for 6 projects with 300+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000099, raw_b000333
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p011` Built a SharePoint knowledge base with 40+ SOPs, and established cross-team workflows aligning 4 internal departments and 5 external agencies; streamlined navigation improved resource accessibility and reduced onboarding time by 70%.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000100, raw_b000334
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p012` Led a Voice Analysis project on a hair product, designing baseline vs. product-phase protocols and analyzing consumer speech data (on-site & home-use, N=25) with R; visualized emotional trajectories across the user journey to uncover evolving needs and inform improved product communication guidelines.
-  - Duplicate count: 21
-  - Raw bullet IDs: raw_b000109, raw_b000347, raw_b000359, raw_b000371, raw_b000382, raw_b000395, raw_b000416, raw_b000586, raw_b000610, raw_b000621, raw_b000634, raw_b000674, raw_b000688, raw_b000701, raw_b000715, raw_b000728, raw_b000740, raw_b000753, raw_b000766, raw_b000779, raw_b000792
-  - Quality flags: None
-  - Source references: 21
 - `loreal_cognitive_sciences_lab_p013` Designed and executed applied research experiments integrating multimodal physiological sensors (EEG, GSR, ECG) to evaluate 30 products; generated cross-cultural insights that informed product innovation strategies.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000120
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p014` Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing actionable design and business recommendations.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000121
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p015` Partnered with R&I engineers and designers to prototype and evaluate sensory interaction concepts; co-authored evaluation frameworks linking consumer emotion data to product development goals.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000122
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p016` Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab.
-  - Duplicate count: 12
-  - Raw bullet IDs: raw_b000136, raw_b000231, raw_b000243, raw_b000251, raw_b000265, raw_b000324, raw_b000441, raw_b000898, raw_b000911, raw_b000923, raw_b000948, raw_b000962
-  - Quality flags: None
-  - Source references: 12
-- `loreal_cognitive_sciences_lab_p017` Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed product positioning.
-  - Duplicate count: 9
-  - Raw bullet IDs: raw_b000139, raw_b000246, raw_b000268, raw_b000327, raw_b000900, raw_b000914, raw_b000925, raw_b000950, raw_b000965
-  - Quality flags: None
-  - Source references: 9
+- `loreal_cognitive_sciences_lab_p017` Piloted a holistic evaluation framework combining ECG and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed product positioning.
 - `loreal_cognitive_sciences_lab_p018` Iterated protocols for a 6-month cross-cultural fragrance perception study in iMotions, integrating Implicit Association Tests and multimodal physiological sensors (EEG, GSR, ECG) to evaluate 30 products' characterization.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000173, raw_b000184, raw_b000195, raw_b000211
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
 - `loreal_cognitive_sciences_lab_p019` Led a Voice Analysis study quantifying emotional and cognitive load during product interaction(N=25), modeling speech acoustic features in R to identify stage-specific affective response patterns.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000174, raw_b000185, raw_b000196, raw_b000212
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
-- `loreal_cognitive_sciences_lab_p020` Piloted a multimodal evaluation framework combining ECG and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000175, raw_b000186, raw_b000197, raw_b000213
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
-- `loreal_cognitive_sciences_lab_p021` Built an automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000233, raw_b000253, raw_b000297, raw_b000309
-  - Quality flags: None
-  - Source references: 4
-- `loreal_cognitive_sciences_lab_p022` Piloted a holistic evaluation framework combining ECG, and Temporal Emotion Mapping to assess relaxation effects of 3 skincare textures (N=42); identified cognitive-sensory insights that informed next-step product positioning.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000234, raw_b000254, raw_b000291, raw_b000408, raw_b000443, raw_b000871, raw_b000886
-  - Quality flags: None
-  - Source references: 7
+- `loreal_cognitive_sciences_lab_p020` Piloted a multimodal evaluation framework combining ECG/HRV and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement.
 - `loreal_cognitive_sciences_lab_p023` Built a Python-based automation tool to streamline qualitative–physiological data synthesis in a 32-participant luxury packaging study, linking visual design cues with emotional metrics measured by EEG and Eye-tracking.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000245, raw_b000647, raw_b000660, raw_b000899, raw_b000913, raw_b000924, raw_b000949, raw_b000964
-  - Quality flags: None
-  - Source references: 8
-- `loreal_cognitive_sciences_lab_p024` Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000288
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p025` Led a Voice Analysis project on a hair dye product, designing baseline vs product-phase protocols and analyzing consumer speech data (on-site & home-use, N=25) with R; uncover emotional patterns across usage stages and refine testing protocols.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000289
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p026` Built an automation tool to streamline qualitative–physiological data synthesis in a 32-user luxury packaging study, linking visual design cues with emotional responses measured by EEG and Eye-tracking, informing packaging usability and aesthetic decisions.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000290
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p027` Collaborated with global R&I teams to translate research findings into actionable design guidelines, enhancing sensory experience and ensuring visual consistency across product lines.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000298, raw_b000310
-  - Quality flags: None
-  - Source references: 2
-- `loreal_cognitive_sciences_lab_p028` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating interviews and physiological measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with the French lab.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000344, raw_b000356, raw_b000368
-  - Quality flags: None
-  - Source references: 3
 - `loreal_cognitive_sciences_lab_p029` Designed and localized multi-phase IAT and CATA surveys integrating reaction-time, rating, semantic free-listing, and projection techniques; refined question framing to ensure cultural validity and comparability across markets.
-  - Duplicate count: 21
-  - Raw bullet IDs: raw_b000345, raw_b000357, raw_b000369, raw_b000393, raw_b000584, raw_b000597, raw_b000608, raw_b000619, raw_b000632, raw_b000645, raw_b000659, raw_b000672, raw_b000686, raw_b000699, raw_b000713, raw_b000726, raw_b000738, raw_b000751, raw_b000764, raw_b000777, raw_b000790
-  - Quality flags: None
-  - Source references: 21
 - `loreal_cognitive_sciences_lab_p030` Coordinated participant recruitment and multi-day fieldwork (6 studies, N = 300+) in partnership with external agencies, ensuring privacy compliance, participant well-being, and consistent data quality across all sessions.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000346, raw_b000358, raw_b000370
-  - Quality flags: None
-  - Source references: 3
 - `loreal_cognitive_sciences_lab_p031` Monitored fieldwork for 6 consumer studies (N=300+), translating post-test interviews into user journey maps and opportunity areas that guided iterative product improvements and validated early market fit.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000381
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p032` Collaborating with the French lab, conducted mixed-methods consumer research (interviews, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across markets, translating findings into actionable insights for product positioning.
-  - Duplicate count: 15
-  - Raw bullet IDs: raw_b000392, raw_b000583, raw_b000607, raw_b000618, raw_b000631, raw_b000671, raw_b000685, raw_b000698, raw_b000712, raw_b000725, raw_b000737, raw_b000750, raw_b000763, raw_b000776, raw_b000789
-  - Quality flags: None
-  - Source references: 15
-- `loreal_cognitive_sciences_lab_p033` Coordinated participant recruitment and fieldwork (6 studies, 300+ consumers) in partnership with external agencies, ensuring privacy compliance, participant well-being, and consistent data quality across all sessions.
-  - Duplicate count: 21
-  - Raw bullet IDs: raw_b000394, raw_b000585, raw_b000598, raw_b000609, raw_b000620, raw_b000633, raw_b000657, raw_b000673, raw_b000687, raw_b000700, raw_b000714, raw_b000727, raw_b000739, raw_b000752, raw_b000765, raw_b000778, raw_b000791, raw_b000804, raw_b000819, raw_b000938, raw_b000977
-  - Quality flags: None
-  - Source references: 21
-- `loreal_cognitive_sciences_lab_p034` Iterated protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000405, raw_b000883
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p035` Managed fieldwork for 6 projects with 300+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000406, raw_b000884
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p036` Designed and launched SharePoint-based knowledge platform (40+ Workflows & SOPs) aligning 4 departments & 5 agencies; improved onboarding efficiency by 70% and enabled scalable workflow adoption.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000444
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p037` Documented and continuously updated 40+ SOPs, reusable templates, and device guidebooks in a SharePoint knowledge base; implemented navigation architecture that improved resource accessibility, reduced new member onboarding time by 70%.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000451, raw_b000573
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p038` Implemented VBA-based automation with internal AI agent to structure interview data from 32 participants; developed a codebook, categorized codes into higher-order themes, and produced documentation that improved thematic analysis speed by 40%, translating unstructured consumer feedback into systematic insights for packaging design decisions.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000452, raw_b000574
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p039` Conducted 4 trainings for internal research teams on promoting the Cognitive Wheel digital tool and Power BI dashboard to integrate cognitive methods into wider projects, and delivered 2 sessions for university students on industry practices and supporting early career development.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000453
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p040` Collaborated with external agencies and cross-functional teams and regularly aligned with global counterparts to standardize practices and adapt research for local contexts; designed 5 pilot tests by translating formulation team requests into tailored protocols, effectively managing stakeholder expectations across departments.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000454, raw_b000575
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p041` Optimized test protocols in iMotions, integrating subjective feedback and physiological measures to evaluate emotional experience of 50+ products; instructed 300+ consumers during fieldwork and conducted post-test interviews to iteratively refine study design and capture user insights.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000455, raw_b000576
-  - Quality flags: None
-  - Source references: 2
-- `loreal_cognitive_sciences_lab_p042` Optimized cognitive test protocols for 3-wave fragrance study in iMotion, aligning with FR lab, managing 100+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 18 products.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000469, raw_b000498
-  - Quality flags: None
-  - Source references: 2
-- `loreal_cognitive_sciences_lab_p043` Implemented VBA-based automation for qualitative data extraction in 32-participant study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000470, raw_b000499, raw_b000527, raw_b000547
-  - Quality flags: None
-  - Source references: 4
-- `loreal_cognitive_sciences_lab_p044` Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to align research methodologies with business objectives.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000471, raw_b000484, raw_b000529, raw_b000548, raw_b000564
-  - Quality flags: None
-  - Source references: 5
-- `loreal_cognitive_sciences_lab_p045` Monitored fieldwork for 3 projects with 240+ consumers, ensuring data quality and participant well-being. Conducted and analyzed post-test interviews to support iterative revisions and provide subjective insights.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000482, raw_b000562
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p046` Implemented VBA-based automation for qualitative data extraction in a 32-participant Packaging study, processing over 500 data points and increasing analysis speed by 40% for thematic analysis of interview data.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000483, raw_b000563
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p047` Streamlined data processing for large datasets by developing PowerShell scripts, reducing CSV file handling time by 50% for 100+ files compared to manual methods.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000500, raw_b000528
-  - Quality flags: None
-  - Source references: 2
-- `loreal_cognitive_sciences_lab_p048` Established structured daily workflow and coordinated with 4 internal departments and 5 external agencies to research methodologies alignment, manage lab equipment and volunteer recruitment.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000501
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p049` Optimized cognitive test protocols for 4-wave fragrance study in iMotion, aligning with FR lab, managing 130+ participants and using EEG, GSR, and HRV to evaluate emotional responses from 24 products.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000526
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p050` Optimized test protocols for 5-wave fragrance characterization study in iMotion, aligning with French lab, managing 170+ participants and using EEG, GSR, and ECG to evaluate emotional responses from 30 products.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000546
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p051` Conducted mixed-methods consumer research (U&A, implicit measures, physiological data) to understand emotional responses to 30 fragrance concepts across French and China markets, translating findings into actionable insights for product positioning.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000596
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p052` Led a Voice Analysis project on a hair product, designing baseline vs. product-phase protocols and analyzing consumer speech data (CLT & HUT, N=25) with R; visualized emotional trajectories across the user journey to uncover evolving needs and inform improved product communication guidelines.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000599
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p053` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (Skin Conductance & Heart Rate) to evaluate 30 products collaborating with the French lab.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000644
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p054` Piloted a multimodal evaluation framework combining Heart Rate Variability and Temporal Emotion Mapping to assess cognitive-sensory relaxation across 3 skincare textures (N=42), generating insights for testing refinement.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000646
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p055` Optimized protocols for a 6-month fragrance characterization study in iMotions, integrating implicit association tests and physiological measures (EEG, GSR, ECG) to evaluate 30 products collaborating with the French lab.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000658
-  - Quality flags: None
-  - Source references: 1
-- `loreal_cognitive_sciences_lab_p056` Iterated protocols for a 6-month multi-cycle study in iMotions, integrating subjective feedback and physiological multi-sensor measures (EEG, GSR, ECG) to evaluate 30 products in collaboration with global teams.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000802, raw_b000817
-  - Quality flags: None
-  - Source references: 2
-- `loreal_cognitive_sciences_lab_p057` Documented and updated 40+ SOPs, reusable templates, and device guidebooks in a knowledge base; implemented navigation architecture that improved resource accessibility and reduced onboarding time by 70%.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000803, raw_b000818
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p058` Collaborated with 6 cross-functional teams to translate formulation requests into 5 pilot tests, standardize practices with global counterparts, and adapt protocols for local execution.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000805, raw_b000820, raw_b000937, raw_b000976
-  - Quality flags: None
-  - Source references: 4
-- `loreal_cognitive_sciences_lab_p059` Documented and continuously updated 40+ SOPs, reusable templates, and device guidebooks in a SharePoint knowledge base; implemented navigation architecture that improved resource accessibility.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000935, raw_b000974
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p060` Conducted 4 trainings for internal research teams on promoting the Cognitive Wheel digital tool and Power BI dashboard to integrate cognitive methods into wider projects.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000936, raw_b000975
-  - Quality flags: None
-  - Source references: 2
 - `loreal_cognitive_sciences_lab_p061` Designed a texture benchmarking evaluation (N=42) with a stress-simulation protocol to isolate texture-driven relaxation effects, quantifying comfort and cognitive load across internal and competitor products using ECG and Temporal Emotion Mapping to inform product positioning.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000983
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p062` Conducted comparative product analyses across 30+ fragrance products, benchmarking emotional response and sensory performance using multimodal data (EEG, GSR, ECG) to surface competitive strengths and weaknesses.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000984
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p063` Led a Voice Analysis study on a hair dye product (baseline vs in-use; on-site & home-use, N=25), analyzing consumer speech data in R to identify stage-specific emotional drop-offs relative to competitor experiences and recommend testing guideline updates.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000985
-  - Quality flags: None
-  - Source references: 1
 - `loreal_cognitive_sciences_lab_p064` Built a Python-based analysis pipeline to synthesize qualitative feedback and physiological data in a luxury packaging study (N=32), enabling side-by-side comparison of design cues across competitor and internal products.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000986
-  - Quality flags: None
-  - Source references: 1
 
 ### 8. Chinese Revision of Piggott's (2004) Internalized Misogyny Scale
 
 - Experience ID: `piggott_internalized_misogyny_scale_revision`
-- Status: needs_review
-- Organization: Director
-- Location: 
+- Status: Approved
+- Organization: Project Lead
+- Location: None
 - Date: Mar 2022 – Jun 2022
 - Type: research
 - Default section: research_experience
 - Allowed sections: research_experience
+- Role fit: None
 - Tools: R
+- Skills: None
+- Keywords: None
 - Candidate bullet pools: 6
-- Source references: 20
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 6
 - Title variants:
   - Chinese Revision of Piggott's (2004) Internalized Misogyny Scale
   - Chinese Version Revision of Piggott's (2004) Internalized Misogyny Scale
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `piggott_internalized_misogyny_scale_revision_p001` Analyzed 500+ responses, using SPSS and AMOS for item-total correlations and factor analysis.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000467, raw_b000479, raw_b000544
-  - Quality flags: None
-  - Source references: 3
 - `piggott_internalized_misogyny_scale_revision_p002` Visualized distribution and factor scores for 444 participants using histograms and violin plots with R.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000468, raw_b000480, raw_b000545
-  - Quality flags: None
-  - Source references: 3
 - `piggott_internalized_misogyny_scale_revision_p003` Administered and analyzed 500+ responses from female college students, using SPSS and AMOS for item-total correlations and factor analysis, achieving 0.890 reliability (Cronbach's $ $) and strong structural validity.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000494
-  - Quality flags: None
-  - Source references: 1
 - `piggott_internalized_misogyny_scale_revision_p004` Visualized distribution and factor scores for 444 participants using histograms and violin plots with R, revealing key patterns across 3 factors and confirming overall positive attitudes toward women.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000495
-  - Quality flags: None
-  - Source references: 1
 - `piggott_internalized_misogyny_scale_revision_p005` Optimized the scale structure by 11.8% through data-driven analysis, improving measurement accuracy of internalized misogyny's 3 dimensions.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000496
-  - Quality flags: None
-  - Source references: 1
 - `piggott_internalized_misogyny_scale_revision_p006` Coordinated a 4-stage translation process, including inviting 2 professionals for back-translation and 5 psychology professors for expert evaluation, ensuring cultural relevance and content validity for Chinese contexts.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000497
-  - Quality flags: None
-  - Source references: 1
 
-### 9. Tennis Performance Dashboard
+### 9. US Open Tennis Performance Dashboard (Tableau)
 
 - Experience ID: `tennis_performance_dashboard`
 - Status: needs_review
 - Organization: Course Project
-- Location: 
+- Location: None
 - Date: Aug 2025 – Nov 2025
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
+- Role fit: None
 - Tools: Tableau
-- Candidate bullet pools: 8
-- Source references: 142
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 6
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 6
 - Title variants:
-  - Tennis Performance Dashboard
   - Sports Performance Dashboard – Tennis Analytics
   - Tennis Performance Dashboard in Tableau
   - US Open Performance Systems Dashboard (Tableau)
   - US Open Tennis Performance Dashboard (Tableau)
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `tennis_performance_dashboard_p001` Analyzed rally-level US Open match data (10k+ shots) and built multi-view Tableau dashboards highlighting serve-return patterns, key-point pressure, and mid-rally performance drop-offs.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000007, raw_b000012, raw_b000616, raw_b000710, raw_b000826, raw_b000889, raw_b000942, raw_b000981
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 8
 - `tennis_performance_dashboard_p002` Defined and validated 6+ performance metrics and framed insights into actionable narratives, supporting performance review and strategy analysis.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000008, raw_b000013, raw_b000617, raw_b000711, raw_b000827, raw_b000890, raw_b000943, raw_b000982
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 8
 - `tennis_performance_dashboard_p003` Applied visual hierarchy and UX storytelling principles to design interpretable, interactive dashboards with filters and drill-downs, ensuring consistent and accurate reporting across matches.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000009, raw_b000014, raw_b000891
-  - Quality flags: None
-  - Source references: 3
-- `tennis_performance_dashboard_p004` Mapped the end-to-end “player performance journey” using rally-level tennis data (100k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus.
-  - Duplicate count: 9
-  - Raw bullet IDs: raw_b000036, raw_b000050, raw_b000064, raw_b000078, raw_b000092, raw_b000116, raw_b000225, raw_b000282, raw_b000423
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 9
+- `tennis_performance_dashboard_p004` Mapped the end-to-end “player performance journey” using rally-level tennis data (10k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus.
 - `tennis_performance_dashboard_p005` Built multi-view Tableau dashboards (serve-return segmentation, key-point comparison), iterated layout and visual hierarchy to improve interpretability and highlight performance contrasts.
-  - Duplicate count: 10
-  - Raw bullet IDs: raw_b000037, raw_b000051, raw_b000065, raw_b000079, raw_b000093, raw_b000117, raw_b000226, raw_b000283, raw_b000424, raw_b000697
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 10
-- `tennis_performance_dashboard_p006` Analyzed 10k+ rally-level shots and built a multi-view Tableau dashboard revealing serve-return patterns, key-point pressure behavior, and mid-rally performance drop-offs, delivering actionable narratives.
-  - Duplicate count: 16
-  - Raw bullet IDs: raw_b000140, raw_b000144, raw_b000157, raw_b000247, raw_b000269, raw_b000328, raw_b000795, raw_b000831, raw_b000844, raw_b000857, raw_b000877, raw_b000905, raw_b000915, raw_b000929, raw_b000954, raw_b000991
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 16
 - `tennis_performance_dashboard_p007` Applied visual hierarchy and UX storytelling principles to design interpretable, interactive dashboards supporting coaching and strategy insights.
-  - Duplicate count: 16
-  - Raw bullet IDs: raw_b000141, raw_b000145, raw_b000158, raw_b000248, raw_b000270, raw_b000329, raw_b000796, raw_b000832, raw_b000845, raw_b000858, raw_b000878, raw_b000906, raw_b000916, raw_b000930, raw_b000955, raw_b000992
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 16
-- `tennis_performance_dashboard_p008` Mapped the end-to-end “player performance journey” using rally-level tennis data (10k+ shots), defining key metrics (win %, error rate, rally length) to deliver actionable insights for training focus.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000696
-  - Quality flags: None
-  - Source references: 1
 
 ### 10. THRIVE | Health Software Product Management & Prototyping
 
 - Experience ID: `thrive_health_product_management`
-- Status: needs_review
+- Status: approved
 - Organization: Course Project
-- Location: 
+- Location: None
 - Date: Jan 2026 – Apr 2026
 - Type: project
 - Default section: project_experience
 - Allowed sections: project_experience, research_experience
+- Role fit: None
 - Tools: Figma
+- Skills: None
+- Keywords: None
 - Candidate bullet pools: 4
-- Source references: 32
+- Overlap groups: 0
+- Grouped candidates: 0
+- Independent candidates: 4
 - Title variants:
   - THRIVE | Health Software Product Management & Prototyping
-
-Candidate bullet pools:
+#### Independent Candidates
 
 - `thrive_health_product_management_p001` Led product definition for THRIVE, a digital chronic-care platform, by defining the problem space, target users, MVP scope, and core feature roadmap across exercise guidance, symptom check-ins, and progress tracking.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000627, raw_b000718, raw_b000731, raw_b000901
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
 - `thrive_health_product_management_p002` Translated clinical guidelines into structured product requirements and Figma wireframes/prototypes for core flows such as onboarding, dashboard, check-in, exercise, nutrition, and profile.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000628, raw_b000719, raw_b000732, raw_b000902
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
 - `thrive_health_product_management_p003` Authored a design document covering typography, color palette, iconography, and navigation standards to support consistent product communication and usability discussions throughout the design process.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000629, raw_b000720, raw_b000733, raw_b000903
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
 - `thrive_health_product_management_p004` Iterated from low-fidelity prototype to beta by synthesizing usability feedback and refining key flows, including symptom input, global navigation, and the unified My Progress experience.
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000630, raw_b000721, raw_b000734, raw_b000904
-  - Quality flags: appears_in_multiple_historical_sections
-  - Source references: 4
 
 ### 11. Graduate Assistant in AI-Powered Career Systems
 
@@ -1769,280 +889,83 @@ Candidate bullet pools:
 - Type: work
 - Default section: professional_experience
 - Allowed sections: professional_experience
+- Role fit: None
 - Tools: Copilot Studio, Power Automate, SharePoint, UT Spark
-- Candidate bullet pools: 52
-- Source references: 378
+- Skills: None
+- Keywords: None
+- Candidate bullet pools: 38
+- Overlap groups: 8
+- Grouped candidates: 16
+- Independent candidates: 22
 - Title variants:
   - Graduate Assistant in AI-Powered Career Systems
   - Graduate Assistant
   - Graduate Assistant, AI-Powered Career Systems, UT Austin, TX
   - Graduate Assistant, AI-Powered Career Systems, UT Career Success
 
-Candidate bullet pools:
+#### Grouped Candidates
+
+##### og001
+
+- `ut_career_ai_systems_p006` Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis.
+- `ut_career_ai_systems_p044` Prototyped and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis.
+
+##### og002
+
+- `ut_career_ai_systems_p004` Prototyped and benchmarked Copilot Studio and UT Spark AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines.
+- `ut_career_ai_systems_p052` Prototyped and benchmarked Copilot Studio AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines.
+
+##### og003
+
+- `ut_career_ai_systems_p012` Prototyped and evaluated AI agents in Copilot and UT Spark to automate content retrieval and workflows; compared performance through iterative testing and documented accuracy metrics.
+- `ut_career_ai_systems_p023` Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and internal content retrieval efficiency; compared performance through iterative testing and documented accuracy metrics.
+
+##### og004
+
+- `ut_career_ai_systems_p005` Led end-to-end system evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
+- `ut_career_ai_systems_p017` Led usability evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
+
+##### og005
+
+- `ut_career_ai_systems_p029` Led feature discovery and usability testing of the SharePoint + Copilot SaaS knowledge base, analyzing adoption KPIs and testing navigation flows; delivered insights that guided feature iteration and rollout.
+- `ut_career_ai_systems_p042` Led usability evaluation of the SharePoint + Copilot Agent knowledge base, testing navigation flows and analyzing adoption metrics to guide iterative improvements to site structure and feature rollout.
+
+##### og006
+
+- `ut_career_ai_systems_p020` Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports.
+- `ut_career_ai_systems_p022` Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved information accessibility and system integration.
+
+##### og007
+
+- `ut_career_ai_systems_p034` Conducted structured feedback sessions with 16 career service offices, coding recurring issues and prioritizing pain points, which guided redesign of content tagging and cross-site navigation.
+- `ut_career_ai_systems_p040` Gathered requirements from 16 career service offices, synthesized recurring issues, and prioritized enhancements to redesign tagging & cross-site navigation.
+
+##### og008
+
+- `ut_career_ai_systems_p028` Defined user testing and documentation standards; gathered feedback from 16 offices and translated findings into feature specs and training materials.
+- `ut_career_ai_systems_p047` Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials.
+
+#### Independent Candidates
 
 - `ut_career_ai_systems_p001` Configured, tested, and validated Copilot Studio and UT Spark enterprise systems, defining accuracy metrics, failure patterns, and testing protocols to ensure system readiness prior to deployment.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000001
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p002` Led end-to-end system testing and readiness validation for a SharePoint-based enterprise knowledge platform, conducting task-based tests to ensure configurations aligned with business and operational requirements.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000002
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p003` Designed metadata schemas and automated update pipelines (PowerAutomate) to improve data discoverability and maintain consistent data structures across multi-portal platforms.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000003, raw_b000025, raw_b000156, raw_b000169, raw_b000843, raw_b000856, raw_b000869, raw_b000876
-  - Quality flags: None
-  - Source references: 8
-- `ut_career_ai_systems_p004` Prototyped and benchmarked Copilot Studio and UT Spark AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines.
-  - Duplicate count: 15
-  - Raw bullet IDs: raw_b000023, raw_b000132, raw_b000154, raw_b000167, raw_b000239, raw_b000261, raw_b000320, raw_b000841, raw_b000854, raw_b000867, raw_b000874, raw_b000907, raw_b000919, raw_b000958, raw_b000987
-  - Quality flags: None
-  - Source references: 15
-- `ut_career_ai_systems_p005` Led end-to-end system evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000024, raw_b000155, raw_b000168, raw_b000842, raw_b000855, raw_b000868, raw_b000875
-  - Quality flags: None
-  - Source references: 7
-- `ut_career_ai_systems_p006` Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000026, raw_b000040, raw_b000054, raw_b000068, raw_b000429
-  - Quality flags: None
-  - Source references: 5
-- `ut_career_ai_systems_p007` Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms,
-  - Duplicate count: 4
-  - Raw bullet IDs: raw_b000027, raw_b000041, raw_b000069, raw_b000430
-  - Quality flags: trailing_comma_fragment
-  - Source references: 4
 - `ut_career_ai_systems_p008` Designed PowerAutomate workflows to orchestrate multi-step content updates, metadata propagation, and cross-platform handoffs across SharePoint portals.
-  - Duplicate count: 7
-  - Raw bullet IDs: raw_b000028, raw_b000042, raw_b000056, raw_b000070, raw_b000084, raw_b000431, raw_b000691
-  - Quality flags: None
-  - Source references: 7
-- `ut_career_ai_systems_p009` Defined requirements and testing protocols for generative-AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into into feature specs and training materials.
-  - Duplicate count: 8
-  - Raw bullet IDs: raw_b000029, raw_b000043, raw_b000057, raw_b000071, raw_b000085, raw_b000218, raw_b000432, raw_b000692
-  - Quality flags: repeated_word_into
-  - Source references: 8
-- `ut_career_ai_systems_p010` Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000055, raw_b000083
-  - Quality flags: None
-  - Source references: 2
 - `ut_career_ai_systems_p011` Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and automate knowledge retrieval; benchmarked accuracy through iterative testing and failure-mode analysis.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000082
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p012` Prototyped and evaluated AI agents in Copilot and UT Spark to automate content retrieval and workflows; compared performance through iterative testing and documented accuracy metrics.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000111, raw_b000273, raw_b000418
-  - Quality flags: None
-  - Source references: 3
-- `ut_career_ai_systems_p013` Developed metadata tagging and content architecture for a SharePoint-based SaaS knowledge platform, improving resource discoverability and enabling scalable automation of internal tools.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000112, raw_b000274, raw_b000419
-  - Quality flags: None
-  - Source references: 3
 - `ut_career_ai_systems_p014` Conducted usability evaluations of the SharePoint + Copilot Agent; analyzed workflow data to identify UX and operational pain points, leading to improvements in system adoption and design clarity.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000123
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p015` Collaborated with design and content teams to redesign information architecture and metadata tagging, applying data storytelling to present impact metrics to leadership and stakeholders.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000124
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p016` Conducted discovery interviews with 16 cross-functional offices, mapping workflows and synthesizing requirements to propose scalable tagging standards and roadmap-aligned feature enhancements.
-  - Duplicate count: 9
-  - Raw bullet IDs: raw_b000133, raw_b000240, raw_b000262, raw_b000321, raw_b000908, raw_b000920, raw_b000945, raw_b000959, raw_b000988
-  - Quality flags: None
-  - Source references: 9
-- `ut_career_ai_systems_p017` Led usability evaluations of the SharePoint + Copilot knowledge base, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
-  - Duplicate count: 9
-  - Raw bullet IDs: raw_b000134, raw_b000241, raw_b000263, raw_b000322, raw_b000909, raw_b000921, raw_b000946, raw_b000960, raw_b000989
-  - Quality flags: None
-  - Source references: 9
-- `ut_career_ai_systems_p018` Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through PowerAutomate.
-  - Duplicate count: 9
-  - Raw bullet IDs: raw_b000135, raw_b000242, raw_b000264, raw_b000323, raw_b000910, raw_b000922, raw_b000947, raw_b000961, raw_b000990
-  - Quality flags: None
-  - Source references: 9
 - `ut_career_ai_systems_p019` Led user interface and usability evaluation of the SharePoint + Copilot knowledge base, conducting task-based tests with staff and analyzing navigation patterns and adoption metrics to identify workflow bottlenecks.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000179, raw_b000201, raw_b000214
-  - Quality flags: None
-  - Source references: 3
-- `ut_career_ai_systems_p020` Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved content integration. Documented iteration changes and system improvements in technical reports.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000180, raw_b000202, raw_b000215
-  - Quality flags: None
-  - Source references: 3
 - `ut_career_ai_systems_p021` Conducted human-system performance evaluations of SharePoint + Copilot knowledge system through task-based testing and navigation data analysis to identify workflow inefficiencies.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000190
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p022` Synthesized and prioritized requirements from 16 cross-functional units to redesign site taxonomy and tagging for improved information accessibility and system integration.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000191
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p023` Prototyped and evaluated AI agents in Copilot Studio and UT Spark to improve query relevance and internal content retrieval efficiency; compared performance through iterative testing and documented accuracy metrics.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000216
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p024` Developed metadata tagging and content architecture for 3 SharePoint-based knowledge platforms, integrating PowerAutomate flows to automate content updates and improve resource discoverability.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000217
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p025` Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered insights that guided iteration of site architecture and feature rollout.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000229
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p026` Partnered with 16 career service offices to gather requirements and conduct discovery interviews; synthesized insights and surfaced new use cases that informed roadmap proposals and prioritized enhancements for cross-site navigation redesign.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000230, raw_b000256
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p027` Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyze adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000255
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p028` Defined user testing and documentation standards; gathered feedback from 16 offices and translated findings into feature specs and training materials.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000275, raw_b000420
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p029` Led feature discovery and usability testing of the SharePoint + Copilot SaaS knowledge base, analyzing adoption KPIs and testing navigation flows; delivered insights that guided feature iteration and rollout.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000286
-  - Quality flags: None
-  - Source references: 1
+- `ut_career_ai_systems_p027` Led feature discovery and usability evaluation of the SharePoint + Copilot knowledge base, testing navigation flows and analyzing adoption KPIs; delivered design recommendations that guided iteration of site architecture and feature rollout.
 - `ut_career_ai_systems_p030` Conducted discovery interviews with 16 career offices, identifying new use cases and proposing feature concepts that informed the product roadmap; maintained documentation and update logs to support cross-team transparency.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000287
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p031` Conducted usability and interface evaluations of the SharePoint + Copilot knowledge system, performing task-based tests with staff and analyzing navigation data to improve workflow and UI clarity.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000299, raw_b000311
-  - Quality flags: None
-  - Source references: 2
 - `ut_career_ai_systems_p032` Partnered with designers, engineers, and content managers to iterate information architecture and tagging structure for improved user experience and behavioral consistency across portals.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000300, raw_b000312
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p033` Led usability evaluation of SharePoint + Copilot knowledge base by conducting task-based tests with staff, analyzing navigation patterns and adoption metrics to identify workflow bottlenecks.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000335, raw_b000445
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p034` Conducted structured feedback sessions with 16 career service offices, coding recurring issues and prioritizing pain points, which guided redesign of content tagging and cross-site navigation.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000336, raw_b000349, raw_b000361, raw_b000373, raw_b000384
-  - Quality flags: None
-  - Source references: 5
 - `ut_career_ai_systems_p035` Led usability evaluation of internal AI + content platforms (SharePoint + Copilot Agent); visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities.
-  - Duplicate count: 19
-  - Raw bullet IDs: raw_b000348, raw_b000372, raw_b000396, raw_b000587, raw_b000600, raw_b000611, raw_b000622, raw_b000635, raw_b000648, raw_b000663, raw_b000675, raw_b000702, raw_b000716, raw_b000729, raw_b000741, raw_b000754, raw_b000767, raw_b000780, raw_b000793
-  - Quality flags: None
-  - Source references: 19
-- `ut_career_ai_systems_p036` Led usability evaluation of the SharePoint + Copilot Agent knowledge base; visualized navigation and adoption data in insight decks to communicate workflow bottlenecks and influence redesign priorities.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000360, raw_b000383
-  - Quality flags: None
-  - Source references: 2
 - `ut_career_ai_systems_p037` Conducted structured feedback sessions with 16 career service offices, coding recurring issues and identifying knowledge gaps, which inform redesign priorities and improve system adoption.
-  - Duplicate count: 17
-  - Raw bullet IDs: raw_b000397, raw_b000588, raw_b000601, raw_b000612, raw_b000623, raw_b000636, raw_b000649, raw_b000664, raw_b000676, raw_b000703, raw_b000717, raw_b000730, raw_b000742, raw_b000755, raw_b000768, raw_b000781, raw_b000794
-  - Quality flags: None
-  - Source references: 17
 - `ut_career_ai_systems_p038` Designed and managed SharePoint-based AI agent system integrating Copilot and SharePoint, streamlining knowledge retrieval and metadata tagging across 200+ internal resources.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000409, raw_b000887
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p039` Conducted iterative testing and data validation to enhance agent accuracy (+18% improvement in query relevance), applying hypothesis-driven experimentation methods.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000410, raw_b000888
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p040` Gathered requirements from 16 career service offices, synthesized recurring issues, and prioritized enhancements to redesign tagging & cross-site navigation.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000446
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p041` Built and structured an internal SharePoint knowledge platform from information architecture, metadata tagging, to page-level interface design, improving content discoverability across 16 career service offices.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000577
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p042` Led usability evaluation of the SharePoint + Copilot Agent knowledge base, testing navigation flows and analyzing adoption metrics to guide iterative improvements to site structure and feature rollout.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000578
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p043` Partnered with 16 career service offices to conduct discovery interviews, synthesize requirements, and prioritize cross-site navigation and content enhancements.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000579
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p044` Prototyped and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows; benchmarked accuracy through iterative testing and failure-mode analysis.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000689
-  - Quality flags: None
-  - Source references: 1
 - `ut_career_ai_systems_p045` Developed visual interface and content architecture for 3 SharePoint-based knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000690
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p046` Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows.
-  - Duplicate count: 2
-  - Raw bullet IDs: raw_b000806, raw_b000821
-  - Quality flags: None
-  - Source references: 2
-- `ut_career_ai_systems_p047` Defined requirements and testing protocols for AI use cases by synthesizing interviews from 16 career offices; translated workflow pain points into feature specs and training materials.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000807, raw_b000822, raw_b000895, raw_b000933, raw_b000972
-  - Quality flags: None
-  - Source references: 5
-- `ut_career_ai_systems_p048` Developed visual interface and content architecture for 3 SharePoint knowledge platforms, conducting task-based tests and navigation-flow analysis; identified workflow bottlenecks that guided a full IA redesign.
-  - Duplicate count: 5
-  - Raw bullet IDs: raw_b000808, raw_b000823, raw_b000896, raw_b000934, raw_b000973
-  - Quality flags: None
-  - Source references: 5
-- `ut_career_ai_systems_p049` Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reduced new staff onboarding time by 50%.
-  - Duplicate count: 3
-  - Raw bullet IDs: raw_b000894, raw_b000932, raw_b000971
-  - Quality flags: None
-  - Source references: 3
-- `ut_career_ai_systems_p050` Improved resource discoverability and enabling automated updates through PowerAutomate.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000897
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p051` Designed metadata and content architecture for multi-portal knowledge platforms, improving resource discoverability and enabling automated updates through Power Automate.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000931
-  - Quality flags: None
-  - Source references: 1
-- `ut_career_ai_systems_p052` Prototyped and benchmarked Copilot Studio AI agents, defining accuracy metrics, failure patterns, and testing protocols that informed iteration decisions and system integration guidelines.
-  - Duplicate count: 1
-  - Raw bullet IDs: raw_b000944
-  - Quality flags: None
-  - Source references: 1
-
-## Archived / Excluded Content
-
-- `content/archive/excluded/usability_testing_online_pdf_tools`: 3 YAML files
-- `content/archive/extracurricular`: 3 YAML files
-- `content/archive/mvp_initial_experiences/en`: 39 YAML files
+- `ut_career_ai_systems_p049` Configured and evaluated AI agents in Copilot Studio to improve query relevance, automate knowledge retrieval, and support routing logic for internal workflows, reducing new staff onboarding time by 50%.

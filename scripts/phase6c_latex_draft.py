@@ -12,11 +12,11 @@ from urllib.parse import urlparse
 try:
     from scripts import phase6a_jd_intake as phase6a
     from scripts import phase6b_content_selection as phase6b
-    from scripts.generate_library_index import find_value, parse_entry_segments, parse_nested_list
+    from scripts.library_yaml import find_value, parse_entry_segments, parse_nested_list
 except ImportError:  # pragma: no cover - supports running from scripts/
     import phase6a_jd_intake as phase6a
     import phase6b_content_selection as phase6b
-    from generate_library_index import find_value, parse_entry_segments, parse_nested_list
+    from library_yaml import find_value, parse_entry_segments, parse_nested_list
 
 
 ROOT = Path(__file__).resolve().parents[1]

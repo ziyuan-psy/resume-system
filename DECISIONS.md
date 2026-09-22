@@ -20,6 +20,7 @@
 - English Phase 6C supports only `us_en` and `china_intl_en` contact profiles. `china_domestic_zh` is reserved for a future Chinese resume workflow. Contact profile is selected during rendering, not Phase 6B content selection.
 - JD-aware experience display titles must come from active YAML canonical titles or `title_variants`; new title ideas stay in `proposed_title_for_review` until explicitly approved.
 - Phase 6B uses a cached, deterministic compact projection of the active profile and canonical library. It checks source and schema fingerprints on every run, regenerates only when stale, and requires selection JSON to carry the current library fingerprint.
+- `library_index.md` is a human-readable view of that compact catalog, with contact profiles and skill-category labels as display supplements. Phase 6B checks its separate format/input fingerprint and rewrites it only when stale; raw traceability and archive summaries stay out of the index.
 - Canonical `bullet_overlap_groups` are hard Phase 6B constraints: at most one rendered bullet may use a group, unless multiple group members are combined into that same rendered bullet.
 
 ## When to update this file
